@@ -78,7 +78,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .mast h1 { font-family: var(--f-display); font-weight: 800; font-size: clamp(34px, 5.4vw, 60px); line-height: .98; letter-spacing: -.02em; margin: 10px 0 14px; text-wrap: balance; }
 .mast h1 em { font-style: normal; color: #f3a56b; }
 .mast p.lede { margin: 0; color: #c9cde0; max-width: 54ch; font-size: 16px; }
-.privacy { display: inline-flex; gap: 8px; align-items: center; margin-top: 16px; font-size: 13px; color: #aeb4cc; }
+.privacy { display: flex; gap: 8px; align-items: center; padding-top: 12px; border-top: 1px solid rgba(255,255,255,.1); font-size: 13px; color: #aeb4cc; }
 .privacy svg { flex: none; }
 
 .drop { background: rgba(255,255,255,.06); border: 1.5px dashed rgba(243,165,107,.55); border-radius: var(--r); padding: 22px; display: grid; gap: 12px; text-align: left; transition: background .2s, border-color .2s; }
@@ -94,6 +94,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .btn-ghost:hover { background: rgba(255,255,255,.08); }
 .status { font-size: 13px; min-height: 1.4em; color: #f3c9a6; }
 .status.err { color: #ffb4a8; }
+.status:empty { display: none; }
 
 /* ---------- Transcript panel ---------- */
 .panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); box-shadow: var(--shadow); }
@@ -237,7 +238,6 @@ button, input, select, textarea { font: inherit; color: inherit; }
       <div class="eyebrow">UVA · Arts &amp; Sciences · Engineering</div>
       <h1>How far are you from <em>your major?</em></h1>
       <p class="lede">Drop in your transcript. We check it against every Arts &amp; Sciences and Engineering major and minor and rank them by how many credits and courses you have left, including prerequisites you still need before you can declare.</p>
-      <div class="privacy"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Your transcript is read in your browser. It is never uploaded.</div>
     </div>
     <div class="drop" id="drop">
       <h2>Upload your transcript</h2>
@@ -250,6 +250,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
       </div>
       <input type="file" id="file" accept="application/pdf,.pdf,.txt" hidden>
       <div class="status" id="status" role="status" aria-live="polite"></div>
+      <div class="privacy"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Your transcript is read in your browser. It is never uploaded.</div>
     </div>
   </div>
 </header>
