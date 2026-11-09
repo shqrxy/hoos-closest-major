@@ -1,0 +1,840 @@
+[
+ {
+  "id": "computer-science-bs",
+  "name": "Computer Science",
+  "degree": "B.S.",
+  "type": "major",
+  "school": "SEAS",
+  "department": "Computer Science",
+  "totalCredits": 126,
+  "sources": [
+   "https://uvacsadvising.org/bscs.html",
+   "https://uvacsadvising.org/materials/uva-bscs-checklist.pdf",
+   "https://uvacsadvising.org/materials/bscs-example-schedule.pdf",
+   "https://uvacsadvising.org/courses.html",
+   "https://engineering.virginia.edu/current-students/current-undergraduate-students/degree-information/elective-information",
+   "https://engineering.virginia.edu/current-students/current-undergraduate-students/transferring-uva-engineering"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Introductory programming (C- or higher)",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "CS 1110|CS 1111|CS 1112|CS 1113|CS 1120"
+     ],
+     "note": "Prerequisite for CS 2100 (C- or higher, or CS 1110 place-out test)."
+    },
+    {
+     "label": "Data Structures and Algorithms 1 (C- or higher)",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "CS 2100"
+     ],
+     "note": "Current SEAS students changing to or adding the BSCS may do so only after completing CS 2100 with a C- or better. SEAS first-years declare in their second semester (SEAS major declaration deadline March 1) and do not need CS 2100 first."
+    }
+   ],
+   "minGPA": null,
+   "notes": "SEAS first-years declare a major in their second semester (deadline March 1 per the 2026 orientation deck); students who transfer into SEAS declare on transfer and are placed in their major of choice. Current SEAS students switching to or adding BSCS: CS 2100 with C- or better, then the DocuSign Change of Major / Additional Major Declaration form. College students must apply for internal (intra-university) transfer to SEAS: cumulative GPA > 2.0, good standing, and completed APMA 1090|MATH 1310 (for Fall 2025+ starters), APMA 1110|MATH 1320, APMA 2120|MATH 2310, CHEM 1410|1610|1810 + lab 1411|1611|1811, CS 1110-1113, PHYS 1420|1425|1710 + lab PHYS 1429|2030; application windows Nov 15-Dec 15 (spring entry) and May 1-Jun 1 (fall entry). College students may alternatively pursue the B.A. in Computer Science."
+  },
+  "requirements": [
+   {
+    "label": "Engineering mathematics",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "APMA 1090|MATH 1310",
+     "APMA 1110|MATH 1320",
+     "APMA 2120|MATH 2310"
+    ],
+    "note": "APMA 1090 required for students matriculating Fall 2025 and later (earlier students had 3 more UE credits instead)."
+   },
+   {
+    "label": "Chemistry",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 1410|CHEM 1610|CHEM 1810",
+     "CHEM 1411|CHEM 1611|CHEM 1811"
+    ]
+   },
+   {
+    "label": "Physics I",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 1425|PHYS 1420|PHYS 1710",
+     "PHYS 1429|PHYS 2030"
+    ],
+    "note": "Equivalents (PHYS 1420/1710, lab 2030) from the SEAS internal-transfer page."
+   },
+   {
+    "label": "Physics II or Applied Physics",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "PHYS 2415",
+      "PHYS 2419"
+     ],
+     [
+      "ECE 2200"
+     ]
+    ],
+    "note": "PHYS 2415 + PHYS 2419, or ECE 2200 Applied Physics (the CS example schedule uses ECE 2200)."
+   },
+   {
+    "label": "Engineering foundations",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ENGR 1010|ENGR 1410",
+     "ENGR 1020|ENGR 1420"
+    ],
+    "note": "ENGR 1410/1420 are the Rodman Scholars versions."
+   },
+   {
+    "label": "Science, Technology and Society",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STS 2600",
+     "STS 4500",
+     "STS 4600"
+    ],
+    "note": "STS 4500 in fall of 4th year, STS 4600 in spring of 4th year."
+   },
+   {
+    "label": "Computer science foundation and required courses",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CS 1110|CS 1111|CS 1112|CS 1113",
+     "CS 2100",
+     "CS 2120",
+     "CS 2130",
+     "CS 3100",
+     "CS 3120",
+     "CS 3130",
+     "CS 3140",
+     "CS 3240"
+    ]
+   },
+   {
+    "label": "Senior thesis (CS portion)",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "CS 4980"
+     ],
+     [
+      "CS 4971"
+     ],
+     [
+      "CS 4991"
+     ]
+    ],
+    "note": "Option (c) CS 4991 (0 credits) also requires an extra graded 3-credit CS 4000-level course not used for any other CS requirement."
+   },
+   {
+    "label": "Probability",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "APMA 3100|MATH 3100"
+    ]
+   },
+   {
+    "label": "Two APMA electives",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "APMA 2130|MATH 3250",
+     "APMA 3080|MATH 3350",
+     "APMA 3120",
+     "APMA 3150"
+    ],
+    "note": "APMA 3120 and APMA 3150 cannot both count; STAT 3080 cannot replace APMA 3150; APMA 3110 does not count."
+   },
+   {
+    "label": "Math and science elective",
+    "need": {
+     "credits": 3
+    },
+    "from": [
+     "BIOL 2100",
+     "BIOL 2200",
+     "CE 2001",
+     "CHEM 1420",
+     "PHYS 2620",
+     "MSE 2090",
+     "EVSC 2800",
+     "EVSC 3200",
+     "EVSC 3300",
+     "APMA 2000+"
+    ],
+    "note": "Any APMA 2000+ course not otherwise required and not duplicative; others by petition."
+   },
+   {
+    "label": "Computer science electives",
+    "need": {
+     "credits": 15
+    },
+    "from": [
+     "CS 3000+"
+    ],
+    "exclude": [
+     "CS 3100",
+     "CS 3120",
+     "CS 3130",
+     "CS 3140",
+     "CS 3240",
+     "CS 4980",
+     "CS 4991",
+     "CS 4998"
+    ],
+    "note": "'15 credits of CS-mnemonic electives'; uvacsadvising labels CS 3205, 3250, 3501, 3710 and 4000-level courses (incl. CS 4970, 4993) as CS electives. 3000+ range is an approximation."
+   },
+   {
+    "label": "Humanities and social science electives",
+    "need": {
+     "credits": 15
+    },
+    "from": [
+     "AAS *",
+     "AMST *",
+     "ANTH *",
+     "ARAB *",
+     "ARAH *",
+     "ARTH *",
+     "ARTS *",
+     "CHIN *",
+     "CLAS *",
+     "DRAM *",
+     "EAST *",
+     "ECON *",
+     "ENGL *",
+     "ETP *",
+     "FREN *",
+     "GERM *",
+     "GREE *",
+     "HEBR *",
+     "HIAF *",
+     "HIEA *",
+     "HIEU *",
+     "HILA *",
+     "HIME *",
+     "HISA *",
+     "HIST *",
+     "HIUS *",
+     "ITAL *",
+     "JAPN *",
+     "KOR *",
+     "LATI *",
+     "LING *",
+     "MDST *",
+     "MESA *",
+     "MUSI *",
+     "PHIL *",
+     "PLAD *",
+     "PLCP *",
+     "PLIR *",
+     "PLPT *",
+     "PORT *",
+     "PSYC *",
+     "RELA *",
+     "RELB *",
+     "RELC *",
+     "RELG *",
+     "RELH *",
+     "RELI *",
+     "RELJ *",
+     "RUSS *",
+     "SOC *",
+     "SPAN *",
+     "STS *",
+     "WGS *"
+    ],
+    "exclude": [
+     "STS 2600",
+     "STS 4500",
+     "STS 4600",
+     "STS 1800",
+     "STS 4810",
+     "ENWR *",
+     "COMM *",
+     "ANTH 1090",
+     "ECON 3710",
+     "PSYC 2005",
+     "SOC 4800"
+    ],
+    "note": "15 HSS credits total (9 from SEAS general requirements + 6 more), from the SEAS approved list chosen with an advisor. Subject list here is an approximation of 'humanities and social sciences' (incl. non-native foreign languages); native-language communication, COMM and SCPS courses do not count; some specific ANTH/ECON/ENSP/GDS/MDST/PSYC/SOC/STS courses are excluded."
+   },
+   {
+    "label": "Unrestricted electives",
+    "need": {
+     "credits": 12
+    },
+    "from": [
+     "*"
+    ],
+    "exclude": [
+     "CS 1010",
+     "CS 1020",
+     "PHYS 2010",
+     "PHYS 2020",
+     "CS 1110",
+     "CS 1111",
+     "CS 1112",
+     "CS 1113"
+    ],
+    "note": "Any graded course except math below MATH 1310, duplicative courses, intro programming, and SCPS courses. 15 credits for students who matriculated before Fall 2025."
+   }
+  ],
+  "coursePrereqs": {
+   "CS 2100": [
+    "CS 1110|CS 1111|CS 1112|CS 1113|CS 1120"
+   ],
+   "CS 2120": [
+    "CS 1110|CS 1111|CS 1112|CS 1113|CS 1120"
+   ],
+   "CS 2130": [
+    "CS 1110|CS 1111|CS 1112|CS 1113|CS 1120"
+   ],
+   "CS 3100": [
+    "CS 2100",
+    "CS 2120",
+    "APMA 1090|MATH 1210|MATH 1310"
+   ],
+   "CS 3120": [
+    "CS 3100"
+   ],
+   "CS 3130": [
+    "CS 2100",
+    "CS 2130"
+   ],
+   "CS 3140": [
+    "CS 2100"
+   ],
+   "CS 3240": [
+    "CS 3140"
+   ],
+   "CS 4971": [
+    "CS 4970"
+   ],
+   "CS 4980": [
+    "CS 3140"
+   ],
+   "CS 4991": [
+    "STS 4500"
+   ]
+  },
+  "notes": "126 total credits (sum of checklist categories and the example 8-semester plan). 2.0 GPA in CS courses required to graduate (all attempts count). Prereq grade minimum C- for CS 2100/2120/2130 (intro course), CS 3120, CS 3130, CS 3140, CS 3240, CS 4980. CS 2130 also needs familiarity with a C-like language or concurrent CS 2100. CS 4980 requires BSCS major; CS 4991 for BSCS 4th years with STS 4500 pre/co-req. Engineering and McIntire double majors not allowed. Official Record page (catoid=72 poid=11700) not readable; encoded from uvacsadvising (Fall 2025+ checklist)."
+ },
+ {
+  "id": "science-technology-and-society-minor",
+  "name": "Science, Technology, and Society",
+  "degree": "Minor",
+  "type": "minor",
+  "school": "SEAS",
+  "department": "Engineering and Society",
+  "totalCredits": 18,
+  "sources": [
+   "https://engineering.virginia.edu/department/engineering-and-society/academics/sts-minor"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "No formal declaration procedure on the page; contact the STS minor advisor (Prof. MC Forelle). College (CLAS) students must meet with the Director of the Minor before declaring. SEAS minors must be declared before the add deadline of the final term."
+  },
+  "requirements": [
+   {
+    "label": "Required courses",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STS 2101",
+     "STS 3300"
+    ]
+   },
+   {
+    "label": "Electives (12 credits)",
+    "need": {
+     "credits": 12
+    },
+    "from": [
+     "STS 2050",
+     "STS 2070",
+     "STS 2500",
+     "STS 2620",
+     "STS 3020",
+     "STS 3500",
+     "STS 5500",
+     "STS 6592",
+     "ANTH 2280",
+     "ANTH 2620",
+     "ANTH 3275",
+     "ARCH 2150",
+     "ARCH 5114",
+     "DS 2003",
+     "MDST 3105",
+     "MDST 3430",
+     "SOC 2280",
+     "SOC 2442"
+    ],
+    "note": "At most 6 of the 12 elective credits from outside E&S (non-STS courses). STS 2500/3500/5500 count only for approved topics (e.g. STS 2500: LEGO Course, Technology and the Frankenstein Myth, Science Technology and Environment, Slavery as a Sociotechnical System, Science & Technology in Popular Culture, Cross-Cultural Engineering, Jefferson Wine & Democracy; STS 3500/5500: Matters of Race in Engineering & Technology). Other courses by petition."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "18 credits (6 required + 12 elective). Cannot be combined with the Technology Ethics minor (students may declare only one; no double-counting between them). SEAS-required STS 2600/4500/4600 are not on the minor's list. Open to College students (they must meet with the Director first)."
+ },
+ {
+  "id": "technology-ethics-minor",
+  "name": "Technology Ethics",
+  "degree": "Minor",
+  "type": "minor",
+  "school": "SEAS",
+  "department": "Engineering and Society",
+  "totalCredits": 18,
+  "sources": [
+   "https://www.engineering.virginia.edu/department/engineering-and-society/academics/technology-ethics-minor",
+   "https://engineering.virginia.edu/undergraduate-study/current-undergrads/degree-information/majors-and-minors"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Declaration process not described; contact minor advisors Prof. Bryn Seabrook or Prof. William Davis. Minors must be declared before the add deadline of the final term."
+  },
+  "requirements": [
+   {
+    "label": "Required courses",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STS 2101",
+     "STS 2600"
+    ],
+    "note": "SEAS students may double-count STS 2600 (a SEAS degree requirement), making the minor effectively 15 additional credits."
+   },
+   {
+    "label": "Electives (12 credits)",
+    "need": {
+     "credits": 12
+    },
+    "from": [
+     "STS 2500",
+     "PHIL 1330",
+     "SOC 2442"
+    ],
+    "note": "Up to 6 of the 12 elective credits may come from outside E&S. STS 2500 counts only for approved topics: Ethical Analytics: Using Data for Social Good; STS, Ethics, and the Engineering Grand Challenges; Societal Dimensions of Nanotechnology; Responsible Innovation; Ethics, Science Fiction, and the Future; Technology and the Frankenstein Myth; The LEGO Course; Ethics, Gender, and New Reproductive Technologies. STS 2500 is a repeatable topics course, so several sections may count."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "18 credits (6 required + 12 elective). Cannot be combined with the STS minor (declare only one; no double-counting). Eligibility (SEAS vs College) not stated on the page. The page's elective list is short; other STS electives may be approved by the advisors."
+ },
+ {
+  "id": "science-and-technology-policy-minor",
+  "name": "Science and Technology Policy",
+  "degree": "Minor",
+  "type": "minor",
+  "school": "SEAS",
+  "department": "Engineering and Society",
+  "totalCredits": 18,
+  "sources": [
+   "https://engineering.virginia.edu/department/engineering-and-society/academics/science-and-technology-policy-minor",
+   "https://engineering.virginia.edu/department/engineering-and-society/eands-academics",
+   "https://engineering.virginia.edu/future-undergrads/academics/policy-internship-program"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Declaration process not described; contact coordinator Prof. Rider Foley (rwf6v@virginia.edu). Minors must be declared before the add deadline of the final term."
+  },
+  "requirements": [
+   {
+    "label": "Required courses",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STS 2101",
+     "STS 3300"
+    ]
+   },
+   {
+    "label": "Science and technology policy course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "STS 2050",
+     "STS 2620",
+     "STS 2760",
+     "STS 3020"
+    ],
+    "note": "STS 3020 is the spring course of the Policy Internship Program (DC summer internship)."
+   },
+   {
+    "label": "Approved electives (9 credits)",
+    "need": {
+     "credits": 9
+    },
+    "from": [],
+    "note": "Nine credits of approved electives 'from fields such as history, philosophy, and planning as well as politics and economics'; the approved list is not published on the page, so this cannot be auto-checked. An older description says students take 'two courses in politics and economics' in addition to the policy course."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "18 credits. Elective list not found (page refers to an unlinked list); encoded as an unchecked 9-credit group. The department overview describes an older structure (politics + economics core courses, a policy course designed for the minor, three electives); the current page lists STS 2101 + STS 3300 + one policy course + 9 elective credits. Eligibility and double-counting rules not stated.",
+  "confidence": "low"
+ },
+ {
+  "id": "technology-and-the-environment-minor",
+  "name": "Technology and the Environment",
+  "degree": "Minor",
+  "type": "minor",
+  "school": "SEAS",
+  "department": "Civil and Environmental Engineering",
+  "totalCredits": 18,
+  "sources": [
+   "https://engineering.virginia.edu/department/civil-and-environmental-engineering/academics/undergraduate-programs/technology-and-environment-minor",
+   "https://engineering.virginia.edu/undergraduate-study/current-undergrads/degree-information/majors-and-minors"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Declaration process not described; contact minor coordinator Teresa Culver. Minors must be declared before the add deadline of the final term."
+  },
+  "requirements": [
+   {
+    "label": "Environmental technology: lower-level course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ARCH 2114",
+     "CE 2001",
+     "CE 2100",
+     "EVSC 1010",
+     "EVSC 1080",
+     "EVSC 1300",
+     "EVSC 1450",
+     "EVSC 1600",
+     "EVSC 1762",
+     "EVSC 2010|MSE 2010",
+     "EVSC 2200",
+     "STS 2050|GSVS 2050"
+    ]
+   },
+   {
+    "label": "Environmental technology: higher-level course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ARCH 3260",
+     "CE 3000",
+     "CE 3050",
+     "CE 3100",
+     "CE 3220",
+     "CE 4100",
+     "CE 4160",
+     "CE 5020",
+     "CE 5240",
+     "CHE 4450",
+     "ECE 3250",
+     "EVSC 3020",
+     "EVSC 4015",
+     "EVSC 4035",
+     "EVSC 4070",
+     "EVSC 4080",
+     "EVSC 4090",
+     "EVSC 4490",
+     "EVSC 4660",
+     "GSVS 3020",
+     "GSVS 4020",
+     "MSE 3080",
+     "MSE 4055",
+     "PLAC 5820",
+     "PLAC 5860",
+     "PLAN 5710"
+    ]
+   },
+   {
+    "label": "Emphasis area (3 courses in ONE area)",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "ARCH 2150|GSVS 2150|COMM 3880",
+     "ETP 4010",
+     "GDS 3114",
+     "GSVS 3110",
+     "GSVS 3310",
+     "LPPP 2200",
+     "PLAC 5720",
+     "PLAC 5800",
+     "PLAC 5863",
+     "PLAN 3060",
+     "PLAN 3810",
+     "PLAN 3840",
+     "PLAN 3860",
+     "PLAN 5600",
+     "PLAN 5740",
+     "PLAP 3160|GSVS 3160",
+     "PLAP 4800|ETP 4800",
+     "STS 2620",
+     "STS 2760",
+     "SYS 2620",
+     "ANTH 2260",
+     "ANTH 2285",
+     "ANTH 3240",
+     "ANTH 3340",
+     "GSGS 2010",
+     "GSGS 3118",
+     "GSVS 2210",
+     "GSVS 4100",
+     "HIEU 3321",
+     "HIUS 2061",
+     "HIUS 2071",
+     "HIUS 3131",
+     "HIUS 3161",
+     "HIUS 3411",
+     "PHS 3620",
+     "PLAN 3840",
+     "PLAN 3815",
+     "SOC 3460",
+     "SOC 3470",
+     "SOC 3490",
+     "STS 2500",
+     "STS 2760",
+     "SYS 3023",
+     "CE 4110",
+     "CE 5035",
+     "COMM 4251",
+     "COMM 4821",
+     "COMM 4822",
+     "COMM 5161",
+     "EBUS 2830",
+     "EBUS 4810",
+     "ECON 2010",
+     "ECON 3010",
+     "ECON 3110",
+     "ECON 3430",
+     "ECON 4430",
+     "ENGR 4880",
+     "EVSC 2070",
+     "GSGS 3330",
+     "STS 2740",
+     "SYS 2001",
+     "SYS 3034",
+     "SYS 3060",
+     "SYS 4044",
+     "SYS 4050|CE 4050"
+    ],
+    "note": "All three must come from the SAME emphasis area: Environmental Planning and Policy (ARCH 2150|GSVS 2150|COMM 3880, ETP 4010, GDS 3114, GSVS 3110, GSVS 3310, LPPP 2200, PLAC 5720, PLAC 5800, PLAC 5863, PLAN 3060, PLAN 3810, PLAN 3840, PLAN 3860, PLAN 5600, PLAN 5740, PLAP 3160|GSVS 3160, PLAP 4800|ETP 4800, STS 2620, STS 2760, SYS 2620); Technology, the Environment, and Society (ANTH 2260, ANTH 2285, ANTH 3240, ANTH 3340, GSGS 2010, GSGS 3118, GSVS 2210, GSVS 4100, HIEU 3321, HIUS 2061, HIUS 2071, HIUS 3131, HIUS 3161, HIUS 3411, PHS 3620, PLAN 3840, PLAN 3815, SOC 3460, SOC 3470, SOC 3490, STS 2500, STS 2760, SYS 3023); Management and Economics (CE 4110, CE 5035, COMM 4251, COMM 4821, COMM 4822, COMM 5161, EBUS 2830, EBUS 4810, ECON 2010, ECON 3010, ECON 3110, ECON 3430, ECON 4430, ENGR 4880, EVSC 2070, GSGS 3330, STS 2740, SYS 2001, SYS 3034, SYS 3060, SYS 4044, SYS 4050|CE 4050). The 'from' list is the union, so the same-area rule is not enforced."
+   },
+   {
+    "label": "Sixth course from any list",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ARCH 2114",
+     "CE 2001",
+     "CE 2100",
+     "EVSC 1010",
+     "EVSC 1080",
+     "EVSC 1300",
+     "EVSC 1450",
+     "EVSC 1600",
+     "EVSC 1762",
+     "EVSC 2010|MSE 2010",
+     "EVSC 2200",
+     "STS 2050|GSVS 2050",
+     "ARCH 3260",
+     "CE 3000",
+     "CE 3050",
+     "CE 3100",
+     "CE 3220",
+     "CE 4100",
+     "CE 4160",
+     "CE 5020",
+     "CE 5240",
+     "CHE 4450",
+     "ECE 3250",
+     "EVSC 3020",
+     "EVSC 4015",
+     "EVSC 4035",
+     "EVSC 4070",
+     "EVSC 4080",
+     "EVSC 4090",
+     "EVSC 4490",
+     "EVSC 4660",
+     "GSVS 3020",
+     "GSVS 4020",
+     "MSE 3080",
+     "MSE 4055",
+     "PLAC 5820",
+     "PLAC 5860",
+     "PLAN 5710",
+     "ARCH 2150|GSVS 2150|COMM 3880",
+     "ETP 4010",
+     "GDS 3114",
+     "GSVS 3110",
+     "GSVS 3310",
+     "LPPP 2200",
+     "PLAC 5720",
+     "PLAC 5800",
+     "PLAC 5863",
+     "PLAN 3060",
+     "PLAN 3810",
+     "PLAN 3840",
+     "PLAN 3860",
+     "PLAN 5600",
+     "PLAN 5740",
+     "PLAP 3160|GSVS 3160",
+     "PLAP 4800|ETP 4800",
+     "STS 2620",
+     "STS 2760",
+     "SYS 2620",
+     "ANTH 2260",
+     "ANTH 2285",
+     "ANTH 3240",
+     "ANTH 3340",
+     "GSGS 2010",
+     "GSGS 3118",
+     "GSVS 2210",
+     "GSVS 4100",
+     "HIEU 3321",
+     "HIUS 2061",
+     "HIUS 2071",
+     "HIUS 3131",
+     "HIUS 3161",
+     "HIUS 3411",
+     "PHS 3620",
+     "PLAN 3840",
+     "PLAN 3815",
+     "SOC 3460",
+     "SOC 3470",
+     "SOC 3490",
+     "STS 2500",
+     "STS 2760",
+     "SYS 3023",
+     "CE 4110",
+     "CE 5035",
+     "COMM 4251",
+     "COMM 4821",
+     "COMM 4822",
+     "COMM 5161",
+     "EBUS 2830",
+     "EBUS 4810",
+     "ECON 2010",
+     "ECON 3010",
+     "ECON 3110",
+     "ECON 3430",
+     "ECON 4430",
+     "ENGR 4880",
+     "EVSC 2070",
+     "GSGS 3330",
+     "STS 2740",
+     "SYS 2001",
+     "SYS 3034",
+     "SYS 3060",
+     "SYS 4044",
+     "SYS 4050|CE 4050"
+    ],
+    "note": "Six distinct courses total from the lists above (the sixth may also be a course approved by petition to the minor supervisory committee). The other five courses are counted in the groups above."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "Six courses (~18 credits; the page gives course counts, not credits). No more than two of the six courses may come from the student's own department (at least four outside the major department). Some courses appear in two emphasis lists (PLAN 3840, STS 2760). Eligibility for College students not stated (interdisciplinary minor). The 'Sixth course' group counts all six courses together.",
+  "confidence": "medium"
+ },
+ {
+  "id": "engineering-business-minor",
+  "name": "Engineering Business",
+  "degree": "Minor",
+  "type": "minor",
+  "school": "SEAS",
+  "department": "Systems and Information Engineering (EBM Program)",
+  "totalCredits": 15,
+  "sources": [
+   "https://engineering.virginia.edu/sites/default/files/_common/departments-programs/engr_business_minor/EBM%20and%20Comparison%20to%20GBM%20and%20EShip%20Minor%20Feb%202025v2.pdf",
+   "https://engineering.virginia.edu/undergraduate-study/current-undergrads/degree-information/majors-and-minors"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Lightweight application (student ID, GPA to confirm good standing, brief statement of interest, acknowledgment the minor can be finished before graduation); windows were October 2024 and February 2025 (likely each fall/spring). Open to all Engineering students and B.A. Computer Science students; no class-year restriction. Courses taken before admission count. Start with EBUS 1800."
+  },
+  "requirements": [
+   {
+    "label": "Engineering Business Integrated Sequence",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "EBUS 1800",
+     "EBUS 2830",
+     "EBUS 4810"
+    ],
+    "note": "Substitutions generally not allowed. Older STS-numbered versions of these courses count."
+   },
+   {
+    "label": "Electives (two 3-credit courses)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "EBUS 2730",
+     "EBUS 2840",
+     "EBUS 2850",
+     "EBUS 2890",
+     "EBUS 3570",
+     "EBUS 4580",
+     "APMA 3150",
+     "BME 3030",
+     "CE 2030",
+     "CE 3010",
+     "CS 4260",
+     "ENGR 4880",
+     "MAE 4502",
+     "SYS 2054|SYS 3054",
+     "SYS 4000",
+     "SYS 4044",
+     "COMM 2600",
+     "COMM 3200",
+     "COMM 3230",
+     "COMM 3410",
+     "COMM 3845",
+     "COMM 3880",
+     "COMM 4822",
+     "ENTP 1010",
+     "ECON 2010"
+    ],
+    "note": "Approved list as of Feb 2025; list may change with instructor availability. 'SYS 2/3054' Systems Case Studies (International) is listed as either number."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "15 credits (9 core + 6 elective). Administered by the EBM Program team in Systems & Information Engineering; the current EBUS-based minor replaced the previous Engineering Business Minor (formerly run jointly with McIntire, with STS 2xxx/3xxx electives). EBUS courses count only as unrestricted electives in SEAS degrees (not HSS); SEAS departmental electives on the list may also count as technical electives. Not open to College students other than BACS majors. Compare McIntire's General Business Minor (COMM 1800 start, 15 credits)."
+ }
+]
