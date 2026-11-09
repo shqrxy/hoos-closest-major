@@ -92,7 +92,33 @@
     const ip = parsed.courses.filter((c) => c.status === 'inprogress').length;
     status(`Found ${parsed.courses.length} courses${ip ? ` (${ip} in progress or planned)` : ''}${srcName ? ' in ' + srcName : ''}.`);
     render();
+    countTranscript(parsed.courses);
     $('#summary').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+  }
+
+  // Transcripts-checked counter (api/transcripts.js). Only a +1 is sent, never course data.
+  // Each distinct transcript counts once per browser.
+  function showTally(n) {
+    if (!(n > 0)) return;
+    $('#tallyN').textContent = n.toLocaleString();
+    $('#tallyW').textContent = n === 1 ? 'transcript' : 'transcripts';
+    $('#tally').hidden = false;
+  }
+  function loadTally() {
+    fetch('/api/transcripts').then((r) => r.ok ? r.json() : null).then((d) => d && showTally(d.count)).catch(() => {});
+  }
+  function countTranscript(courses) {
+    const key = courses.map((c) => c.code + '|' + (c.term || '')).sort().join(';');
+    let h = 5381; for (let i = 0; i < key.length; i++) h = ((h * 33) ^ key.charCodeAt(i)) >>> 0;
+    const id = h.toString(36);
+    let seen = [];
+    try { seen = JSON.parse(localStorage.getItem('hcm-counted') || '[]'); } catch (e) {}
+    if (seen.includes(id)) return;
+    fetch('/api/transcripts', { method: 'POST' }).then((r) => r.ok ? r.json() : null).then((d) => {
+      if (!d) return;
+      showTally(d.count);
+      try { localStorage.setItem('hcm-counted', JSON.stringify(seen.concat(id).slice(-20))); } catch (e) {}
+    }).catch(() => {});
   }
 
   function wireInput() {
@@ -374,6 +400,7 @@
     document.querySelectorAll('.school-tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.school === state.school)));
     document.body.dataset.school = state.school;
     state.courses = SAMPLE.slice();
+    loadTally();
     try { await loadData(); }
     catch (e) { status('Could not load program data. Refresh the page to try again.', true); console.error(e); }
     render();

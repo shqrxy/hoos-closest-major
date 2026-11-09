@@ -12,6 +12,7 @@ Unofficial planning tool. Not affiliated with the University of Virginia.
 | --- | --- |
 | `index.html` | The page, with all styles |
 | `app.js` | UI: upload, course list, ranking, details, problem reports |
+| `api/transcripts.js` | Vercel function for the "transcripts checked" counter (Upstash Redis; hidden if not set up) |
 | `engine.js` | Transcript parser (handles SIS's two-column PDF) and requirement matcher |
 | `programs.json` | Built requirement data for 146 programs: 123 Arts & Sciences, 23 Engineering (generated) |
 | `courses.json` | Course titles, credits and terms offered, from [UVA Course Explorer](https://github.com/UVA-Course-Explorer) |
