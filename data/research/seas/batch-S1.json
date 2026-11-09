@@ -1,0 +1,1494 @@
+[
+ {
+  "id": "mechanical-engineering-bs",
+  "name": "Mechanical Engineering",
+  "degree": "B.S.",
+  "type": "major",
+  "school": "SEAS",
+  "department": "Mechanical and Aerospace Engineering",
+  "totalCredits": 131,
+  "sources": [
+   "https://www.engineering.virginia.edu/department/mechanical-and-aerospace-engineering/academics/mechanical-engineering-undergraduate-program/bs-mechanical-engineering",
+   "https://engineering.virginia.edu/sites/default/files/_common/departments-programs/mae/ME_UG_Curriculum_2029.pdf",
+   "https://engineering.virginia.edu/sites/default/files/_common/departments-programs/mae/MECHANICAL_AEROSPACE_ENG_MATH-SCIENCE-TECHNICAL-ELECTIVES-Classof2024andbeyond.pdf",
+   "https://engineering.virginia.edu/current-students/current-undergraduate-students/transferring-uva-engineering"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "SEAS first-years declare a major in their second semester (deadline March 1 per the 2026 orientation deck); no course or GPA prerequisites are stated and majors are not capped. College (or other UVA school) students must apply for internal transfer to SEAS: cumulative GPA > 2.0, good standing, and completed APMA 1090|MATH 1310 (Fall 2025+ starters), APMA 1110|MATH 1320, APMA 2120|MATH 2310, CHEM 1410|1610|1810 + lab 1411|1611|1811, CS 1110-1113, PHYS 1420|1425|1710 + lab PHYS 1429|2030; windows Nov 15-Dec 15 (spring entry) and May 1-Jun 1 (fall entry); accepted students are placed in their major of choice (no caps). See TRANSFER.md."
+  },
+  "requirements": [
+   {
+    "label": "Engineering mathematics",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "APMA 1090|MATH 1310",
+     "APMA 1110|MATH 1320",
+     "APMA 2120|MATH 2310",
+     "APMA 2130|MATH 3250",
+     "APMA 3140",
+     "APMA 3110"
+    ],
+    "note": "APMA 1090 required beginning with the Class of 2029 curriculum (Fall 2025 entrants); earlier sheets started at APMA 1110. MATH equivalents per the SEAS internal-transfer page (MATH 3250 for APMA 2130 per CE 3100 prerequisite text)."
+   },
+   {
+    "label": "Chemistry I + lab",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 1410|CHEM 1610|CHEM 1810",
+     "CHEM 1411|CHEM 1611|CHEM 1811"
+    ]
+   },
+   {
+    "label": "Physics I and II",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "PHYS 1425|PHYS 1420|PHYS 1710",
+      "PHYS 1429|PHYS 2030",
+      "PHYS 2415",
+      "PHYS 2419"
+     ],
+     [
+      "PHYS 1425|PHYS 1420|PHYS 1710",
+      "PHYS 1429|PHYS 2030",
+      "ECE 2200"
+     ]
+    ],
+    "note": "Physics II may be PHYS 2415 + PHYS 2419 or ECE 2200 (Applied Physics)."
+   },
+   {
+    "label": "Engineering foundations",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ENGR 1010|ENGR 1410",
+     "ENGR 1020|ENGR 1420"
+    ],
+    "note": "Rodman Scholars take ENGR 1410/1420. Transfer students may replace ENGR 1020 with 3 other credits by appeal."
+   },
+   {
+    "label": "Computing",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CS 1110|CS 1111|CS 1112|CS 1113"
+    ]
+   },
+   {
+    "label": "Science, Technology and Society",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STS 2600",
+     "STS 4500",
+     "STS 4600"
+    ],
+    "note": "STS 4500 in fall and STS 4600 in spring of fourth year (senior thesis)."
+   },
+   {
+    "label": "Math and science elective",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "BIOL 2100",
+     "BIOL 2200",
+     "CHEM 1620",
+     "MSE 2090",
+     "PHYS 2620",
+     "APMA 2000+"
+    ],
+    "exclude": [
+     "APMA 2120",
+     "APMA 2130",
+     "APMA 3110",
+     "APMA 3140"
+    ],
+    "note": "Footnote 2 of the ME sheet: BIOL 2100 or 2200, CHEM 1620, MSE 2090, PHYS 2620, or any APMA 2000+ not required by the major and not duplicating another APMA course. MAE handout also lists CHEM 1420."
+   },
+   {
+    "label": "Mechanical engineering core",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "MAE 2020",
+     "MAE 2040",
+     "MAE 2300|CE 2300",
+     "MAE 2100",
+     "MAE 2310|CE 2310",
+     "MAE 2320",
+     "MAE 2330",
+     "MAE 3210",
+     "MAE 3230",
+     "MAE 3310",
+     "MAE 3710",
+     "MAE 3140",
+     "MAE 3420",
+     "MAE 3620",
+     "MAE 3840",
+     "MAE 4710"
+    ],
+    "note": "CE 2300/2310 equivalence assumed from cross-listing in prerequisite text (CE 2310 prereq 'CE 2300 or MAE 2300'); confirm with advisor."
+   },
+   {
+    "label": "Capstone design",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "MAE 4610",
+      "MAE 4620"
+     ],
+     [
+      "MAE 4690",
+      "MAE 4700"
+     ]
+    ],
+    "note": "Either MAE 4610/4620 or MAE 4690/4700."
+   },
+   {
+    "label": "Math-science / technical electives",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "BIOL 2100",
+     "BIOL 2200",
+     "CHEM 1420",
+     "MSE 2090",
+     "PHYS 2620",
+     "APMA 2000+",
+     "ASTR 2000+",
+     "BIOL 2000+",
+     "CHEM 2000+",
+     "EVSC 2050+",
+     "MATH 3300+",
+     "PHYS 2620+",
+     "STAT 3000+",
+     "MAE 3000+",
+     "AE 3000+",
+     "BME 3000+",
+     "CE 3000+",
+     "CHE 3000+",
+     "CS 3000+",
+     "ECE 3000+",
+     "MSE 3000+",
+     "SYS 3000+",
+     "NASC 3100",
+     "NASC 3200",
+     "ENGR 4880",
+     "STS 4810"
+    ],
+    "exclude": [
+     "MAE 4610",
+     "MAE 4620",
+     "MAE 4630",
+     "MAE 4640",
+     "MAE 4670",
+     "MAE 4680",
+     "MAE 4650",
+     "MAE 4660",
+     "MAE 4690",
+     "MAE 4700"
+    ],
+    "note": "From the MAE Approved Math-Science/Technical Electives list (handout labelled Classes of 2022-2025, the newest found): List 1 math-science (BIOL 2100/2200, CHEM 1420, MSE 2090, PHYS 2620, non-required APMA 2000+); List 2 (ASTR/BIOL/CHEM 2000+, EVSC 2050+, MATH 3300+, PHYS 2620+, STAT 3000+, APMA 3000+, all below 6000); List 3 any SEAS course 3000+ (or a 2000-level SEAS course required for that discipline's major/minor), NASC 3100/3200; no STS or ENGR except one of ENGR 4880 or STS 4810 (Business minor only); no MAE capstone design courses. Only courses on the list count. Courses required by the major cannot double count."
+   },
+   {
+    "label": "Humanities and social sciences electives",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "* *"
+    ],
+    "note": "9 credits from the SEAS approved Humanities and Social Science list (A122 Thornton Hall / SEAS Undergraduate Handbook); not every course qualifies."
+   },
+   {
+    "label": "Unrestricted electives",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "*"
+    ],
+    "note": "Any graded University course except math below MATH 1310 and courses that substantially duplicate degree courses (e.g. PHYS 1010, 1020, 2010, 2020, CS 1010, other intro programming). "
+   }
+  ],
+  "coursePrereqs": {
+   "MAE 2310": [
+    "MAE 2300|CE 2300"
+   ]
+  },
+  "notes": "Encodes the Class of 2029 ME curriculum sheet (dated 10/29/2025; 131 credits by semester totals). Earlier classes (2025-2028) had a 128-credit sheet without APMA 1090. Credits: MAE 2020 (2), 2040 (1), 2300 (3), 2100 (3), 2310 (3), 2320 (3), 2330 (2), 3210 (3), 3230 (2), 3310 (3), 3710 (3), 3140 (3), 3420 (3), 3620 (3), 3840 (2), 4710 (4), capstone 3+3; APMA 3140 (3), 3110 (3). D is passing but cumulative GPA 2.0 required to graduate. Missing credits (e.g. from AP placement) must be replaced with an additional math/science/technical course at equal or higher level. Only CE 2310 prerequisite text was found for MAE prerequisites (course catalog not readable), so coursePrereqs is sparse. Optional minors (e.g. aerospace) are mentioned on the department page but no ME or aerospace minor is listed on the SEAS Majors and Minors page."
+ },
+ {
+  "id": "aerospace-engineering-bs",
+  "name": "Aerospace Engineering",
+  "degree": "B.S.",
+  "type": "major",
+  "school": "SEAS",
+  "department": "Mechanical and Aerospace Engineering",
+  "totalCredits": 131,
+  "confidence": "medium",
+  "sources": [
+   "https://engineering.virginia.edu/department/mechanical-and-aerospace-engineering/academics/aerospace-engineering-undergraduate-program/bs-aerospace-engineering",
+   "https://engineering.virginia.edu/sites/default/files/_common/departments-programs/mae/AE_Curriculum_2027.pdf",
+   "https://engineering.virginia.edu/sites/default/files/users/user186/AE%20UG%20Curriculum.pdf",
+   "https://engineering.virginia.edu/sites/default/files/_common/departments-programs/mae/MECHANICAL_AEROSPACE_ENG_MATH-SCIENCE-TECHNICAL-ELECTIVES-Classof2024andbeyond.pdf",
+   "https://engineering.virginia.edu/current-students/current-undergraduate-students/transferring-uva-engineering"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "SEAS first-years declare a major in their second semester (deadline March 1 per the 2026 orientation deck); no course or GPA prerequisites are stated and majors are not capped. College (or other UVA school) students must apply for internal transfer to SEAS: cumulative GPA > 2.0, good standing, and completed APMA 1090|MATH 1310 (Fall 2025+ starters), APMA 1110|MATH 1320, APMA 2120|MATH 2310, CHEM 1410|1610|1810 + lab 1411|1611|1811, CS 1110-1113, PHYS 1420|1425|1710 + lab PHYS 1429|2030; windows Nov 15-Dec 15 (spring entry) and May 1-Jun 1 (fall entry); accepted students are placed in their major of choice (no caps). See TRANSFER.md."
+  },
+  "requirements": [
+   {
+    "label": "Engineering mathematics",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "APMA 1090|MATH 1310",
+     "APMA 1110|MATH 1320",
+     "APMA 2120|MATH 2310",
+     "APMA 2130|MATH 3250",
+     "APMA 3140",
+     "APMA 3110"
+    ],
+    "note": "APMA 1090 required beginning with the Class of 2029 curriculum (Fall 2025 entrants); earlier sheets started at APMA 1110. MATH equivalents per the SEAS internal-transfer page (MATH 3250 for APMA 2130 per CE 3100 prerequisite text)."
+   },
+   {
+    "label": "Chemistry I + lab",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 1410|CHEM 1610|CHEM 1810",
+     "CHEM 1411|CHEM 1611|CHEM 1811"
+    ]
+   },
+   {
+    "label": "Physics I and II",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "PHYS 1425|PHYS 1420|PHYS 1710",
+      "PHYS 1429|PHYS 2030",
+      "PHYS 2415",
+      "PHYS 2419"
+     ],
+     [
+      "PHYS 1425|PHYS 1420|PHYS 1710",
+      "PHYS 1429|PHYS 2030",
+      "ECE 2200"
+     ]
+    ],
+    "note": "Physics II may be PHYS 2415 + PHYS 2419 or ECE 2200 (Applied Physics)."
+   },
+   {
+    "label": "Engineering foundations",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ENGR 1010|ENGR 1410",
+     "ENGR 1020|ENGR 1420"
+    ],
+    "note": "Rodman Scholars take ENGR 1410/1420. Transfer students may replace ENGR 1020 with 3 other credits by appeal."
+   },
+   {
+    "label": "Computing",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CS 1110|CS 1111|CS 1112|CS 1113"
+    ]
+   },
+   {
+    "label": "Science, Technology and Society",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STS 2600",
+     "STS 4500",
+     "STS 4600"
+    ],
+    "note": "STS 4500 in fall and STS 4600 in spring of fourth year (senior thesis)."
+   },
+   {
+    "label": "Math and science elective",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "BIOL 2100",
+     "BIOL 2200",
+     "CHEM 1620",
+     "MSE 2090",
+     "PHYS 2620",
+     "APMA 2000+"
+    ],
+    "exclude": [
+     "APMA 2120",
+     "APMA 2130",
+     "APMA 3110",
+     "APMA 3140"
+    ],
+    "note": "BIOL 2100 or 2200, CHEM 1620, MSE 2090, PHYS 2620, or any APMA 2000+ not required by the major. MAE handout also lists CHEM 1420."
+   },
+   {
+    "label": "Aerospace engineering core",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "MAE 2030",
+     "MAE 2040",
+     "MAE 2300|CE 2300",
+     "MAE 2100",
+     "MAE 2310|CE 2310",
+     "MAE 2320",
+     "MAE 2330",
+     "MAE 3210",
+     "MAE 3230",
+     "MAE 3310",
+     "MAE 3610|MSE 3610",
+     "MAE 3010",
+     "MAE 3220",
+     "MAE 3730",
+     "MAE 3820",
+     "MAE 3420",
+     "MAE 4120"
+    ],
+    "note": "MAE 3610 is cross-listed as MSE 3610 (MSE minor page)."
+   },
+   {
+    "label": "Aerospace design capstone",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "MAE 4650",
+      "MAE 4660"
+     ],
+     [
+      "MAE 4690",
+      "MAE 4700"
+     ]
+    ],
+    "note": "Class of 2027 sheet: MAE 4650/4660 or MAE 4690/4700. A 3/29/24 AE sheet footnote says MAE 4610/4620 or 4690/4700 (likely copied from the ME sheet); confirm with advisor."
+   },
+   {
+    "label": "Math-science / technical electives",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "BIOL 2100",
+     "BIOL 2200",
+     "CHEM 1420",
+     "MSE 2090",
+     "PHYS 2620",
+     "APMA 2000+",
+     "ASTR 2000+",
+     "BIOL 2000+",
+     "CHEM 2000+",
+     "EVSC 2050+",
+     "MATH 3300+",
+     "PHYS 2620+",
+     "STAT 3000+",
+     "MAE 3000+",
+     "AE 3000+",
+     "BME 3000+",
+     "CE 3000+",
+     "CHE 3000+",
+     "CS 3000+",
+     "ECE 3000+",
+     "MSE 3000+",
+     "SYS 3000+",
+     "NASC 3100",
+     "NASC 3200",
+     "ENGR 4880",
+     "STS 4810"
+    ],
+    "exclude": [
+     "MAE 4610",
+     "MAE 4620",
+     "MAE 4630",
+     "MAE 4640",
+     "MAE 4670",
+     "MAE 4680",
+     "MAE 4650",
+     "MAE 4660",
+     "MAE 4690",
+     "MAE 4700"
+    ],
+    "note": "From the MAE Approved Math-Science/Technical Electives list (handout labelled Classes of 2022-2025, the newest found): List 1 math-science (BIOL 2100/2200, CHEM 1420, MSE 2090, PHYS 2620, non-required APMA 2000+); List 2 (ASTR/BIOL/CHEM 2000+, EVSC 2050+, MATH 3300+, PHYS 2620+, STAT 3000+, APMA 3000+, all below 6000); List 3 any SEAS course 3000+ (or a 2000-level SEAS course required for that discipline's major/minor), NASC 3100/3200; no STS or ENGR except one of ENGR 4880 or STS 4810 (Business minor only); no MAE capstone design courses. Only courses on the list count. Courses required by the major cannot double count."
+   },
+   {
+    "label": "Humanities and social sciences electives",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "* *"
+    ],
+    "note": "9 credits from the SEAS approved Humanities and Social Science list (A122 Thornton Hall / SEAS Undergraduate Handbook); not every course qualifies."
+   },
+   {
+    "label": "Unrestricted electives",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "*"
+    ],
+    "note": "Any graded University course except math below MATH 1310 and courses that substantially duplicate degree courses (e.g. PHYS 1010, 1020, 2010, 2020, CS 1010, other intro programming). "
+   }
+  ],
+  "coursePrereqs": {
+   "MAE 2310": [
+    "MAE 2300|CE 2300"
+   ],
+   "MAE 3610": [
+    "CHEM 1410|CHEM 1610|CHEM 1810"
+   ]
+  },
+  "notes": "The Class of 2029 AE sheet (linked from the department page) could not be fetched (robots-blocked); requirements follow the Class of 2027 sheet and an undated-class 3/29/24 sheet (both 128 credits starting at APMA 1110), plus APMA 1090, which the department page says is required beginning with the Class of 2029; totalCredits 131 assumes the AE sheet changed like the ME sheet (128 -> 131). Credits: MAE 2030 (2), 2040 (1), 2300 (3), 2100 (3), 2310 (3), 2320 (3), 2330 (2), 3210 (3), 3230 (2), 3310 (3), 3610 (3), 3010 (3), 3220 (4), 3730 (3), 3820 (2), 3420 (3), 4120 (3), design 3+3. D is passing but cumulative GPA 2.0 required to graduate. MAE 3610 prerequisite also lists MAE 2310 as a corequisite (MSE curriculum guide)."
+ },
+ {
+  "id": "chemical-engineering-bs",
+  "name": "Chemical Engineering",
+  "degree": "B.S.",
+  "type": "major",
+  "school": "SEAS",
+  "department": "Chemical Engineering",
+  "totalCredits": 128,
+  "sources": [
+   "https://engineering.virginia.edu/department/chemical-engineering/academics/undergraduate-program/bs-chemical-engineering",
+   "https://engineering.virginia.edu/sites/default/files/_common/departments-programs/che/UVAEng_CHECurriculum_broad.pdf",
+   "https://engineering.virginia.edu/current-students/current-undergraduate-students/transferring-uva-engineering"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "SEAS first-years declare a major in their second semester (deadline March 1 per the 2026 orientation deck); no course or GPA prerequisites are stated and majors are not capped. Core ChE courses require C/CR in their prerequisites (only one passing grade below C allowed among core prerequisites). College (or other UVA school) students must apply for internal transfer to SEAS: cumulative GPA > 2.0, good standing, and completed APMA 1090|MATH 1310 (Fall 2025+ starters), APMA 1110|MATH 1320, APMA 2120|MATH 2310, CHEM 1410|1610|1810 + lab 1411|1611|1811, CS 1110-1113, PHYS 1420|1425|1710 + lab PHYS 1429|2030; windows Nov 15-Dec 15 (spring entry) and May 1-Jun 1 (fall entry); accepted students are placed in their major of choice (no caps). See TRANSFER.md."
+  },
+  "requirements": [
+   {
+    "label": "Engineering mathematics",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "APMA 1090|MATH 1310",
+     "APMA 1110|MATH 1320",
+     "APMA 2120|MATH 2310",
+     "APMA 2130|MATH 3250",
+     "APMA 3110"
+    ],
+    "note": "APMA 1090 required beginning with the Class of 2029 curriculum (Fall 2025 entrants); earlier sheets started at APMA 1110. MATH equivalents per the SEAS internal-transfer page (MATH 3250 for APMA 2130 per CE 3100 prerequisite text)."
+   },
+   {
+    "label": "Chemistry sequence",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "CHEM 1410",
+      "CHEM 1411",
+      "CHEM 1420",
+      "CHEM 1421",
+      "CHEM 2410",
+      "CHEM 2411",
+      "CHEM 2420"
+     ],
+     [
+      "CHEM 1810",
+      "CHEM 1811",
+      "CHEM 1820",
+      "CHEM 1821",
+      "CHEM 2810",
+      "CHEM 2820|CHEM 4090|CHEM 4320|CHEM 4440|CHEM 4410"
+     ]
+    ],
+    "note": "1400 series (AP credit does not waive CHEM 1411/1421) or the all-or-nothing 1800 series plus one selected CHEM course (CHEM 2820, 4090, 4320, 4440, 4410, or another CHEM 4xxx/5xxx with ChE approval). Do not switch sequences mid-program. CHEM 1420 presumably fills the SEAS math & science elective."
+   },
+   {
+    "label": "Physical chemistry",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "CHE 4561|CHEM 3410|CHEM 3610"
+    ],
+    "note": "CHE 4561 topic 'Physical Chemistry for Engineers' (recommended), CHEM 3410, or CHEM 3610."
+   },
+   {
+    "label": "Physics I and II",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "PHYS 1425|PHYS 1420|PHYS 1710",
+      "PHYS 1429|PHYS 2030",
+      "PHYS 2415",
+      "PHYS 2419"
+     ],
+     [
+      "PHYS 1425|PHYS 1420|PHYS 1710",
+      "PHYS 1429|PHYS 2030",
+      "ECE 2200"
+     ]
+    ],
+    "note": "Physics II may be PHYS 2415 + PHYS 2419 or ECE 2200 (Applied Physics)."
+   },
+   {
+    "label": "Engineering foundations",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ENGR 1010|ENGR 1410",
+     "ENGR 1020|ENGR 1420"
+    ],
+    "note": "Rodman Scholars take ENGR 1410/1420. Transfer students may replace ENGR 1020 with 3 other credits by appeal."
+   },
+   {
+    "label": "Computing",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CS 1110|CS 1111|CS 1112|CS 1113"
+    ]
+   },
+   {
+    "label": "Science, Technology and Society",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STS 2600",
+     "STS 4500",
+     "STS 4600"
+    ],
+    "note": "STS 4500 in fall and STS 4600 in spring of fourth year (senior thesis)."
+   },
+   {
+    "label": "Chemical engineering core",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHE 2202",
+     "CHE 2215",
+     "CHE 2216",
+     "CHE 3316",
+     "CHE 3318",
+     "CHE 3321",
+     "CHE 3322",
+     "CHE 3398",
+     "CHE 4474",
+     "CHE 4475",
+     "CHE 4476",
+     "CHE 4491"
+    ],
+    "note": "Grade of C or CR expected in core prerequisites; two or more below-C grades in core prerequisites must be retaken. The B.S. page also lists CHE 2246 (Intro to Biotechnology) among core courses, but neither curriculum sheet includes it, so it is not encoded as required."
+   },
+   {
+    "label": "ChE electives",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "CHE 3347",
+     "CHE 4442",
+     "CHE 4445",
+     "CHE 4448",
+     "CHE 4449",
+     "CHE 4450",
+     "CHE 4452",
+     "CHE 4456",
+     "CHE 4561",
+     "CHE 4562"
+    ],
+    "note": "CHE 4561/4562 special topics need individual approval. The page's footnote list omits CHE 4445, 4452, 4456; confirm with advisor."
+   },
+   {
+    "label": "ChE or engineering elective",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "CHE 3347",
+     "CHE 4442",
+     "CHE 4445",
+     "CHE 4448",
+     "CHE 4449",
+     "CHE 4450",
+     "CHE 4452",
+     "CHE 4456",
+     "CHE 4561",
+     "CHE 4562",
+     "BME 2000-5999",
+     "CE 2000-5999",
+     "CS 2000-5999",
+     "ECE 2000-5999",
+     "MAE 2000-5999",
+     "MSE 2000-5999",
+     "SYS 2000-5999",
+     "ENGR 4880"
+    ],
+    "note": "One course with substantial engineering content (approved list in the department office / SIS Academic Requirements); CHE electives also count. Subject ranges are an approximation."
+   },
+   {
+    "label": "Technical elective",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "APMA 2000-5999",
+     "MATH 2000-5999",
+     "CHEM 2000-5999",
+     "PHYS 2000-5999",
+     "BIOL 2000-5999",
+     "BIOM 2000-5999",
+     "CHE 2000-5999",
+     "ENGR 2000-5999",
+     "CE 2000-5999",
+     "CS 2000-5999",
+     "ECE 2000-5999",
+     "MSE 2000-5999",
+     "MAE 2000-5999",
+     "SYS 2000-5999",
+     "EVSC 2050",
+     "EVSC 2800",
+     "EVSC 3200",
+     "EVSC 3600",
+     "EVSC 3860",
+     "EVSC 4280",
+     "EVSC 4640",
+     "EVSC 4660",
+     "EVSC 4090"
+    ],
+    "exclude": [
+     "PHYS 2010",
+     "PHYS 2020",
+     "ECE 2066",
+     "MSE 2010",
+     "CHE 2202",
+     "CHE 2215",
+     "CHE 2216",
+     "CHE 3316",
+     "CHE 3318",
+     "CHE 3321",
+     "CHE 3322",
+     "CHE 3398",
+     "CHE 4474",
+     "CHE 4475",
+     "CHE 4476",
+     "CHE 4491"
+    ],
+    "note": "Special topics/projects and courses introduced after 2011-12 need individual approval."
+   },
+   {
+    "label": "Humanities and social sciences electives",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "* *"
+    ],
+    "note": "9 credits from the SEAS approved Humanities and Social Science list (A122 Thornton Hall / SEAS Undergraduate Handbook); not every course qualifies."
+   },
+   {
+    "label": "Unrestricted electives",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "*"
+    ],
+    "note": "Any graded University course except math below MATH 1310 and courses that substantially duplicate degree courses (e.g. PHYS 1010, 1020, 2010, 2020, CS 1010, other intro programming). APMA 1090 does not count as unrestricted if it is counted in the math sequence."
+   }
+  ],
+  "coursePrereqs": {
+   "CHE 2202": [
+    "APMA 2120|MATH 2310"
+   ],
+   "CHE 2215": [
+    "CHEM 1410|CHEM 1810",
+    "APMA 1110|MATH 1320"
+   ],
+   "CHE 2216": [
+    "CS 1110|CS 1111|CS 1112|CS 1113",
+    "CHE 2215",
+    "APMA 2130|MATH 3250"
+   ],
+   "CHE 3316": [
+    "CHE 2202",
+    "CHE 2215"
+   ],
+   "CHE 3318": [
+    "CHE 2216",
+    "CHE 3316",
+    "CHE 3322"
+   ],
+   "CHE 3321": [
+    "APMA 2130|MATH 3250",
+    "CHE 2215",
+    "CHE 2216"
+   ],
+   "CHE 3322": [
+    "CHE 2216",
+    "CHE 3316",
+    "CHE 3321"
+   ],
+   "CHE 3398": [
+    "CHE 2215",
+    "CHE 3316",
+    "CHE 3321",
+    "CHE 3322"
+   ],
+   "CHE 4474": [
+    "CHE 3318",
+    "CHE 3322",
+    "CHE 4475"
+   ],
+   "CHE 4475": [
+    "CHE 3318",
+    "CHE 3322",
+    "CHE 4474"
+   ],
+   "CHE 4476": [
+    "CHE 2216",
+    "CHE 3318",
+    "CHE 3322",
+    "CHE 4474",
+    "CHE 4475"
+   ],
+   "CHE 4491": [
+    "CHE 3318",
+    "CHE 3322",
+    "CHE 3398"
+   ]
+  },
+  "notes": "Built from the B.S. page (128-credit minimum, elective lists, sample plan) and the Nov 2023 'broad-based' curriculum sheet; no Class of 2029 ChE sheet was found, so APMA 1090 is included per the SEAS-wide Class of 2029 rule. Corequisites are folded into coursePrereqs (CHE 2202 co-req APMA 2120; CHE 2216 co-req APMA 2130; CHE 3318 co-req CHE 3322; CHE 3398 co-req CHE 3322; CHE 4474/4475 co-reqs of each other). Elective counts (2 ChE, 1 ChE-or-engineering, 1 technical, 3 HSS, 3 unrestricted) come from the B.S. page sample plan, whose listed blocks total only 111 credits; the department also offers data-science and pre-med curriculum variants. The Chemistry Department sets its own minimum grades for CHEM courses."
+ },
+ {
+  "id": "chemical-engineering-minor",
+  "name": "Chemical Engineering",
+  "degree": "Minor",
+  "type": "minor",
+  "school": "SEAS",
+  "department": "Chemical Engineering",
+  "totalCredits": null,
+  "sources": [
+   "https://engineering.virginia.edu/department/chemical-engineering/academics/undergraduate-program/minor-chemical-engineering",
+   "https://engineering.virginia.edu/department/chemical-engineering/academics/undergraduate-program/bs-chemical-engineering"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Contact the ChE undergraduate program coordinator; no eligibility rules stated."
+  },
+  "requirements": [
+   {
+    "label": "Chemical engineering minor courses",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHE 2215",
+     "CHE 3316",
+     "CHE 3318",
+     "CHE 3321",
+     "CHE 3322"
+    ],
+    "note": "Each course's prerequisites must also be met; students whose major lacks thermodynamics, numerical methods and PDEs may need CHE 2202 and/or CHE 2216 before the 3000-level courses."
+   }
+  ],
+  "coursePrereqs": {
+   "CHE 2215": [
+    "CHEM 1410|CHEM 1810",
+    "APMA 1110|MATH 1320"
+   ],
+   "CHE 3316": [
+    "CHE 2202",
+    "CHE 2215"
+   ],
+   "CHE 3318": [
+    "CHE 2216",
+    "CHE 3316",
+    "CHE 3322"
+   ],
+   "CHE 3321": [
+    "APMA 2130|MATH 3250",
+    "CHE 2215",
+    "CHE 2216"
+   ],
+   "CHE 3322": [
+    "CHE 2216",
+    "CHE 3316",
+    "CHE 3321"
+   ]
+  },
+  "notes": "Five courses (credits not stated; roughly 17 credits based on the B.S. plan: CHE 2215 3, 3316 4, 3318 3, 3321 3, 3322 4). The C/CR grade rule for core prerequisites applies to the minor too. The page does not say whether non-SEAS students may declare."
+ },
+ {
+  "id": "materials-science-and-engineering-bs",
+  "name": "Materials Science and Engineering",
+  "degree": "B.S.",
+  "type": "major",
+  "school": "SEAS",
+  "department": "Materials Science and Engineering",
+  "totalCredits": 127,
+  "confidence": "medium",
+  "sources": [
+   "https://engineering.virginia.edu/department/materials-science-and-engineering/academics/undergraduate-programs/bs-materials-science-and-engineering",
+   "https://engineering.virginia.edu/sites/default/files/MSE%20Curriculum%20Guide%20(for%20web).pdf",
+   "https://engineering.virginia.edu/current-students/current-undergraduate-students/transferring-uva-engineering"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "SEAS first-years declare a major in their second semester (deadline March 1 per the 2026 orientation deck); no course or GPA prerequisites are stated and majors are not capped. College (or other UVA school) students must apply for internal transfer to SEAS: cumulative GPA > 2.0, good standing, and completed APMA 1090|MATH 1310 (Fall 2025+ starters), APMA 1110|MATH 1320, APMA 2120|MATH 2310, CHEM 1410|1610|1810 + lab 1411|1611|1811, CS 1110-1113, PHYS 1420|1425|1710 + lab PHYS 1429|2030; windows Nov 15-Dec 15 (spring entry) and May 1-Jun 1 (fall entry); accepted students are placed in their major of choice (no caps). See TRANSFER.md."
+  },
+  "requirements": [
+   {
+    "label": "Engineering mathematics",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "APMA 1090|MATH 1310",
+     "APMA 1110|MATH 1320",
+     "APMA 2120|MATH 2310",
+     "APMA 2130|MATH 3250",
+     "APMA 3110"
+    ],
+    "note": "APMA 1090 required beginning with the Class of 2029 curriculum (Fall 2025 entrants); earlier sheets started at APMA 1110. MATH equivalents per the SEAS internal-transfer page (MATH 3250 for APMA 2130 per CE 3100 prerequisite text)."
+   },
+   {
+    "label": "Chemistry I + lab",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 1410|CHEM 1610|CHEM 1810",
+     "CHEM 1411|CHEM 1611|CHEM 1811"
+    ]
+   },
+   {
+    "label": "Physics I and II",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "PHYS 1425|PHYS 1420|PHYS 1710",
+      "PHYS 1429|PHYS 2030",
+      "PHYS 2415",
+      "PHYS 2419"
+     ],
+     [
+      "PHYS 1425|PHYS 1420|PHYS 1710",
+      "PHYS 1429|PHYS 2030",
+      "ECE 2200"
+     ]
+    ],
+    "note": "Physics II may be PHYS 2415 + PHYS 2419 or ECE 2200 (Applied Physics)."
+   },
+   {
+    "label": "Engineering foundations",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ENGR 1010|ENGR 1410",
+     "ENGR 1020|ENGR 1420"
+    ],
+    "note": "Rodman Scholars take ENGR 1410/1420. Transfer students may replace ENGR 1020 with 3 other credits by appeal."
+   },
+   {
+    "label": "Computing",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CS 1110|CS 1111|CS 1112|CS 1113"
+    ]
+   },
+   {
+    "label": "Science, Technology and Society",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STS 2600",
+     "STS 4500",
+     "STS 4600"
+    ],
+    "note": "STS 4500 in fall and STS 4600 in spring of fourth year (senior thesis)."
+   },
+   {
+    "label": "Math/science elective 1",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHYS 2620",
+     "CHEM 1420",
+     "BIOL 2100",
+     "BIOL 2200",
+     "EVSC 2800",
+     "EVSC 3200",
+     "EVSC 3300",
+     "APMA 2000+"
+    ],
+    "exclude": [
+     "APMA 2120",
+     "APMA 2130",
+     "APMA 3110"
+    ],
+    "note": "APMA 3080 (linear algebra) recommended."
+   },
+   {
+    "label": "Math/science elective 2",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "CHEM 3410|CHEM 3610",
+     "APMA 3000+"
+    ],
+    "exclude": [
+     "APMA 3110"
+    ],
+    "note": "Physical chemistry or any APMA 3000+ (APMA 3140 recommended)."
+   },
+   {
+    "label": "MSE core",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "MSE 2090",
+     "MSE 2101",
+     "MSE 3050",
+     "MSE 3060",
+     "MSE 3070",
+     "MSE 3101",
+     "MSE 3670",
+     "MSE 4320"
+    ],
+    "note": "Core in both the Nov 2023 curriculum guide and the current B.S. page."
+   },
+   {
+    "label": "MSE courses added to the core / MSE electives",
+    "need": {
+     "courses": 5
+    },
+    "from": [
+     "MSE 2200",
+     "MSE 2300",
+     "MSE 3080",
+     "MSE 3610|MAE 3610",
+     "MSE 4030",
+     "MSE 4055",
+     "MSE 4200",
+     "MSE 4210",
+     "MSE 4220",
+     "MSE 4270",
+     "MSE 4960",
+     "MSE 4592",
+     "MSE 3200"
+    ],
+    "note": "The current B.S. page lists MSE 2200, 3080, 3200, 4210 and 4270 as named core courses; the Nov 2023 guide instead requires 5 MSE electives (only two below 3000; up to 3 credits of MSE 4960 research). Encoded as 5 courses; a student on the current curriculum should take exactly MSE 2200, 3080, 3200, 4210, 4270."
+   },
+   {
+    "label": "Capstone",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "MSE 4610",
+     "MSE 4620"
+    ],
+    "note": "Materials Research & Design Capstone 1 and 2 with senior thesis."
+   },
+   {
+    "label": "Engineering electives",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "BME 2000+",
+     "CE 2000+",
+     "CHE 2000+",
+     "CS 2000+",
+     "ECE 2000+",
+     "MAE 2000+",
+     "MSE 2000+",
+     "SYS 2000+"
+    ],
+    "note": "Any 2000+ engineering course except APMA, STS, ENGR, courses used as a science elective, or courses fulfilling the Engineering Business minor. Required MSE courses do not count."
+   },
+   {
+    "label": "Technical electives",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "APMA 2000+",
+     "MATH 2000+",
+     "STAT 2000+",
+     "CHEM 2000+",
+     "PHYS 2000+",
+     "BIOL 2000+",
+     "ASTR 2000+",
+     "EVSC 2000+",
+     "BME 2000+",
+     "CE 2000+",
+     "CHE 2000+",
+     "CS 2000+",
+     "ECE 2000+",
+     "MAE 2000+",
+     "MSE 2000+",
+     "SYS 2000+"
+    ],
+    "note": "Any 2000+ math, science or engineering course, excluding courses for non-science majors, duplicates of required MSE work, STS and ENGR. At most 2 research-for-credit courses across MSE/technical electives."
+   },
+   {
+    "label": "Humanities and social sciences electives",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "* *"
+    ],
+    "note": "9 credits from the SEAS approved Humanities and Social Science list (A122 Thornton Hall / SEAS Undergraduate Handbook); not every course qualifies."
+   },
+   {
+    "label": "Unrestricted electives",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "*"
+    ],
+    "note": "Any graded University course except math below MATH 1310 and courses that substantially duplicate degree courses (e.g. PHYS 1010, 1020, 2010, 2020, CS 1010, other intro programming). Under the Nov 2023 guide APMA 1090 counted as a 3-credit unrestricted elective; from the Class of 2029 it is a required course."
+   }
+  ],
+  "coursePrereqs": {
+   "MSE 2101": [
+    "MSE 2090"
+   ],
+   "MSE 3050": [
+    "APMA 2120|MATH 2310"
+   ],
+   "MSE 3060": [
+    "APMA 2120|MATH 2310"
+   ],
+   "MSE 3070": [
+    "MSE 3050"
+   ],
+   "MSE 3080": [
+    "CHEM 1410|CHEM 1610|CHEM 1810"
+   ],
+   "MSE 3101": [
+    "MSE 2090"
+   ],
+   "MSE 3670": [
+    "PHYS 2415|ECE 2200"
+   ],
+   "MSE 4055": [
+    "MSE 3670"
+   ],
+   "MSE 4200": [
+    "MSE 3070"
+   ],
+   "MSE 4210": [
+    "MSE 3070"
+   ],
+   "MSE 4220": [
+    "MSE 3050",
+    "CHE 3316|MAE 2100"
+   ],
+   "MSE 4320": [
+    "MSE 3060"
+   ]
+  },
+  "notes": "127 credits (B.S. page; also the sum of the Nov 2023 guide's semester totals). The guide (Aug/Nov 2023) starts at APMA 1110; the B.S. page says APMA 1090 is required from the Class of 2029. Course prerequisites from the guide; 'or instructor permission' alternatives omitted (MSE 3070, 3670, 4210). MSE 2101 may be taken concurrently with MSE 2090. MSE 3200 is named on the current B.S. page as a processing/fabrication core course but no description was found."
+ },
+ {
+  "id": "materials-science-and-engineering-minor",
+  "name": "Materials Science and Engineering",
+  "degree": "Minor",
+  "type": "minor",
+  "school": "SEAS",
+  "department": "Materials Science and Engineering",
+  "totalCredits": null,
+  "sources": [
+   "https://engineering.virginia.edu/department/materials-science-and-engineering/academics/undergraduate-programs/minor-materials-science-and-engineering",
+   "https://engineering.virginia.edu/sites/default/files/MSE%20Curriculum%20Guide%20(for%20web).pdf"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Complete the required courses and file a Minor Declaration Form."
+  },
+  "requirements": [
+   {
+    "label": "Required",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "MSE 2090",
+     "MSE 3050"
+    ]
+   },
+   {
+    "label": "Structures or kinetics",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MSE 3060",
+     "MSE 3070"
+    ]
+   },
+   {
+    "label": "Electives",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "MSE 2101",
+     "MSE 2200",
+     "MSE 2300",
+     "MSE 3060",
+     "MSE 3070",
+     "MSE 3080",
+     "MSE 3101",
+     "MSE 3610|MAE 3610",
+     "MSE 3670",
+     "MSE 4030",
+     "MSE 4055",
+     "MSE 4200",
+     "MSE 4210",
+     "MSE 4220",
+     "MSE 4270",
+     "MSE 4320",
+     "MSE 4592",
+     "CHE 4449"
+    ],
+    "note": "Two more courses; the second of MSE 3060/3070 may count here. A course used for the 'Structures or kinetics' slot cannot also count."
+   }
+  ],
+  "coursePrereqs": {
+   "MSE 3050": [
+    "APMA 2120|MATH 2310"
+   ],
+   "MSE 3060": [
+    "APMA 2120|MATH 2310"
+   ],
+   "MSE 3070": [
+    "MSE 3050"
+   ]
+  },
+  "notes": "Minimum five MSE courses (about 15 credits; credit values not stated except MSE 2300 = 3). No restriction to SEAS students stated."
+ },
+ {
+  "id": "civil-engineering-bs",
+  "name": "Civil Engineering",
+  "degree": "B.S.",
+  "type": "major",
+  "school": "SEAS",
+  "department": "Civil and Environmental Engineering",
+  "totalCredits": 128,
+  "confidence": "low",
+  "sources": [
+   "https://engineering.virginia.edu/department/civil-and-environmental-engineering/academics/undergraduate-programs/bs-civil-engineering",
+   "https://engineering.virginia.edu/department/civil-and-environmental-engineering/academics/undergraduate-programs",
+   "https://engineering.virginia.edu/departments/civil-and-environmental-engineering/academics/undergraduate-degree/curriculum",
+   "https://hooslist.virginia.edu/CourseCatalog/Group/CEE",
+   "https://engineering.virginia.edu/current-students/current-undergraduate-students/transferring-uva-engineering"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "SEAS first-years declare a major in their second semester (deadline March 1 per the 2026 orientation deck); no course or GPA prerequisites are stated and majors are not capped. Students choose one of four tracks (Infrastructure Systems, Environmental & Water Resources, Construction Engineering & Management, Structural Engineering) after four semesters of common requirements. College (or other UVA school) students must apply for internal transfer to SEAS: cumulative GPA > 2.0, good standing, and completed APMA 1090|MATH 1310 (Fall 2025+ starters), APMA 1110|MATH 1320, APMA 2120|MATH 2310, CHEM 1410|1610|1810 + lab 1411|1611|1811, CS 1110-1113, PHYS 1420|1425|1710 + lab PHYS 1429|2030; windows Nov 15-Dec 15 (spring entry) and May 1-Jun 1 (fall entry); accepted students are placed in their major of choice (no caps). See TRANSFER.md."
+  },
+  "requirements": [
+   {
+    "label": "Engineering mathematics",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "APMA 1090|MATH 1310",
+     "APMA 1110|MATH 1320",
+     "APMA 2120|MATH 2310"
+    ],
+    "note": "APMA 1090 required beginning with the Class of 2029. Further math (likely APMA 2130 and APMA 3110, which are prerequisites of CE 3100 and CE 3120/4600) could not be confirmed because the CE curriculum sheet was unreadable."
+   },
+   {
+    "label": "Chemistry I + lab",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 1410|CHEM 1610|CHEM 1810",
+     "CHEM 1411|CHEM 1611|CHEM 1811"
+    ]
+   },
+   {
+    "label": "Physics I and II",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "PHYS 1425|PHYS 1420|PHYS 1710",
+      "PHYS 1429|PHYS 2030",
+      "PHYS 2415",
+      "PHYS 2419"
+     ],
+     [
+      "PHYS 1425|PHYS 1420|PHYS 1710",
+      "PHYS 1429|PHYS 2030",
+      "ECE 2200"
+     ]
+    ],
+    "note": "Physics II may be PHYS 2415 + PHYS 2419 or ECE 2200 (Applied Physics)."
+   },
+   {
+    "label": "Engineering foundations",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ENGR 1010|ENGR 1410",
+     "ENGR 1020|ENGR 1420"
+    ],
+    "note": "Rodman Scholars take ENGR 1410/1420. Transfer students may replace ENGR 1020 with 3 other credits by appeal."
+   },
+   {
+    "label": "Computing",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CS 1110|CS 1111|CS 1112|CS 1113"
+    ]
+   },
+   {
+    "label": "Science, Technology and Society",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STS 2600",
+     "STS 4500",
+     "STS 4600"
+    ],
+    "note": "STS 4500 in fall and STS 4600 in spring of fourth year (senior thesis)."
+   },
+   {
+    "label": "Math and science elective",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "BIOL 2100",
+     "BIOL 2200",
+     "CHEM 1420",
+     "CHEM 1620",
+     "MSE 2090",
+     "PHYS 2620",
+     "CE 2001",
+     "EVSC 2800",
+     "EVSC 3200",
+     "EVSC 3300",
+     "APMA 2000+"
+    ],
+    "exclude": [
+     "APMA 2120"
+    ],
+    "note": "SEAS math & science elective list (see TRANSFER.md / SEAS summer advising)."
+   },
+   {
+    "label": "Civil engineering courses (core, common electives, track)",
+    "need": {
+     "credits": 63
+    },
+    "from": [
+     "CE 2000-4999"
+    ],
+    "exclude": [
+     "CE 4990",
+     "CE 4991"
+    ],
+    "note": "Department page: years 3-4 include 20 credits of common required courses, 18 credits of common electives and about 25 track credits (= 63). Exact course lists are only in the Class-of-year curriculum spreadsheets (Box/xlsx), which could not be read. Commonly prerequisite-chained CE courses include CE 2100/2110, CE 2300, CE 2310, CE 3210/3212, CE 3300, CE 3400, CE 3700/3702, CE 3710/3712. The 63-credit figure is an approximation of the years 3-4 CE load; second-year CE courses may make the real CE total higher."
+   },
+   {
+    "label": "Senior project",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CE 4991",
+     "CE 4990"
+    ],
+    "note": "7 credits total across fall and spring; includes ~1 credit/semester professional development workshop and at least 2 design credits."
+   },
+   {
+    "label": "Humanities and social sciences electives",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "* *"
+    ],
+    "note": "9 credits from the SEAS approved Humanities and Social Science list (A122 Thornton Hall / SEAS Undergraduate Handbook); not every course qualifies."
+   }
+  ],
+  "coursePrereqs": {
+   "CE 2100": [
+    "CHEM 1410|CHEM 1610"
+   ],
+   "CE 2110": [
+    "CE 2100"
+   ],
+   "CE 2300": [
+    "PHYS 1425|PHYS 1420|PHYS 1710"
+   ],
+   "CE 2310": [
+    "CE 2300|MAE 2300"
+   ],
+   "CE 3100": [
+    "CHEM 1410|CHEM 1810",
+    "APMA 2130|MATH 3250"
+   ],
+   "CE 3210": [
+    "CE 2300|MAE 2300"
+   ],
+   "CE 3212": [
+    "CE 2300|MAE 2300",
+    "CE 3210"
+   ],
+   "CE 3220": [
+    "CE 3210"
+   ],
+   "CE 3300": [
+    "CE 2310"
+   ],
+   "CE 3310": [
+    "CE 3300"
+   ],
+   "CE 3330": [
+    "CE 3300"
+   ],
+   "CE 3400": [
+    "CE 2010"
+   ],
+   "CE 3700": [
+    "CE 2310",
+    "CE 3702"
+   ],
+   "CE 3710": [
+    "CE 2310"
+   ],
+   "CE 3712": [
+    "CE 2310",
+    "CE 3710"
+   ],
+   "CE 4000": [
+    "CE 2010"
+   ],
+   "CE 4300": [
+    "CE 2310",
+    "CE 3300"
+   ],
+   "CE 4700": [
+    "CE 3310",
+    "CE 3710"
+   ]
+  },
+  "notes": "LOW CONFIDENCE for the CE-specific portion: the department publishes per-class curriculum sheets only as xlsx/Box files (Class of 2029: virginia.box.com/s/wdanhdxdbkmzi5bbnkxd2uf4r51cphc3), which could not be read; the transfervirginia.org UVA Civil Engineering guide was robots-blocked. General requirements and the 128-credit minimum are from the B.S. page; the 63-credit CE block is derived from the program-page description (20 + 18 + ~25), and second-year CE, additional APMA and unrestricted elective credits are not modelled. Prerequisites from Hooslist catalog text (corequisites folded in). 6000-level courses need fourth-year standing, GPA >= 3.2 and instructor permission. D grades pass; cumulative GPA 2.0 required."
+ },
+ {
+  "id": "civil-engineering-minor",
+  "name": "Civil Engineering",
+  "degree": "Minor",
+  "type": "minor",
+  "school": "SEAS",
+  "department": "Civil and Environmental Engineering",
+  "totalCredits": 15,
+  "sources": [
+   "https://engineering.virginia.edu/department/civil-and-environmental-engineering/academics/undergraduate-programs/bs-civil-engineering",
+   "https://hooslist.virginia.edu/CourseCatalog/Group/CEE"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "No declaration requirements found."
+  },
+  "requirements": [
+   {
+    "label": "Civil engineering courses",
+    "need": {
+     "credits": 15
+    },
+    "from": [
+     "CE 2000-4999"
+    ],
+    "children": [
+     {
+      "label": "At most 6 credits at the 2000 level (i.e. at least 9 credits at 3000+)",
+      "need": {
+       "credits": 9
+      },
+      "from": [
+       "CE 3000-4999"
+      ]
+     }
+    ],
+    "note": "15 credits of CE courses, no more than 6 at the 2000 level."
+   }
+  ],
+  "notes": "Requirement stated in one sentence on the B.S. page; the minor's own page was not readable. Some CE courses (e.g. CE 4000) require CE major/minor status. Whether non-SEAS students may declare is not stated."
+ }
+]

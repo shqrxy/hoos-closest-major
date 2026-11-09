@@ -1,6 +1,6 @@
 # Hoo's Closest Major
 
-Upload a UVA unofficial transcript and see which College of Arts & Sciences majors and minors you're closest to finishing. Programs are ranked by credits and courses left, including prerequisites you still need before you can declare.
+Upload a UVA unofficial transcript and see which Arts & Sciences and Engineering majors and minors you're closest to finishing. Programs are ranked by credits and courses left, including prerequisites you still need before you can declare.
 
 The transcript is read entirely in the browser with [pdf.js](https://mozilla.github.io/pdf.js/). Nothing is uploaded.
 
@@ -13,9 +13,9 @@ Unofficial planning tool. Not affiliated with the University of Virginia.
 | `index.html` | The page, with all styles |
 | `app.js` | UI: upload, course list, ranking, details, problem reports |
 | `engine.js` | Transcript parser (handles SIS's two-column PDF) and requirement matcher |
-| `programs.json` | Built requirement data for 123 A&S programs (generated, don't edit by hand) |
+| `programs.json` | Built requirement data for 146 programs: 123 Arts & Sciences, 23 Engineering (generated) |
 | `courses.json` | Course titles, credits and terms offered, from [UVA Course Explorer](https://github.com/UVA-Course-Explorer) |
-| `data/research/batch-*.json` | Source requirement data, one array of programs per file |
+| `data/research/batch-*.json`, `data/research/seas/batch-*.json` | Source requirement data (Arts & Sciences, Engineering) |
 | `data/research/patches*.json` | Additive fixes, e.g. previously approved courses |
 | `data/research/SCHEMA.md` | The requirement format |
 

@@ -25,14 +25,26 @@
 
   const state = {
     programs: [], catalog: {}, courses: [], isSample: true, who: '',
-    type: 'major', sort: 'effort', q: '', includeIP: true, open: new Set(), results: [],
+    school: 'CLAS', type: 'major', sort: 'effort', q: '', includeIP: true, open: new Set(), results: [],
   };
   try {
     const saved = JSON.parse(localStorage.getItem('hcm-prefs') || '{}');
     if (saved.sort) state.sort = saved.sort;
     if (saved.type) state.type = saved.type;
+    if (saved.school) state.school = saved.school;
   } catch (e) { /* storage unavailable */ }
-  function savePrefs() { try { localStorage.setItem('hcm-prefs', JSON.stringify({ sort: state.sort, type: state.type })); } catch (e) { /* ignore */ } }
+  const SCHOOLS = { CLAS: { name: 'Arts & Sciences', hash: 'arts-sciences' }, SEAS: { name: 'Engineering', hash: 'engineering' } };
+  const inSchool = (p) => (p.schools || [p.school || 'CLAS']).includes(state.school);
+  function schoolFromHash() { const h = (location.hash || '').slice(1); for (const k in SCHOOLS) if (SCHOOLS[k].hash === h) return k; return null; }
+  function setSchool(k, push) {
+    if (!SCHOOLS[k]) return;
+    state.school = k; state.open.clear();
+    document.querySelectorAll('.school-tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.school === k)));
+    document.body.dataset.school = k;
+    if (push) { try { history.replaceState(null, '', '#' + SCHOOLS[k].hash); } catch (e) { location.hash = SCHOOLS[k].hash; } }
+    savePrefs(); renderSummary(); renderList(); refreshDiag();
+  }
+  function savePrefs() { try { localStorage.setItem('hcm-prefs', JSON.stringify({ sort: state.sort, type: state.type, school: state.school })); } catch (e) { /* ignore */ } }
 
   // ---------- Data loading ----------
   async function loadData() {
@@ -64,7 +76,7 @@
   function guessName(lines) {
     // SIS unofficial transcripts put the student's name alone on an early line
     for (const l of lines.slice(0, 80)) {
-      if (/^[A-Z][a-z]+(?: [A-Z][a-zA-Z'.-]+){1,3}$/.test(l) && !/University|Record|Credits|Transfer|Honor|School|Major/.test(l)) return l;
+      if (/^[A-Z][a-z]+(?: [A-Z][a-zA-Z'.-]+){1,3}$/.test(l) && !/University|Record|Credits|Transfer|Honor|School|Major|Course|Incoming|Applied|Program|Topic|Total|Page|Term|Arts|Sciences|Undergraduate/.test(l)) return l;
     }
     return '';
   }
@@ -189,18 +201,20 @@
   const label = (p) => p.name + (p.type === 'minor' ? ' minor' : '');
 
   function renderSummary() {
-    const maj = state.results.filter((r) => r.prog.type === 'major' && !r.prog.selfDesigned).sort((a, b) => a.effort - b.effort || a.remCredits - b.remCredits);
-    const min = state.results.filter((r) => r.prog.type === 'minor').sort((a, b) => a.effort - b.effort || a.remCredits - b.remCredits);
+    const maj = state.results.filter((r) => inSchool(r.prog) && r.prog.type === 'major' && !r.prog.selfDesigned).sort((a, b) => a.effort - b.effort || a.remCredits - b.remCredits);
+    const min = state.results.filter((r) => inSchool(r.prog) && r.prog.type === 'minor').sort((a, b) => a.effort - b.effort || a.remCredits - b.remCredits);
     const ready = maj.filter((r) => r.decl ? r.decl.ready : true).length;
     const qw = min.filter((r) => r.remCourses <= 2).length;
+    const isSeas = state.school === 'SEAS';
     const card = (k, v, s) => `<div class="panel sum"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${s}</div></div>`;
     const m = maj[0], n = min[0];
     $('#summary').innerHTML = [
-      m ? card('Closest major', esc(m.prog.name) + ` <span style="font-size:14px;color:var(--muted);font-weight:600">${esc(m.prog.degree)}</span>`, `<b>${fmt(m.remCredits)}</b> credits · <b>${m.remCourses}</b> courses left${m.hiddenCourses ? ` · +${m.hiddenCourses} prereq` : ''}`) : '',
-      n ? card('Closest minor', esc(n.prog.name), `<b>${fmt(n.remCredits)}</b> credits · <b>${n.remCourses}</b> courses left`) : '',
-      card('Quick wins', `${qw} minor${qw === 1 ? '' : 's'} within 2 courses`, `<b>${ready}</b> of ${maj.length} majors have no unmet declaration prerequisites`),
+      m ? card(isSeas ? 'Closest engineering degree' : 'Closest major', esc(m.prog.name) + ` <span style="font-size:14px;color:var(--muted);font-weight:600">${esc(m.prog.degree)}</span>`, `<b>${fmt(m.remCredits)}</b> credits · <b>${m.remCourses}</b> courses left${m.hiddenCourses ? ` · +${m.hiddenCourses} prereq` : ''}`) : '',
+      n ? card(isSeas ? 'Closest engineering minor' : 'Closest minor', esc(n.prog.name), `<b>${fmt(n.remCredits)}</b> credits · <b>${n.remCourses}</b> courses left`) : '',
+      card('Quick wins', `${qw} minor${qw === 1 ? '' : 's'} within 2 courses`, isSeas ? `Engineering majors count the whole B.S. degree (about 128 credits), including math, science and STS.` : `<b>${ready}</b> of ${maj.length} majors have no unmet declaration prerequisites`),
     ].join('');
     $('#nMaj').textContent = maj.length;
+    document.querySelectorAll('.school-tabs [data-count]').forEach((el) => { const k = el.dataset.count; el.textContent = state.results.filter((r) => (r.prog.schools || [r.prog.school || 'CLAS']).includes(k)).length; });
     $('#nMin').textContent = min.length;
   }
 
@@ -228,20 +242,20 @@
   }
 
   function renderList() {
-    let rows = state.results.filter((r) => state.type === 'all' || r.prog.type === state.type);
+    let rows = state.results.filter((r) => inSchool(r.prog) && (state.type === 'all' || r.prog.type === state.type));
     if (state.q) rows = rows.filter((r) => (r.prog.name + ' ' + r.prog.department + ' ' + r.prog.degree).toLowerCase().includes(state.q));
     rows.sort(cmp);
     if (!rows.length) { $('#list').innerHTML = '<div class="panel empty">No programs match that search.</div>'; return; }
     $('#list').innerHTML = rows.map((r, i) => {
       const p = r.prog, open = state.open.has(p.id);
-      const chainN = r.chain.length;
+      const chainN = new Set(r.chain.filter((c) => c.extra).map((c) => c.needs)).size;
       return `<article class="panel prog ${i < 3 ? 'top' : ''}">
         <button type="button" class="row" data-id="${esc(p.id)}" aria-expanded="${open}">
           <div class="rank">${i + 1}</div>
           <div class="name"><div class="t">${esc(p.name)}<small>${esc(p.degree)}</small></div>
-            <div class="pills">${p.selfDesigned ? '<span class="pill acc">Self-designed: you build the course plan</span>' : ''}${p.confidence === 'low' ? '<span class="pill warn">Rough estimate: course list unverified</span>' : ''}${r.complete ? '<span class="pill ok">Requirements met</span>' : ''}${declPill(r)}${chainN ? `<span class="pill bad">${chainN} course prereq${chainN === 1 ? '' : 's'} missing</span>` : ''}</div></div>
+            <div class="pills">${p.selfDesigned ? '<span class="pill acc">Self-designed: you build the course plan</span>' : ''}${p.confidence === 'low' ? '<span class="pill warn">Rough estimate: course list unverified</span>' : ''}${r.complete ? '<span class="pill ok">Requirements met</span>' : ''}${declPill(r)}${chainN ? `<span class="pill bad">${chainN} extra prereq${chainN === 1 ? '' : 's'} needed</span>` : ''}</div></div>
           <div class="dist"><div class="bar" aria-hidden="true">${bar(r)}</div>
-            <div class="cap"><span>${Math.round(r.pct * 100)}% done</span><span>${fmt(r.requiredCredits)} credits total</span></div></div>
+            <div class="cap"><span>${Math.round(r.pct * 100)}% done</span><span>${fmt(r.requiredCredits)} credits ${p.school === 'SEAS' && p.type === 'major' ? 'in the degree' : 'total'}</span></div></div>
           <div class="left"><div class="big ${r.remCredits === 0 ? 'zero' : ''}">${fmt(r.remCredits)}</div><div class="unit">credits left</div><div class="sub">${r.remCourses} course${r.remCourses === 1 ? '' : 's'}${r.hiddenCourses ? ` +${r.hiddenCourses} prereq` : ''}</div></div>
         </button>
         ${open ? detail(r) : ''}
@@ -279,7 +293,8 @@
         <div><b>${r.decl.ready ? 'You have the courses needed to declare.' : 'You still need some prerequisites before declaring.'}</b>${r.decl.minGPA ? ` Minimum GPA ${r.decl.minGPA}.` : ''}</div>
         ${r.decl.notes ? `<div>${esc(r.decl.notes)}</div>` : ''}</div>${items ? `<div class="groups" style="margin-top:10px">${items}</div>` : ''}</div>`;
     }
-    const chain = r.chain.length ? `<div><h4>Prerequisite chain</h4><div class="callout warn">${r.chain.map((c) => `<div><b>${esc(c.course)}</b> needs ${esc(c.needs)} first${c.extra ? ', which is an extra course' : ''}.</div>`).join('')}</div></div>` : '';
+    const extras = r.chain.filter((c) => c.extra);
+    const chain = extras.length ? `<div><h4>Prerequisites outside the requirements</h4><div class="callout warn">${extras.map((c) => `<div><b>${esc(c.course)}</b> needs ${esc(c.needs)} first${c.extra ? ', which is an extra course' : ''}.</div>`).join('')}</div></div>` : '';
     return `<div class="detail">
       ${declHtml}
       <div><h4>Requirements</h4><div class="groups">${r.results.map(groupHtml).join('') || '<div class="notes">No structured requirements recorded.</div>'}</div></div>
@@ -321,6 +336,7 @@
     const lines = [];
     lines.push('Hoo\'s Closest Major diagnostic');
     lines.push('Data: ' + (($('#dataStamp') || {}).textContent || '') + ' | in-progress counted: ' + state.includeIP + ' | view: ' + state.type + '/' + state.sort);
+    lines.push('School tab: ' + state.school);
     lines.push('Source: ' + (state.isSample ? 'sample student' : 'user transcript') + ' | ' + state.courses.length + ' courses');
     lines.push('Browser: ' + navigator.userAgent);
     lines.push('Courses (code | grade | credits | status | term | title):');
@@ -328,7 +344,7 @@
       lines.push([c.code, c.grade || '-', c.credits, c.status, c.term || '-', c.title || ''].join(' | '));
     const open = [...state.open];
     if (open.length) lines.push('Expanded programs: ' + open.join(', '));
-    const top = state.results.filter((r) => state.type === 'all' || r.prog.type === state.type).sort(cmp).slice(0, 5);
+    const top = state.results.filter((r) => inSchool(r.prog) && (state.type === 'all' || r.prog.type === state.type)).sort(cmp).slice(0, 5);
     lines.push('Top 5 shown: ' + top.map((r) => `${r.prog.id} (${r.remCredits}cr/${r.remCourses}c)`).join('; '));
     if (lastParseNote) lines.push('Last status: ' + lastParseNote);
     return lines.join('\n');
@@ -352,6 +368,11 @@
     wireInput();
     wireControls();
     wireReport();
+    document.querySelectorAll('.school-tabs button').forEach((b) => b.addEventListener('click', () => setSchool(b.dataset.school, true)));
+    window.addEventListener('hashchange', () => { const k = schoolFromHash(); if (k && k !== state.school) setSchool(k, false); });
+    { const k = schoolFromHash(); if (k) state.school = k; }
+    document.querySelectorAll('.school-tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.school === state.school)));
+    document.body.dataset.school = state.school;
     state.courses = SAMPLE.slice();
     try { await loadData(); }
     catch (e) { status('Could not load program data. Refresh the page to try again.', true); console.error(e); }
