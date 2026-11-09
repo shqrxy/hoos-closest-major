@@ -1,0 +1,60 @@
+[
+{"id":"mathematics-ba","name":"Mathematics","degree":"B.A.","type":"major","department":"Mathematics","totalCredits":24,"confidence":"low",
+ "sources":["https://math.virginia.edu/undergraduate/policies/","https://math.virginia.edu/undergraduate/"],
+ "declaration":{"requirements":[{"label":"Calculus sequence","need":{"all":true},"from":["MATH 1310|MATH 1190|MATH 1210","MATH 1320|MATH 1220","MATH 2310|APMA 2120"]}],"minGPA":null,"notes":"Calculus through MATH 2310 (or AP/transfer equivalents) is expected before declaring."},
+ "requirements":[
+  {"label":"Linear algebra","need":{"courses":1},"from":["MATH 3351|MATH 4651|APMA 3080"],"note":"APMA 3080 may substitute for MATH 3351."},
+  {"label":"Real analysis","need":{"courses":1},"from":["MATH 3310|MATH 4310"]},
+  {"label":"Abstract algebra","need":{"courses":1},"from":["MATH 3354|MATH 4651|MATH 4652"]},
+  {"label":"Additional upper-level mathematics","need":{"courses":5},"from":["MATH 3000+","APMA 3100","APMA 3120","STAT 3120"],"note":"APMA 3100 can stand in for MATH 3100 and APMA 3120 for STAT 3120. At least 6 courses counted for the major must carry the MATH prefix."}
+ ],
+ "coursePrereqs":{"MATH 3351":["MATH 1320"],"MATH 3310":["MATH 2310|MATH 3351"],"MATH 3354":["MATH 3351"]},
+ "notes":"LOW CONFIDENCE: the official Undergraduate Record page could not be loaded and the Math department site does not publish the course list, so this follows the long-standing structure of the UVA math major (linear algebra, analysis, algebra plus electives; about 8 upper-level courses). The department FAQ confirms: at least 6 MATH-prefix courses; up to 2 courses may double count with another College major; APMA 2130/3080/3100/3120 substitutions. Concentrations (Financial Mathematics, Graduate Preparation, Probability and Statistics, Teacher Education) add specific courses. Check the Record before relying on this."},
+{"id":"mathematics-minor","name":"Mathematics","degree":"Minor","type":"minor","department":"Mathematics","totalCredits":15,"confidence":"low",
+ "sources":["https://math.virginia.edu/undergraduate/"],
+ "requirements":[{"label":"Mathematics courses at the 2310 level or above","need":{"courses":5},"from":["MATH 2310+"],"note":"Typically five MATH courses at or above Calculus III, most at the 3000 level."}],
+ "notes":"LOW CONFIDENCE: built without access to the official Record page. Confirm with the Math department."},
+{"id":"music-ba","name":"Music","degree":"B.A.","type":"major","department":"Music","totalCredits":32,
+ "sources":["https://music.virginia.edu/ba-music"],
+ "requirements":[
+  {"label":"Introductory course","need":{"courses":1},"from":["MUSI 2090","MUSI 3050","MUSI 3380","MUSI 3390","MUSI 1000-2999"],"note":"One course suited to your plan; examples MUSI 2090, 3050, 3380, 3390."},
+  {"label":"Core: Theory","need":{"courses":1},"from":["MUSI 3310","MUSI 3320","MUSI 3321","MUSI 3330","MUSI 4310","MUSI 3120"],"note":"MUSI 3310 (Theory I), or another theory course with advisor permission."},
+  {"label":"Core: Critical and Cultural Studies of Music and Sound (CSMS)","need":{"courses":1},"from":["MUSI 3010","MUSI 3020","MUSI 3030","MUSI 3040","MUSI 3050","MUSI 3070","MUSI 3080","MUSI 3090","MUSI 3120","MUSI 3510","MUSI 4065","MUSI 4508","MUSI 4523","MUSI 4525"]},
+  {"label":"Core: Composition, Computers and Technology (CCT)","need":{"courses":1},"from":["MUSI 3370","MUSI 3380","MUSI 3390","MUSI 3400","MUSI 3372","MUSI 3374","MUSI 3376","MUSI 4543","MUSI 4545","MUSI 4581"]},
+  {"label":"Musicianship","need":{"credits":2},"from":["MUSI 3332","MUSI 3334","MUSI 3336","MUSI 4533"]},
+  {"label":"Performance","need":{"credits":3},"from":["MUBD *","MUEN *","MUPF *","MUSI 2302","MUSI 2304","MUSI 2306","MUSI 2307","MUSI 3307","MUSI 2308","MUSI 2309","MUSI 2340","MUSI 2342","MUSI 3342","MUSI 2600","MUSI 4710","MUSI 4720","MUSI 4750","MUSI 4760"],"note":"3 to 7 credits of performance."},
+  {"label":"4000-level seminar","need":{"courses":1},"from":["MUSI 4000-4999"]},
+  {"label":"Electives to reach 32 credits","need":{"credits":3},"from":["MUSI *","MUBD *","MUEN *","MUPF *"]}
+ ],
+ "notes":"From the department's B.A. page. No grade below C- counts; one course can't satisfy two requirements. Performance concentration needs a 3.0 GPA and 21 extra performance credits. The department page lists no Music minor."},
+{"id":"drama-ba","name":"Drama","degree":"B.A.","type":"major","department":"Drama","totalCredits":33,"confidence":"low",
+ "sources":["https://drama.virginia.edu/undergraduate-program/bachelor-arts-ba-drama"],
+ "declaration":{"requirements":[{"label":"One DRAM or DANC course at 2000+","need":{"courses":1},"from":["DRAM 2000+","DANC 2000+"],"note":"Minimum grade C."}],"minGPA":null,"notes":"Email drama-declarations@virginia.edu to declare."},
+ "requirements":[
+  {"label":"Discovery courses","need":{"credits":9},"from":["DRAM 1000-2999","DANC 1000-2999"]},
+  {"label":"Learning Areas","need":{"credits":12},"from":["DRAM 2000+","DANC 2000+"]},
+  {"label":"Focused Inquiry","need":{"credits":12},"from":["DRAM 3000+","DANC 3000+"]}
+ ],
+ "notes":"LOW CONFIDENCE on course lists: the department page gives the structure (33 credits: 9 Discovery, 12 Learning Areas, 12 Focused Inquiry) but the course lists live in the Undergraduate Record, which could not be loaded. Levels assigned to each tier are an approximation."},
+{"id":"drama-minor","name":"Drama","degree":"Minor","type":"minor","department":"Drama","totalCredits":18,"confidence":"low",
+ "sources":["https://drama.virginia.edu/undergraduate-program/drama-minor"],
+ "requirements":[
+  {"label":"Discovery course","need":{"credits":3},"from":["DRAM 1000-2999","DANC 1000-2999"]},
+  {"label":"Learning Areas","need":{"credits":9},"from":["DRAM 2000+","DANC 2000+"]},
+  {"label":"Focused Inquiry","need":{"credits":6},"from":["DRAM 3000+","DANC 3000+"]}
+ ],
+ "notes":"LOW CONFIDENCE on course lists: structure from the department page (18 credits: 3 Discovery, 9 Learning Areas, 6 Focused Inquiry); course lists are in the Record, which could not be loaded."},
+{"id":"dance-minor","name":"Dance","degree":"Minor","type":"minor","department":"Drama","totalCredits":20,"confidence":"low",
+ "sources":["https://drama.virginia.edu/undergraduate-program/dance-minor"],
+ "requirements":[{"label":"Dance coursework","need":{"credits":20},"from":["DANC *"]}],
+ "notes":"LOW CONFIDENCE: the department page states only that the minor is 20 credits of academic coursework; specific required courses are in the Record, which could not be loaded."},
+{"id":"american-sign-language-minor","name":"American Sign Language","degree":"Minor","type":"minor","department":"ASL Program","totalCredits":18,
+ "sources":["https://uva.theopenscholar.com/asl/minor"],
+ "declaration":{"requirements":[],"minGPA":null,"notes":"Meet with the ASL Program Director and complete a course-plan worksheet before declaring."},
+ "requirements":[
+  {"label":"Required courses","need":{"all":true},"from":["ASL 3010","ASL 4750"]},
+  {"label":"Electives above ASL 2020","need":{"credits":12},"from":["ASL 2021-9999"],"exclude":["ASL 3010","ASL 4750"],"note":"Approved LNGS, ANTH or EDHS courses with an ASL focus can count with approval; up to 6 transfer credits."}
+ ],
+ "coursePrereqs":{"ASL 3010":["ASL 2020"]},
+ "notes":"C or better in each course. ASL 3010 presumes ASL through 2020 (prerequisite inferred from numbering)."}
+]

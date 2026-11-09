@@ -1,0 +1,1908 @@
+[
+ {
+  "id": "chinese-language-and-literature-ba",
+  "name": "Chinese Language and Literature",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "East Asian Languages, Literatures, and Cultures",
+  "totalCredits": 31,
+  "sources": [
+   "https://eastasian.as.virginia.edu/chinese",
+   "https://eastasian.as.virginia.edu/undergraduate-program/chinese-language-and-literature-ba",
+   "https://eastasian.as.virginia.edu/courses/chinese-course-descriptions"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate Chinese (prerequisite for 3000-level Chinese)",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "CHIN 2020|CHIN 2060"
+     ],
+     "note": "Not a formal declaration requirement; CHIN 3010 requires CHIN 2020 (or CHIN 2060 / placement test). Placement can waive the lower-level sequence CHIN 1010-1020-2010-2020 (or accelerated CHIN 1060-2060)."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Meet with the Chinese major advisor, get a signed major advising form, then submit the College Declaration of Major (DocuSign) with the form attached."
+  },
+  "requirements": [
+   {
+    "label": "Gateway course",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "EAST 1010"
+    ]
+   },
+   {
+    "label": "Chinese language above 3000",
+    "need": {
+     "credits": 15
+    },
+    "from": [
+     "CHIN 3000-4999"
+    ],
+    "exclude": [
+     "CHIN 4830",
+     "CHIN 4840",
+     "CHIN 4993"
+    ],
+    "note": "15 credits of Chinese language above 3000 (e.g. CHIN 3010, 3020, 3050, 4010, 4020, 4030, 4060, 4200). With advisor approval up to 6 credits may be two non-survey Chinese literature-in-translation (CHTR) courses. Whether the classical course and 1-credit Language House conversation (CHIN 3015/3025) count here is not stated."
+   },
+   {
+    "label": "Surveys of Chinese literature in translation",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHTR 3010",
+     "CHTR 3020"
+    ]
+   },
+   {
+    "label": "Classical Chinese",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "CHIN 4830",
+     "CHIN 4840"
+    ]
+   },
+   {
+    "label": "Capstone",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "children": [
+     {
+      "label": "Non-survey CHTR course (3000/4000 level)",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "CHTR 3000-4999"
+      ],
+      "exclude": [
+       "CHTR 3010",
+       "CHTR 3020",
+       "CHTR 4991"
+      ],
+      "note": "Instructor permission by end of first week; independent study may not substitute. A Distinguished Major thesis fulfills the capstone."
+     },
+     {
+      "label": "Capstone seminar",
+      "need": {
+       "all": true
+      },
+      "from": [
+       "CHTR 4991"
+      ],
+      "note": "1 credit"
+     }
+    ]
+   }
+  ],
+  "coursePrereqs": {
+   "CHIN 1020": [
+    "CHIN 1010"
+   ],
+   "CHIN 2010": [
+    "CHIN 1020"
+   ],
+   "CHIN 2020": [
+    "CHIN 2010"
+   ],
+   "CHIN 2060": [
+    "CHIN 1060"
+   ],
+   "CHIN 3010": [
+    "CHIN 2020|CHIN 2060"
+   ],
+   "CHIN 3020": [
+    "CHIN 3010"
+   ],
+   "CHIN 3050": [
+    "CHIN 2020|CHIN 2060"
+   ],
+   "CHIN 4010": [
+    "CHIN 3020"
+   ],
+   "CHIN 4020": [
+    "CHIN 4010"
+   ],
+   "CHIN 4030": [
+    "CHIN 4020|CHIN 4060"
+   ],
+   "CHIN 4060": [
+    "CHIN 4020"
+   ],
+   "CHIN 4200": [
+    "CHIN 4020"
+   ]
+  },
+  "notes": "Minimum C (2.0) average in major and related courses each semester or student may be discontinued. Up to 15 study-abroad/transfer credits at advisor discretion. Credits applied to a minor cannot count toward the major; double majors may count only two courses toward both majors. Placement test (or 'equivalent') may substitute for language prerequisites. Could not access the Undergraduate Record (records.ureg pages render empty to the fetcher); encoded from the department page."
+ },
+ {
+  "id": "japanese-language-and-literature-ba",
+  "name": "Japanese Language and Literature",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "East Asian Languages, Literatures, and Cultures",
+  "totalCredits": 31,
+  "sources": [
+   "https://eastasian.as.virginia.edu/japanese",
+   "https://eastasian.as.virginia.edu/courses/japanese-course-descriptions"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Second-Year Japanese (prerequisite for 3000-level Japanese)",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "JAPN 2020"
+     ],
+     "note": "Not a formal declaration requirement; JAPN 3010 requires JAPN 2020 or department placement exam. Placement can waive JAPN 1010-1020-2010-2020."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Meet with the Japanese major advisor, get a signed advising form, then submit the College Declaration of Major with the form attached."
+  },
+  "requirements": [
+   {
+    "label": "Gateway course",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "EAST 1010"
+    ]
+   },
+   {
+    "label": "Japanese language at 3000 level or above",
+    "need": {
+     "credits": 15
+    },
+    "from": [
+     "JAPN 3000-4999"
+    ],
+    "exclude": [
+     "JAPN 4710",
+     "JAPN 4993"
+    ],
+    "note": "Up to 6 credits may be two non-survey Japanese literature-in-translation (JPTR) courses; up to 2 credits from Shea House (JAPN 3015/3025 Language House Conversation) may count."
+   },
+   {
+    "label": "Surveys of Japanese literature",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "JPTR 3010",
+     "JPTR 3020"
+    ]
+   },
+   {
+    "label": "Classical Japanese",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "JAPN 4710"
+    ]
+   },
+   {
+    "label": "Capstone",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "children": [
+     {
+      "label": "3000/4000-level DEALLC seminar with research paper using Japanese primary materials",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "JPTR 3000-4999",
+       "JAPN 3000-4999",
+       "EAST 3000-4999"
+      ],
+      "exclude": [
+       "JPTR 3010",
+       "JPTR 3020",
+       "JPTR 4991",
+       "JAPN 4993"
+      ],
+      "note": "Normally spring of 4th year; independent study may not substitute. Which seminar qualifies is decided by the department."
+     },
+     {
+      "label": "Capstone seminar",
+      "need": {
+       "all": true
+      },
+      "from": [
+       "JPTR 4991"
+      ],
+      "note": "1 credit"
+     }
+    ]
+   }
+  ],
+  "coursePrereqs": {
+   "JAPN 1020": [
+    "JAPN 1010"
+   ],
+   "JAPN 2010": [
+    "JAPN 1020"
+   ],
+   "JAPN 2020": [
+    "JAPN 2010"
+   ],
+   "JAPN 3010": [
+    "JAPN 2020"
+   ],
+   "JAPN 3020": [
+    "JAPN 3010"
+   ],
+   "JAPN 4710": [
+    "JAPN 3010"
+   ],
+   "JAPN 4801": [
+    "JAPN 3020"
+   ],
+   "JAPN 4830": [
+    "JAPN 3020"
+   ]
+  },
+  "notes": "Minimum C (2.0) average in major and related courses each semester. Up to 15 study-abroad/domestic transfer credits at advisor discretion. Double majors may count only two courses toward both majors. Department placement exam substitutes for prerequisites. Encoded from department site; Undergraduate Record pages could not be read."
+ },
+ {
+  "id": "east-asian-studies-ba",
+  "name": "East Asian Studies",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "East Asian Languages, Literatures, and Cultures",
+  "totalCredits": 30,
+  "sources": [
+   "https://eastasian.as.virginia.edu/undergraduate-program/east-asian-studies-ba"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Elementary East Asian language (prerequisite level cited)",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "CHIN 1020|CHIN 1060|JAPN 1020|KOR 1020"
+     ],
+     "note": "Page cites 1020/1060-level DEALLC language courses as language prerequisites; the major itself requires 3010/3020 in one language, so CHIN/JAPN/KOR 2020 (or placement) is effectively needed."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Declare via the College 'Declare a Major or Minor' form; advisor Charles Laughlin. Average of C- or better in first two years of language instruction is required."
+  },
+  "requirements": [
+   {
+    "label": "Third-year language (one language)",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "CHIN 3010",
+      "CHIN 3020"
+     ],
+     [
+      "JAPN 3010",
+      "JAPN 3020"
+     ],
+     [
+      "KOR 3010",
+      "KOR 3020"
+     ]
+    ],
+    "note": "Language completed at 3000 level defines the primary concentration. Courses below 3000 count only toward the College language requirement."
+   },
+   {
+    "label": "Gateway course",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "EAST 1010"
+    ]
+   },
+   {
+    "label": "East Asian history",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "HIEA *"
+    ],
+    "note": "A second HIEA course strongly recommended."
+   },
+   {
+    "label": "East Asian humanities",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "CHTR *",
+     "JPTR *",
+     "KRTR *",
+     "EAST *",
+     "ARTH *",
+     "ARH *",
+     "RELB *",
+     "RELC *",
+     "RELG *"
+    ],
+    "note": "Art History, Architectural History, Literature or Religious Studies course with East Asian content; East Asia focus must be documented for non-obvious courses. Subject list is an approximation."
+   },
+   {
+    "label": "East Asian social sciences",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "AMST *",
+     "ANTH *",
+     "ECON *",
+     "HIEA *",
+     "MDST *",
+     "PLCP *"
+    ],
+    "note": "Must have East Asian content."
+   },
+   {
+    "label": "Capstone",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "children": [
+     {
+      "label": "Non-survey 3000/4000-level course with research paper using target-language materials",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "CHTR 3000-4999",
+       "JPTR 3000-4999",
+       "KRTR 3000-4999",
+       "EAST 3000-4999",
+       "HIEA 3000-4999",
+       "CHIN 3000-4999",
+       "JAPN 3000-4999",
+       "KOR 3000-4999"
+      ],
+      "exclude": [
+       "EAST 4991",
+       "CHTR 3010",
+       "CHTR 3020",
+       "JPTR 3010",
+       "JPTR 3020"
+      ],
+      "note": "Independent study may not substitute."
+     },
+     {
+      "label": "Capstone seminar",
+      "need": {
+       "all": true
+      },
+      "from": [
+       "EAST 4991"
+      ],
+      "note": "1 credit"
+     }
+    ]
+   },
+   {
+    "label": "Electives with East Asian content",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "EAST *",
+     "HIEA *",
+     "CHIN 3000+",
+     "JAPN 3000+",
+     "KOR 3000+",
+     "CHTR *",
+     "JPTR *",
+     "KRTR *",
+     "ARTH *",
+     "RELB *",
+     "PLCP *",
+     "ANTH *",
+     "ECON *",
+     "MDST *"
+    ],
+    "note": "Any courses with documented East Asian content; USEM credits do not count."
+   }
+  ],
+  "coursePrereqs": {
+   "CHIN 3010": [
+    "CHIN 2020|CHIN 2060"
+   ],
+   "CHIN 3020": [
+    "CHIN 3010"
+   ],
+   "JAPN 3010": [
+    "JAPN 2020"
+   ],
+   "JAPN 3020": [
+    "JAPN 3010"
+   ],
+   "KOR 3010": [
+    "KOR 2020"
+   ],
+   "KOR 3020": [
+    "KOR 3010"
+   ]
+  },
+  "notes": "30 credits of DEALLC and related courses (department wording; the 1-credit EAST 4991 may make it 31). Single majors: 9 of the non-language credits must come from one academic department. Double majors: only 6 credits may count toward both majors. Up to 15 transfer/study-abroad credits with advisor permission. Minimum 2.0 average in major and related courses each semester. 'East Asian content' cannot be verified from course numbers; subject wildcards over-match. Undergraduate Record not readable; encoded from department site."
+ },
+ {
+  "id": "chinese-minor",
+  "name": "Chinese",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "East Asian Languages, Literatures, and Cultures",
+  "totalCredits": 21,
+  "sources": [
+   "https://eastasian.as.virginia.edu/chinese"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Meet the minor advisor, submit signed minor advising form with the College declaration form."
+  },
+  "requirements": [
+   {
+    "label": "Gateway course",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "EAST 1010"
+    ]
+   },
+   {
+    "label": "Six CHIN/CHTR courses at 2000 level or above (3+ credits each)",
+    "need": {
+     "courses": 6
+    },
+    "from": [
+     "CHIN 2000+",
+     "CHTR 2000+"
+    ],
+    "exclude": [
+     "CHIN 3015",
+     "CHIN 3025"
+    ],
+    "note": "18 credits; each course must carry at least 3 credits. Max 6 transfer credits."
+   }
+  ],
+  "notes": "EAST 1010 is the only course that may count toward both a department major and minor; otherwise credits applied to a minor cannot count toward a major. Max 6 transfer credits toward the 18. Lower-level CHIN 1010-1020 do not count; CHIN 2010/2020 (4 credits) count. Placement may let students start above 2010.",
+  "coursePrereqs": {
+   "CHIN 2010": [
+    "CHIN 1020"
+   ],
+   "CHIN 2020": [
+    "CHIN 2010"
+   ],
+   "CHIN 3010": [
+    "CHIN 2020|CHIN 2060"
+   ]
+  }
+ },
+ {
+  "id": "japanese-minor",
+  "name": "Japanese",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "East Asian Languages, Literatures, and Cultures",
+  "totalCredits": 21,
+  "sources": [
+   "https://eastasian.as.virginia.edu/japanese"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Meet the minor advisor, submit signed minor advising form with the College declaration form."
+  },
+  "requirements": [
+   {
+    "label": "Gateway course",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "EAST 1010"
+    ]
+   },
+   {
+    "label": "Six JAPN/JPTR courses at 2000 level or above (3+ credits each)",
+    "need": {
+     "courses": 6
+    },
+    "from": [
+     "JAPN 2000+",
+     "JPTR 2000+"
+    ],
+    "exclude": [
+     "JAPN 3015",
+     "JAPN 3025"
+    ],
+    "note": "18 credits; each course must carry at least 3 credits. Max 6 transfer credits."
+   }
+  ],
+  "notes": "EAST 1010 is the only course that may count toward both a department major and minor; otherwise credits applied to a minor cannot count toward a major. Max 6 transfer credits toward the 18. JAPN 2010/2020 are 4 credits each; using both requires four more 3-credit courses (23 credits). JAPN 2100 (3 cr) may be taken alongside 2010/2020. JPTR 3010/3020 have no prerequisites.",
+  "coursePrereqs": {
+   "JAPN 2010": [
+    "JAPN 1020"
+   ],
+   "JAPN 2020": [
+    "JAPN 2010"
+   ],
+   "JAPN 3010": [
+    "JAPN 2020"
+   ]
+  }
+ },
+ {
+  "id": "korean-minor",
+  "name": "Korean",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "East Asian Languages, Literatures, and Cultures",
+  "totalCredits": 21,
+  "sources": [
+   "https://eastasian.as.virginia.edu/undergraduate-program/korean-language-and-literature-minor",
+   "https://eastasian.as.virginia.edu/courses/korean-course-descriptions"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Meet the minor advisor, submit signed minor advising form with the College declaration form."
+  },
+  "requirements": [
+   {
+    "label": "Gateway course",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "EAST 1010"
+    ]
+   },
+   {
+    "label": "Six KOR/KRTR courses at 2000 level or above (3+ credits each)",
+    "need": {
+     "courses": 6
+    },
+    "from": [
+     "KOR 2000+",
+     "KRTR 2000+"
+    ],
+    "exclude": [
+     "KOR 3015",
+     "KOR 3025"
+    ],
+    "note": "18 credits; each course must carry at least 3 credits. Max 6 transfer credits."
+   }
+  ],
+  "notes": "EAST 1010 is the only course that may count toward both a department major and minor; otherwise credits applied to a minor cannot count toward a major. Max 6 transfer credits toward the 18. Department calls it Korean Language and Literature minor. Intermediate Korean proficiency required (placement testing or credit at 2000+). Courses with substantial Korea focus may substitute at the Korean advisor's discretion.",
+  "coursePrereqs": {
+   "KOR 1020": [
+    "KOR 1010"
+   ],
+   "KOR 2010": [
+    "KOR 1020"
+   ],
+   "KOR 2020": [
+    "KOR 2010"
+   ],
+   "KOR 3010": [
+    "KOR 2020"
+   ],
+   "KOR 3020": [
+    "KOR 3010"
+   ],
+   "KOR 4010": [
+    "KOR 3020"
+   ],
+   "KOR 4020": [
+    "KOR 4010"
+   ]
+  }
+ },
+ {
+  "id": "east-asian-studies-minor",
+  "name": "East Asian Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "East Asian Languages, Literatures, and Cultures",
+  "totalCredits": 18,
+  "sources": [
+   "https://eastasian.as.virginia.edu/undergraduate-program/minor-east-asian-studies"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "No language requirement stated."
+  },
+  "requirements": [
+   {
+    "label": "Gateway course",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "EAST 1010"
+    ]
+   },
+   {
+    "label": "East Asian history",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "HIEA *"
+    ]
+   },
+   {
+    "label": "East Asian humanities",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "CHTR *",
+     "JPTR *",
+     "KRTR *",
+     "EAST *",
+     "ARTH *",
+     "ARH *",
+     "RELB *",
+     "RELC *",
+     "RELG *"
+    ],
+    "note": "Art History, Architectural History, Literature or Religion with East Asian content."
+   },
+   {
+    "label": "East Asian social science",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "AMST *",
+     "ANTH *",
+     "ECON *",
+     "HIEA *",
+     "MDST *",
+     "PLCP *"
+    ],
+    "note": "Must have East Asian content."
+   },
+   {
+    "label": "Electives with East Asian content",
+    "need": {
+     "credits": 6
+    },
+    "from": [
+     "EAST *",
+     "HIEA *",
+     "CHIN *",
+     "JAPN *",
+     "KOR *",
+     "CHTR *",
+     "JPTR *",
+     "KRTR *",
+     "ARTH *",
+     "RELB *",
+     "PLCP *",
+     "ANTH *",
+     "ECON *",
+     "MDST *"
+    ],
+    "note": "Whether lower-level language courses count is not stated."
+   }
+  ],
+  "notes": "Max 6 transfer credits. Credits applied to a minor cannot count toward a major. Non-obvious East Asian courses need instructor note/syllabus. Subject wildcards over-match since East Asian content is not checkable."
+ },
+ {
+  "id": "french-ba",
+  "name": "French",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "French",
+  "totalCredits": 30,
+  "sources": [
+   "https://french.as.virginia.edu/undergraduate",
+   "https://french.as.virginia.edu/course-placement"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate French (prerequisite for 3000-level French)",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "FREN 2020|FREN 2320"
+     ],
+     "note": "Or placement: PLACE 5.25+, AP French Language 3+, IB French B 7 / A1-A2 5+ places into FREN 3030-3069. Lower sequence: FREN 1010-1020 (or accelerated FREN 1050)-2010-2020."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Declare via the College Declaration of Major/Minor form (contact: Jennifer Tsien)."
+  },
+  "requirements": [
+   {
+    "label": "Required course",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "FREN 3031"
+    ],
+    "note": "Exempt (no credit) with PLACE 6.25-7 or SAT II 750+; AP French 4/5 earns credit for FREN 3031."
+   },
+   {
+    "label": "French courses at 3000 level and above",
+    "need": {
+     "credits": 30
+    },
+    "from": [
+     "FREN 3000+"
+    ],
+    "note": "30 credits total including FREN 3031; FRTR (French in translation) courses do not count."
+   },
+   {
+    "label": "4000-level French",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "FREN 4000-4999"
+    ]
+   },
+   {
+    "label": "Pre-Revolutionary (pre-1800) course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "FREN 3000+"
+    ],
+    "note": "Must be a course on the pre-1800 period; period coverage cannot be determined from course numbers."
+   },
+   {
+    "label": "Post-Revolutionary (1800-present) course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "FREN 3000+"
+    ],
+    "note": "Must be a course on 1800-present; cannot be determined from course numbers."
+   }
+  ],
+  "coursePrereqs": {
+   "FREN 1020": [
+    "FREN 1010"
+   ],
+   "FREN 2010": [
+    "FREN 1020|FREN 1050"
+   ],
+   "FREN 2020": [
+    "FREN 2010"
+   ],
+   "FREN 3031": [
+    "FREN 2020|FREN 2320"
+   ],
+   "FREN 3039": [
+    "FREN 3030",
+    "FREN 3031"
+   ]
+  },
+  "notes": "Requirements valid beginning Fall 2025 (department site). C or better in each course counted. Up to 12 credits from study abroad in a French-speaking country with pre/post approval by DUP. FRTR courses excluded. Students placed at 3000 level generally cannot take 1000/2000-level courses for credit. Undergraduate Record could not be read; encoded from department site."
+ },
+ {
+  "id": "french-minor",
+  "name": "French",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "French",
+  "totalCredits": 18,
+  "sources": [
+   "https://french.as.virginia.edu/undergraduate",
+   "https://french.as.virginia.edu/course-placement"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate French (prerequisite for 3000-level French)",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "FREN 2020|FREN 2320"
+     ],
+     "note": "Or placement: PLACE 5.25+, AP French Language 3+, IB French B 7 / A1-A2 5+ places into FREN 3030-3069. Lower sequence: FREN 1010-1020 (or accelerated FREN 1050)-2010-2020."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Must already have a declared major before declaring the French minor. Declare via College form."
+  },
+  "requirements": [
+   {
+    "label": "Required course",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "FREN 3031"
+    ],
+    "note": "Placement exemption possible (see major)."
+   },
+   {
+    "label": "French courses at 3000 level and above",
+    "need": {
+     "credits": 18
+    },
+    "from": [
+     "FREN 3000+"
+    ],
+    "note": "Includes FREN 3031; FRTR does not count."
+   },
+   {
+    "label": "4000-level French",
+    "need": {
+     "credits": 3
+    },
+    "from": [
+     "FREN 4000-4999"
+    ]
+   },
+   {
+    "label": "Pre-Revolutionary (pre-1800) course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "FREN 3000+"
+    ],
+    "note": "Period not checkable from course number."
+   },
+   {
+    "label": "Post-Revolutionary (1800-present) course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "FREN 3000+"
+    ],
+    "note": "Period not checkable from course number."
+   }
+  ],
+  "coursePrereqs": {
+   "FREN 1020": [
+    "FREN 1010"
+   ],
+   "FREN 2010": [
+    "FREN 1020|FREN 1050"
+   ],
+   "FREN 2020": [
+    "FREN 2010"
+   ],
+   "FREN 3031": [
+    "FREN 2020|FREN 2320"
+   ],
+   "FREN 3039": [
+    "FREN 3030",
+    "FREN 3031"
+   ]
+  },
+  "notes": "C or better in each course. Up to 6 study-abroad credits with approval. FRTR excluded. Encoded from department site (valid from Fall 2025)."
+ },
+ {
+  "id": "german-language-literature-culture-ba",
+  "name": "German Language, Literature, and Culture",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "German Languages and Literatures",
+  "totalCredits": 30,
+  "sources": [
+   "https://german.as.virginia.edu/majorminor-german",
+   "https://german.as.virginia.edu/undergraduate-program"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate German",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "GERM 2020"
+     ],
+     "note": "Or German Placement Test score 585+, or AP German 5. Lower sequence GERM 1010-1020-2010-2020 (accelerated options may exist)."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Prerequisite to begin the major/minor."
+  },
+  "requirements": [
+   {
+    "label": "Required courses",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "GERM 3000",
+     "GERM 4600"
+    ],
+    "note": "GERM 3000 Topic in Advanced German; GERM 4600 Fourth Year Seminar."
+   },
+   {
+    "label": "Electives: German courses 3000+",
+    "need": {
+     "courses": 6
+    },
+    "from": [
+     "GERM 3000+"
+    ],
+    "exclude": [
+     "GERM 3000",
+     "GERM 4600"
+    ],
+    "note": "At least 6 GERM courses at 3000+; up to 2 more electives may be GETR/YITR (German in translation) at 3000+; one independent study may be included."
+   },
+   {
+    "label": "Remaining electives",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "GERM 3000+",
+     "GETR 3000+",
+     "YITR 3000+"
+    ],
+    "exclude": [
+     "GERM 3000",
+     "GERM 4600"
+    ]
+   },
+   {
+    "label": "Total credits at 3000+",
+    "need": {
+     "credits": 30
+    },
+    "from": [
+     "GERM 3000+",
+     "GETR 3000+",
+     "YITR 3000+"
+    ],
+    "note": "Max 2 GETR/YITR courses."
+   }
+  ],
+  "coursePrereqs": {
+   "GERM 1020": [
+    "GERM 1010"
+   ],
+   "GERM 2010": [
+    "GERM 1020"
+   ],
+   "GERM 2020": [
+    "GERM 2010"
+   ],
+   "GERM 3000": [
+    "GERM 2020"
+   ]
+  },
+  "notes": "About 10 courses / 30 credits at 3000+. Up to 12 transfer credits (US or abroad) with prior approval. Distinguished Majors: GPA 3.4, GERM 4600 + GERM 4995 or GERM 4998/4999 thesis. Grade minimums not stated on department page. Undergraduate Record not readable; encoded from department page, which says the Record is authoritative. CONFLICT: the department's undergraduate-program page instead lists required courses GETR 3330, GERM 3010, GERM 3110 or GERM 3120, and GERM 4600 (with a proficiency exam needed for exemption from GERM 3000 Grammar in Use); the majorminor-german page (encoded here) lists GERM 3000 and GERM 4600 as the only required courses. Verify against the Undergraduate Record."
+ },
+ {
+  "id": "german-studies-ba",
+  "name": "German Studies",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "German Languages and Literatures",
+  "totalCredits": 30,
+  "sources": [
+   "https://german.as.virginia.edu/majorminor-german",
+   "https://german.as.virginia.edu/undergraduate-program"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate German",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "GERM 2020"
+     ],
+     "note": "Or German Placement Test score 585+, or AP German 5. Lower sequence GERM 1010-1020-2010-2020 (accelerated options may exist)."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Prerequisite to begin the major/minor."
+  },
+  "requirements": [
+   {
+    "label": "Required course",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "GERM 3000"
+    ]
+   },
+   {
+    "label": "German language/literature courses 3000+",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "GERM 3000+"
+    ],
+    "exclude": [
+     "GERM 3000"
+    ]
+   },
+   {
+    "label": "4000-level course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "GERM 4600",
+     "EURS 5000",
+     "GERM 4000+"
+    ],
+    "note": "GERM 4600, EURS 5000, another relevant 4000-level course in any department, or an independent study."
+   },
+   {
+    "label": "German Studies courses",
+    "need": {
+     "courses": 5
+    },
+    "from": [
+     "HIEU 3390|GETR 3390",
+     "HIEU 3462|GETR 3462",
+     "GETR 3330",
+     "GETR 3372",
+     "GETR 3505",
+     "HIST 2014",
+     "HIEU 3692",
+     "PHIL 3180",
+     "RELJ 3170",
+     "GETR 3000+",
+     "GERM 3000+"
+    ],
+    "note": "From the department's German Studies list; other courses with German content (anthropology, sociology, migration, etc.) may count with DUP approval. HIST 2014 is listed despite the 3000+ rule."
+   }
+  ],
+  "coursePrereqs": {
+   "GERM 1020": [
+    "GERM 1010"
+   ],
+   "GERM 2010": [
+    "GERM 1020"
+   ],
+   "GERM 2020": [
+    "GERM 2010"
+   ],
+   "GERM 3000": [
+    "GERM 2020"
+   ]
+  },
+  "notes": "30 credits (about 10 courses) at 3000+. Transfer limits not stated on department page. DMP: GPA 3.4, relevant 4000-level course plus GERM 4995 or GERM 4998/4999. Encoded from department site only. CONFLICT: the undergraduate-program page lists GETR 3330 as a prerequisite and GERM 3000, GERM 3010 and GERM 3110 or 3120 as required, with 12 transfer credits max; the majorminor-german page (encoded here) requires only GERM 3000 plus the course groups. Verify against the Record."
+ },
+ {
+  "id": "german-minor",
+  "name": "German",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "German Languages and Literatures",
+  "totalCredits": 18,
+  "sources": [
+   "https://german.as.virginia.edu/majorminor-german",
+   "https://german.as.virginia.edu/undergraduate-program"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate German",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "GERM 2020"
+     ],
+     "note": "Or German Placement Test score 585+, or AP German 5. Lower sequence GERM 1010-1020-2010-2020 (accelerated options may exist)."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Prerequisite to begin the major/minor."
+  },
+  "requirements": [
+   {
+    "label": "Required courses",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "GERM 3000",
+     "GERM 3010"
+    ]
+   },
+   {
+    "label": "German courses at 3000+",
+    "need": {
+     "courses": 6
+    },
+    "from": [
+     "GERM 3000+",
+     "GETR 3000+",
+     "YITR 3000+"
+    ],
+    "note": "6 courses / 18 credits including GERM 3000 and 3010; at most one GETR/YITR course and one independent study may count."
+   }
+  ],
+  "coursePrereqs": {
+   "GERM 1020": [
+    "GERM 1010"
+   ],
+   "GERM 2010": [
+    "GERM 1020"
+   ],
+   "GERM 2020": [
+    "GERM 2010"
+   ],
+   "GERM 3000": [
+    "GERM 2020"
+   ]
+  },
+  "notes": "Department page lists a single combined 'German Studies Minor / German Minor' block; distinct requirements for the two minors could not be confirmed. Up to 9 transfer credits with prior approval. Undergraduate-program page confirms a single combined 'German Studies Minor/German Minor' entry: 18 hours in German at 3000+, including GERM 3000 (Grammar in Use) and GERM 3010 (Texts and Interpretations)."
+ },
+ {
+  "id": "german-studies-minor",
+  "name": "German Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "German Languages and Literatures",
+  "totalCredits": 18,
+  "sources": [
+   "https://german.as.virginia.edu/majorminor-german",
+   "https://german.as.virginia.edu/undergraduate-program"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate German",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "GERM 2020"
+     ],
+     "note": "Or German Placement Test score 585+, or AP German 5. Lower sequence GERM 1010-1020-2010-2020 (accelerated options may exist)."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Prerequisite to begin the major/minor."
+  },
+  "requirements": [
+   {
+    "label": "Required courses",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "GERM 3000",
+     "GERM 3010"
+    ]
+   },
+   {
+    "label": "Courses at 3000+",
+    "need": {
+     "courses": 6
+    },
+    "from": [
+     "GERM 3000+",
+     "GETR 3000+",
+     "YITR 3000+",
+     "HIEU 3390",
+     "HIEU 3462",
+     "HIEU 3692",
+     "PHIL 3180",
+     "RELJ 3170"
+    ],
+    "note": "6 courses / 18 credits; department page says one GETR/YITR course and one independent study may count."
+   }
+  ],
+  "coursePrereqs": {
+   "GERM 1020": [
+    "GERM 1010"
+   ],
+   "GERM 2010": [
+    "GERM 1020"
+   ],
+   "GERM 2020": [
+    "GERM 2010"
+   ],
+   "GERM 3000": [
+    "GERM 2020"
+   ]
+  },
+  "notes": "UNVERIFIED distinction: the department page presents German and German Studies minors under one combined heading with identical requirements (GERM 3000, GERM 3010, 6 courses at 3000+). The official Record version of the German Studies minor may allow more interdisciplinary courses; check. Up to 9 transfer credits. Undergraduate-program page confirms a single combined 'German Studies Minor/German Minor' entry: 18 hours in German at 3000+, including GERM 3000 (Grammar in Use) and GERM 3010 (Texts and Interpretations)."
+ },
+ {
+  "id": "spanish-ba",
+  "name": "Spanish",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Spanish, Italian, and Portuguese",
+  "totalCredits": 30,
+  "sources": [
+   "https://spanitalport.as.virginia.edu/spanish-undergraduate",
+   "https://spanitalport.as.virginia.edu/spanish-program/spanish-ba"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate Spanish",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "SPAN 2020"
+     ],
+     "note": "SPAN 2020 or equivalent (placement) with C or better, required before declaring (effective Spring 2024). Lower sequence SPAN 1010-1020-2010-2020 (accelerated options exist); placement test or AP can waive."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Choose a concentration when declaring; Language & Linguistics concentration needs approval of the linguistics advisor."
+  },
+  "requirements": [
+   {
+    "label": "Finding Your Voice in Spanish",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "SPAN 3010"
+    ],
+    "note": "AP Spanish Literature 4 or 5 places out of SPAN 3010 (no credit); replace with another 3000-level elective (SPAN 3000, 3020, 3040, 3050, 3060, 3070, 3200)."
+   },
+   {
+    "label": "Texts and Interpretation",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "SPAN 3300"
+    ],
+    "note": "Must be taken at UVA or a recommended study-abroad program; prerequisite to surveys/literature. AP Spanish Literature 5 places out; substitute another literature course."
+   },
+   {
+    "label": "3000-level language or linguistics course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "SPAN 3000",
+     "SPAN 3020",
+     "SPAN 3040",
+     "SPAN 3050",
+     "SPAN 3060",
+     "SPAN 3070",
+     "SPAN 3200"
+    ],
+    "note": "General (Languages, Literatures & Cultures) concentration."
+   },
+   {
+    "label": "Linguistics course (3000 or 4000 level)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "SPAN 3000",
+     "SPAN 3200",
+     "SPAN 4200-4299"
+    ],
+    "note": "Linguistics courses inferred: SPAN 3000, 3200, 42xx."
+   },
+   {
+    "label": "Survey of Spanish literature and culture",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "SPAN 3400",
+     "SPAN 3410"
+    ]
+   },
+   {
+    "label": "Survey of Latin American literature and culture",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "SPAN 3420",
+     "SPAN 3430"
+    ]
+   },
+   {
+    "label": "4000-level literature and culture courses",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "SPAN 4000-4999"
+    ],
+    "exclude": [
+     "SPAN 4200-4299"
+    ],
+    "note": "Literature/culture content not determinable by number."
+   },
+   {
+    "label": "4000-level electives",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "SPAN 4000-4999"
+    ]
+   },
+   {
+    "label": "Total upper-division Spanish",
+    "need": {
+     "credits": 30
+    },
+    "from": [
+     "SPAN 3000+"
+    ],
+    "note": "30 credits above SPAN 2020, C or better (C- does not count), letter grade only."
+   }
+  ],
+  "coursePrereqs": {
+   "SPAN 3010": [
+    "SPAN 2020"
+   ],
+   "SPAN 3300": [
+    "SPAN 3010"
+   ],
+   "SPAN 3400": [
+    "SPAN 3300"
+   ],
+   "SPAN 3410": [
+    "SPAN 3300"
+   ],
+   "SPAN 3420": [
+    "SPAN 3300"
+   ],
+   "SPAN 3430": [
+    "SPAN 3300"
+   ],
+   "SPAN 4705": [
+    "SPAN 3040"
+   ],
+   "SPAN 4713": [
+    "SPAN 3040"
+   ],
+   "SPAN 4050": [
+    "SPAN 3040"
+   ]
+  },
+  "notes": "Encodes the default 'Languages, Literatures & Cultures of the Spanish-Speaking World' concentration. Literatures & Cultures concentration: SPAN 3010, SPAN 3300, one of SPAN 3400/3410, one of SPAN 3420/3430, six 4000-level literature & culture courses. Language & Linguistics concentration: SPAN 3010, SPAN 3000, SPAN 3020 (only if placed out of 3010), SPAN 3200, SPAN 3300, SPAN 3400, SPAN 4200, SPAN 4202, SPAN 4203, SPAN 4210, SPAN 4530 (department page says 'ten courses' but lists eleven; check course grid). Only one conversation course may count. 3400-3430 surveys generally not allowed in 4th year (4000-level course in same area substitutes). Up to 12 transfer credits; study abroad caps: recommended programs 15/semester, 24/year; other approved programs 9/semester, 15/year. Independent study counts only if graded and taught in Spanish. Undergraduate Record not readable; encoded from department site."
+ },
+ {
+  "id": "spanish-minor",
+  "name": "Spanish",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Spanish, Italian, and Portuguese",
+  "totalCredits": 18,
+  "sources": [
+   "https://spanitalport.as.virginia.edu/spanish-program/minor-spanish"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate Spanish",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "SPAN 2020"
+     ],
+     "note": "SPAN 2020 or equivalent (placement) with C or better, required before declaring (effective Spring 2024). Lower sequence SPAN 1010-1020-2010-2020 (accelerated options exist); placement test or AP can waive."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Must have a declared major first; cannot combine with a Spanish major. Apply to declare; fall graduates by Oct 1."
+  },
+  "requirements": [
+   {
+    "label": "Finding Your Voice in Spanish",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "SPAN 3010"
+    ],
+    "note": "If placed out, take SPAN 3020 as 3000-level elective plus one additional 4000-level elective."
+   },
+   {
+    "label": "Texts and Interpretation",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "SPAN 3300"
+    ]
+   },
+   {
+    "label": "Survey course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "SPAN 3400-3430"
+    ]
+   },
+   {
+    "label": "3000-level elective",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "SPAN 3000",
+     "SPAN 3020",
+     "SPAN 3040",
+     "SPAN 3050",
+     "SPAN 3060",
+     "SPAN 3070",
+     "SPAN 3200",
+     "SPAN 3400-3430"
+    ],
+    "note": "May be concurrent with SPAN 3010 but not before it; a second survey allowed after SPAN 3300."
+   },
+   {
+    "label": "4000-level electives",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "SPAN 4000-4999"
+    ]
+   }
+  ],
+  "coursePrereqs": {
+   "SPAN 3010": [
+    "SPAN 2020"
+   ],
+   "SPAN 3300": [
+    "SPAN 3010"
+   ],
+   "SPAN 3400": [
+    "SPAN 3300"
+   ],
+   "SPAN 3410": [
+    "SPAN 3300"
+   ],
+   "SPAN 3420": [
+    "SPAN 3300"
+   ],
+   "SPAN 3430": [
+    "SPAN 3300"
+   ],
+   "SPAN 4705": [
+    "SPAN 3040"
+   ],
+   "SPAN 4713": [
+    "SPAN 3040"
+   ],
+   "SPAN 4050": [
+    "SPAN 3040"
+   ]
+  },
+  "notes": "18 credits at 3000+. CR/NC not allowed. Minor credits cannot count toward a major. Study abroad from non-recommended programs capped at 3 (summer)/6 (semester)/9 (year) credits; UVA in Valencia courses count as UVA credit."
+ },
+ {
+  "id": "business-spanish-minor",
+  "name": "Business Spanish",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Spanish, Italian, and Portuguese",
+  "totalCredits": 18,
+  "sources": [
+   "https://spanitalport.as.virginia.edu/spanish-program/minor-spanish"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate Spanish",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "SPAN 2020"
+     ],
+     "note": "SPAN 2020 or equivalent (placement) with C or better, required before declaring (effective Spring 2024). Lower sequence SPAN 1010-1020-2010-2020 (accelerated options exist); placement test or AP can waive."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Must have a declared major first; cannot combine with Spanish major. Contact Linda Newman at start. Requires participation in UVA in Valencia (business symposium and site visits)."
+  },
+  "requirements": [
+   {
+    "label": "Finding Your Voice in Spanish",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "SPAN 3010|SPAN 3300"
+    ],
+    "note": "SPAN 3300 required instead if student placed out of SPAN 3010."
+   },
+   {
+    "label": "Business Spanish and Translation",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "SPAN 3040",
+     "SPAN 4040"
+    ]
+   },
+   {
+    "label": "Culture and civilization",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "SPAN 4700",
+     "SPAN 4710"
+    ]
+   },
+   {
+    "label": "Valencia business courses",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "SPAN 4705",
+     "SPAN 4713",
+     "SPAN 4050"
+    ],
+    "note": "Valencia only; each requires SPAN 3040."
+   }
+  ],
+  "coursePrereqs": {
+   "SPAN 3010": [
+    "SPAN 2020"
+   ],
+   "SPAN 3300": [
+    "SPAN 3010"
+   ],
+   "SPAN 3400": [
+    "SPAN 3300"
+   ],
+   "SPAN 3410": [
+    "SPAN 3300"
+   ],
+   "SPAN 3420": [
+    "SPAN 3300"
+   ],
+   "SPAN 3430": [
+    "SPAN 3300"
+   ],
+   "SPAN 4705": [
+    "SPAN 3040"
+   ],
+   "SPAN 4713": [
+    "SPAN 3040"
+   ],
+   "SPAN 4050": [
+    "SPAN 3040"
+   ]
+  },
+  "notes": "Six courses (18 credits assumed at 3 credits each). Offered with UVA in Valencia; symposium/site-visit attendance not checkable. CR/NC not allowed; minor credits cannot count toward a major."
+ },
+ {
+  "id": "italian-studies-ba",
+  "name": "Italian Studies",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Spanish, Italian, and Portuguese",
+  "totalCredits": 30,
+  "sources": [
+   "https://spanitalport.as.virginia.edu/italian-major"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate Italian (prerequisite for Group A)",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "ITAL 2020"
+     ],
+     "note": "No prerequisite to enter the program; ITAL 2020 or equivalent (placement) required before Group A courses. Sequence ITAL 1010-1020-2010-2020."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Declare by contacting Linda Newman."
+  },
+  "requirements": [
+   {
+    "label": "Group A: Advanced Italian core",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "ITAL 3010",
+     "ITAL 3020",
+     "ITAL 3040",
+     "ITAL 3050"
+    ],
+    "note": "Choose 2 of 4; ITAL 3040/3050 at UVA Siena only."
+   },
+   {
+    "label": "Group B: Literary, film and cultural studies",
+    "need": {
+     "courses": 6
+    },
+    "from": [
+     "ITAL 3110",
+     "ITAL 3120",
+     "ITAL 3250",
+     "ITAL 3300",
+     "ITAL 3559",
+     "ITAL 3720",
+     "ITAL 3730",
+     "ITAL 3740",
+     "ITAL 3760",
+     "ITAL 3770",
+     "ITAL 3040",
+     "ITAL 3050",
+     "ITAL 4350",
+     "ITAL 4450",
+     "ITAL 4810",
+     "ITAL 4993",
+     "ITAL 5250",
+     "ITTR 2260",
+     "ITTR 2559",
+     "ITTR 2630",
+     "ITTR 2710",
+     "ITTR 3215",
+     "ITTR 3580",
+     "ITTR 3710",
+     "ITTR 3758",
+     "ITTR 3770",
+     "ITTR 3775",
+     "ITTR 4559",
+     "ITTR 4820",
+     "ITTR 5250"
+    ],
+    "children": [
+     {
+      "label": "Group B taught in Italian (min 3)",
+      "need": {
+       "courses": 3
+      },
+      "from": [
+       "ITAL 3110",
+       "ITAL 3120",
+       "ITAL 3250",
+       "ITAL 3300",
+       "ITAL 3559",
+       "ITAL 3720",
+       "ITAL 3730",
+       "ITAL 3740",
+       "ITAL 3760",
+       "ITAL 3770",
+       "ITAL 3040",
+       "ITAL 3050",
+       "ITAL 4350",
+       "ITAL 4450",
+       "ITAL 4810",
+       "ITAL 4993",
+       "ITAL 5250"
+      ]
+     }
+    ],
+    "note": "3-6 ITAL courses (require previous/concurrent ITAL 3010 or 3020) and 0-3 ITTR courses (no prerequisites). Group A courses may not double count. Siena/Florence courses may count."
+   },
+   {
+    "label": "Group C: Italian Studies in wider context",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "ARH 2000-4999",
+     "CLAS 2000-4999",
+     "DRAM 2000-4999",
+     "ARTH 2000-4999",
+     "HIEU 2000-4999",
+     "LING 2000-4999",
+     "MUSI 2000-4999",
+     "PLCP 2000-4999",
+     "PLIR 2000-4999"
+    ],
+    "note": "Two 2000-4000 level courses outside ITAL/ITTR with a strong Italian component; specific approved course numbers were not shown; subject ranges over-match."
+   }
+  ],
+  "coursePrereqs": {
+   "ITAL 1020": [
+    "ITAL 1010"
+   ],
+   "ITAL 2010": [
+    "ITAL 1020"
+   ],
+   "ITAL 2020": [
+    "ITAL 2010"
+   ],
+   "ITAL 3010": [
+    "ITAL 2020"
+   ],
+   "ITAL 3020": [
+    "ITAL 2020"
+   ]
+  },
+  "notes": "30 credits / 10 courses. ITAL 3020 prereq listed generically as ITAL 2020 (Group A requires ITAL 2020); exact 3020 prereq (likely 3010) not verified. No grade minimum stated on department page. DMP: GPA 3.5 in major courses plus 3-credit thesis in Italian (33 credits). Undergraduate Record not readable."
+ },
+ {
+  "id": "italian-minor",
+  "name": "Italian Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Spanish, Italian, and Portuguese",
+  "totalCredits": 18,
+  "sources": [
+   "https://spanitalport.as.virginia.edu/italian-program/minor-italian-studies",
+   "https://spanitalport.as.virginia.edu/italian-major"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate Italian (prerequisite for Italian-language courses)",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "ITAL 2020"
+     ],
+     "note": "Italian-language courses counted must be above ITAL 2020; ITTR and Group C courses may be taken before finishing ITAL 2020. Placement may waive."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Must have a declared major; cannot hold Italian major and minor together. Meet the Italian DUP/advisor to sign the form."
+  },
+  "requirements": [
+   {
+    "label": "Group A: Advanced Italian core",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "ITAL 3010",
+     "ITAL 3020",
+     "ITAL 3040",
+     "ITAL 3050"
+    ],
+    "note": "UNVERIFIED count: department minor page lists Group A without saying how many; 2 assumed (matches the major)."
+   },
+   {
+    "label": "Group B: Italian-taught literature/film/culture (2-4)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "ITAL 3110",
+     "ITAL 3120",
+     "ITAL 3250",
+     "ITAL 3300",
+     "ITAL 3559",
+     "ITAL 3720",
+     "ITAL 3730",
+     "ITAL 3740",
+     "ITAL 3760",
+     "ITAL 3770",
+     "ITAL 3040",
+     "ITAL 3050",
+     "ITAL 4350",
+     "ITAL 4450",
+     "ITAL 4810",
+     "ITAL 4993",
+     "ITAL 5250"
+    ],
+    "exclude": [
+     "ITAL 3040",
+     "ITAL 3050"
+    ]
+   },
+   {
+    "label": "Total minor courses",
+    "need": {
+     "courses": 6
+    },
+    "from": [
+     "ITAL 3000+",
+     "ITTR 2260",
+     "ITTR 2559",
+     "ITTR 2630",
+     "ITTR 2710",
+     "ITTR 3215",
+     "ITTR 3580",
+     "ITTR 3710",
+     "ITTR 3758",
+     "ITTR 3770",
+     "ITTR 3775",
+     "ITTR 4559",
+     "ITTR 4820",
+     "ITTR 5250",
+     "ARH 2000-4999",
+     "CLAS 2000-4999",
+     "DRAM 2000-4999",
+     "ARTH 2000-4999",
+     "HIEU 2000-4999",
+     "LING 2000-4999",
+     "MUSI 2000-4999",
+     "PLCP 2000-4999",
+     "PLIR 2000-4999"
+    ],
+    "note": "6 courses / 18 credits: Group B Italian-taught 2-4, ITTR 0-2, Group C (outside courses with strong Italian component) 0-2."
+   }
+  ],
+  "coursePrereqs": {
+   "ITAL 2010": [
+    "ITAL 1020"
+   ],
+   "ITAL 2020": [
+    "ITAL 2010"
+   ],
+   "ITAL 3010": [
+    "ITAL 2020"
+   ]
+  },
+  "notes": "Department name is 'Minor in Italian Studies' (task called it Italian minor). CR/NC excluded; minor credits cannot count toward a major. UVA Siena courses count directly; Florence/other transfer with faculty approval."
+ }
+]

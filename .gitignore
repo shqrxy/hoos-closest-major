@@ -1,0 +1,5 @@
+node_modules/
+tests/*.png
+*.pdf
+.DS_Store
+.vercel

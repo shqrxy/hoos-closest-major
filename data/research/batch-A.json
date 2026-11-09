@@ -1,0 +1,109 @@
+[
+{
+ "id": "african-american-and-african-studies-ba",
+ "name": "African American and African Studies",
+ "degree": "B.A.", "type": "major",
+ "department": "Carter G. Woodson Institute for African-American and African Studies",
+ "totalCredits": 29,
+ "sources": ["https://woodson.as.virginia.edu/major", "https://records.ureg.virginia.edu/preview_program.php?catoid=61&poid=8732"],
+ "declaration": {"requirements": [], "minGPA": null, "notes": "Older Record (catoid=61) says students must have taken or be enrolled in AAS 1010/1020 to declare; course list not legible on the page fetched."},
+ "requirements": [
+  {"label": "Introductory core (minimum grade C)", "need": {"all": true}, "from": ["AAS 1010", "AAS 1020"]},
+  {"label": "Race and politics", "need": {"courses": 1}, "from": ["AAS *"], "note": "One 3-credit AAS course on race and politics or an approved course in another department."},
+  {"label": "Humanities", "need": {"courses": 1}, "from": ["AAS *", "ARTH *", "DRAM *", "ENGL *", "FREN *", "MDST *", "MUSI *", "PHIL *", "RELG *"], "note": "AAS humanities course or an APPROVED course from the listed departments; not every course in those subjects counts. Language courses do not count."},
+  {"label": "Social sciences or history", "need": {"courses": 1}, "from": ["AAS *", "AMST *", "ANTH *", "ECON *", "LING *", "PLAD *", "PLAP *", "PLCP *", "PLIR *", "PLPT *", "PSYC *", "SOC *", "WGS *", "HIAF *", "HIUS *"], "note": "AAS social science/history course or an APPROVED course from American Studies, Anthropology, Economics, Linguistics, Politics, Psychology, Sociology, WGS. Approval required for non-AAS courses."},
+  {"label": "Electives", "need": {"courses": 3}, "from": ["AAS *"], "exclude": ["AAS 1010", "AAS 1020"], "note": "AAS or approved courses in other departments. At most one AAS 4993 independent study may count, only as an elective."},
+  {"label": "4000-level seminar with 20-page research paper", "need": {"courses": 1}, "from": ["AAS 4000-4999"], "exclude": ["AAS 4993"], "note": "A non-AAS 4000-level seminar may count if the paper is submitted to the DUP."},
+  {"label": "Upper-level: three courses at 3000+ (besides the seminar)", "need": {"courses": 3}, "from": ["AAS 3000+"], "note": "Overlaps with the categories above; approved non-AAS 3000+ courses also count."},
+  {"label": "Africa focus", "need": {"courses": 1}, "from": ["AAS *", "HIAF *"], "note": "One of the seven non-core courses must focus on Africa; overlaps other categories. Cannot be determined from course number alone."}
+ ],
+ "notes": "9 courses, at least 29 credits. AAS 1010 and 1020 need C or better; major GPA at least 2.0. Max 6 study-abroad transfer credits (DUP permission). Normally max 2 courses double-counted with another major (3 if other major is interdisciplinary). AAS 4993 requires 3.0 cumulative GPA. Categories overlap (Africa course and 3000+ courses count toward other categories). Requirements from department site; 2026-27 Record page (catoid=72) could not be loaded."
+},
+{
+ "id": "american-studies-ba",
+ "name": "American Studies",
+ "degree": "B.A.", "type": "major",
+ "department": "American Studies",
+ "totalCredits": 30,
+ "sources": ["https://americanstudies.as.virginia.edu/major-requirements"],
+ "declaration": {"requirements": [], "minGPA": null, "notes": "Prerequisite: at least one university-level course (UVA or college transfer, not AP/IB) in American history or culture, broadly defined, with grade C or better. Declaring in 2nd or 3rd year encouraged."},
+ "requirements": [
+  {"label": "Introduction to American Studies", "need": {"all": true}, "from": ["AMST 2001"]},
+  {"label": "Theories and Methods of American Studies", "need": {"all": true}, "from": ["AMST 3001"]},
+  {"label": "Advanced seminar (4000/5000 level)", "need": {"courses": 1}, "from": ["AMST 4000-5999"], "exclude": ["AMST 4993", "AMST 4998", "AMST 4999"], "note": "From the department's list of approved 4000/5000-level AMST courses."},
+  {"label": "Electives (7 courses, 21 credits)", "need": {"courses": 7}, "from": ["AMST *", "AAS *", "HIUS *", "HILA *"],
+   "exclude": ["AMST 2001", "AMST 3001"],
+   "note": "Any AMST, AAS, HIUS or HILA course counts; other courses by petition. At least 2 must be AMST and at least 3 at 3000+. Must include one each from Historical Approaches, Race/Ethnicity, Transnational/Regional categories (one course per category).",
+   "children": [
+    {"label": "At least 2 electives coded AMST", "need": {"courses": 2}, "from": ["AMST *"], "exclude": ["AMST 2001", "AMST 3001"]},
+    {"label": "At least 3 electives at 3000+", "need": {"courses": 3}, "from": ["AMST 3000+", "AAS 3000+", "HIUS 3000+", "HILA 3000+"], "exclude": ["AMST 3001"]}
+   ]}
+ ],
+ "notes": "30 credits, all C or better. Across the major 5 courses must be AMST and 5 at 3000+. Elective categories (Historical Approaches, Race/Ethnicity, Transnational/Regional) are assigned per course in SIS; not modelled by course number. Requirements from department site; 2026-27 Record page not loaded."
+},
+{
+ "id": "anthropology-ba",
+ "name": "Anthropology",
+ "degree": "B.A.", "type": "major",
+ "department": "Anthropology",
+ "totalCredits": 33,
+ "sources": ["https://anthropology.as.virginia.edu/anthropology-major"],
+ "declaration": {"requirements": [{"label": "One Anthropology course before declaring", "need": {"courses": 1}, "from": ["ANTH *"]}], "minGPA": null, "notes": "Normally at least 18 credits must be taken after declaring."},
+ "requirements": [
+  {"label": "Gateway", "need": {"courses": 1}, "from": ["ANTH 1010", "ANTH 2120", "ANTH 2160", "ANTH 2400", "ANTH 2415", "ANTH 2450", "ANTH 2800", "ANTH 2820"]},
+  {"label": "Foundation", "need": {"courses": 1}, "from": ["ANTH 3010", "ANTH 3020"], "note": "Faculty recommend both; DMP students normally take both."},
+  {"label": "Majors Seminar (capstone, 3rd or 4th year)", "need": {"all": true}, "from": ["ANTH 4591"]},
+  {"label": "Distribution: sociocultural anthropology", "need": {"courses": 1}, "from": ["ANTH 2000+"], "note": "Must be a course designated sociocultural; area designation not derivable from number."},
+  {"label": "Distribution: archaeology", "need": {"courses": 1}, "from": ["ANTH 2000+"], "note": "Must be a course designated archaeology (e.g. ANTH 2800 Introduction to Archaeology)."},
+  {"label": "Distribution: linguistic anthropology", "need": {"courses": 1}, "from": ["ANTH 2000+"], "note": "Must be a course designated linguistic (e.g. ANTH 2400, ANTH 2415)."},
+  {"label": "Upper-level electives (3000+, taken at UVA, besides foundation and capstone)", "need": {"courses": 3}, "from": ["ANTH 3000+"], "exclude": ["ANTH 4591"], "note": "May overlap with the distribution areas."},
+  {"label": "Total: 11 courses in ANTH (up to 2 approved outside courses)", "need": {"courses": 11}, "from": ["ANTH *"]}
+ ],
+ "notes": "11 courses / 33 credits. C- or better in every major course; no CR/NC. Up to 2 approved outside courses (transfer, study abroad, related disciplines) may count, normally not toward the 3000-level requirement. Area designation (sociocultural/archaeology/linguistic) of each course not modelled. Concentrations exist (see department). Source: department site; 2026-27 Record page could not be loaded (records.ureg pages returned empty / rate limited)."
+},
+{
+ "id": "anthropology-minor",
+ "name": "Anthropology",
+ "degree": "Minor", "type": "minor",
+ "department": "Anthropology",
+ "totalCredits": 18,
+ "sources": ["https://anthropology.as.virginia.edu/minor"],
+ "declaration": {"requirements": [], "minGPA": null, "notes": ""},
+ "requirements": [
+  {"label": "Distribution: sociocultural anthropology", "need": {"courses": 1}, "from": ["ANTH *"], "note": "Course designated sociocultural."},
+  {"label": "Distribution: archaeology", "need": {"courses": 1}, "from": ["ANTH *"], "note": "Course designated archaeology."},
+  {"label": "Distribution: linguistic anthropology", "need": {"courses": 1}, "from": ["ANTH *"], "note": "Course designated linguistic."},
+  {"label": "Six three-credit ANTH courses", "need": {"courses": 6}, "from": ["ANTH *"]}
+ ],
+ "notes": "6 three-credit courses (18 credits). No level requirement. Courses from other disciplines do not count; one ANTH course from another institution may count with DUP approval. Area designation not modelled. Department site; Record not verified."
+},
+{
+ "id": "archaeology-ba",
+ "name": "Archaeology",
+ "degree": "B.A.", "type": "major",
+ "department": "Archaeology (interdisciplinary; Anthropology / Art)",
+ "totalCredits": 30,
+ "sources": ["https://archaeology.virginia.edu/degree-requirements-and-dmp"],
+ "declaration": {"requirements": [], "minGPA": null, "notes": "Declare with Program Director."},
+ "requirements": [
+  {"label": "Core courses", "need": {"all": true}, "from": ["ANTH 2800", "ARTH 2055", "ANTH 3810"], "note": "Introduction to Archaeology, Introduction to Classical Archaeology, archaeological field methods."},
+  {"label": "Area/issue courses in archaeology", "need": {"courses": 5}, "from": ["ANTH *", "ARTH *", "CLAS *", "HIST *", "HIEU *", "HIME *"], "exclude": ["ANTH 2800", "ARTH 2055", "ANTH 3810"], "note": "Courses on specific areas and issues of archaeological research; must be archaeology courses approved by the Program Director/advisor."},
+  {"label": "Related-area courses", "need": {"courses": 2}, "from": ["CLAS *", "RELG *", "CHEM *", "BIOL *", "EVSC *", "ANTH *", "ARTH *"], "note": "Chosen with the Program Director or advisor (e.g. Classics, Religious Studies, Chemistry, Biology, Environmental Sciences)."}
+ ],
+ "notes": "10 courses / 30 credits. Elective lists are advisor-approved and not published on the page read. No grade rules stated on department page. Record (catoid=72) not verified; older Record page catoid=67 poid=10315 (minor) was found but could not be read."
+},
+{
+ "id": "archaeology-minor",
+ "name": "Archaeology",
+ "degree": "Minor", "type": "minor",
+ "department": "Archaeology (interdisciplinary; Anthropology / Art)",
+ "totalCredits": null,
+ "sources": ["https://archaeology.virginia.edu/degree-requirements-and-dmp"],
+ "declaration": {"requirements": [], "minGPA": null, "notes": ""},
+ "requirements": [
+  {"label": "Core courses", "need": {"all": true}, "from": ["ANTH 2800", "ARTH 2055", "ANTH 3810"]},
+  {"label": "Additional archaeology courses (9 credits)", "need": {"credits": 9}, "from": ["ANTH *", "ARTH *", "CLAS *"], "exclude": ["ANTH 2800", "ARTH 2055", "ANTH 3810"], "note": "Chosen with the Program Director/advisor."}
+ ],
+ "notes": "Department page is internally inconsistent: headline says 12 credits / 4 courses, but lists 3 core courses plus 9 additional credits (= 18 credits). totalCredits left null; verify with Record."
+}
+]

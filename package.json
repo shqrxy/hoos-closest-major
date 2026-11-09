@@ -1,0 +1,16 @@
+{
+  "name": "hoos-closest-major",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Upload a UVA transcript and rank College of Arts & Sciences majors and minors by what's left.",
+  "scripts": {
+    "build:data": "python3 scripts/merge.py",
+    "test:parse": "node tests/parse_test.js",
+    "test:eval": "node tests/eval_test.js",
+    "test:ui": "node tests/ui_test.js",
+    "serve": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "pdfjs-dist": "3.11.174"
+  }
+}

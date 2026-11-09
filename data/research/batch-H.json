@@ -1,0 +1,16 @@
+[{
+"id":"slavic-rees-concentration-ba","name":"Slavic Languages and Literatures: Russian and East European Studies","degree":"B.A.","type":"major","department":"Slavic Languages and Literatures","totalCredits":30,
+"sources":["https://slavic.as.virginia.edu/undergraduate-majors"],
+"declaration":{"requirements":[{"label":"Russian through the second year","need":{"courses":1},"from":["RUSS 2020"]}],"minGPA":null,"notes":"Meet with the Director of Undergraduate Programs, then submit the College Declare a Major or Minor form."},
+"requirements":[
+{"label":"Language","need":{"all":true},"from":[],"sets":[["RUSS 3010","RUSS 3020"],["POL 1210","POL 1220"]],"note":"Third-year Russian, or first-year Polish in addition to Russian through RUSS 2020."},
+{"label":"Russian culture survey","need":{"all":true},"from":["RUTR 2460"]},
+{"label":"Russian politics","need":{"courses":1},"from":["PLCP 2000+","PLIR 2000+"],"note":"3 hours on Russian politics; which courses qualify is set by the department."},
+{"label":"Russian history","need":{"courses":1},"from":["HIEU 2152|HIEU 2162"]},
+{"label":"Russian literature survey","need":{"courses":1},"from":["RUTR 3350|RUTR 3360"]},
+{"label":"Russian / East European folklore","need":{"courses":1},"from":["RUTR *","SLTR *"],"note":"3 hours of Russian or East European folklore; approximated by subject."},
+{"label":"Electives","need":{"credits":9},"from":["RUSS 2000+","RUTR 2000+","SLAV 2000+","SLTR 2000+","HIEU 2000+","PLCP 2000+","PLIR 2000+"],"note":"9 hours of related electives, apparently at most 3 in Slavic; plan with the DUP."}
+],
+"coursePrereqs":{"RUSS 3010":["RUSS 2020"],"RUSS 3020":["RUSS 3010"],"POL 1220":["POL 1210"]},
+"notes":"Concentration of the Slavic major, built from the department's summary of the 30-hour Russian and East European Studies track. Not verified against the Undergraduate Record."
+}]

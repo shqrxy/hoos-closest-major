@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta property="og:title" content="Hoo's Closest Major">
+<meta property="og:description" content="Upload your UVA transcript and see which College of Arts &amp; Sciences majors and minors you're closest to finishing.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231d2747'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23f08a3e' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%23f08a3e'/%3E%3C/svg%3E">
+<style>
+:root { color-scheme: light; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+body { margin: 0; font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+</style>
+<title>Hoo's Closest Major</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Upload a UVA transcript and see which College of Arts & Sciences majors and minors you're closest to finishing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a "trail map" — one input rail on top, then a ranked list where each program is a distance bar measured in credits. */
+:root {
+  --bg: #f3f1ec;
+  --surface: #fffdf9;
+  --surface-2: #ebe7de;
+  --ink: #18203a;
+  --ink-2: #4a5270;
+  --muted: #7b8199;
+  --line: #d9d4c7;
+  --navy: #1d2747;
+  --accent: #e0681a;
+  --accent-ink: #b44f0c;
+  --accent-soft: #fbe3d1;
+  --done: #1f8a64;
+  --done-soft: #d5efe4;
+  --warn: #b8860b;
+  --warn-soft: #f7ebc8;
+  --bad: #c0392b;
+  --bad-soft: #f6d9d5;
+  --track: #e4dfd3;
+  --shadow: 0 1px 2px rgba(24,32,58,.06), 0 8px 24px -12px rgba(24,32,58,.18);
+  --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Figtree", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --r: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1424; --surface: #161d33; --surface-2: #1d2540; --ink: #eef0f7; --ink-2: #b9bfd6; --muted: #8a91ab;
+    --line: #2a3352; --navy: #0b1020; --accent: #f08a3e; --accent-ink: #ffb27a; --accent-soft: #3a2616;
+    --done: #45c495; --done-soft: #143528; --warn: #e3b341; --warn-soft: #3a3014; --bad: #ef7b6e; --bad-soft: #3d1b18;
+    --track: #262f4d; --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px -12px rgba(0,0,0,.6);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1424; --surface: #161d33; --surface-2: #1d2540; --ink: #eef0f7; --ink-2: #b9bfd6; --muted: #8a91ab;
+  --line: #2a3352; --navy: #0b1020; --accent: #f08a3e; --accent-ink: #ffb27a; --accent-soft: #3a2616;
+  --done: #45c495; --done-soft: #143528; --warn: #e3b341; --warn-soft: #3a3014; --bad: #ef7b6e; --bad-soft: #3d1b18;
+  --track: #262f4d; --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px -12px rgba(0,0,0,.6);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; }
+button, input, select, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+/* ---------- Masthead ---------- */
+.mast { background: var(--navy); color: #f4f1ea; position: relative; overflow: hidden; }
+.mast .wrap { padding-block: 40px 34px; display: grid; gap: 22px; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); align-items: end; position: relative; z-index: 1; }
+.mast canvas { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .55; }
+.eyebrow { font-family: var(--f-mono); font-size: 11.5px; letter-spacing: .14em; text-transform: uppercase; color: #f3a56b; }
+.mast h1 { font-family: var(--f-display); font-weight: 800; font-size: clamp(34px, 5.4vw, 60px); line-height: .98; letter-spacing: -.02em; margin: 10px 0 14px; text-wrap: balance; }
+.mast h1 em { font-style: normal; color: #f3a56b; }
+.mast p.lede { margin: 0; color: #c9cde0; max-width: 54ch; font-size: 16px; }
+.privacy { display: inline-flex; gap: 8px; align-items: center; margin-top: 16px; font-size: 13px; color: #aeb4cc; }
+.privacy svg { flex: none; }
+
+.drop { background: rgba(255,255,255,.06); border: 1.5px dashed rgba(243,165,107,.55); border-radius: var(--r); padding: 22px; display: grid; gap: 12px; text-align: left; transition: background .2s, border-color .2s; }
+.drop.over { background: rgba(243,165,107,.14); border-color: #f3a56b; }
+.drop h2 { margin: 0; font-family: var(--f-display); font-size: 20px; font-weight: 600; }
+.drop p { margin: 0; color: #c9cde0; font-size: 13.5px; }
+.drop .row { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn { appearance: none; border: 1px solid transparent; border-radius: 999px; padding: 9px 16px; font-weight: 600; font-size: 14px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; transition: transform .1s, background .2s; }
+.btn:active { transform: translateY(1px); }
+.btn-primary { background: #f08a3e; color: #1a1205; }
+.btn-primary:hover { background: #f59d5a; }
+.btn-ghost { background: transparent; border-color: rgba(255,255,255,.28); color: #f4f1ea; }
+.btn-ghost:hover { background: rgba(255,255,255,.08); }
+.status { font-size: 13px; min-height: 1.4em; color: #f3c9a6; }
+.status.err { color: #ffb4a8; }
+
+/* ---------- Transcript panel ---------- */
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); box-shadow: var(--shadow); }
+.transcript { margin-top: -18px; position: relative; z-index: 2; padding: 16px 18px; display: grid; gap: 12px; }
+.t-head { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: baseline; justify-content: space-between; }
+.t-head h3 { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: 17px; }
+.t-head .who { color: var(--muted); font-size: 13px; }
+.sample-flag { font-family: var(--f-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; background: var(--warn-soft); color: var(--warn); padding: 3px 8px; border-radius: 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; max-height: 148px; overflow: auto; padding-right: 4px; }
+.transcript.open .chips { max-height: none; }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-family: var(--f-mono); font-size: 12px; padding: 4px 4px 4px 9px; border-radius: 8px; background: var(--surface-2); color: var(--ink); border: 1px solid transparent; }
+.chip.ip { background: transparent; border: 1px dashed var(--line); color: var(--ink-2); }
+.chip.test { background: var(--accent-soft); color: var(--accent-ink); }
+.chip button { border: 0; background: transparent; cursor: pointer; width: 20px; height: 20px; border-radius: 5px; color: var(--muted); line-height: 1; }
+.chip button:hover { background: var(--line); color: var(--ink); }
+.t-tools { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; font-size: 13.5px; color: var(--ink-2); }
+.t-tools form { display: flex; gap: 6px; }
+.t-tools input[type=text] { width: 130px; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); font-family: var(--f-mono); font-size: 13px; }
+.linkish { background: none; border: 0; color: var(--accent-ink); cursor: pointer; padding: 0; font-weight: 600; font-size: 13.5px; }
+.toggle { display: inline-flex; gap: 8px; align-items: center; cursor: pointer; user-select: none; }
+.toggle input { accent-color: var(--accent); width: 16px; height: 16px; }
+.legend { display: inline-flex; gap: 10px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
+.legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; background: var(--surface-2); }
+.legend .l-test::before { background: var(--accent-soft); }
+.legend .l-ip::before { background: transparent; border: 1px dashed var(--muted); }
+.paste { display: grid; gap: 8px; }
+.paste textarea { width: 100%; min-height: 140px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); padding: 10px; font-family: var(--f-mono); font-size: 12.5px; }
+
+/* ---------- Summary ---------- */
+.summary { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 26px; }
+.sum { padding: 16px 18px; display: grid; gap: 4px; align-content: start; }
+.sum .k { font-family: var(--f-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.sum .v { font-family: var(--f-display); font-weight: 800; font-size: 22px; line-height: 1.15; text-wrap: balance; }
+.sum .s { color: var(--ink-2); font-size: 13.5px; }
+.sum .s b { color: var(--accent-ink); font-variant-numeric: tabular-nums; }
+
+/* ---------- Controls ---------- */
+.controls { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; justify-content: space-between; margin: 28px 0 12px; }
+.seg { display: inline-flex; background: var(--surface-2); border-radius: 999px; padding: 3px; }
+.seg button { border: 0; background: transparent; padding: 7px 14px; border-radius: 999px; cursor: pointer; font-weight: 600; font-size: 13.5px; color: var(--ink-2); }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+.seg button .n { font-family: var(--f-mono); font-size: 11px; color: var(--muted); margin-left: 4px; }
+.ctl-right { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.ctl-right select, .ctl-right input[type=search] { padding: 8px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); font-size: 13.5px; }
+.ctl-right input[type=search] { width: 190px; }
+
+/* ---------- Ranked list ---------- */
+.list { display: grid; gap: 8px; padding-bottom: 40px; }
+.prog { padding: 0; overflow: hidden; }
+.prog > button.row { all: unset; box-sizing: border-box; width: 100%; cursor: pointer; display: grid; grid-template-columns: 44px minmax(0, 1fr) minmax(0, 300px) 128px; gap: 14px; align-items: center; padding: 14px 16px; }
+.prog > button.row:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: var(--r); }
+.prog > button.row:hover { background: color-mix(in srgb, var(--surface-2) 45%, transparent); }
+.rank { font-family: var(--f-display); font-weight: 800; font-size: 22px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.prog.top .rank { color: var(--accent); }
+.name { min-width: 0; display: grid; gap: 5px; }
+.name .t { font-family: var(--f-display); font-weight: 600; font-size: 17px; line-height: 1.2; }
+.name .t small { font-family: var(--f-mono); font-size: 11px; font-weight: 400; color: var(--muted); margin-left: 6px; letter-spacing: .04em; }
+.pills { display: flex; flex-wrap: wrap; gap: 5px; }
+.pill { font-size: 11.5px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); white-space: nowrap; }
+.pill.ok { background: var(--done-soft); color: var(--done); }
+.pill.warn { background: var(--warn-soft); color: var(--warn); }
+.pill.bad { background: var(--bad-soft); color: var(--bad); }
+.pill.acc { background: var(--accent-soft); color: var(--accent-ink); }
+.dist { display: grid; gap: 6px; min-width: 0; }
+.bar { display: flex; gap: 2px; height: 12px; }
+.bar i { flex: 1 1 0; border-radius: 2px; background: var(--track); min-width: 2px; }
+.bar i.d { background: var(--done); }
+.bar i.p { background: color-mix(in srgb, var(--done) 45%, var(--track)); }
+.dist .cap { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; display: flex; justify-content: space-between; gap: 8px; }
+.left { text-align: right; }
+.left .big { font-family: var(--f-display); font-weight: 800; font-size: 26px; line-height: 1; font-variant-numeric: tabular-nums; }
+.left .big.zero { color: var(--done); }
+.left .unit { font-size: 12px; color: var(--muted); }
+.left .sub { font-size: 12.5px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+
+.detail { border-top: 1px solid var(--line); padding: 18px 18px 20px 74px; display: grid; gap: 18px; background: color-mix(in srgb, var(--surface-2) 30%, var(--surface)); }
+.detail h4 { margin: 0 0 8px; font-family: var(--f-mono); font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.groups { display: grid; gap: 10px; }
+.grp { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 4px 10px; align-items: start; }
+.grp .ic { width: 20px; height: 20px; border-radius: 50%; display: grid; place-items: center; font-size: 12px; font-weight: 700; margin-top: 1px; }
+.grp .ic.ok { background: var(--done-soft); color: var(--done); }
+.grp .ic.no { background: var(--accent-soft); color: var(--accent-ink); }
+.grp .gl { font-weight: 600; }
+.grp .gl .rem { font-weight: 500; color: var(--accent-ink); font-size: 13px; margin-left: 6px; }
+.grp .gb { grid-column: 2; display: grid; gap: 6px; font-size: 13.5px; color: var(--ink-2); }
+.cc { display: flex; flex-wrap: wrap; gap: 5px; }
+.cc span { font-family: var(--f-mono); font-size: 11.5px; padding: 2px 7px; border-radius: 6px; background: var(--done-soft); color: var(--done); }
+.cc span.need { background: var(--surface-2); color: var(--ink); }
+.cc span.need em { font-style: normal; color: var(--muted); font-family: var(--f-body); }
+.miss { color: var(--ink); }
+.callout { border-radius: 10px; padding: 10px 12px; font-size: 13.5px; display: grid; gap: 4px; }
+.callout.ok { background: var(--done-soft); }
+.callout.warn { background: var(--warn-soft); }
+.callout.info { background: var(--surface-2); }
+.notes { font-size: 13px; color: var(--ink-2); max-width: 80ch; }
+.src a { color: var(--accent-ink); font-size: 13px; word-break: break-all; }
+.empty { padding: 36px; text-align: center; color: var(--muted); }
+
+.report { margin: 8px 0 28px; padding: 20px 22px; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 18px 28px; align-items: start; }
+.report h3 { margin: 0 0 6px; font-family: var(--f-display); font-weight: 600; font-size: 20px; }
+.report p { margin: 0; color: var(--ink-2); font-size: 14px; max-width: 60ch; }
+.report ol { margin: 10px 0 0; padding-left: 20px; color: var(--ink-2); font-size: 14px; display: grid; gap: 4px; }
+.report .acts { display: grid; gap: 10px; }
+.btn-solid { background: var(--accent); color: #1a1205; text-decoration: none; justify-content: center; }
+.btn-solid:hover { filter: brightness(1.06); }
+.btn-soft { background: var(--surface-2); color: var(--ink); justify-content: center; }
+.report textarea { width: 100%; min-height: 110px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); padding: 10px; font-family: var(--f-mono); font-size: 12px; color: var(--ink); }
+.report .fine { font-size: 12.5px; color: var(--muted); }
+@media (max-width: 860px) { .report { grid-template-columns: minmax(0, 1fr); } }
+.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color: var(--muted); font-size: 13px; display: grid; gap: 6px; }
+.foot a { color: var(--accent-ink); }
+
+@media (max-width: 860px) {
+  .mast .wrap { grid-template-columns: minmax(0, 1fr); }
+  .summary { grid-template-columns: minmax(0, 1fr); }
+  .prog > button.row { grid-template-columns: 30px minmax(0, 1fr) auto; }
+  .prog .dist { grid-column: 2 / -1; grid-row: 2; }
+  .detail { padding-left: 18px; }
+  .rank { font-size: 18px; }
+}
+@media (max-width: 480px) {
+  .ctl-right input[type=search] { width: 100%; }
+  .ctl-right { width: 100%; }
+  .ctl-right select { flex: 1; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+</head>
+<body>
+<header class="mast">
+  <canvas id="contours" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">UVA · College of Arts &amp; Sciences</div>
+      <h1>How far are you from <em>your major?</em></h1>
+      <p class="lede">Drop in your transcript. We check it against every A&amp;S major and minor and rank them by how many credits and courses you have left, including prerequisites you still need before you can declare.</p>
+      <div class="privacy"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Your transcript is read in your browser. It is never uploaded.</div>
+    </div>
+    <div class="drop" id="drop">
+      <h2>Upload your transcript</h2>
+      <p>Unofficial transcript PDF from SIS (Student Center → Academic Records → View Unofficial Transcript). You can also paste the text.</p>
+      <div class="row">
+        <button class="btn btn-primary" id="pick" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 16V4M6 10l6-6 6 6M4 20h16"/></svg>Choose PDF</button>
+        <button class="btn btn-ghost" id="pasteBtn" type="button">Paste text</button>
+        <button class="btn btn-ghost" id="sampleBtn" type="button">Load sample</button>
+      </div>
+      <input type="file" id="file" accept="application/pdf,.pdf,.txt" hidden>
+      <div class="status" id="status" role="status" aria-live="polite"></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="panel transcript" id="transcript" aria-label="Your courses">
+    <div class="t-head">
+      <h3 id="tTitle">Your courses</h3>
+      <div class="legend"><span>Completed</span><span class="l-test">AP / test / transfer</span><span class="l-ip">In progress or planned</span></div>
+    </div>
+    <div class="paste" id="pasteBox" hidden>
+      <label for="pasteText" style="font-size:13.5px;color:var(--ink-2)">Paste your transcript text (copy everything from the unofficial transcript page):</label>
+      <textarea id="pasteText" placeholder="BIOL 2100  IntroBio w/Lab:Cell &amp; Genetics  TE  4.00&#10;CHEM 1410  Intro College Chemistry I  A  3.0&#10;…"></textarea>
+      <div><button class="btn btn-primary" id="pasteGo" type="button">Read pasted text</button></div>
+    </div>
+    <div class="chips" id="chips"></div>
+    <div class="t-tools">
+      <form id="addForm" autocomplete="off"><input type="text" id="addCode" placeholder="e.g. ECON 3010" aria-label="Add a course by code"><button class="btn" style="background:var(--surface-2);padding:6px 12px" type="submit">Add</button></form>
+      <label class="toggle"><input type="checkbox" id="ipToggle" checked> Count in-progress and planned courses</label>
+      <button class="linkish" id="expandChips" type="button">Show all</button>
+      <button class="linkish" id="clearBtn" type="button">Clear</button>
+      <a class="linkish" href="#report" style="text-decoration:none">Report a problem</a>
+    </div>
+  </section>
+
+  <section class="summary" id="summary" aria-label="Highlights"></section>
+
+  <div class="controls">
+    <div class="seg" role="group" aria-label="Program type">
+      <button type="button" data-type="major" aria-pressed="true">Majors <span class="n" id="nMaj"></span></button>
+      <button type="button" data-type="minor" aria-pressed="false">Minors <span class="n" id="nMin"></span></button>
+      <button type="button" data-type="all" aria-pressed="false">All</button>
+    </div>
+    <div class="ctl-right">
+      <label for="sort" class="visually-hidden" hidden>Sort</label>
+      <select id="sort" aria-label="Sort by">
+        <option value="effort">Easiest overall</option>
+        <option value="credits">Fewest credits left</option>
+        <option value="courses">Fewest courses left</option>
+        <option value="pct">Most complete</option>
+        <option value="ready">Ready to declare first</option>
+      </select>
+      <input type="search" id="q" placeholder="Search programs" aria-label="Search programs">
+    </div>
+  </div>
+
+  <section class="list" id="list" aria-label="Ranked programs"></section>
+</main>
+
+<section class="wrap" aria-labelledby="reportTitle">
+  <div class="panel report" id="report">
+    <div>
+      <h3 id="reportTitle">Something look wrong?</h3>
+      <p>If a course didn't read correctly, a requirement looks off, or the ranking doesn't make sense, tell us so it can be fixed.</p>
+      <ol>
+        <li>Click <b>Copy diagnostic info</b>. It copies the courses the site read from your transcript (codes, grades, credits, terms). Your name is not included.</li>
+        <li>Open the report form and paste it into the <b>Diagnostic info</b> box.</li>
+        <li>Describe what you expected to see.</li>
+      </ol>
+    </div>
+    <div class="acts">
+      <a class="btn btn-solid" id="formLink" href="#" target="_blank" rel="noopener" hidden>Open the report form</a>
+      <div class="fine" id="formPending">The report form link is being set up.</div>
+      <button class="btn btn-soft" id="copyDiag" type="button">Copy diagnostic info</button>
+      <label for="diagText" class="fine">Diagnostic info (you can also select and copy this text):</label>
+      <textarea id="diagText" readonly></textarea>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap foot">
+  <div>Requirements were compiled from UVA department websites (2025–27) and have not yet been checked line by line against the official Undergraduate Record. Course titles, credits and terms come from <a href="https://github.com/UVA-Course-Explorer" target="_blank" rel="noopener">UVA Course Explorer</a> data. This is an unofficial planning tool: confirm your plan with your advisor and Stellic before you declare.</div>
+  <div id="dataStamp"></div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"></script>
+<script src="engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

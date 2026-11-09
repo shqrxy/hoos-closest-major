@@ -1,0 +1,780 @@
+[
+ {
+  "id": "african-american-and-african-studies-minor",
+  "name": "African American and African Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Carter G. Woodson Institute for African-American and African Studies",
+  "totalCredits": 18,
+  "sources": [
+   "https://woodson.as.virginia.edu/undergraduate-program/african-american-and-african-studies-minor"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": ""
+  },
+  "requirements": [
+   {
+    "label": "Introductory core (grade C or better in each)",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "AAS 1010",
+     "AAS 1020"
+    ]
+   },
+   {
+    "label": "Electives (12 credits)",
+    "need": {
+     "credits": 12
+    },
+    "from": [
+     "AAS *"
+    ],
+    "exclude": [
+     "AAS 1010",
+     "AAS 1020"
+    ],
+    "note": "Twelve credits beyond AAS 1010/1020 from the list of approved courses posted on the Woodson Institute website; approved courses in other departments (e.g. HIAF, HIUS, ENGL, MUSI cross-lists) also count but the list was not available."
+   }
+  ],
+  "notes": "Minimum 2.0 GPA in all courses counted toward the minor. Up to 6 credits of relevant study abroad may count with prior approval of the Director of Undergraduate Programs. Approved non-AAS electives are not modelled."
+ },
+ {
+  "id": "african-studies-minor",
+  "name": "African Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Carter G. Woodson Institute for African-American and African Studies",
+  "totalCredits": 20,
+  "sources": [
+   "https://woodson.as.virginia.edu/undergraduate-program/african-studies-minor"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "No prerequisites."
+  },
+  "requirements": [
+   {
+    "label": "Required history of Africa (grade C or better in each)",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "HIAF 2001",
+     "HIAF 2002"
+    ]
+   },
+   {
+    "label": "Approved electives (12 credits)",
+    "need": {
+     "credits": 12
+    },
+    "from": [
+     "AAS *",
+     "HIAF *"
+    ],
+    "exclude": [
+     "HIAF 2001",
+     "HIAF 2002"
+    ],
+    "note": "Twelve additional credits approved by the Director of Undergraduate Programs; Africa-focused courses in other departments (anthropology, French, politics, religious studies, African languages, etc.) can be approved. Not every AAS course is Africa-focused."
+   }
+  ],
+  "notes": "Six courses totaling at least 20 credits, taken from at least two departments. Minimum 2.0 GPA in all courses counted toward the minor. Up to 6 credits of relevant study abroad may apply. Elective approval is case-by-case and not fully modelled."
+ },
+ {
+  "id": "southern-studies-minor",
+  "name": "Southern Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "American Studies",
+  "totalCredits": 18,
+  "sources": [
+   "https://americanstudies.as.virginia.edu/node/1701"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Consult the director (Grace Hale) before declaring; declare with the general Minor Declaration Form."
+  },
+  "requirements": [
+   {
+    "label": "Core courses (choose two)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "AAS 3231|HIUS 3231",
+     "AMST 2753|ARTH 2753",
+     "AMST 3880|ENGL 3710",
+     "HIUS 3232",
+     "HIUS 3651",
+     "HIUS 3652",
+     "HIUS 3671"
+    ]
+   },
+   {
+    "label": "Electives (four)",
+    "need": {
+     "courses": 4
+    },
+    "from": [
+     "AAS 3231|HIUS 3231",
+     "AMST 2753|ARTH 2753",
+     "AMST 3880|ENGL 3710",
+     "HIUS 3232",
+     "HIUS 3651",
+     "HIUS 3652",
+     "HIUS 3671",
+     "AMST *",
+     "AAS *",
+     "HIUS *",
+     "ENGL *",
+     "PLAP *",
+     "RELG *",
+     "WGS *"
+    ],
+    "note": "Electives may come from the core list or from a semester-by-semester list of approved Southern-content courses across AMST, AAS, History, English, Politics, Religious Studies, WGS and others. Only approved courses count; subject wildcards are approximations. Courses used for the core cannot be reused here."
+   }
+  ],
+  "notes": "Six courses / 18 credits. At most one course taken outside UVA (study abroad or transfer). College double-counting rules apply. No minimum grade stated on the page."
+ },
+ {
+  "id": "art-history-ba",
+  "name": "Art History",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Art",
+  "totalCredits": 30,
+  "sources": [
+   "https://art.as.virginia.edu/art-history-major",
+   "https://art.as.virginia.edu/art-history-minor"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Prerequisite: Art Worlds (grade C or above)",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "ARTH 2000"
+     ]
+    }
+   ],
+   "minGPA": null,
+   "notes": "Contact the Director of the Undergraduate Program to be assigned an advisor, then submit the College Declare a Major/Minor form."
+  },
+  "requirements": [
+   {
+    "label": "Art Worlds",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ARTH 2000"
+    ],
+    "note": "Gateway course; assumed to count as one of the 10 courses."
+   },
+   {
+    "label": "Distribution: before 1500 (2000-level or above)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ARTH 2052",
+     "ARTH 2053",
+     "ARTH 2054",
+     "ARTH 2055",
+     "ARTH 2056",
+     "ARTH 2151",
+     "ARTH 2153",
+     "ARTH 2252",
+     "ARTH 2271",
+     "ARTH 2525",
+     "ARTH 2961",
+     "ARTH 3051",
+     "ARTH 3062",
+     "ARTH 3151",
+     "ARTH 3153",
+     "ARTH 3254",
+     "ARTH 3255",
+     "ARTH 3525"
+    ],
+    "note": "Lists on the department page are examples; other approved courses may count."
+   },
+   {
+    "label": "Distribution: after 1500 (2000-level or above)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ARTH 2281",
+     "ARTH 2282",
+     "ARTH 2352",
+     "ARTH 2354",
+     "ARTH 2371",
+     "ARTH 2372",
+     "ARTH 2451",
+     "ARTH 2470",
+     "ARTH 2471",
+     "ARTH 2491",
+     "ARTH 2745",
+     "ARTH 2753",
+     "ARTH 2769",
+     "ARTH 2961",
+     "ARTH 3254",
+     "ARTH 3525",
+     "ARTH 3545",
+     "ARTH 3785"
+    ]
+   },
+   {
+    "label": "Distribution: African, Asian, or Indigenous traditions",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ARTH 1861",
+     "ARTH 2052",
+     "ARTH 2053",
+     "ARTH 2054",
+     "ARTH 2055",
+     "ARTH 2056",
+     "ARTH 2745",
+     "ARTH 2861",
+     "ARTH 2862",
+     "ARTH 2882",
+     "ARTH 2891",
+     "ARTH 2892",
+     "ARTH 2961",
+     "ARTH 3051",
+     "ARTH 3062",
+     "ARTH 3651",
+     "ARTH 3785",
+     "ARTH 3861",
+     "ARTH 3863"
+    ]
+   },
+   {
+    "label": "Capstones: two 4000-level courses",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "ARTH 4000-4999",
+     "ARAD 4000-4999",
+     "ARH 4000-4999"
+    ],
+    "note": "Seminars, Arts Administration, DMP preparation, or advanced topics. Cannot also satisfy a distribution requirement."
+   },
+   {
+    "label": "Two additional courses at 3000 level or above",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "ARTH 3000+",
+     "ARAD 3000+",
+     "ARH 3000+"
+    ],
+    "note": "May overlap with other requirements (distribution), but not with the two capstones."
+   },
+   {
+    "label": "Total: 10 courses",
+    "need": {
+     "courses": 10
+    },
+    "from": [
+     "ARTH *",
+     "ARH 2000+",
+     "ARAD *",
+     "ARTS *"
+    ],
+    "note": "At least 9 above the 1000 level. At most one 1000-level ARTH course (AP 4/5 counts) and at most one Studio Art (ARTS) course. Architectural History (ARH) at 2000+ and ARAD coursework count."
+   }
+  ],
+  "notes": "No course graded below C- counts; ARTH 2000 needs C or above. Major GPA of at least 2.000 by graduation. One course cannot satisfy more than one distribution requirement. Pre-1500, post-1500, and African/Asian/Indigenous are three separate distribution requirements (the minor page confirms 'three requirements'); a cross-listed course like ARTH 2961 appears on several lists but can satisfy only one. Transfer, dual-enrollment, study-abroad credit counts. Credits assume 3-credit courses (10 courses ~30 credits)."
+ },
+ {
+  "id": "art-history-minor",
+  "name": "Art History",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Art",
+  "totalCredits": 15,
+  "sources": [
+   "https://art.as.virginia.edu/art-history-minor",
+   "https://art.as.virginia.edu/art-history-major"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Prerequisite: Art Worlds (grade C or above)",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "ARTH 2000"
+     ]
+    }
+   ],
+   "minGPA": null,
+   "notes": "Contact the Director of the Undergraduate Program (Fayerweather Hall) to be assigned an advisor, then submit the declaration form."
+  },
+  "requirements": [
+   {
+    "label": "Art Worlds",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ARTH 2000"
+    ],
+    "note": "Assumed to count as one of the 5 courses."
+   },
+   {
+    "label": "Before 1500 (2000-level or above)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ARTH 2052",
+     "ARTH 2053",
+     "ARTH 2054",
+     "ARTH 2055",
+     "ARTH 2056",
+     "ARTH 2151",
+     "ARTH 2153",
+     "ARTH 2252",
+     "ARTH 2271",
+     "ARTH 2525",
+     "ARTH 2961",
+     "ARTH 3051",
+     "ARTH 3062",
+     "ARTH 3151",
+     "ARTH 3153",
+     "ARTH 3254",
+     "ARTH 3255",
+     "ARTH 3525"
+    ],
+    "note": "Course lists taken from the major page."
+   },
+   {
+    "label": "After 1500 (2000-level or above)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ARTH 2281",
+     "ARTH 2282",
+     "ARTH 2352",
+     "ARTH 2354",
+     "ARTH 2371",
+     "ARTH 2372",
+     "ARTH 2451",
+     "ARTH 2470",
+     "ARTH 2471",
+     "ARTH 2491",
+     "ARTH 2745",
+     "ARTH 2753",
+     "ARTH 2769",
+     "ARTH 2961",
+     "ARTH 3254",
+     "ARTH 3525",
+     "ARTH 3545",
+     "ARTH 3785"
+    ]
+   },
+   {
+    "label": "African, Asian, or Indigenous traditions (2000-level or above)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ARTH 2052",
+     "ARTH 2053",
+     "ARTH 2054",
+     "ARTH 2055",
+     "ARTH 2056",
+     "ARTH 2745",
+     "ARTH 2861",
+     "ARTH 2862",
+     "ARTH 2882",
+     "ARTH 2891",
+     "ARTH 2892",
+     "ARTH 2961",
+     "ARTH 3051",
+     "ARTH 3062",
+     "ARTH 3651",
+     "ARTH 3785",
+     "ARTH 3861",
+     "ARTH 3863"
+    ]
+   },
+   {
+    "label": "Fifth course (any level)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ARTH *",
+     "ARAD *",
+     "ARH *"
+    ],
+    "note": "Any level in Arts Administration, Art History, or Architectural History."
+   }
+  ],
+  "notes": "Minimum of 5 courses. A single course may not satisfy more than one of the pre-1500, post-1500, and African/Asian/Indigenous requirements. Credit total assumes 3-credit courses."
+ },
+ {
+  "id": "asian-pacific-american-studies-minor",
+  "name": "Asian Pacific American Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "American Studies",
+  "totalCredits": 18,
+  "sources": [
+   "https://americanstudies.as.virginia.edu/minors/apas"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Consult the APAS director (Sylvia Chong) before declaring; general Minor Declaration Form."
+  },
+  "requirements": [
+   {
+    "label": "Survey",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "AMST 3180|ENGL 3740",
+     "ANTH 2610"
+    ]
+   },
+   {
+    "label": "Theory / comparative race",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "SOC 3410",
+     "ANTH 2250",
+     "PLPT 3020",
+     "PLPT 3030",
+     "WGS 3810",
+     "AAS 1010",
+     "AAS 1020",
+     "AMST 3300",
+     "AMST 3280|ANTH 3280|ANTH 2559"
+    ],
+    "note": "Department page lists 'AMST 3280 / ANTH 2559' and has broken catalog links; numbers may be off."
+   },
+   {
+    "label": "Transnational / diaspora (modern Asia)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "EAST *",
+     "HIEA *",
+     "HISA *",
+     "JPTR *",
+     "CHTR *",
+     "SATR *",
+     "SAST *",
+     "PLCP *",
+     "ANTH *",
+     "SOC *"
+    ],
+    "note": "Most courses on 19th-21st century Asia in these subjects qualify; only Asia-focused (non-ancient) courses count, which cannot be verified from a subject code."
+   },
+   {
+    "label": "Electives (three)",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "AMST 2001",
+     "AMST 3471|ENGL 3791",
+     "AMST 3500|MDST 3505",
+     "AMST 3610",
+     "AMST 3630|ENGL 3924",
+     "AMST 4500|ENGL 4580|ENGL 4560",
+     "AMST 4559",
+     "ENGL 4561",
+     "MDST 3407",
+     "AMST *"
+    ],
+    "note": "Shifting list 'including but not limited to' these; AMST 4500/4559 are topics courses and only Asian American topics count. Check with the director."
+   }
+  ],
+  "notes": "6 courses / 18 credits from 8+ departments. Courses used for the minor cannot double-count for the student's major. No grade minimum stated."
+ },
+ {
+  "id": "native-american-and-indigenous-studies-minor",
+  "name": "Native American and Indigenous Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "American Studies",
+  "totalCredits": 18,
+  "sources": [
+   "https://americanstudies.as.virginia.edu/minors/nais"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Consult the NAIS director (Kasey Jernigan) before declaring; general Minor Declaration Form."
+  },
+  "requirements": [
+   {
+    "label": "Core: Native American Indigenous Studies survey",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "AMST 3280|ANTH 3280",
+     "AMST 2280"
+    ]
+   },
+   {
+    "label": "Core: Global/Transnational Indigenous Studies",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ANTH 3100",
+     "ANTH 3152",
+     "ANTH 3450",
+     "ANTH 4590|ARTH 4591",
+     "MDST 4301",
+     "SPAN 4500"
+    ],
+    "note": "SPAN 4500 is a topics number; only 'Literatura Indigena' counts."
+   },
+   {
+    "label": "Electives (four)",
+    "need": {
+     "courses": 4
+    },
+    "from": [
+     "AMST 3280|ANTH 3280",
+     "AMST 2280",
+     "ANTH 3100",
+     "ANTH 3152",
+     "ANTH 3450",
+     "ANTH 4590|ARTH 4591",
+     "MDST 4301",
+     "AMST 4403",
+     "AMST 4500",
+     "AMST 3641|HIUS 3641",
+     "ANTH 2153",
+     "ANTH 2160",
+     "ANTH 2589",
+     "ANTH 3154",
+     "ANTH 3175",
+     "ANTH 3344",
+     "ANTH 3589",
+     "ANTH 3590|ARTH 3595",
+     "ANTH 5541",
+     "ARTH 2882",
+     "ENGL 3332|AMST 4401",
+     "ENGL 3725",
+     "EVSC 2200",
+     "GDS 3110",
+     "GDS 3114",
+     "GSGS 3111",
+     "GSGS 4559",
+     "HILA 2001",
+     "HIUS 3012",
+     "HIUS 3261",
+     "MDST 3407|AMST 3407",
+     "MDST 4500",
+     "RELG 3360",
+     "SPAN 4500",
+     "SPAN 4711"
+    ],
+    "note": "From the core list or the semester-varying elective list. AMST 4500, MDST 4500, GSGS 4559 and SPAN 4500 are topics numbers; only the listed Indigenous topics count. The department page has some mismatched course links (e.g., ARTH 2882 links to 2282)."
+   }
+  ],
+  "notes": "At least 6 courses / 18 credits. At most one course from outside UVA (study abroad/transfer). College double-counting rules apply. No grade minimum stated."
+ },
+ {
+  "id": "studio-art-ba",
+  "name": "Studio Art",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Art",
+  "totalCredits": 30,
+  "sources": [
+   "https://art.as.virginia.edu/studio-art-major"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Complete the Major Declaration Form (DocuSign) and meet with the studio advisor (A-L: Federico Cuatlacuatl; M-Z: Neal Rock). Since Fall 2024 ARTS 2000 is no longer required to enter upper-division courses."
+  },
+  "requirements": [
+   {
+    "label": "Studio courses at 2000-level or above (12 credits)",
+    "need": {
+     "credits": 12
+    },
+    "from": [
+     "ARTS 2000+"
+    ],
+    "exclude": [
+     "ARTS 4450",
+     "ARTS 4452",
+     "ARTS 4900"
+    ]
+   },
+   {
+    "label": "Concentration (9 credits in ONE concentration, at least 3 at 3000-level)",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "ARTS 2220",
+     "ARTS 2222",
+     "ARTS 3220",
+     "ARTS 3222",
+     "ARTS 4220",
+     "ARTS 4222",
+     "ARTS 2370",
+     "ARTS 2372",
+     "ARTS 3370",
+     "ARTS 3372",
+     "ARTS 4370",
+     "ARTS 4372",
+     "ARTS 2710",
+     "ARTS 2712",
+     "ARTS 3710",
+     "ARTS 3712",
+     "ARTS 4710",
+     "ARTS 4712",
+     "ARTS 2110",
+     "ARTS 2112",
+     "ARTS 3110",
+     "ARTS 3112",
+     "ARTS 4110",
+     "ARTS 4112",
+     "ARTS 2670",
+     "ARTS 2672",
+     "ARTS 3670",
+     "ARTS 3672",
+     "ARTS 4670",
+     "ARTS 4672",
+     "ARTS 2810",
+     "ARTS 2812",
+     "ARTS 3810",
+     "ARTS 3812",
+     "ARTS 4810",
+     "ARTS 4812"
+    ],
+    "note": "All 9 credits must be in a single concentration: Digital Art (ARTS 22xx/32xx/42xx 220,222), Filmmaking (x370, x372), Painting (x710, x712), Photography (x110, x112), Printmaking (x670, x672), Sculpture (x810, x812). At least 3 of the 9 credits at the 3000 level. Special Topics courses do not count toward the concentration. Single-concentration rule is not enforced by this group."
+   },
+   {
+    "label": "Upper-level studio (3 credits at 3000/4000-level)",
+    "need": {
+     "credits": 3
+    },
+    "from": [
+     "ARTS 3000-4999"
+    ],
+    "exclude": [
+     "ARTS 4450",
+     "ARTS 4452",
+     "ARTS 4900"
+    ]
+   },
+   {
+    "label": "Modern/contemporary art history",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ARTH 2591",
+     "ARTH 2745",
+     "ARTH 2882",
+     "ARTH 3591",
+     "ARTH 4591"
+    ],
+    "note": "Spring 2027 list from the department; the approved list changes each term."
+   },
+   {
+    "label": "Departmental elective (3 credits)",
+    "need": {
+     "credits": 3
+    },
+    "from": [
+     "ARTH 2000-4999",
+     "ARTS 3000-4999"
+    ],
+    "exclude": [
+     "ARTS 4450",
+     "ARTS 4452",
+     "ARTS 4900"
+    ]
+   }
+  ],
+  "coursePrereqs": {
+   "ARTS 2710": [
+    "ARTS 2610"
+   ],
+   "ARTS 2712": [
+    "ARTS 2610"
+   ]
+  },
+  "notes": "30 credits; groups are intended to be filled by distinct courses (12 + 9 + 3 + 3 + 3). Minimum 2.000 GPA in the 30 major credits; C- or below does not count. Up to 9 transfer credits with DUP approval. ARTS 4450/4452 (Advanced Major Seminar, year-long, 4th year) and ARTS 4900 do not count toward the 30 credits; the seminar is required for the Distinguished Majors Program (expected 3.4 GPA, thesis exhibition). Students planning a thesis show must be in a 4000-level class in their final semester. Painting courses require ARTS 2610 (Drawing I); the exact painting course numbers needing it are assumed (ARTS 2710/2712)."
+ },
+ {
+  "id": "studio-art-minor",
+  "name": "Studio Art",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Art",
+  "totalCredits": 18,
+  "sources": [
+   "https://art.as.virginia.edu/studio-art-minor"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": ""
+  },
+  "requirements": [
+   {
+    "label": "Studio art (18 credits)",
+    "need": {
+     "credits": 18
+    },
+    "from": [
+     "ARTS *"
+    ],
+    "exclude": [
+     "ARTS 4900"
+    ]
+   },
+   {
+    "label": "At least 15 credits at 2000-level or above, in at least two concentration areas",
+    "need": {
+     "credits": 15
+    },
+    "from": [
+     "ARTS 2000+"
+    ],
+    "exclude": [
+     "ARTS 4900"
+    ],
+    "note": "Must span at least two concentration areas (Digital Art, Filmmaking, Painting, Photography, Printmaking, Sculpture); not enforced here. At least one course must be at the 2000 level (implied by this group)."
+   }
+  ],
+  "notes": "Minimum 2.000 GPA across the 18 minor credits; no ARTS course graded C- or below counts. ARTS 4900 does not count. Up to 6 transfer credits with DUP approval."
+ }
+]

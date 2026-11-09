@@ -1,0 +1,1867 @@
+[
+ {
+  "id": "physics-bs",
+  "name": "Physics",
+  "degree": "B.S.",
+  "type": "major",
+  "department": "Physics",
+  "totalCredits": null,
+  "sources": [
+   "https://www.phys.virginia.edu/Education/Undergrad/bs-in-physics.asp"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "No prerequisites to declare; request a physics major advisor via the department form, then file the College declaration form."
+  },
+  "requirements": [
+   {
+    "label": "Introductory Physics 1 + workshop",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 1420|PHYS 1425",
+     "PHYS 1429"
+    ]
+   },
+   {
+    "label": "Computing",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHYS 1655",
+     "PHYS 3630"
+    ]
+   },
+   {
+    "label": "Multivariable calculus",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 2310|APMA 2120|MATH 2315"
+    ]
+   },
+   {
+    "label": "Introductory Physics 2 + workshop",
+    "need": {
+     "courses": 1
+    },
+    "from": [],
+    "sets": [
+     [
+      "PHYS 2410",
+      "PHYS 2419"
+     ],
+     [
+      "PHYS 2415",
+      "PHYS 2419"
+     ],
+     [
+      "ECE 3209"
+     ]
+    ],
+    "note": "ECE students may substitute ECE 3209 for PHYS 2415 + 2419."
+   },
+   {
+    "label": "Modern Physics",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 2620"
+    ]
+   },
+   {
+    "label": "Differential equations",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 3250|APMA 2130|MATH 3315"
+    ]
+   },
+   {
+    "label": "Problem Solving",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 2720"
+    ]
+   },
+   {
+    "label": "Intermediate Lab",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 3140"
+    ]
+   },
+   {
+    "label": "Mathematics for Physics",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 3340"
+    ],
+    "note": "May be waived with advisor approval after MATH 2315/3315 honors sequence."
+   },
+   {
+    "label": "Partial differential equations",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 4220|APMA 3140"
+    ]
+   },
+   {
+    "label": "Concentration (Fundamental Physics shown; Applied Physics alternative in notes)",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "children": [
+     {
+      "label": "Advanced Lab",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "PHYS 3170|PHYS 3180"
+      ]
+     },
+     {
+      "label": "Advanced core",
+      "need": {
+       "all": true
+      },
+      "from": [
+       "PHYS 3210",
+       "PHYS 3310",
+       "PHYS 3420",
+       "PHYS 3430",
+       "PHYS 3650",
+       "PHYS 3660",
+       "PHYS 3995"
+      ]
+     },
+     {
+      "label": "Physics elective (3000- or 5000-level)",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "PHYS 3000-3999",
+       "PHYS 5000-5999"
+      ],
+      "exclude": [
+       "PHYS 3140",
+       "PHYS 3340"
+      ],
+      "note": "Must be a course not used elsewhere; PHYS 7000/8000 with advisor permission."
+     }
+    ]
+   }
+  ],
+  "coursePrereqs": {
+   "PHYS 1420": [
+    "MATH 1310"
+   ],
+   "PHYS 1425": [
+    "MATH 1310"
+   ],
+   "PHYS 2410": [
+    "MATH 2310|APMA 2120"
+   ],
+   "PHYS 2415": [
+    "MATH 2310|APMA 2120"
+   ],
+   "PHYS 2620": [
+    "PHYS 2410|PHYS 2415"
+   ],
+   "PHYS 2720": [
+    "PHYS 2410|PHYS 2415",
+    "MATH 3250|APMA 2130"
+   ],
+   "PHYS 3210": [
+    "PHYS 2410|PHYS 2415",
+    "MATH 3250|APMA 2130"
+   ],
+   "PHYS 3310": [
+    "PHYS 2620"
+   ],
+   "PHYS 3340": [
+    "MATH 2310|APMA 2120"
+   ],
+   "PHYS 3420": [
+    "PHYS 2410|PHYS 2415",
+    "MATH 4220|APMA 3140"
+   ],
+   "PHYS 3430": [
+    "PHYS 3420"
+   ],
+   "PHYS 3650": [
+    "PHYS 2620",
+    "MATH 3250|APMA 2130",
+    "PHYS 3340"
+   ],
+   "PHYS 3170": [
+    "PHYS 3140"
+   ],
+   "PHYS 3180": [
+    "PHYS 3140"
+   ]
+  },
+  "notes": "Two concentrations. Fundamental Physics (encoded): PHYS 3170/3180, 3210, 3310, 3420, 3430, 3650, 3660, 3995, + one 3000/5000-level elective. Applied Physics (not encoded): three of PHYS 3210/3310/3420/3430/3650/3660; 12 credits of topical science/engineering electives tied to the capstone (>=3 cr at 2000+, >=9 cr at 3000+); 6 credits capstone research/project. Minimum grade C in required courses (C- for those declared before Fall 2024); major GPA >= 2.000. PHYS 5310 may replace PHYS 3430 with approval. Prereqs listed are from the department page (PHYS 2720 co-requisites shown as prereqs; PHYS 1429/2419 are co-requisites of Intro Physics). Department site used because records.ureg.virginia.edu pages returned empty."
+ },
+ {
+  "id": "physics-ba",
+  "name": "Physics",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Physics",
+  "totalCredits": null,
+  "sources": [
+   "https://web.phys.virginia.edu/Education/Undergrad/ba-in-physics.asp"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "No prerequisites listed; declare via the College Declare a Major or Minor form."
+  },
+  "requirements": [
+   {
+    "label": "Introductory Physics 1 + workshop",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 1420|PHYS 1425",
+     "PHYS 1429"
+    ]
+   },
+   {
+    "label": "Multivariable calculus",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 2310|APMA 2120|MATH 2315"
+    ]
+   },
+   {
+    "label": "Introductory Physics 2 + workshop",
+    "need": {
+     "courses": 1
+    },
+    "from": [],
+    "sets": [
+     [
+      "PHYS 2410",
+      "PHYS 2419"
+     ],
+     [
+      "PHYS 2415",
+      "PHYS 2419"
+     ],
+     [
+      "ECE 2200"
+     ],
+     [
+      "ECE 3209"
+     ]
+    ],
+    "note": "ECE 2200 accepted as Intro Physics 2; ECE 3209 may substitute for PHYS 2415 + 2419."
+   },
+   {
+    "label": "Modern Physics",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 2620"
+    ]
+   },
+   {
+    "label": "Differential equations",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 3250|APMA 2130|MATH 3315"
+    ]
+   },
+   {
+    "label": "Problem Solving",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 2720"
+    ]
+   },
+   {
+    "label": "Four 3000-level physics courses",
+    "need": {
+     "courses": 4
+    },
+    "from": [
+     "PHYS 3000-3999",
+     "PHYS 5000-5999"
+    ],
+    "note": "Department lists regularly offered: PHYS 3040, 3110, 3120, 3140, 3150, 3170, 3180, 3250, 3620, 3995 and BS-oriented 3210, 3310, 3420, 3430, 3650, 3660; 5000-level allowed with advisor."
+   }
+  ],
+  "coursePrereqs": {
+   "PHYS 1420": [
+    "MATH 1310"
+   ],
+   "PHYS 1425": [
+    "MATH 1310"
+   ],
+   "PHYS 2410": [
+    "MATH 2310|APMA 2120"
+   ],
+   "PHYS 2415": [
+    "MATH 2310|APMA 2120"
+   ],
+   "PHYS 2620": [
+    "PHYS 2410|PHYS 2415"
+   ],
+   "PHYS 2720": [
+    "PHYS 2410|PHYS 2415",
+    "MATH 3250|APMA 2130"
+   ],
+   "PHYS 3170": [
+    "PHYS 3140"
+   ],
+   "PHYS 3180": [
+    "PHYS 3140"
+   ]
+  },
+  "notes": "Minimum grade C in required courses (C- if declared before Fall 2024); major GPA >= 2.000. PHYS 1930 recommended. Department page mentions PHYS 3340 can be waived, but does not list it as a BA requirement. Records.ureg pages returned empty; built from department page."
+ },
+ {
+  "id": "physics-minor",
+  "name": "Physics",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Physics",
+  "totalCredits": null,
+  "sources": [
+   "https://www.phys.virginia.edu/Education/Undergrad/minordeclaration.asp"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Request a physics advisor through the department form."
+  },
+  "requirements": [
+   {
+    "label": "Introductory sequence (Option 1 calculus-based, or Option 2 Principles of Physics)",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "PHYS 1420|PHYS 1425",
+      "PHYS 1429",
+      "PHYS 2410|PHYS 2415",
+      "PHYS 2419"
+     ],
+     [
+      "PHYS 2010",
+      "PHYS 2020",
+      "PHYS 2030",
+      "PHYS 2040"
+     ]
+    ]
+   },
+   {
+    "label": "Multivariable calculus",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 2310|APMA 2120"
+    ]
+   },
+   {
+    "label": "Modern Physics and Problem Solving",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 2620",
+     "PHYS 2720"
+    ]
+   },
+   {
+    "label": "One 3000-level physics elective",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHYS 3000-3999"
+    ]
+   }
+  ],
+  "coursePrereqs": {
+   "PHYS 2620": [
+    "PHYS 2410|PHYS 2415|PHYS 2020"
+   ],
+   "PHYS 2720": [
+    "PHYS 2410|PHYS 2415",
+    "MATH 3250|APMA 2130"
+   ]
+  },
+  "notes": "Requirements for students starting intro physics Fall 2021 or later. Pre-Fall-2021 options: (1) PHYS 1710, 1720, 2620 + two 3000-level electives (or one + PHYS 2630); (2) PHYS 1425, 1429, 2415, 2419, 2620 + two 3000-level electives; (3) PHYS 2010, 2020, 2030, 2040, 2620 + two 3000-level electives. Minimum C- in each required course; GPA >= 2.000 in required courses. College generally forbids double counting with a major (exception only for intro physics). Credit total not stated on department page."
+ },
+ {
+  "id": "astronomy-ba",
+  "name": "Astronomy",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Astronomy",
+  "totalCredits": null,
+  "sources": [
+   "https://astronomy.as.virginia.edu/astronomy-major-ba"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "File the College declaration form listing the astronomy majors advisor."
+  },
+  "requirements": [
+   {
+    "label": "Introductory astronomy",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "ASTR 1210",
+      "ASTR 1220"
+     ],
+     [
+      "ASTR 2110",
+      "ASTR 2120"
+     ]
+    ]
+   },
+   {
+    "label": "Physics",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "PHYS 1420",
+      "PHYS 2410"
+     ],
+     [
+      "PHYS 1425",
+      "PHYS 2415"
+     ]
+    ]
+   },
+   {
+    "label": "Calculus",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "MATH 1310",
+     "MATH 1320",
+     "MATH 2310|APMA 2120"
+    ]
+   },
+   {
+    "label": "Computing",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHYS 1655",
+     "PHYS 2660",
+     "CS 1110",
+     "CS 1111",
+     "CS 1112"
+    ]
+   },
+   {
+    "label": "Observational Astronomy",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ASTR 3130"
+    ]
+   },
+   {
+    "label": "Upper-level astronomy electives (15 credits)",
+    "need": {
+     "courses": 5
+    },
+    "from": [
+     "ASTR 3000-5999"
+    ],
+    "exclude": [
+     "ASTR 3130",
+     "ASTR 4998"
+    ]
+   },
+   {
+    "label": "Senior thesis",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ASTR 4998"
+    ]
+   }
+  ],
+  "coursePrereqs": {
+   "ASTR 2120": [
+    "ASTR 2110"
+   ],
+   "ASTR 3130": [
+    "ASTR 2120"
+   ],
+   "ASTR 2110": [
+    "PHYS 1420|PHYS 1425"
+   ]
+  },
+  "notes": "ASTR 1610 recommended. Recommended for stronger students: MATH 3250, PHYS 3140, PHYS 3210. Department page does not say whether ASTR 4998 can count toward the 15 elective credits; encoded as separate. APMA 2120 as equivalent of MATH 2310 is an assumption. No grade/GPA rules stated on department page. Records.ureg pages returned empty."
+ },
+ {
+  "id": "astronomy-physics-bs",
+  "name": "Astronomy-Physics",
+  "degree": "B.S.",
+  "type": "major",
+  "department": "Astronomy",
+  "totalCredits": null,
+  "sources": [
+   "https://astronomy.as.virginia.edu/astronomy-physics-major-bs",
+   "https://web.phys.virginia.edu/Education/Undergrad/bs-in-astro-physics.asp"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Declare via College form; must meet with both Astronomy and Physics advisors every semester."
+  },
+  "requirements": [
+   {
+    "label": "Introductory astrophysics",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ASTR 2110",
+     "ASTR 2120"
+    ]
+   },
+   {
+    "label": "Observational Astronomy",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ASTR 3130"
+    ]
+   },
+   {
+    "label": "Senior thesis",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ASTR 4998|ASTR 4988"
+    ]
+   },
+   {
+    "label": "Astronomy electives (6 credits, 3000-5000 level)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "ASTR 3000-5999"
+    ],
+    "exclude": [
+     "ASTR 3130",
+     "ASTR 4998",
+     "ASTR 4988"
+    ],
+    "note": "ASTR 4810 strongly encouraged for graduate-school-bound students."
+   },
+   {
+    "label": "Introductory physics + workshops",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 1420|PHYS 1425",
+     "PHYS 1429",
+     "PHYS 2410|PHYS 2415",
+     "PHYS 2419"
+    ]
+   },
+   {
+    "label": "Physics core",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 2620",
+     "PHYS 2720",
+     "PHYS 3210",
+     "PHYS 3310",
+     "PHYS 3420",
+     "PHYS 3430",
+     "PHYS 3650"
+    ]
+   },
+   {
+    "label": "Mathematics for Physics",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHYS 3340|PHYS 3559|MATH 4210"
+    ]
+   },
+   {
+    "label": "Computing",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHYS 1655|PHYS 3630"
+    ]
+   },
+   {
+    "label": "Mathematics",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "MATH 1310",
+     "MATH 1320",
+     "MATH 2310|APMA 2120",
+     "MATH 3250|APMA 2130",
+     "MATH 4220|APMA 3140"
+    ]
+   }
+  ],
+  "coursePrereqs": {
+   "ASTR 2110": [
+    "PHYS 1420|PHYS 1425"
+   ],
+   "ASTR 2120": [
+    "ASTR 2110"
+   ],
+   "ASTR 3130": [
+    "ASTR 2120"
+   ],
+   "PHYS 2620": [
+    "PHYS 2410|PHYS 2415"
+   ],
+   "PHYS 3210": [
+    "PHYS 2410|PHYS 2415",
+    "MATH 3250|APMA 2130"
+   ],
+   "PHYS 3310": [
+    "PHYS 2620"
+   ],
+   "PHYS 3340": [
+    "MATH 2310|APMA 2120"
+   ],
+   "PHYS 3420": [
+    "PHYS 2410|PHYS 2415",
+    "MATH 4220|APMA 3140"
+   ],
+   "PHYS 3430": [
+    "PHYS 3420"
+   ],
+   "PHYS 3650": [
+    "PHYS 2620",
+    "MATH 3250|APMA 2130",
+    "PHYS 3340"
+   ]
+  },
+  "notes": "ASTR 4993 no longer required for students entering Fall 2021+. ASTR 1610 and PHYS 1660 recommended. Thesis listed as ASTR 4998 on astronomy site and ASTR 4988 on physics site (likely typo; accept either). Physics site lists PHYS 3340 only; astronomy site allows PHYS 3559 or MATH 4210 as alternatives. MATH 1310/1320 may be satisfied by AP credit. DMP: second semester of ASTR 4998, PHYS 3660 or PHYS 5000+, two ASTR 4000-5000 electives, GPA >= 3.4. No grade minimums stated."
+ },
+ {
+  "id": "astronomy-minor",
+  "name": "Astronomy",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Astronomy",
+  "totalCredits": 15,
+  "sources": [
+   "https://astronomy.as.virginia.edu/minor"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": ""
+  },
+  "requirements": [
+   {
+    "label": "Introductory course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ASTR 1210|ASTR 2110"
+    ]
+   },
+   {
+    "label": "Astronomy electives (12 credits)",
+    "need": {
+     "credits": 12
+    },
+    "from": [
+     "ASTR *"
+    ],
+    "children": [
+     {
+      "label": "At least 6 credits at 3000-level or above",
+      "need": {
+       "credits": 6
+      },
+      "from": [
+       "ASTR 3000+"
+      ]
+     }
+    ]
+   }
+  ],
+  "notes": "15 credits of ASTR total. No grade rules stated on department page."
+ },
+ {
+  "id": "chemistry-bs",
+  "name": "Chemistry",
+  "degree": "B.S.",
+  "type": "major",
+  "department": "Chemistry",
+  "totalCredits": null,
+  "sources": [
+   "https://chemistry.as.virginia.edu/bs-chemistry"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Department page links a 'Process for Declaring a Major, Minor, DMP, or ACS Certification' section; prerequisites to declare were not shown."
+  },
+  "requirements": [
+   {
+    "label": "General chemistry (lecture + lab)",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 1410|CHEM 1810",
+     "CHEM 1411|CHEM 1811",
+     "CHEM 1420|CHEM 1820",
+     "CHEM 1421|CHEM 1821"
+    ],
+    "note": "800-track lectures may be paired with 400-track labs."
+   },
+   {
+    "label": "Calculus",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "MATH 1310",
+     "MATH 1320"
+    ]
+   },
+   {
+    "label": "Organic chemistry",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "CHEM 2410",
+      "CHEM 2411",
+      "CHEM 2420",
+      "CHEM 2421"
+     ],
+     [
+      "CHEM 2810",
+      "CHEM 2811",
+      "CHEM 2820"
+     ]
+    ]
+   },
+   {
+    "label": "Additional mathematics (one course)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 2310",
+     "APMA 2120",
+     "MATH 3250",
+     "APMA 2130",
+     "MATH 3350",
+     "MATH 3351",
+     "APMA 3080"
+    ]
+   },
+   {
+    "label": "Physics I + II with workshops",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "PHYS 1420|PHYS 1425",
+      "PHYS 1429",
+      "PHYS 2410|PHYS 2415",
+      "PHYS 2419"
+     ],
+     [
+      "PHYS 1420|PHYS 1425",
+      "PHYS 1429",
+      "ECE 2200"
+     ],
+     [
+      "PHYS 2010",
+      "PHYS 2030",
+      "PHYS 2020",
+      "PHYS 2040"
+     ]
+    ],
+    "note": "Department lists PHYS 1425/2415/1429/2419 (calculus) or PHYS 2010/2020/2030/2040 (algebra). ECE 2200 satisfies Physics II. PHYS 1420/2410 assumed accepted as the newer numbering (BA page lists them)."
+   },
+   {
+    "label": "Analytical lab",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "CHEM 3721",
+     "CHEM 3121",
+     "CHEM 3951",
+     "CHEM 3961",
+     "CHEM 4951",
+     "CHEM 4961"
+    ],
+    "note": "Research used here cannot also count for the ACS research requirement."
+   },
+   {
+    "label": "Physical chemistry + labs",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 3410",
+     "CHEM 3420",
+     "CHEM 3811",
+     "CHEM 3821"
+    ]
+   },
+   {
+    "label": "Inorganic chemistry",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 4320"
+    ]
+   },
+   {
+    "label": "Biological chemistry",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "CHEM 4410|CHEM 4440"
+    ]
+   },
+   {
+    "label": "Analytical chemistry",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 4090"
+    ]
+   }
+  ],
+  "coursePrereqs": {
+   "CHEM 2410": [
+    "CHEM 1420|CHEM 1820"
+   ]
+  },
+  "notes": "Built from the department's suggested-sequence page (records.ureg.virginia.edu pages returned empty). ACS-certified B.S. additionally requires 6 credits of undergraduate research (CHEM 3951/3961/4951/4961) not used for the analytical-lab slot, plus a certification form. B.S. specializations (Biochemistry, Chemical Education, Chemical Physics, Environmental Chemistry, Materials Science) have additional requirements not encoded. Grade minimums not shown on the department page. Credit values: gen chem 8 (11 for 800-track), orgo 12 (9 for 800-track), pchem 6, pchem labs 6."
+ },
+ {
+  "id": "chemistry-ba",
+  "name": "Chemistry",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Chemistry",
+  "totalCredits": null,
+  "sources": [
+   "https://chemistry.as.virginia.edu/ba-chemistry"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Not stated on department page."
+  },
+  "requirements": [
+   {
+    "label": "General chemistry (lecture + lab)",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 1410|CHEM 1810",
+     "CHEM 1411|CHEM 1811",
+     "CHEM 1420|CHEM 1820",
+     "CHEM 1421|CHEM 1821"
+    ]
+   },
+   {
+    "label": "Calculus",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "MATH 1210",
+      "MATH 1220"
+     ],
+     [
+      "MATH 1191",
+      "MATH 1192",
+      "MATH 1220"
+     ],
+     [
+      "MATH 1310",
+      "MATH 1320"
+     ]
+    ]
+   },
+   {
+    "label": "Organic chemistry",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "CHEM 2410",
+      "CHEM 2411",
+      "CHEM 2420",
+      "CHEM 2421"
+     ],
+     [
+      "CHEM 2810",
+      "CHEM 2811",
+      "CHEM 2820"
+     ]
+    ]
+   },
+   {
+    "label": "Physics I + II with workshops",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "PHYS 1420|PHYS 1425|PHYS 2010",
+      "PHYS 1429|PHYS 2030",
+      "PHYS 2410|PHYS 2415|PHYS 2020",
+      "PHYS 2419|PHYS 2040"
+     ],
+     [
+      "PHYS 1420|PHYS 1425|PHYS 2010",
+      "PHYS 1429|PHYS 2030",
+      "ECE 2200"
+     ]
+    ],
+    "note": "ECE 2200 satisfies Physics II and its workshop."
+   },
+   {
+    "label": "Physical chemistry + labs",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 3410",
+     "CHEM 3420",
+     "CHEM 3811",
+     "CHEM 3821"
+    ]
+   },
+   {
+    "label": "Chemistry elective (3 credits, 4000+)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "CHEM 4000+"
+    ],
+    "exclude": [
+     "CHEM 4951",
+     "CHEM 4961"
+    ],
+    "note": "Excludes lab research courses. Examples: CHEM 4090, 4320, 4410, 4440, 5110, 5210, 5220."
+   }
+  ],
+  "coursePrereqs": {
+   "CHEM 2410": [
+    "CHEM 1420|CHEM 1820"
+   ]
+  },
+  "notes": "Built from the department's suggested-sequence page (records pages unreadable). Total credits and grade rules not shown on department page. MATH 1191/1192 may replace MATH 1210."
+ },
+ {
+  "id": "chemistry-minor",
+  "name": "Chemistry",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Chemistry",
+  "totalCredits": null,
+  "sources": [
+   "https://chemistry.as.virginia.edu/chemistry-minor"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": ""
+  },
+  "requirements": [
+   {
+    "label": "General + organic chemistry (Option A or B)",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "CHEM 1410",
+      "CHEM 1411",
+      "CHEM 1420",
+      "CHEM 1421",
+      "CHEM 2410",
+      "CHEM 2411",
+      "CHEM 2420",
+      "CHEM 2421"
+     ],
+     [
+      "CHEM 1810",
+      "CHEM 1811",
+      "CHEM 1820",
+      "CHEM 1821",
+      "CHEM 2810",
+      "CHEM 2811",
+      "CHEM 2820"
+     ]
+    ],
+    "note": "Department lists two options; mixing 800/400 tracks likely allowed with adviser approval (not stated)."
+   },
+   {
+    "label": "Physical chemistry",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 3410"
+    ]
+   },
+   {
+    "label": "Chemistry elective (3000+, non-research)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "CHEM 3000+"
+    ],
+    "exclude": [
+     "CHEM 3410",
+     "CHEM 3951",
+     "CHEM 3961",
+     "CHEM 4951",
+     "CHEM 4961"
+    ],
+    "note": "CHEM 3721 may be used."
+   }
+  ],
+  "coursePrereqs": {
+   "CHEM 2410": [
+    "CHEM 1420|CHEM 1820"
+   ]
+  },
+  "notes": "Recommended (not required) before CHEM 3410: calculus (MATH 1210/1220 or 1310/1320) and physics I/II with labs. Courses used as electives in the major cannot also count toward the minor. Credit total and grade rules not stated on department page."
+ },
+ {
+  "id": "computer-science-ba",
+  "name": "Computer Science",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Computer Science",
+  "totalCredits": 41,
+  "sources": [
+   "https://uvacsadvising.org/bacs.html"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Introductory programming",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "CS 1110",
+      "CS 1111",
+      "CS 1112",
+      "CS 1113",
+      "CS 1120"
+     ],
+     "note": "Or equivalent / passing the place-out test."
+    },
+    {
+     "label": "Data Structures and Algorithms 1 (C+ or higher)",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "CS 2100"
+     ],
+     "note": "Minimum grade C+; or equivalent / place-out test."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Declaration is via a separate 'Declaring the BACS' process (application timing not stated on the BACS info page). Engineering students cannot declare the BACS; students from outside the College must have significant College coursework. Contact bacsdirector@virginia.edu."
+  },
+  "requirements": [
+   {
+    "label": "Required CS courses (20 credits)",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CS 2120",
+     "CS 2130",
+     "CS 3100",
+     "CS 3120",
+     "CS 3130",
+     "CS 3140"
+    ]
+   },
+   {
+    "label": "CS electives (9 credits)",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "CS 3000+"
+    ],
+    "exclude": [
+     "CS 2120",
+     "CS 2130",
+     "CS 3100",
+     "CS 3120",
+     "CS 3130",
+     "CS 3140",
+     "CS 4980",
+     "CS 4998"
+    ],
+    "note": "At most 3 credits of CS 4993 (Independent Study)."
+   },
+   {
+    "label": "Integration electives (12 credits)",
+    "need": {
+     "credits": 12
+    },
+    "from": [],
+    "note": "Non-CS courses from the approved Integration Electives list in the Undergraduate Record (applying computing to A&S fields); petitions possible. List not captured; cannot be auto-checked."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "41 major credits (20 required + 9 CS electives + 12 integration electives), excluding the CS 1xxx and CS 2100 prerequisites. No minimum major GPA; a D- in a CS or integration elective counts, but C- or higher is required in CS courses that are prerequisites for later CS courses. DMP: two semesters of CS 4998 thesis. Integration-elective list not encoded (empty 'from')."
+ },
+ {
+  "id": "computer-science-minor",
+  "name": "Computer Science",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Computer Science",
+  "totalCredits": 17,
+  "sources": [
+   "https://uvacsadvising.org/minor.html"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Data Structures and Algorithms 1 (C- or better)",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "CS 2100"
+     ]
+    }
+   ],
+   "minGPA": null,
+   "notes": "SEAS minor: apply via the SEAS Minor Declaration DocuSign form; a major must already be declared in SIS. CS and CpE majors are ineligible."
+  },
+  "requirements": [
+   {
+    "label": "Required courses",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CS 2100",
+     "CS 2120",
+     "CS 2130",
+     "CS 3140"
+    ]
+   },
+   {
+    "label": "One CS elective (3 credits)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "CS 3000+"
+    ],
+    "exclude": [
+     "CS 3140"
+    ],
+    "note": "Per CS elective policy; CS 3100, CS 3120, CS 3130 or CS 3240 can be used."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "Applies to students declaring fall 2021 or later (earlier declarants / CS 2110 takers contact the department). A&S students cannot use one course for both a minor and a major requirement. Submit the minor request form at the start of the graduation semester. Course prerequisite chart (uvacsadvising.org/courses.html#prerequisite-chart) not read."
+ },
+ {
+  "id": "statistics-bs",
+  "name": "Statistics",
+  "degree": "B.S.",
+  "type": "major",
+  "department": "Statistics",
+  "totalCredits": 46,
+  "sources": [
+   "https://statistics.as.virginia.edu/bachelor-science-bs-statistics"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Calculus II",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "MATH 1320",
+      "APMA 2120"
+     ]
+    },
+    {
+     "label": "Introductory statistics",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "STAT 1100",
+      "STAT 1120",
+      "STAT 2020",
+      "STAT 2120",
+      "APMA 3110",
+      "APMA 3120"
+     ]
+    },
+    {
+     "label": "Introductory programming",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "STAT 1601",
+      "STAT 1602",
+      "CS 1110",
+      "CS 1111",
+      "CS 1112",
+      "CS 1113"
+     ]
+    },
+    {
+     "label": "Probability",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "MATH 3100|APMA 3100"
+     ]
+    },
+    {
+     "label": "Regression",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "STAT 3220"
+     ]
+    }
+   ],
+   "minGPA": null,
+   "notes": "All must be completed before declaring (AP credit may count). C- or higher required in prerequisite courses. No separate application or GPA requirement listed."
+  },
+  "requirements": [
+   {
+    "label": "Core courses",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STAT 3080",
+     "MATH 3100|APMA 3100",
+     "STAT 3120|APMA 3120",
+     "STAT 3130",
+     "STAT 3220",
+     "MATH 3310",
+     "MATH 3351|MATH 3350|APMA 3080",
+     "STAT 4120",
+     "STAT 4160",
+     "STAT 4996"
+    ]
+   },
+   {
+    "label": "Restricted electives (5 courses)",
+    "need": {
+     "courses": 5
+    },
+    "from": [
+     "STAT 3480",
+     "STAT 4130",
+     "STAT 4170",
+     "STAT 4220",
+     "STAT 4630|STAT 5630",
+     "STAT 4800",
+     "STAT 5140",
+     "STAT 5170",
+     "STAT 5310",
+     "STAT 5330",
+     "STAT 5390",
+     "SOC 5110",
+     "STAT 3250",
+     "STAT 3280",
+     "ASTR 4140",
+     "COMM 3220",
+     "CS 4444",
+     "CS 4740",
+     "CS 4750",
+     "PHYS 5630"
+    ],
+    "children": [
+     {
+      "label": "At least 3 from the Data Analysis list",
+      "need": {
+       "courses": 3
+      },
+      "from": [
+       "STAT 3480",
+       "STAT 4130",
+       "STAT 4170",
+       "STAT 4220",
+       "STAT 4630|STAT 5630",
+       "STAT 4800",
+       "STAT 5140",
+       "STAT 5170",
+       "STAT 5310",
+       "STAT 5330",
+       "STAT 5390",
+       "SOC 5110"
+      ]
+     }
+    ],
+    "note": "At most two non-STAT courses. Only one of STAT 4630/5630; only one of STAT 4260, ASTR 4140, COMM 3220, CS 4750."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "Applies to declarations from Aug 1, 2024. C- or higher in all prerequisite and major courses. MATH 3000 strongly recommended before MATH 3310. SEAS students may use APMA equivalents for MATH courses (APMA 3100/3080/3120 substitutions assumed per math dept policy). Course prerequisites not captured (records pages unreadable, fetch budget exhausted)."
+ },
+ {
+  "id": "applied-statistics-ba",
+  "name": "Applied Statistics",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Statistics",
+  "totalCredits": 30,
+  "sources": [
+   "https://statistics.as.virginia.edu/bachelor-arts-ba-applied-statistics"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Calculus II",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "MATH 1220",
+      "MATH 1320",
+      "APMA 1110"
+     ]
+    },
+    {
+     "label": "Introductory statistics",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "STAT 1100",
+      "STAT 1120",
+      "STAT 2020",
+      "STAT 2120",
+      "APMA 3110",
+      "APMA 3120"
+     ]
+    },
+    {
+     "label": "Introductory programming",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "STAT 1601",
+      "STAT 1602",
+      "CS 1110",
+      "CS 1111",
+      "CS 1112",
+      "CS 1113"
+     ]
+    },
+    {
+     "label": "Foundations of statistics",
+     "need": {
+      "all": true
+     },
+     "from": [],
+     "sets": [
+      [
+       "STAT 3110"
+      ],
+      [
+       "MATH 3100",
+       "MATH 3350|MATH 3351"
+      ]
+     ]
+    },
+    {
+     "label": "Regression",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "STAT 3220"
+     ]
+    }
+   ],
+   "minGPA": null,
+   "notes": "All must be completed before declaring (AP credit may count); C- or higher required."
+  },
+  "requirements": [
+   {
+    "label": "Data to Knowledge",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STAT 3080"
+    ]
+   },
+   {
+    "label": "Foundations of statistics",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "STAT 3110"
+     ],
+     [
+      "MATH 3100",
+      "MATH 3350|MATH 3351"
+     ]
+    ]
+   },
+   {
+    "label": "Mathematical Statistics",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STAT 3120"
+    ]
+   },
+   {
+    "label": "Sample Surveys or Experimental Design",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "STAT 3130",
+     "STAT 4160"
+    ]
+   },
+   {
+    "label": "Regression",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STAT 3220"
+    ]
+   },
+   {
+    "label": "Capstone",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STAT 4996"
+    ]
+   },
+   {
+    "label": "Restricted electives (4 courses)",
+    "need": {
+     "courses": 4
+    },
+    "from": [
+     "STAT 3130",
+     "STAT 3480",
+     "STAT 4120",
+     "STAT 4130",
+     "STAT 4160",
+     "STAT 4170",
+     "STAT 4220",
+     "STAT 4630|STAT 5630",
+     "STAT 4800",
+     "STAT 5140",
+     "STAT 5170",
+     "STAT 5310",
+     "STAT 5330",
+     "STAT 5390",
+     "ECON 3720",
+     "ECON 4720",
+     "SOC 5110",
+     "SYS 4021",
+     "STAT 3250",
+     "STAT 3280",
+     "ASTR 4140",
+     "COMM 3220",
+     "CS 4444",
+     "CS 4740",
+     "CS 4750",
+     "PHYS 5630"
+    ],
+    "children": [
+     {
+      "label": "At least 2 from the Data Analysis list",
+      "need": {
+       "courses": 2
+      },
+      "from": [
+       "STAT 3130",
+       "STAT 3480",
+       "STAT 4120",
+       "STAT 4130",
+       "STAT 4160",
+       "STAT 4170",
+       "STAT 4220",
+       "STAT 4630|STAT 5630",
+       "STAT 4800",
+       "STAT 5140",
+       "STAT 5170",
+       "STAT 5310",
+       "STAT 5330",
+       "STAT 5390",
+       "ECON 3720",
+       "ECON 4720",
+       "SOC 5110",
+       "SYS 4021"
+      ]
+     }
+    ],
+    "note": "At most one non-STAT course. A course used for the core (e.g. STAT 3130 or 4160) cannot also count as an elective. Only one of STAT 4630/5630; one of STAT 4260/ASTR 4140/COMM 3220/CS 4750; one of STAT 4120/ECON 3720/ECON 4720/SYS 4021."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "Applies to declarations from Aug 1, 2024. C- or higher in all prerequisite and major courses. SEAS students may substitute APMA equivalents. Optional concentrations (not encoded): Biostatistics (8 core incl. both STAT 3130 and 4160, + 2 electives, >=1 Data Analysis); Data Science (9 core incl. STAT 3250, 3280, 4630 or 5630, + 1 elective); Finance and Business (8 core incl. STAT 4170 or 5170 and STAT 4220, + 2 electives, >=1 Data Analysis)."
+ },
+ {
+  "id": "statistics-minor",
+  "name": "Statistics",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Statistics",
+  "totalCredits": 15,
+  "sources": [
+   "https://statistics.as.virginia.edu/minor-statistics"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Calculus I",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "MATH 1210",
+      "MATH 1310",
+      "APMA 1090"
+     ]
+    },
+    {
+     "label": "Introductory statistics",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "STAT 1100",
+      "STAT 1120",
+      "STAT 2020",
+      "STAT 2120",
+      "APMA 3110",
+      "APMA 3120"
+     ]
+    },
+    {
+     "label": "Introductory programming",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "STAT 1601",
+      "STAT 1602",
+      "CS 1110",
+      "CS 1111",
+      "CS 1112",
+      "CS 1113"
+     ]
+    },
+    {
+     "label": "Regression",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "STAT 3220"
+     ]
+    }
+   ],
+   "minGPA": null,
+   "notes": "Application required (separate application information page). All prerequisites completed before declaring, C- or higher; AP may satisfy prerequisites."
+  },
+  "requirements": [
+   {
+    "label": "Statistical linear modeling",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STAT 3220"
+    ]
+   },
+   {
+    "label": "Statistical computing",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "STAT 3080",
+     "STAT 3250"
+    ]
+   },
+   {
+    "label": "Restricted electives (3 courses)",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "STAT 3120",
+     "STAT 3130",
+     "STAT 3480",
+     "STAT 4120",
+     "STAT 4130",
+     "STAT 4160",
+     "STAT 4170",
+     "STAT 4220",
+     "STAT 4630",
+     "STAT 4800",
+     "STAT 3080",
+     "STAT 3250",
+     "STAT 3280"
+    ],
+    "children": [
+     {
+      "label": "At least 1 from the Data Analysis list",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "STAT 3120",
+       "STAT 3130",
+       "STAT 3480",
+       "STAT 4120",
+       "STAT 4130",
+       "STAT 4160",
+       "STAT 4170",
+       "STAT 4220",
+       "STAT 4630",
+       "STAT 4800"
+      ]
+     }
+    ],
+    "note": "A course used for the core cannot also count as an elective."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "Effective for declarations from Aug 1, 2025 (earlier declarants: 2023-2024 page). C- or higher in all prerequisite and minor courses. STAT 3220 is both a declaration prerequisite and a core course."
+ },
+ {
+  "id": "data-analytics-minor",
+  "name": "Data Analytics",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Statistics",
+  "totalCredits": 15,
+  "sources": [
+   "https://statistics.as.virginia.edu/minor-data-analytics"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Introductory statistics",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "STAT 1100",
+      "STAT 1120",
+      "STAT 2020",
+      "STAT 2120",
+      "APMA 3110",
+      "APMA 3120"
+     ]
+    },
+    {
+     "label": "Introductory programming",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "STAT 1601",
+      "STAT 1602",
+      "CS 1110",
+      "CS 1111",
+      "CS 1112",
+      "CS 1113"
+     ]
+    },
+    {
+     "label": "Regression",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "STAT 3220"
+     ]
+    }
+   ],
+   "minGPA": null,
+   "notes": "Application required to declare. All prerequisites completed before declaring; AP credit may be used."
+  },
+  "requirements": [
+   {
+    "label": "Introductory statistics",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "STAT 1100",
+     "STAT 1120",
+     "STAT 2020",
+     "STAT 2120",
+     "APMA 3110",
+     "APMA 3120"
+    ]
+   },
+   {
+    "label": "Statistical linear models",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STAT 3220"
+    ]
+   },
+   {
+    "label": "Data visualization and management",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "STAT 3280"
+    ]
+   },
+   {
+    "label": "Data analytics",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "STAT 4220",
+     "STAT 4630"
+    ]
+   },
+   {
+    "label": "Restricted elective",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "STAT 3080",
+     "STAT 3120",
+     "STAT 3130",
+     "STAT 3250",
+     "STAT 3480",
+     "STAT 4120",
+     "STAT 4130",
+     "STAT 4160",
+     "STAT 4170",
+     "STAT 4220",
+     "STAT 4630",
+     "STAT 4800"
+    ],
+    "note": "Cannot be the course used for the core data-analytics slot."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "Effective for declarations from Aug 1, 2025 (pre-Aug-2024 declarants use the 2023-2024 page). C- or higher in all minor courses."
+ }
+]

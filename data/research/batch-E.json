@@ -1,0 +1,1472 @@
+[
+ {
+  "id": "english-ba",
+  "name": "English",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "English",
+  "totalCredits": 30,
+  "sources": [
+   "https://english.as.virginia.edu/undergraduate-program/bachelor-arts-ba-english",
+   "https://records.ureg.virginia.edu/preview_program.php?catoid=61&poid=8764&print="
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Prerequisite: one ENGL 2500-level course (C- or better)",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "ENGL 2500-2599"
+     ],
+     "note": "Recommended path. Alternative: two upper-division (3000+) literature courses, not creative writing, with a B average across them."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Complete most College area requirements before declaring. Prerequisite needs C- or better. Alternative path: two 3000+ ENGL literature courses (not ENCW) averaging B."
+  },
+  "requirements": [
+   {
+    "label": "History of Literatures in English",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ENGL 3001",
+     "ENGL 3002"
+    ],
+    "note": "ENGL 3001 offered fall only, ENGL 3002 spring only; either order."
+   },
+   {
+    "label": "Literature before 1700",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ENGL 3000-5999"
+    ],
+    "note": "Must be a course the department designates as pre-1700. Designations vary by term and are not listed in the Record, so this cannot be checked from the course number alone."
+   },
+   {
+    "label": "Literature 1700-1900",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ENGL 3000-5999"
+    ],
+    "note": "Must be a course the department designates as 1700-1900; designation varies by term."
+   },
+   {
+    "label": "Seminar (4000- or 5000-level)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ENGL 4000-5999"
+    ],
+    "note": "Must be a seminar; not every 4000/5000-level course is a seminar."
+   },
+   {
+    "label": "Ten courses total (30 credits)",
+    "need": {
+     "courses": 10
+    },
+    "from": [
+     "ENGL 2500-2599",
+     "ENGL 3000+",
+     "ENWR 3000+",
+     "ENCW 3000+",
+     "ENPW 3000+"
+    ],
+    "note": "Ten courses including the courses above and the one ENGL 2500-level prerequisite; all others must be 3000+. At most three courses may be ENWR/ENCW. Up to two advanced literature courses from other UVA departments or transfer may count with Director approval."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "Grades below C- do not count; major GPA must be at least 2.0. Eight of ten courses must be taken in the UVA English department. No more than three ENWR/ENCW courses count. Only one semester of independent study (ENGL 4993/ENCW 4993) counts. Pre-1700 and 1700-1900 requirements depend on per-term departmental designations and are approximated. Optional concentrations (Medieval and Renaissance Studies; Modern and Global Studies; Literary Prose Writing; Poetry Writing) not modelled; the writing concentrations are selective. Distinguished Majors: ENGL 4998, ENGL 4999. Could not load the 2026-27 (catoid=72) Record page; encoded from the department page (current) cross-checked with the 2023-24 Record."
+ },
+ {
+  "id": "english-minor",
+  "name": "English",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "English",
+  "totalCredits": 18,
+  "sources": [
+   "https://english.as.virginia.edu/undergraduate-program/english-minor"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": ""
+  },
+  "requirements": [
+   {
+    "label": "History of Literatures in English",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ENGL 3001",
+     "ENGL 3002"
+    ]
+   },
+   {
+    "label": "Six courses (18 credits) total",
+    "need": {
+     "courses": 6
+    },
+    "from": [
+     "ENGL 2500-2599",
+     "ENGL 3000+",
+     "ENWR 3000+",
+     "ENCW 3000+",
+     "ENPW 3000+"
+    ],
+    "note": "Includes ENGL 3001/3002. At most one ENGL 2500-level course; all others 3000+. At most two ENWR/ENCW courses."
+   }
+  ],
+  "notes": "Only English Department courses taken at UVA count. A course may not count for both a major and this minor. No more than two ENWR/ENCW courses. Encoded from the department page; 2026-27 Record page not loaded."
+ },
+ {
+  "id": "public-writing-and-rhetoric-minor",
+  "name": "Public Writing and Rhetoric",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "English",
+  "totalCredits": 18,
+  "sources": [
+   "https://english.as.virginia.edu/undergraduate-program/english-minor-public-writing-and-rhetoric"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": ""
+  },
+  "requirements": [
+   {
+    "label": "Core: 12 credits of ENWR at 3000+",
+    "need": {
+     "credits": 12
+    },
+    "from": [
+     "ENWR 3000+"
+    ]
+   },
+   {
+    "label": "Remaining 6 credits",
+    "need": {
+     "credits": 6
+    },
+    "from": [
+     "ENWR 3000+",
+     "ENWR 2520-2999",
+     "ENGL 3000-4999",
+     "ENCW 3000-4999"
+    ],
+    "note": "At most 6 credits total may come from ENWR 2520-2999, 3000/4000-level ENGL, or 3000/4000-level ENCW; the rest must be ENWR 3000+."
+   }
+  ],
+  "notes": "18 credits total. Only English Department courses taken at UVA count. A course may not count for both a major and this minor. No grade minimum stated on the department page. 2026-27 Record page not loaded."
+ },
+ {
+  "id": "history-ba",
+  "name": "History",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "History",
+  "totalCredits": 30,
+  "sources": [
+   "https://history.virginia.edu/undergraduate-major",
+   "https://history.virginia.edu/undergradprogram"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "One university-level history course with C or better",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "HIST *",
+      "HIUS *",
+      "HIEU *",
+      "HIEA *",
+      "HIME *",
+      "HISA *",
+      "HILA *",
+      "HIAF *"
+     ],
+     "note": "UVA or transfer course; AP/IB credit does not satisfy it. Counts toward the ten courses."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Declare via the department's Airtable form after one college-level history course with a C or better."
+  },
+  "requirements": [
+   {
+    "label": "Ten history courses (3-4 credits each)",
+    "need": {
+     "courses": 10
+    },
+    "from": [
+     "HIST *",
+     "HIUS *",
+     "HIEU *",
+     "HIEA *",
+     "HIME *",
+     "HISA *",
+     "HILA *",
+     "HIAF *"
+    ],
+    "note": "Letter grade required. At most five in any one mnemonic. At most two 1500-level seminars count. totalCredits shown as 30 assuming 3-credit courses."
+   },
+   {
+    "label": "Five distinct mnemonics",
+    "need": {
+     "courses": 5
+    },
+    "from": [
+     "HIAF *",
+     "HIEA *",
+     "HIEU *",
+     "HILA *",
+     "HIME *",
+     "HISA *",
+     "HIST *",
+     "HIUS *"
+    ],
+    "note": "The five courses must each be in a different mnemonic (HIAF, HIEA, HIEU, HILA, HIME, HISA, HIST, HIUS). The checker should require five distinct subject codes."
+   },
+   {
+    "label": "Two pre-1700 courses",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "HIST *",
+     "HIUS *",
+     "HIEU *",
+     "HIEA *",
+     "HIME *",
+     "HISA *",
+     "HILA *",
+     "HIAF *"
+    ],
+    "note": "Must be on the department's pre-1700 list; cannot be determined from course number alone. May overlap with the mnemonic requirement."
+   },
+   {
+    "label": "Two post-1700 courses",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "HIST *",
+     "HIUS *",
+     "HIEU *",
+     "HIEA *",
+     "HIME *",
+     "HISA *",
+     "HILA *",
+     "HIAF *"
+    ],
+    "note": "Must be on the department's post-1700 list."
+   },
+   {
+    "label": "Introductory History Workshop (3501)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "HIST 3501",
+     "HIUS 3501",
+     "HIEU 3501",
+     "HIEA 3501",
+     "HIME 3501",
+     "HISA 3501",
+     "HILA 3501",
+     "HIAF 3501"
+    ],
+    "note": "Any mnemonic's 3501 workshop; should be completed before the Major Seminar."
+   },
+   {
+    "label": "Major Seminar or Major Colloquium (C or better)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "HIST 4501|HIST 4502|HIST 4511|HIST 4512",
+     "HIUS 4501|HIUS 4502|HIUS 4511|HIUS 4512",
+     "HIEU 4501|HIEU 4502|HIEU 4511|HIEU 4512",
+     "HIEA 4501|HIEA 4502|HIEA 4511|HIEA 4512",
+     "HIME 4501|HIME 4502|HIME 4511|HIME 4512",
+     "HISA 4501|HISA 4502|HISA 4511|HISA 4512",
+     "HILA 4501|HILA 4502|HILA 4511|HILA 4512",
+     "HIAF 4501|HIAF 4502|HIAF 4511|HIAF 4512"
+    ],
+    "note": "Grade of C or better required. 4591 seminars do not satisfy it. Distinguished Majors take HIST 4890 and HIST 4990/4991 instead."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "Major GPA at least 2.0. AP/IB credit does not count. Up to three approved transfer courses. Courses from other departments count only if cross-listed with a History mnemonic. At most two courses may double-count with a second major (three if one is interdisciplinary). Optional specialist concentrations (five courses from a list) not modelled. Pre/post-1700 designations come from a department list and are not checkable by number. 2026-27 Record page could not be loaded; encoded from the department's major page."
+ },
+ {
+  "id": "history-minor",
+  "name": "History",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "History",
+  "totalCredits": 18,
+  "sources": [
+   "https://history.virginia.edu/undergraduate-minor"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "No prerequisites."
+  },
+  "requirements": [
+   {
+    "label": "Six history courses (3-4 credits each)",
+    "need": {
+     "courses": 6
+    },
+    "from": [
+     "HIST *",
+     "HIUS *",
+     "HIEU *",
+     "HIEA *",
+     "HIME *",
+     "HISA *",
+     "HILA *",
+     "HIAF *"
+    ],
+    "note": "Letter grade required. No more than three in any one mnemonic."
+   },
+   {
+    "label": "At least three distinct mnemonics",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "HIST *",
+     "HIUS *",
+     "HIEU *",
+     "HIEA *",
+     "HIME *",
+     "HISA *",
+     "HILA *",
+     "HIAF *"
+    ],
+    "note": "The three courses must each be in a different mnemonic; checker should require three distinct subject codes."
+   }
+  ],
+  "notes": "AP/IB credit does not count. Up to two approved transfer courses. Other departments' courses count only if cross-listed with a History mnemonic. totalCredits 18 assumes 3-credit courses. 2026-27 Record page could not be loaded."
+ },
+ {
+  "id": "history-of-science-and-technology-minor",
+  "name": "History of Science and Technology",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Engineering and Society (School of Engineering and Applied Science)",
+  "totalCredits": 18,
+  "sources": [
+   "https://engineering.virginia.edu/department/engineering-and-society/academics/history-science-and-technology-minor"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Open to all UVA undergraduates. Student proposes qualifying courses to a faculty member in Engineering and Society, who approves each one."
+  },
+  "requirements": [
+   {
+    "label": "Six qualifying courses (18 credits), C or better",
+    "need": {
+     "credits": 18
+    },
+    "from": [
+     "STS *",
+     "HIST *",
+     "HIUS *",
+     "HIEU *",
+     "HIEA *",
+     "HIME *",
+     "HISA *",
+     "HILA *",
+     "HIAF *",
+     "ARTH *",
+     "ARH *",
+     "PHIL *"
+    ],
+    "note": "Qualifying status is decided course by course by the minor advisor (based on title/description/syllabus). The subject list is only a rough approximation; any history-of-science/technology course from any department may qualify. Major history survey courses may count for at most two of the six courses (6 credits)."
+   }
+  ],
+  "notes": "Housed in the Department of Engineering and Society (SEAS), not the College's History department; no fixed course list, so this cannot be reliably checked from a transcript. C or better in every course. Department page says the Undergraduate Record is official; 2026-27 Record page could not be loaded."
+ },
+ {
+  "id": "philosophy-ba",
+  "name": "Philosophy",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Philosophy",
+  "totalCredits": 30,
+  "sources": [
+   "https://philosophy.virginia.edu/major"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "One PHIL course with C or better",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "PHIL *"
+     ],
+     "note": "A student currently enrolled in a PHIL course may be allowed to declare with Director of Undergraduate Programs approval."
+    }
+   ],
+   "minGPA": null,
+   "notes": ""
+  },
+  "requirements": [
+   {
+    "label": "(A) Logic",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHIL 1410",
+     "PHIL 2420",
+     "PHIL 3400",
+     "PHIL 4410"
+    ],
+    "note": "Most majors take PHIL 2420. PHIL 1410 satisfies the area but does not count toward the 30 credits."
+   },
+   {
+    "label": "(B) Theoretical Philosophy",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHIL 3310",
+     "PHIL 3320",
+     "PHIL 3330",
+     "PHIL 3350",
+     "PHIL 3630"
+    ]
+   },
+   {
+    "label": "(C) Moral Philosophy",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHIL 3710",
+     "PHIL 3720",
+     "PHIL 3730",
+     "PHIL 3740"
+    ]
+   },
+   {
+    "label": "(D) Social and Political Philosophy",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHIL 3640",
+     "PHIL 3645",
+     "PHIL 3660",
+     "PHIL 3800",
+     "PHIL 3810",
+     "PHIL 3830",
+     "PHIL 3850"
+    ]
+   },
+   {
+    "label": "(E) History of Philosophy, pre-1600",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHIL 3110",
+     "PHIL 3120",
+     "PHIL 3130",
+     "PHIL 3140"
+    ]
+   },
+   {
+    "label": "(F) History of Philosophy, post-1600",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHIL 3150",
+     "PHIL 3160",
+     "PHIL 3170",
+     "PHIL 3180",
+     "PHIL 3185"
+    ]
+   },
+   {
+    "label": "30 credits of philosophy at 2000-level or above",
+    "need": {
+     "credits": 30
+    },
+    "from": [
+     "PHIL 2000+"
+    ],
+    "note": "Single majors: all 30 credits PHIL. Double majors: at least 24 PHIL credits, up to 6 shared with the other major with approval. PHIL 4993/4995 independent study and optional PHIL 4999 thesis count."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "Courses should normally be passed with C or better; a C- puts the student on probation, as does a major GPA below 2.0. Up to 6 transfer credits with approval; transfer credit cannot satisfy core areas. No more than two courses double-count with a non-interdisciplinary second major (three with an interdisciplinary one). These are the new requirements effective Fall 2026; students who declared earlier may follow the old requirements. The department page also describes small 'majors' seminars' but lists no course numbers or a firm requirement, so they are not encoded. The 2026-27 Record page could not be loaded."
+ },
+ {
+  "id": "philosophy-minor",
+  "name": "Philosophy",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Philosophy",
+  "totalCredits": 15,
+  "sources": [
+   "https://philosophy.virginia.edu/minor"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Submit the College minor declaration form listing the planned 15 credits."
+  },
+  "requirements": [
+   {
+    "label": "15 credits of philosophy",
+    "need": {
+     "credits": 15
+    },
+    "from": [
+     "PHIL *"
+    ],
+    "note": "No more than 3 credits may be below the 2000 level (i.e. at most 3 credits from PHIL 1000-1999)."
+   },
+   {
+    "label": "At least 12 credits at 2000-level or above",
+    "need": {
+     "credits": 12
+    },
+    "from": [
+     "PHIL 2000+"
+    ]
+   }
+  ],
+  "notes": "Up to 3 transfer credits with DUP approval (get approval before taking the course). No specific required courses or areas. The 2026-27 Record page could not be loaded; encoded from the department page."
+ },
+ {
+  "id": "religious-studies-ba",
+  "name": "Religious Studies",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Religious Studies",
+  "totalCredits": 30,
+  "sources": [
+   "https://religiousstudies.as.virginia.edu/major"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "One Religious Studies course with C or better",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "RELG *",
+      "RELA *",
+      "RELB *",
+      "RELC *",
+      "RELH *",
+      "RELI *",
+      "RELJ *",
+      "RELS *"
+     ]
+    }
+   ],
+   "minGPA": null,
+   "notes": ""
+  },
+  "requirements": [
+   {
+    "label": "Questions in the Study of Religion",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "RELG 1000"
+    ],
+    "note": "May be replaced by RELG 1010 and RELG 1040 together; those two then count for nothing else."
+   },
+   {
+    "label": "Conversations in the Study of Religion",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "RELG 3730"
+    ]
+   },
+   {
+    "label": "Majors Seminar",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "RELG 4500"
+    ],
+    "note": "Does not count toward the three 3000+ courses."
+   },
+   {
+    "label": "Concentration (3 courses)",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "RELG *",
+     "RELA *",
+     "RELB *",
+     "RELC *",
+     "RELH *",
+     "RELI *",
+     "RELJ *",
+     "RELS *"
+    ],
+    "note": "Three courses from one chosen concentration's list. Concentration lists are on the department site and not encoded; this only checks Religious Studies mnemonics."
+   },
+   {
+    "label": "Breadth (2 courses outside concentration)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "RELG *",
+     "RELA *",
+     "RELB *",
+     "RELC *",
+     "RELH *",
+     "RELI *",
+     "RELJ *",
+     "RELS *"
+    ],
+    "exclude": [
+     "RELG 1010",
+     "RELG 1040"
+    ],
+    "note": "Must not be on the student's concentration list."
+   },
+   {
+    "label": "Ten courses total (30 credits)",
+    "need": {
+     "courses": 10
+    },
+    "from": [
+     "RELG *",
+     "RELA *",
+     "RELB *",
+     "RELC *",
+     "RELH *",
+     "RELI *",
+     "RELJ *",
+     "RELS *"
+    ],
+    "note": "Includes required courses, concentration, breadth and at least two electives. Up to 2 outside courses (other departments or study abroad) may count with approval."
+   },
+   {
+    "label": "Three courses at 3000-level or above",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "RELG 3000+",
+     "RELA 3000+",
+     "RELB 3000+",
+     "RELC 3000+",
+     "RELH 3000+",
+     "RELI 3000+",
+     "RELJ 3000+",
+     "RELS 3000+"
+    ],
+    "exclude": [
+     "RELG 4500"
+    ],
+    "note": "RELG 3730 counts; RELG 4500 does not. At least one must be in the concentration."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "C (2.0) or better required in every course counted. Students who declared before August 2023 follow the earlier model. Concentration lists not modelled. Subject codes RELA/RELB/RELC/RELH/RELI/RELJ/RELS assumed to be the department's tradition mnemonics; verify. The 2026-27 Record page could not be loaded; encoded from the department page."
+ },
+ {
+  "id": "religious-studies-minor",
+  "name": "Religious Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Religious Studies",
+  "totalCredits": 15,
+  "sources": [
+   "https://religiousstudies.as.virginia.edu/minor"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "One Religious Studies course with C or better",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "RELG *",
+      "RELA *",
+      "RELB *",
+      "RELC *",
+      "RELH *",
+      "RELI *",
+      "RELJ *",
+      "RELS *"
+     ]
+    }
+   ],
+   "minGPA": null,
+   "notes": ""
+  },
+  "requirements": [
+   {
+    "label": "Five graded courses (15 credits)",
+    "need": {
+     "courses": 5
+    },
+    "from": [
+     "RELG *",
+     "RELA *",
+     "RELB *",
+     "RELC *",
+     "RELH *",
+     "RELI *",
+     "RELJ *",
+     "RELS *"
+    ],
+    "note": "One outside course (study abroad or another UVA department) may count with approval."
+   },
+   {
+    "label": "One course at 3000-level or above",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "RELG 3000+",
+     "RELA 3000+",
+     "RELB 3000+",
+     "RELC 3000+",
+     "RELH 3000+",
+     "RELI 3000+",
+     "RELJ 3000+",
+     "RELS 3000+"
+    ]
+   }
+  ],
+  "notes": "C (2.0) or better in each course counted. Courses must be graded. 2026-27 Record page not loaded; encoded from the department page."
+ },
+ {
+  "id": "classics-ba",
+  "name": "Classics",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Classics",
+  "totalCredits": 36,
+  "sources": [
+   "https://classics.as.virginia.edu/undergraduate-program/bachelor-arts-ba-classics",
+   "https://classics.as.virginia.edu/undergraduate-program"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Department says to complete prerequisites before declaring but does not list them on the pages read (see its 'How to Declare' page)."
+  },
+  "requirements": [
+   {
+    "label": "Classical civilization",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "CLAS 2010|CLAS 2020"
+    ],
+    "note": "Greek Civilization or Roman Civilization (required in all three concentrations)."
+   },
+   {
+    "label": "Ancient history",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "HIEU 2031|HIEU 2041"
+    ],
+    "note": "Greek concentration requires HIEU 2031; Latin concentration requires HIEU 2041; Greek & Latin concentration may take either."
+   },
+   {
+    "label": "Greek and Latin language (common minimum)",
+    "need": {
+     "credits": 24
+    },
+    "from": [
+     "GREE *",
+     "LATI *"
+    ],
+    "children": [
+     {
+      "label": "At least 6 credits of Greek",
+      "need": {
+       "credits": 6
+      },
+      "from": [
+       "GREE *"
+      ]
+     },
+     {
+      "label": "At least 6 credits of Latin",
+      "need": {
+       "credits": 6
+      },
+      "from": [
+       "LATI *"
+      ]
+     }
+    ],
+    "note": "Simplified common floor. Actual rules depend on concentration (see notes)."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "The B.A. has three concentrations; the checker encodes only what they share. GREEK concentration: 18 credits of GREE at 2000+, at least 6 credits LATI, 12 credits related courses including HIEU 2031 and CLAS 2010 or 2020 (other related: more Greek/Latin or classical art, history, religion approved by the DUS). LATIN concentration: 18 credits of LATI at 2000+ including at least one 4000+ course (not LATI 4993), at least 6 credits GREE, 12 credits related including HIEU 2041 and CLAS 2010 or 2020. GREEK & LATIN concentration: GREE 2010-2020 and LATI 2010-2020 (or equivalent), plus 18 credits of Greek and Latin above that level including at least two Greek courses at 3000+ or one Latin course at 4000+ (as worded on the department page), plus CLAS 2010 or 2020 and HIEU 2031 or 2041. All courses at UVA or approved study abroad; AP credit does not count; C- or better required. DMP needs 3.4 GPA. totalCredits 36 is approximate (Greek/Latin concentrations: 18+6+12). 2026-27 Record page could not be loaded."
+ },
+ {
+  "id": "greek-minor",
+  "name": "Greek",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Classics",
+  "totalCredits": 15,
+  "sources": [
+   "https://classics.as.virginia.edu/undergraduate-program/minor-greek"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Must be declared by the add period of the next-to-last semester."
+  },
+  "requirements": [
+   {
+    "label": "12 credits of Greek at 2000-level or above",
+    "need": {
+     "credits": 12
+    },
+    "from": [
+     "GREE 2000+"
+    ]
+   },
+   {
+    "label": "Greek Civilization",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CLAS 2010"
+    ]
+   }
+  ],
+  "notes": "C- or better required. Courses must be taken at UVA or an approved study-abroad program; AP credit does not count. Total 15 credits assumes CLAS 2010 is 3 credits."
+ },
+ {
+  "id": "latin-minor",
+  "name": "Latin",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Classics",
+  "totalCredits": 15,
+  "sources": [
+   "https://classics.as.virginia.edu/undergraduate-program/minor-latin"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Must be declared by the add period of the next-to-last semester."
+  },
+  "requirements": [
+   {
+    "label": "12 credits of Latin at 2000-level or above",
+    "need": {
+     "credits": 12
+    },
+    "from": [
+     "LATI 2000+"
+    ]
+   },
+   {
+    "label": "Roman Civilization",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CLAS 2020"
+    ]
+   }
+  ],
+  "notes": "C- or better required. Courses must be taken at UVA or an approved study-abroad program; AP credit does not count. Total 15 credits assumes CLAS 2020 is 3 credits."
+ },
+ {
+  "id": "medieval-studies-ba",
+  "name": "Medieval Studies",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Medieval Studies (interdisciplinary)",
+  "totalCredits": 30,
+  "sources": [
+   "https://medievalstudies.as.virginia.edu/undergraduate-program/bachelor-arts-ba-medieval-studies",
+   "https://medievalstudies.as.virginia.edu/undergraduate-program"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Open to qualified College students; declaration details are on the program's 'How to Declare' page (not read)."
+  },
+  "requirements": [
+   {
+    "label": "Exploring the Middle Ages",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MSP 3501"
+    ],
+    "note": "By spring of the third year, or an approved equivalent."
+   },
+   {
+    "label": "30 credits of approved medieval coursework",
+    "need": {
+     "credits": 30
+    },
+    "from": [
+     "MSP *",
+     "ANTH *",
+     "ARTH *",
+     "CLAS *",
+     "GREE *",
+     "LATI *",
+     "ENGL *",
+     "EALC *",
+     "CHIN *",
+     "JAPN *",
+     "FREN *",
+     "FRTR *",
+     "GERM *",
+     "GETR *",
+     "HIEU *",
+     "HIST *",
+     "HIME *",
+     "HIEA *",
+     "MEST *",
+     "MESA *",
+     "ARAB *",
+     "HEBR *",
+     "PERS *",
+     "SAST *",
+     "PHIL *",
+     "PLPT *",
+     "PLCP *",
+     "RELG *",
+     "RELC *",
+     "RELI *",
+     "RELJ *",
+     "RELB *",
+     "SPAN *",
+     "SPTR *",
+     "ITAL *",
+     "ITTR *",
+     "PORT *"
+    ],
+    "note": "Includes MSP 3501. Courses must be medieval in content and approved by the advisor/program director; the subject list is only an approximation of the 13 participating departments (Anthropology; Art; Classics; English; East Asian Languages, Literatures and Cultures; French; German; History; Middle Eastern and South Asian Languages and Cultures; Philosophy; Politics; Religious Studies; Spanish, Italian and Portuguese). The checker cannot tell whether a course is medieval."
+   },
+   {
+    "label": "Five courses (15 credits) at 3000-level or above",
+    "need": {
+     "courses": 5
+    },
+    "from": [
+     "MSP 3000+",
+     "ANTH 3000+",
+     "ARTH 3000+",
+     "CLAS 3000+",
+     "GREE 3000+",
+     "LATI 3000+",
+     "ENGL 3000+",
+     "EALC 3000+",
+     "CHIN 3000+",
+     "JAPN 3000+",
+     "FREN 3000+",
+     "FRTR 3000+",
+     "GERM 3000+",
+     "GETR 3000+",
+     "HIEU 3000+",
+     "HIST 3000+",
+     "HIME 3000+",
+     "HIEA 3000+",
+     "MEST 3000+",
+     "MESA 3000+",
+     "ARAB 3000+",
+     "HEBR 3000+",
+     "PERS 3000+",
+     "SAST 3000+",
+     "PHIL 3000+",
+     "PLPT 3000+",
+     "PLCP 3000+",
+     "RELG 3000+",
+     "RELC 3000+",
+     "RELI 3000+",
+     "RELJ 3000+",
+     "RELB 3000+",
+     "SPAN 3000+",
+     "SPTR 3000+",
+     "ITAL 3000+",
+     "ITTR 3000+",
+     "PORT 3000+"
+    ],
+    "exclude": [
+     "MSP 3501"
+    ],
+    "note": "Of the 27 credits beyond MSP 3501."
+   },
+   {
+    "label": "One course at 4000-level or above",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MSP 4000+",
+     "ANTH 4000+",
+     "ARTH 4000+",
+     "CLAS 4000+",
+     "GREE 4000+",
+     "LATI 4000+",
+     "ENGL 4000+",
+     "EALC 4000+",
+     "CHIN 4000+",
+     "JAPN 4000+",
+     "FREN 4000+",
+     "FRTR 4000+",
+     "GERM 4000+",
+     "GETR 4000+",
+     "HIEU 4000+",
+     "HIST 4000+",
+     "HIME 4000+",
+     "HIEA 4000+",
+     "MEST 4000+",
+     "MESA 4000+",
+     "ARAB 4000+",
+     "HEBR 4000+",
+     "PERS 4000+",
+     "SAST 4000+",
+     "PHIL 4000+",
+     "PLPT 4000+",
+     "PLCP 4000+",
+     "RELG 4000+",
+     "RELC 4000+",
+     "RELI 4000+",
+     "RELJ 4000+",
+     "RELB 4000+",
+     "SPAN 4000+",
+     "SPTR 4000+",
+     "ITAL 4000+",
+     "ITTR 4000+",
+     "PORT 4000+"
+    ]
+   },
+   {
+    "label": "Foreign language through the 2000 level",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "FREN 2020",
+     "GERM 2020",
+     "SPAN 2020",
+     "ITAL 2020",
+     "LATI 2020",
+     "GREE 2020",
+     "ARAB 2020",
+     "HEBR 2020",
+     "PERS 2020"
+    ],
+    "note": "Competence in a language suited to the student's work, through the 2000 level or equivalent (placement may satisfy). Course list is illustrative; any appropriate language counts."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "Coursework must draw on at least four of the 13 participating departments (not checkable by mnemonic alone). Passing grades with at least a 2.0 average. All courses approved by the advisor. Can be combined with another major; English's Medieval and Renaissance Studies concentration may be paired with it. The Record lists this as 'Interdisciplinary Major - Medieval Studies'. 2026-27 Record page could not be loaded; encoded from the program site."
+ },
+ {
+  "id": "medieval-studies-minor",
+  "name": "Medieval Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Medieval Studies (interdisciplinary)",
+  "totalCredits": 18,
+  "sources": [
+   "https://medievalstudies.as.virginia.edu/undergraduate-program/minor-medieval-studies"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": ""
+  },
+  "requirements": [
+   {
+    "label": "18 credits of approved medieval coursework",
+    "need": {
+     "credits": 18
+    },
+    "from": [
+     "MSP *",
+     "ANTH *",
+     "ARTH *",
+     "CLAS *",
+     "GREE *",
+     "LATI *",
+     "ENGL *",
+     "EALC *",
+     "CHIN *",
+     "JAPN *",
+     "FREN *",
+     "FRTR *",
+     "GERM *",
+     "GETR *",
+     "HIEU *",
+     "HIST *",
+     "HIME *",
+     "HIEA *",
+     "MEST *",
+     "MESA *",
+     "ARAB *",
+     "HEBR *",
+     "PERS *",
+     "SAST *",
+     "PHIL *",
+     "PLPT *",
+     "PLCP *",
+     "RELG *",
+     "RELC *",
+     "RELI *",
+     "RELJ *",
+     "RELB *",
+     "SPAN *",
+     "SPTR *",
+     "ITAL *",
+     "ITTR *",
+     "PORT *"
+    ],
+    "note": "Courses must be medieval in content and approved by the advisor/program director; the subject list is only an approximation of the 13 participating departments (Anthropology; Art; Classics; English; East Asian Languages, Literatures and Cultures; French; German; History; Middle Eastern and South Asian Languages and Cultures; Philosophy; Politics; Religious Studies; Spanish, Italian and Portuguese). The checker cannot tell whether a course is medieval."
+   },
+   {
+    "label": "Three courses (9 credits) at 3000-level or above",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "MSP 3000+",
+     "ANTH 3000+",
+     "ARTH 3000+",
+     "CLAS 3000+",
+     "GREE 3000+",
+     "LATI 3000+",
+     "ENGL 3000+",
+     "EALC 3000+",
+     "CHIN 3000+",
+     "JAPN 3000+",
+     "FREN 3000+",
+     "FRTR 3000+",
+     "GERM 3000+",
+     "GETR 3000+",
+     "HIEU 3000+",
+     "HIST 3000+",
+     "HIME 3000+",
+     "HIEA 3000+",
+     "MEST 3000+",
+     "MESA 3000+",
+     "ARAB 3000+",
+     "HEBR 3000+",
+     "PERS 3000+",
+     "SAST 3000+",
+     "PHIL 3000+",
+     "PLPT 3000+",
+     "PLCP 3000+",
+     "RELG 3000+",
+     "RELC 3000+",
+     "RELI 3000+",
+     "RELJ 3000+",
+     "RELB 3000+",
+     "SPAN 3000+",
+     "SPTR 3000+",
+     "ITAL 3000+",
+     "ITTR 3000+",
+     "PORT 3000+"
+    ]
+   }
+  ],
+  "notes": "Must span at least three of the 13 participating departments; medieval courses from other departments may count with director approval. No grade rule stated on the program page. 2026-27 Record page could not be loaded."
+ },
+ {
+  "id": "jewish-studies-ba",
+  "name": "Jewish Studies",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Jewish Studies (interdisciplinary)",
+  "totalCredits": 30,
+  "sources": [
+   "https://jewishstudies.as.virginia.edu/major"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Two Jewish Studies courses",
+     "need": {
+      "courses": 2
+     },
+     "from": [
+      "JWST *",
+      "RELJ *",
+      "HEBR *",
+      "YIDD *"
+     ],
+     "note": "No grade requirement. Courses must be on the program's Jewish Studies course list (or approved by the Director); the list includes cross-listed courses in many departments (e.g. HIEU, ENGL, GETR, SLTR), so mnemonics here are only an approximation. JWST is a real UVA mnemonic (e.g. JWST 3500); YIDD is assumed."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Apply after completing two Jewish Studies courses; submit transcript with the application. Two faculty advisors approve the plan."
+  },
+  "requirements": [
+   {
+    "label": "Distribution: History and Society",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "JWST *",
+     "RELJ *",
+     "HEBR *",
+     "YIDD *"
+    ],
+    "note": "Course from the program's History and Society list."
+   },
+   {
+    "label": "Distribution: Belief and Thought",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "JWST *",
+     "RELJ *",
+     "HEBR *",
+     "YIDD *"
+    ],
+    "note": "Course from the program's Belief and Thought list."
+   },
+   {
+    "label": "Distribution: Language, Literature and Culture",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "JWST *",
+     "RELJ *",
+     "HEBR *",
+     "YIDD *"
+    ],
+    "note": "A 3000-level Hebrew course (HEBR 3000-3999) can count here."
+   },
+   {
+    "label": "Capstone: one 4000-level course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "JWST 4000-4999",
+     "RELJ 4000-4999",
+     "HEBR 4000-4999",
+     "YIDD 4000-4999"
+    ],
+    "note": "Chosen with advisors; relevant to the student's program."
+   },
+   {
+    "label": "Ten courses (30 credits) total",
+    "need": {
+     "courses": 10
+    },
+    "from": [
+     "JWST *",
+     "RELJ *",
+     "HEBR *",
+     "YIDD *"
+    ],
+    "note": "Three distribution + six electives + capstone. Courses must be on the program's Jewish Studies course list (or approved by the Director); the list includes cross-listed courses in many departments (e.g. HIEU, ENGL, GETR, SLTR), so mnemonics here are only an approximation. JWST is a real UVA mnemonic (e.g. JWST 3500); YIDD is assumed."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "Hebrew is encouraged but not required. Distribution course lists are maintained on the program website and not encoded. The Record lists this as an Interdisciplinary Major (Jewish Studies). 2026-27 Record page could not be loaded; encoded from the program site."
+ },
+ {
+  "id": "jewish-studies-minor",
+  "name": "Jewish Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Jewish Studies (interdisciplinary)",
+  "totalCredits": 18,
+  "sources": [
+   "https://jewishstudies.as.virginia.edu/minor"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": ""
+  },
+  "requirements": [
+   {
+    "label": "Category A: History and Society",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "JWST *",
+     "RELJ *",
+     "HEBR *",
+     "YIDD *"
+    ]
+   },
+   {
+    "label": "Category A: Belief and Thought",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "JWST *",
+     "RELJ *",
+     "HEBR *",
+     "YIDD *"
+    ]
+   },
+   {
+    "label": "Category A: Language, Literature and Culture",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "JWST *",
+     "RELJ *",
+     "HEBR *",
+     "YIDD *"
+    ]
+   },
+   {
+    "label": "Six courses (18 credits) total",
+    "need": {
+     "courses": 6
+    },
+    "from": [
+     "JWST *",
+     "RELJ *",
+     "HEBR *",
+     "YIDD *"
+    ],
+    "note": "Three Category A courses plus three Category B electives chosen with the advisor. Courses must be on the program's Jewish Studies course list (or approved by the Director); the list includes cross-listed courses in many departments (e.g. HIEU, ENGL, GETR, SLTR), so mnemonics here are only an approximation. JWST is a real UVA mnemonic (e.g. JWST 3500); YIDD is assumed."
+   },
+   {
+    "label": "Three courses at 3000-level or above",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "JWST 3000+",
+     "RELJ 3000+",
+     "HEBR 3000+",
+     "YIDD 3000+"
+    ]
+   }
+  ],
+  "notes": "No grade minimum stated on the program page. 2026-27 Record page could not be loaded."
+ },
+ {
+  "id": "echols-interdisciplinary-ba",
+  "name": "Echols Interdisciplinary Major",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Echols Scholars Program",
+  "totalCredits": 30,
+  "sources": [
+   "https://echols.as.virginia.edu/echols-imp-program"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Echols Scholars only. Application (rolling) no sooner than the third semester and no later than the start of the fifth: application form signed by three faculty mentors (one primary, two secondary, one per field), a course plan of at least 30 graded advanced credits from three fields, a 2-3 page proposal, and an unofficial transcript."
+  },
+  "requirements": [
+   {
+    "label": "Approved plan: at least 30 graded advanced credits across three fields",
+    "need": {
+     "credits": 30
+    },
+    "from": [
+     "* 3000+"
+    ],
+    "note": "Self-designed; courses are whatever the approved plan lists, generally 3000-level or above (selected 2000-level courses in exceptional cases). The '* 3000+' pattern is a placeholder meaning any subject; the site should compare against the student's own approved plan. Aim for at least three courses in each of the three fields; at most one field may be a non-College subject."
+   }
+  ],
+  "notes": "Only the fixed structure is encoded: 30 graded advanced credits in three fields, approved by a three-mentor committee plus the Echols Director and Assistant Director. No GPA requirement stated. Course list is individual to each student, so transcript checking can only verify credit totals and levels. 2026-27 Record page not loaded; encoded from the Echols program site. Optional (highly recommended) thesis: IMP 4600 Echols Thesis, may be taken for up to two semesters."
+ },
+ {
+  "id": "interdisciplinary-major-program-ba",
+  "name": "Interdisciplinary Major Program",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "College of Arts and Sciences",
+  "totalCredits": 36,
+  "sources": [
+   "https://college.as.virginia.edu/awards/imp"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": 3.4,
+   "notes": "Cumulative UVA GPA of at least 3.400. Meet with the IMP Chair, then apply (usually third or fourth semester; nothing after the fifth) with a proposal, list of 30 related credits, transcript, and sponsorship from a full-time faculty member in each of three departments. IMP Board deadlines: November 15 (fall hearing) and April 17 (spring). Then file a Declaration of Major form approved by a sponsor."
+  },
+  "requirements": [
+   {
+    "label": "Approved plan: 30 credits from three departments",
+    "need": {
+     "credits": 30
+    },
+    "from": [
+     "* 3000+"
+    ],
+    "note": "Self-designed; normally 3000-level or above, drawn from three departments. The '* 3000+' pattern is a placeholder meaning any subject; compare against the student's approved plan."
+   },
+   {
+    "label": "Thesis (6 credits)",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "IMP 4970",
+     "IMP 4971"
+    ],
+    "note": "IMP 4970 in fall of the seventh semester and IMP 4971 in spring of the final semester; directed, read and graded by the sponsors."
+   }
+  ],
+  "coursePrereqs": {
+   "IMP 4971": [
+    "IMP 4970"
+   ]
+  },
+  "notes": "A Distinguished Majors Program; intended only for goals a regular major cannot meet. Total 36 credits = 30 plan credits + 6 thesis credits. The coursePrereqs entry for IMP 4971 reflects the fall-then-spring sequence on the College page, not a stated catalog prerequisite. 2026-27 Record page not loaded; encoded from the College IMP page."
+ }
+]

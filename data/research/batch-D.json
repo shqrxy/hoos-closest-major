@@ -1,0 +1,2638 @@
+[
+  {
+    "id": "economics-ba",
+    "name": "Economics",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Economics",
+    "totalCredits": null,
+    "sources": [
+      "https://economics.virginia.edu/overview-major",
+      "https://economics.virginia.edu/major",
+      "https://economics.virginia.edu/courses"
+    ],
+    "declaration": {
+      "requirements": [
+        {
+          "label": "Calculus I (C+ or better)",
+          "need": {
+            "courses": 1
+          },
+          "from": [
+            "MATH 1210|MATH 1310|APMA 1090|MATH 1190|APMA 1110|MATH 1220|MATH 1320|MATH 2310|MATH 2315|APMA 2120"
+          ],
+          "note": "C+ minimum, one retake allowed; MATH 1191+MATH 1192 together (each C+) also count. Calculus II (MATH 1220/1320/APMA 1110) substitutes only after a failed Calc I attempt; AP/transfer credit for Calc II/III also satisfies."
+        },
+        {
+          "label": "Intermediate Microeconomics (C+ or better)",
+          "need": {
+            "courses": 1
+          },
+          "from": [
+            "ECON 3010|ECON 3110"
+          ],
+          "note": "C+ minimum; one retake allowed."
+        },
+        {
+          "label": "Statistics (C+ or better)",
+          "need": {
+            "courses": 1
+          },
+          "from": [
+            "STAT 2120|STAT 3120|APMA 3110|APMA 3120"
+          ],
+          "note": "C+ minimum; one retake allowed."
+        },
+        {
+          "label": "Two graded UVA economics courses",
+          "need": {
+            "courses": 2
+          },
+          "from": [
+            "ECON 2000+"
+          ]
+        }
+      ],
+      "minGPA": 2.3,
+      "notes": "minGPA is the ECONOMICS GPA (UVA ECON courses 2000-level+), not cumulative GPA. Prerequisite grades: C+ minimum, one retake allowed; two failed attempts = ineligible. ECON 3720 or 4720 must be completed (or in progress if declaring in 6th semester) by end of 6th semester. Transfer credit for prerequisites only if earned with C+ before matriculation. ECON 2010 is in practice required first because it is the prerequisite of ECON 3010."
+    },
+    "requirements": [
+      {
+        "label": "Principles of Microeconomics",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "ECON 2010"
+        ]
+      },
+      {
+        "label": "Principles of Macroeconomics",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "ECON 2020"
+        ]
+      },
+      {
+        "label": "Intermediate Microeconomics",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "ECON 3010|ECON 3110"
+        ]
+      },
+      {
+        "label": "Intermediate Macroeconomics",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "ECON 3020"
+        ]
+      },
+      {
+        "label": "Econometrics",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "ECON 3720|ECON 4720"
+        ]
+      },
+      {
+        "label": "Economics electives (4)",
+        "need": {
+          "courses": 4
+        },
+        "from": [
+          "ECON 2000+"
+        ],
+        "exclude": [
+          "ECON 2010",
+          "ECON 2020",
+          "ECON 3010",
+          "ECON 3110",
+          "ECON 3020",
+          "ECON 3720",
+          "ECON 4720"
+        ],
+        "children": [
+          {
+            "label": "At least two electives at 4000+",
+            "need": {
+              "courses": 2
+            },
+            "from": [
+              "ECON 4000+"
+            ],
+            "exclude": [
+              "ECON 4720"
+            ]
+          }
+        ],
+        "note": "Each elective at least 3 credits; at most one 2000-level elective; no 1000-level courses. HIUS 2061 (cross-listed ECON 2060) counts."
+      }
+    ],
+    "coursePrereqs": {
+      "ECON 3010": [
+        "ECON 2010",
+        "MATH 1190|MATH 1210|APMA 1090|MATH 1310"
+      ],
+      "ECON 3110": [
+        "ECON 2010",
+        "MATH 1220|MATH 1320|APMA 1110|MATH 2310|MATH 2315|APMA 2120"
+      ],
+      "ECON 3020": [
+        "ECON 2020",
+        "ECON 3010|ECON 3110"
+      ],
+      "ECON 3720": [
+        "STAT 2120|STAT 3120|APMA 3110|APMA 3120"
+      ],
+      "ECON 4720": [
+        "ECON 3720|STAT 3120|STAT 3220|APMA 3110|APMA 3120",
+        "MATH 3350|MATH 3351|APMA 3080"
+      ]
+    },
+    "notes": "Total credits not stated on department page (9 courses, roughly 27-30 credits). Economics GPA of 2.0 needed to graduate and to remain in the major after the 6th semester. ECON 2010, 2020, 3010/3110, and 3720/4720 must be done by end of 6th semester or student is dropped. At least four ECON courses at UVA; at most two courses transferred after matriculation. No credit/no-credit courses. Transfer credit for ECON 3010/3020 without 2010/2020 exempts the 2000-level course but requires an extra elective. Calculus II no longer required (since Fall 2024) though some upper-level electives list it as a prerequisite. Undergraduate Record page (records.ureg.virginia.edu) could not be read; encoded from department pages. ECON 2010/2020 have no formal prerequisite (2010 recommended first). ECON 3020 also allows instructor permission."
+  },
+  {
+    "id": "economics-minor",
+    "name": "Economics",
+    "degree": "Minor",
+    "type": "minor",
+    "department": "Economics",
+    "totalCredits": null,
+    "sources": [
+      "https://economics.virginia.edu/prerequisites-requirements",
+      "https://economics.virginia.edu/courses"
+    ],
+    "declaration": {
+      "requirements": [
+        {
+          "label": "Principles of Microeconomics",
+          "need": {
+            "all": true
+          },
+          "from": [
+            "ECON 2010"
+          ]
+        },
+        {
+          "label": "Principles of Macroeconomics",
+          "need": {
+            "all": true
+          },
+          "from": [
+            "ECON 2020"
+          ]
+        },
+        {
+          "label": "Intermediate Microeconomics (C+ or better)",
+          "need": {
+            "courses": 1
+          },
+          "from": [
+            "ECON 3010|ECON 3110"
+          ]
+        },
+        {
+          "label": "Calculus I (C+ or better)",
+          "need": {
+            "courses": 1
+          },
+          "from": [
+            "MATH 1210|MATH 1310|APMA 1090|MATH 1190"
+          ]
+        },
+        {
+          "label": "Statistics (C+ or better)",
+          "need": {
+            "courses": 1
+          },
+          "from": [
+            "STAT 2120|STAT 3120|APMA 3110|APMA 3120"
+          ]
+        },
+        {
+          "label": "Two graded UVA economics courses",
+          "need": {
+            "courses": 2
+          },
+          "from": [
+            "ECON 2000+"
+          ]
+        }
+      ],
+      "minGPA": 2.3,
+      "notes": "minGPA is the Economics GPA. ECON 2010/2020 need passing grades; ECON 3010/3110, Calculus I and Statistics need C+ (one retake allowed)."
+    },
+    "requirements": [
+      {
+        "label": "Principles of Microeconomics",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "ECON 2010"
+        ]
+      },
+      {
+        "label": "Principles of Macroeconomics",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "ECON 2020"
+        ]
+      },
+      {
+        "label": "Intermediate Microeconomics",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "ECON 3010|ECON 3110"
+        ]
+      },
+      {
+        "label": "Economics electives (3)",
+        "need": {
+          "courses": 3
+        },
+        "from": [
+          "ECON 2000+"
+        ],
+        "exclude": [
+          "ECON 2010",
+          "ECON 2020",
+          "ECON 3010",
+          "ECON 3110"
+        ],
+        "note": "Each at least 3 credits; at most one numbered below 3000; at least two taken at UVA. ECON 3020, 3720, 4720 count as electives."
+      }
+    ],
+    "coursePrereqs": {
+      "ECON 3010": [
+        "ECON 2010",
+        "MATH 1190|MATH 1210|APMA 1090|MATH 1310"
+      ],
+      "ECON 3110": [
+        "ECON 2010",
+        "MATH 1220|MATH 1320|APMA 1110|MATH 2310|MATH 2315|APMA 2120"
+      ],
+      "ECON 3020": [
+        "ECON 2020",
+        "ECON 3010|ECON 3110"
+      ]
+    },
+    "notes": "Calculus I and Statistics are prerequisites to declare but are not counted as minor courses. Economics GPA 2.0 needed to graduate with the minor. No credit/no-credit courses. Transfer ECON 3010/3020 without 2010/2020 exempts that course but requires four electives. Encoded from department page; Undergraduate Record page could not be read."
+  },
+  {
+    "id": "politics-foreign-affairs-ba",
+    "name": "Politics: Foreign Affairs",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Politics",
+    "totalCredits": 42,
+    "sources": [
+      "https://politics.virginia.edu/undergraduate-program/bachelor-arts-ba-foreign-affairs",
+      "https://politics.virginia.edu/undergraduate-program"
+    ],
+    "declaration": {
+      "requirements": [
+        {
+          "label": "Two UVA Politics courses with C or better",
+          "need": {
+            "courses": 2
+          },
+          "from": [
+            "PLAP *",
+            "PLCP *",
+            "PLIR *",
+            "PLPT *",
+            "PLAD *"
+          ],
+          "note": "At least 6 credits of PLxx at UVA, grade C or better each; transfer/external credit does not count."
+        }
+      ],
+      "minGPA": 2.5,
+      "notes": "minGPA is the Politics (PLxx) course GPA. Declaring in the 4th term requires enrollment in one more PLxx course (9 credits by term end); in the 5th term, two more (12 credits). Deferral possible if enrolled in two PLxx courses."
+    },
+    "requirements": [
+      {
+        "label": "American Politics",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "PLAP *"
+        ]
+      },
+      {
+        "label": "Comparative Politics",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "PLCP *"
+        ]
+      },
+      {
+        "label": "International Relations",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "PLIR *"
+        ]
+      },
+      {
+        "label": "Political Theory",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "PLPT *"
+        ]
+      },
+      {
+        "label": "Foreign Affairs track (Comparative / International Relations)",
+        "need": {
+          "credits": 9
+        },
+        "from": [
+          "PLCP *",
+          "PLIR *"
+        ],
+        "note": "At least 9 credits of PLCP and/or PLIR beyond the distribution requirement."
+      },
+      {
+        "label": "Politics electives",
+        "need": {
+          "credits": 9
+        },
+        "from": [
+          "PLAP *",
+          "PLCP *",
+          "PLIR *",
+          "PLPT *",
+          "PLAD *"
+        ],
+        "note": "Any Politics courses, including PLAD cross-field/methodology courses."
+      },
+      {
+        "label": "Politics level requirements",
+        "need": {
+          "credits": 15
+        },
+        "from": [
+          "PLAP 3000+",
+          "PLCP 3000+",
+          "PLIR 3000+",
+          "PLPT 3000+",
+          "PLAD 3000+"
+        ],
+        "children": [
+          {
+            "label": "At least 3 credits at 4000+",
+            "need": {
+              "credits": 3
+            },
+            "from": [
+              "PLAP 4000+",
+              "PLCP 4000+",
+              "PLIR 4000+",
+              "PLPT 4000+",
+              "PLAD 4000+"
+            ]
+          }
+        ],
+        "note": "Overlaps the 30 PLxx credits above: at least 15 PLxx credits at 3000+, at least 3 at 4000+, no more than 9 at 1000-level."
+      },
+      {
+        "label": "Related courses outside Politics",
+        "need": {
+          "credits": 12
+        },
+        "from": [
+          "AAS *",
+          "AMST *",
+          "ANTH *",
+          "EAST *",
+          "ECON *",
+          "ETP *",
+          "GDS *",
+          "GSGS *",
+          "GSSJ *",
+          "GSVS *",
+          "HIAF *",
+          "HIEA *",
+          "HIEU *",
+          "HILA *",
+          "HIME *",
+          "HISA *",
+          "HIST *",
+          "HIUS *",
+          "MDST *",
+          "MESA *",
+          "MEST *",
+          "PHIL *",
+          "LPPA *",
+          "LPPP *",
+          "LPPS *",
+          "PSYC *",
+          "RELA *",
+          "RELB *",
+          "RELC *",
+          "RELG *",
+          "RELH *",
+          "RELI *",
+          "RELJ *",
+          "RELS *",
+          "SOC *",
+          "WGS *",
+          "COMM 3410",
+          "COMM 3420"
+        ],
+        "exclude": [
+          "LPPP 3001",
+          "LPPP 3559"
+        ],
+        "children": [
+          {
+            "label": "At least 6 related credits at 3000+",
+            "need": {
+              "credits": 6
+            },
+            "from": [
+              "AAS 3000+",
+              "AMST 3000+",
+              "ANTH 3000+",
+              "EAST 3000+",
+              "ECON 3000+",
+              "ETP 3000+",
+              "GDS 3000+",
+              "GSGS 3000+",
+              "GSSJ 3000+",
+              "GSVS 3000+",
+              "HIAF 3000+",
+              "HIEA 3000+",
+              "HIEU 3000+",
+              "HILA 3000+",
+              "HIME 3000+",
+              "HISA 3000+",
+              "HIST 3000+",
+              "HIUS 3000+",
+              "MDST 3000+",
+              "MESA 3000+",
+              "MEST 3000+",
+              "PHIL 3000+",
+              "LPPA 3000+",
+              "LPPP 3000+",
+              "LPPS 3000+",
+              "PSYC 3000+",
+              "RELA 3000+",
+              "RELB 3000+",
+              "RELC 3000+",
+              "RELG 3000+",
+              "RELH 3000+",
+              "RELI 3000+",
+              "RELJ 3000+",
+              "RELS 3000+",
+              "SOC 3000+",
+              "WGS 3000+",
+              "COMM 3410",
+              "COMM 3420"
+            ],
+            "exclude": [
+              "LPPP 3559"
+            ]
+          }
+        ],
+        "note": "Mnemonics auto-counted by SIS; other courses by DUP approval."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "30 PLxx credits + 12 related credits = 42. Only grades of C or better count; C- or lower in three PLxx courses ends eligibility to continue. No AP/dual-enrollment credit toward the 30 PLxx or related credits. Max 9 PLxx credits at 1000 level. Double majors: at least 18 credits in each major, max two courses (6 credits) shared. Cannot double major in Government and Foreign Affairs. Encoded from the department page; Undergraduate Record could not be read."
+  },
+  {
+    "id": "politics-government-ba",
+    "name": "Politics: Government",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Politics",
+    "totalCredits": 42,
+    "sources": [
+      "https://politics.virginia.edu/undergraduate-program/bachelor-arts-ba-government",
+      "https://politics.virginia.edu/undergraduate-program"
+    ],
+    "declaration": {
+      "requirements": [
+        {
+          "label": "Two UVA Politics courses with C or better",
+          "need": {
+            "courses": 2
+          },
+          "from": [
+            "PLAP *",
+            "PLCP *",
+            "PLIR *",
+            "PLPT *",
+            "PLAD *"
+          ],
+          "note": "At least 6 credits of PLxx at UVA, grade C or better each; transfer/external credit does not count."
+        }
+      ],
+      "minGPA": 2.5,
+      "notes": "minGPA is the Politics (PLxx) course GPA. Declaring in the 4th term requires enrollment in one more PLxx course (9 credits by term end); in the 5th term, two more (12 credits). Deferral possible if enrolled in two PLxx courses."
+    },
+    "requirements": [
+      {
+        "label": "American Politics",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "PLAP *"
+        ]
+      },
+      {
+        "label": "Comparative Politics",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "PLCP *"
+        ]
+      },
+      {
+        "label": "International Relations",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "PLIR *"
+        ]
+      },
+      {
+        "label": "Political Theory",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "PLPT *"
+        ]
+      },
+      {
+        "label": "Government track (American Politics or Political Theory)",
+        "need": {
+          "credits": 9
+        },
+        "from": [
+          "PLAP *",
+          "PLPT *"
+        ],
+        "note": "At least 9 credits beyond the distribution requirement in EITHER PLAP (American Politics track) OR PLPT (Political Theory track); the checker cannot enforce single-subject, verify manually."
+      },
+      {
+        "label": "Politics electives",
+        "need": {
+          "credits": 9
+        },
+        "from": [
+          "PLAP *",
+          "PLCP *",
+          "PLIR *",
+          "PLPT *",
+          "PLAD *"
+        ],
+        "note": "Any Politics courses, including PLAD cross-field/methodology courses."
+      },
+      {
+        "label": "Politics level requirements",
+        "need": {
+          "credits": 15
+        },
+        "from": [
+          "PLAP 3000+",
+          "PLCP 3000+",
+          "PLIR 3000+",
+          "PLPT 3000+",
+          "PLAD 3000+"
+        ],
+        "children": [
+          {
+            "label": "At least 3 credits at 4000+",
+            "need": {
+              "credits": 3
+            },
+            "from": [
+              "PLAP 4000+",
+              "PLCP 4000+",
+              "PLIR 4000+",
+              "PLPT 4000+",
+              "PLAD 4000+"
+            ]
+          }
+        ],
+        "note": "Overlaps the 30 PLxx credits above: at least 15 PLxx credits at 3000+, at least 3 at 4000+, no more than 9 at 1000-level."
+      },
+      {
+        "label": "Related courses outside Politics",
+        "need": {
+          "credits": 12
+        },
+        "from": [
+          "AAS *",
+          "AMST *",
+          "ANTH *",
+          "EAST *",
+          "ECON *",
+          "ETP *",
+          "GDS *",
+          "GSGS *",
+          "GSSJ *",
+          "GSVS *",
+          "HIAF *",
+          "HIEA *",
+          "HIEU *",
+          "HILA *",
+          "HIME *",
+          "HISA *",
+          "HIST *",
+          "HIUS *",
+          "MDST *",
+          "MESA *",
+          "MEST *",
+          "PHIL *",
+          "LPPA *",
+          "LPPP *",
+          "LPPS *",
+          "PSYC *",
+          "RELA *",
+          "RELB *",
+          "RELC *",
+          "RELG *",
+          "RELH *",
+          "RELI *",
+          "RELJ *",
+          "RELS *",
+          "SOC *",
+          "WGS *",
+          "COMM 3410",
+          "COMM 3420"
+        ],
+        "exclude": [
+          "LPPP 3001",
+          "LPPP 3559"
+        ],
+        "children": [
+          {
+            "label": "At least 6 related credits at 3000+",
+            "need": {
+              "credits": 6
+            },
+            "from": [
+              "AAS 3000+",
+              "AMST 3000+",
+              "ANTH 3000+",
+              "EAST 3000+",
+              "ECON 3000+",
+              "ETP 3000+",
+              "GDS 3000+",
+              "GSGS 3000+",
+              "GSSJ 3000+",
+              "GSVS 3000+",
+              "HIAF 3000+",
+              "HIEA 3000+",
+              "HIEU 3000+",
+              "HILA 3000+",
+              "HIME 3000+",
+              "HISA 3000+",
+              "HIST 3000+",
+              "HIUS 3000+",
+              "MDST 3000+",
+              "MESA 3000+",
+              "MEST 3000+",
+              "PHIL 3000+",
+              "LPPA 3000+",
+              "LPPP 3000+",
+              "LPPS 3000+",
+              "PSYC 3000+",
+              "RELA 3000+",
+              "RELB 3000+",
+              "RELC 3000+",
+              "RELG 3000+",
+              "RELH 3000+",
+              "RELI 3000+",
+              "RELJ 3000+",
+              "RELS 3000+",
+              "SOC 3000+",
+              "WGS 3000+",
+              "COMM 3410",
+              "COMM 3420"
+            ],
+            "exclude": [
+              "LPPP 3559"
+            ]
+          }
+        ],
+        "note": "Mnemonics auto-counted by SIS; other courses by DUP approval."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "30 PLxx credits + 12 related credits = 42. Only grades of C or better count; C- or lower in three PLxx courses ends eligibility to continue. No AP/dual-enrollment credit toward the 30 PLxx or related credits. Max 9 PLxx credits at 1000 level. Double majors: at least 18 credits in each major, max two courses (6 credits) shared. Cannot double major in Government and Foreign Affairs. Encoded from the department page; Undergraduate Record could not be read."
+  },
+  {
+    "id": "politics-government-minor",
+    "name": "Politics: Government",
+    "degree": "Minor",
+    "type": "minor",
+    "department": "Politics",
+    "totalCredits": 15,
+    "sources": [
+      "https://politics.virginia.edu/undergraduate-program/politics-minor"
+    ],
+    "declaration": {
+      "requirements": [],
+      "minGPA": null,
+      "notes": "Declaration requirements not listed on the minor page (see politics.virginia.edu/undergraduate-program/declare)."
+    },
+    "requirements": [
+      {
+        "label": "Politics courses (15 credits)",
+        "need": {
+          "credits": 15
+        },
+        "from": [
+          "PLAP *",
+          "PLCP *",
+          "PLIR *",
+          "PLPT *",
+          "PLAD *"
+        ],
+        "children": [
+          {
+            "label": "Government track concentration (PLAP or PLPT)",
+            "need": {
+              "credits": 9
+            },
+            "from": [
+              "PLAP *",
+              "PLPT *"
+            ],
+            "note": "At least 9 credits concentrated in one field of the track (e.g. 9 credits PLAP, or 9 PLPT for Government; 9 PLCP or 9 PLIR for Foreign Affairs), per the department page's 'concentrated in one minor track' wording; checker cannot enforce single field."
+          },
+          {
+            "label": "At least 3 credits at 4000/5000 level",
+            "need": {
+              "credits": 3
+            },
+            "from": [
+              "PLAP 4000-5999",
+              "PLCP 4000-5999",
+              "PLIR 4000-5999",
+              "PLPT 4000-5999",
+              "PLAD 4000-5999"
+            ]
+          }
+        ],
+        "note": "Must span at least two of the four fields (PLAP, PLPT, PLCP, PLIR). No more than 6 credits at the 1000 level, max 3 introductory credits per field."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "Two Politics minors exist: Government and Foreign Affairs. The department page states at least 15 credits must be completed in residence (no transfer or study-abroad credit); totalCredits 15 assumes that is the full requirement (not stated explicitly). Only grades of C or better count."
+  },
+  {
+    "id": "politics-foreign-affairs-minor",
+    "name": "Politics: Foreign Affairs",
+    "degree": "Minor",
+    "type": "minor",
+    "department": "Politics",
+    "totalCredits": 15,
+    "sources": [
+      "https://politics.virginia.edu/undergraduate-program/politics-minor"
+    ],
+    "declaration": {
+      "requirements": [],
+      "minGPA": null,
+      "notes": "Declaration requirements not listed on the minor page (see politics.virginia.edu/undergraduate-program/declare)."
+    },
+    "requirements": [
+      {
+        "label": "Politics courses (15 credits)",
+        "need": {
+          "credits": 15
+        },
+        "from": [
+          "PLAP *",
+          "PLCP *",
+          "PLIR *",
+          "PLPT *",
+          "PLAD *"
+        ],
+        "children": [
+          {
+            "label": "Foreign Affairs track concentration (PLCP or PLIR)",
+            "need": {
+              "credits": 9
+            },
+            "from": [
+              "PLCP *",
+              "PLIR *"
+            ],
+            "note": "At least 9 credits concentrated in one field of the track (e.g. 9 credits PLAP, or 9 PLPT for Government; 9 PLCP or 9 PLIR for Foreign Affairs), per the department page's 'concentrated in one minor track' wording; checker cannot enforce single field."
+          },
+          {
+            "label": "At least 3 credits at 4000/5000 level",
+            "need": {
+              "credits": 3
+            },
+            "from": [
+              "PLAP 4000-5999",
+              "PLCP 4000-5999",
+              "PLIR 4000-5999",
+              "PLPT 4000-5999",
+              "PLAD 4000-5999"
+            ]
+          }
+        ],
+        "note": "Must span at least two of the four fields (PLAP, PLPT, PLCP, PLIR). No more than 6 credits at the 1000 level, max 3 introductory credits per field."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "Two Politics minors exist: Government and Foreign Affairs. The department page states at least 15 credits must be completed in residence (no transfer or study-abroad credit); totalCredits 15 assumes that is the full requirement (not stated explicitly). Only grades of C or better count."
+  },
+  {
+    "id": "political-and-social-thought-ba",
+    "name": "Political and Social Thought",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Political and Social Thought (interdisciplinary)",
+    "totalCredits": 38,
+    "sources": [
+      "https://pst.as.virginia.edu/requirements",
+      "https://pst.as.virginia.edu/major",
+      "https://pst.as.virginia.edu/sites/pst.as.virginia.edu/files/inline-files/PST-in-Brief_2021.pdf"
+    ],
+    "declaration": {
+      "requirements": [],
+      "minGPA": null,
+      "notes": "Competitive application each spring; 18-20 rising third-year students selected on grades, a writing sample, a faculty recommendation and a short essay. No GPA threshold or prerequisite courses stated; taking a foundation course before applying is helpful but not required."
+    },
+    "requirements": [
+      {
+        "label": "Foundation courses (6 credits)",
+        "need": {
+          "credits": 6
+        },
+        "from": [
+          "ANTH 3010",
+          "HIEU 3782",
+          "HIEU 3802",
+          "HIEU 3812",
+          "PHIL 3640",
+          "PHIL 3645",
+          "PHIL 3710",
+          "PHIL 3720",
+          "PLIR 3310",
+          "PLPT 3010",
+          "PLPT 3020",
+          "PLPT 3030",
+          "PLPT 4060",
+          "PLPT 4200",
+          "RELG 3650",
+          "SOC 3020",
+          "WGS 3100"
+        ],
+        "note": "Other courses may qualify with PST Director approval."
+      },
+      {
+        "label": "PST Core Seminars",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "PST 4850",
+          "PST 4870"
+        ],
+        "note": "Majors only; third year. Department page also lists PST 4980-4989 under the core seminar component."
+      },
+      {
+        "label": "Area studies (three areas, two courses each)",
+        "need": {
+          "courses": 6
+        },
+        "from": [],
+        "note": "Three student-defined areas, each with two courses at 3000+ level, spanning at least three departments/programs; written rationale due end of third year. Cannot be checked automatically (any department)."
+      },
+      {
+        "label": "Fourth-year thesis",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "PST 4998",
+          "PST 4999"
+        ],
+        "note": "Thesis of about 80-110 pages with thesis workshops."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "Total 38 credits from the PST-in-Brief (6 core seminar + 6 foundation + 18 area + 6 thesis + 2 thesis workshop); the requirements page is internally inconsistent (core 6 vs 8 hours, thesis 8 vs 6 hours) and mentions PST 4980-4989 workshops whose exact numbers were not verified. Study abroad during the academic year ordinarily not allowed. Undergraduate Record not readable."
+  },
+  {
+    "id": "political-philosophy-policy-and-law-ba",
+    "name": "Political Philosophy, Policy, and Law",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Political Philosophy, Policy, and Law (interdisciplinary)",
+    "totalCredits": null,
+    "sources": [
+      "https://ppl.virginia.edu/sites/uva-as-ppl-d10/files/2025-09/PPL-Handbook-2025-26.pdf",
+      "https://ppl.virginia.edu/sites/uva-as-ppl-d10/files/2025-09/PPL-Course-Checklist-Aug-2025.pdf"
+    ],
+    "declaration": {
+      "requirements": [],
+      "minGPA": null,
+      "notes": "Competitive admission by application, normally during the second year, for a cohort starting in fall of third year. The 2025-26 handbook does not describe the application process, GPA expectations or course prerequisites; check ppl.virginia.edu. Co-requisites (below) must be finished by the end of third year."
+    },
+    "requirements": [
+      {
+        "label": "Co-requisite: Microeconomics",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "ECON 2010"
+        ],
+        "note": "Cannot count toward the core if the student also minors in Economics."
+      },
+      {
+        "label": "Co-requisite: History of Political Thought",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "PHIL 1730",
+          "PHIL 2560",
+          "PHIL 2780",
+          "PHIL 3640",
+          "PLPT 1010",
+          "PLPT 3010",
+          "PLPT 3020",
+          "PLPT 3030"
+        ],
+        "note": "Director may approve others."
+      },
+      {
+        "label": "Co-requisite: Legal History and Public Policy",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "HIUS 3752",
+          "HIUS 3753",
+          "PLAP 3810",
+          "COMM 3410"
+        ],
+        "note": "Director may approve others."
+      },
+      {
+        "label": "Morality, Law, and the State",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "PPL 2010"
+        ],
+        "note": "Fall of third year."
+      },
+      {
+        "label": "Interdisciplinary Core (8 courses)",
+        "need": {
+          "courses": 8
+        },
+        "from": [
+          "PLPT *",
+          "PHIL *",
+          "PLAP *",
+          "PLCP *",
+          "PLIR *",
+          "LPPS *",
+          "LPPP *",
+          "LPPA *",
+          "ECON *",
+          "HIUS *",
+          "HIST *",
+          "SOC *",
+          "COMM 3410|COMM 3420",
+          "PPL *"
+        ],
+        "exclude": [
+          "PPL 2010",
+          "PPL 4005",
+          "PPL 4010"
+        ],
+        "children": [
+          {
+            "label": "Theoretical Foundations (at least 3, from 2+ departments)",
+            "need": {
+              "courses": 3
+            },
+            "from": [
+              "PLPT *",
+              "PHIL *"
+            ],
+            "note": "Any PLPT course and any PHIL course with significant ethical/political content counts; other departments' theory courses from the program list also count."
+          },
+          {
+            "label": "Policy & Law (at least 3, from 2+ departments)",
+            "need": {
+              "courses": 3
+            },
+            "from": [
+              "LPPS *",
+              "LPPP *",
+              "LPPA *",
+              "PLAP *",
+              "PLCP *",
+              "PLIR *",
+              "ECON *",
+              "HIUS *",
+              "SOC *",
+              "COMM 3410|COMM 3420"
+            ],
+            "note": "Program's 'extensive but non-comprehensive' list was not available; subjects are approximations."
+          }
+        ],
+        "note": "At least 3 Theoretical Foundations + at least 3 Policy courses + 2 more from either; at most one co-requisite may count toward the core. 5000+ graduate courses only as instructor-approved independent study. Subject lists are approximate."
+      },
+      {
+        "label": "Thesis Preparation",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "PPL 4005"
+        ],
+        "note": "1 credit, fall of fourth year."
+      },
+      {
+        "label": "Capstone Research Seminar",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "PPL 4010"
+        ],
+        "note": "Final semester (spring only); 35-40 page interdisciplinary research paper."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "No total credit count is stated (3 PPL courses incl. 1-credit PPL 4005, 3 co-requisites, 8 core courses). Max 2 courses shared with another major; students may not minor in PPL. Up to 6 transfer credits without permission (+3 by petition). No study abroad in first or last PPL semester. Honors require a 3.4 UVA GPA. Core course lists not available, so the core groups match by subject only."
+  },
+  {
+    "id": "sociology-ba",
+    "name": "Sociology",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Sociology",
+    "totalCredits": 30,
+    "sources": [
+      "https://sociology.as.virginia.edu/sites/uva-as-sociology/files/2025-10/Undergraduate_Handbook_2025-2026_Current_0.pdf"
+    ],
+    "declaration": {
+      "requirements": [
+        {
+          "label": "Two Sociology courses with C or better",
+          "need": {
+            "courses": 2
+          },
+          "from": [
+            "SOC *"
+          ],
+          "note": "6 credits, C or better each; SOC 3020 or SOC 3120 may count. Third-year transfers may use two SOC courses from their previous school."
+        }
+      ],
+      "minGPA": null,
+      "notes": "No GPA stated for declaring; Sociology GPA of 2.0 required to stay in the major."
+    },
+    "requirements": [
+      {
+        "label": "Introductory sociology",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "SOC 1010|SOC 1220|SOC 2010"
+        ],
+        "note": "SOC 1010 and SOC 2010 cannot both count."
+      },
+      {
+        "label": "Social theory",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "SOC 3020"
+        ]
+      },
+      {
+        "label": "Research methods",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "SOC 3120"
+        ],
+        "note": "4 credits; normally fall of third year."
+      },
+      {
+        "label": "Statistics",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "SOC 3130"
+        ],
+        "note": "4 credits; normally spring of third year. Exemption possible with PSYC 2005+3006, STAT 2020, STAT 2120/3120 or LPPA 3640 (C or better), but an extra SOC course is then required."
+      },
+      {
+        "label": "Sociology electives (6 courses)",
+        "need": {
+          "courses": 6
+        },
+        "from": [
+          "SOC 2000+"
+        ],
+        "exclude": [
+          "SOC 3020",
+          "SOC 3120",
+          "SOC 3130",
+          "SOC 4980",
+          "SOC 4981"
+        ],
+        "children": [
+          {
+            "label": "Four electives at 3000+",
+            "need": {
+              "courses": 4
+            },
+            "from": [
+              "SOC 3000+"
+            ],
+            "exclude": [
+              "SOC 3020",
+              "SOC 3120",
+              "SOC 3130",
+              "SOC 4980",
+              "SOC 4981"
+            ]
+          },
+          {
+            "label": "Two electives at 4000/5000 level (in the department)",
+            "need": {
+              "courses": 2
+            },
+            "from": [
+              "SOC 4000-5999"
+            ],
+            "exclude": [
+              "SOC 4980",
+              "SOC 4981"
+            ]
+          }
+        ],
+        "note": "Two electives at the 2000 level and four at 3000+ (two of those at 4000/5000). Only 3 credits of SOC 4970 count. Up to two outside courses (6 credits) may count as electives with DUP approval. 4000/5000-level courses need two prior SOC courses."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "30 credits, normally ten courses (the 4-credit SOC 3120/3130 make the sum 32). All counted courses letter-graded with C or better; required course below C must be retaken. Sociology GPA 2.0 minimum; C- or lower in three+ SOC courses requires petition. Required courses and 4000/5000 electives must be taken in the department; transfers must take SOC 3020/3120/3130 at UVA. Distinguished Majors: SOC 4980+4981 (6 extra credits), 3.4 College GPA, SOC 3120 first. All 4000- and 5000-level SOC courses require two prior Sociology courses (6 credits)."
+  },
+  {
+    "id": "sociology-minor",
+    "name": "Sociology",
+    "degree": "Minor",
+    "type": "minor",
+    "department": "Sociology",
+    "totalCredits": 18,
+    "sources": [
+      "https://sociology.as.virginia.edu/sites/uva-as-sociology/files/2025-10/Undergraduate_Handbook_2025-2026_Current_0.pdf"
+    ],
+    "declaration": {
+      "requirements": [],
+      "minGPA": null,
+      "notes": "Declare via the department Declaration of Major/Minor form (DocuSign) after contacting the Academic Administrator."
+    },
+    "requirements": [
+      {
+        "label": "Introductory sociology (C or better)",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "SOC 1010|SOC 1220|SOC 2010"
+        ],
+        "note": "SOC 1010 and SOC 2010 cannot both count."
+      },
+      {
+        "label": "Sociology electives (5 courses)",
+        "need": {
+          "courses": 5
+        },
+        "from": [
+          "SOC *"
+        ],
+        "exclude": [
+          "SOC 1010",
+          "SOC 1220",
+          "SOC 2010"
+        ],
+        "children": [
+          {
+            "label": "One 2000-level elective",
+            "need": {
+              "courses": 1
+            },
+            "from": [
+              "SOC 2000-2999"
+            ],
+            "exclude": [
+              "SOC 2010"
+            ]
+          },
+          {
+            "label": "One 3000-level elective",
+            "need": {
+              "courses": 1
+            },
+            "from": [
+              "SOC 3000-3999"
+            ]
+          }
+        ],
+        "note": "One 2000-level, one 3000-level and three more at any level."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "Letter grades, C or better in every counted course; Sociology GPA 2.0 minimum. Up to two transferred SOC courses with DUP approval; SOC 4970 counts for at most 3 credits."
+  },
+  {
+    "id": "global-commerce-in-culture-and-society-ba",
+    "name": "Global Studies: Global Commerce in Culture and Society",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Global Studies",
+    "totalCredits": 30,
+    "sources": [
+      "https://globalstudies.as.virginia.edu/node/1681"
+    ],
+    "declaration": {
+      "requirements": [],
+      "minGPA": null,
+      "notes": "Admission by application to the Global Studies program. Prerequisites (ECON 2010/2020/3010 and GSGS 2000) are encouraged before applying and required before graduation. Application GPA/deadlines not verified."
+    },
+    "requirements": [
+      {
+        "label": "Prerequisite: economics",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "ECON 2010|ECON 2020|ECON 3010"
+        ],
+        "note": "Prerequisite course; not counted in the 30 major credits."
+      },
+      {
+        "label": "Prerequisite: Introduction to Global Studies",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "GSGS 2000",
+          "ANTH *",
+          "SOC *"
+        ],
+        "note": "GSGS 2000; third- and fourth-year students may substitute one ANTH or SOC course. Not counted in the 30 major credits."
+      },
+      {
+        "label": "Global Commerce in Culture and Society",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GCCS 3010"
+        ],
+        "note": "First semester of third year."
+      },
+      {
+        "label": "Studying Global Commerce",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GCCS 3100"
+        ],
+        "note": "Not required for students admitted in fourth year (they take 12 core + 12 elective credits)."
+      },
+      {
+        "label": "Social and Cultural Analysis",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "ANTH 2120",
+          "ANTH 2250",
+          "ANTH 2400",
+          "SOC 2320",
+          "SOC 3056",
+          "SOC 3410"
+        ],
+        "note": "Approved list varies by semester."
+      },
+      {
+        "label": "Political Economy",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "ANTH 2285",
+          "ANTH 3220",
+          "ANTH 3325",
+          "GSGS 3112",
+          "SOC 2442",
+          "SOC 2900",
+          "SOC 3480",
+          "SOC 3710"
+        ],
+        "note": "Approved list varies by semester."
+      },
+      {
+        "label": "Methodologies (2 courses)",
+        "need": {
+          "courses": 2
+        },
+        "from": [
+          "STAT *",
+          "CS *",
+          "ENWR *",
+          "COMM 2010|COMM 2020"
+        ],
+        "note": "Two courses in professional writing, data analysis (statistics, ethnography, survey methods, research design, logic/rhetoric, etc.) or computer programming; at most one accounting course. Advisor-approved; the subject patterns here are illustrative only, not an official list."
+      },
+      {
+        "label": "Electives (3)",
+        "need": {
+          "courses": 3
+        },
+        "from": [
+          "SOC *",
+          "ANTH *",
+          "GCCS *",
+          "GSGS *"
+        ],
+        "children": [
+          {
+            "label": "Two electives at 3000+",
+            "need": {
+              "courses": 2
+            },
+            "from": [
+              "SOC 3000+",
+              "ANTH 3000+",
+              "GCCS 3000+",
+              "GSGS 3000+"
+            ]
+          }
+        ],
+        "note": "Three SOC, ANTH or other courses chosen with an advisor to support the capstone research; two must be 3000+. Courses from other departments may count with approval."
+      },
+      {
+        "label": "Capstone: Fourth Year Seminar",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GCCS 4991"
+        ]
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "30 credits plus two prerequisites and language competency. Language: Class of 2026, one course beyond 2020 (or reach 1020 in a second language); Class of 2027+, College World Language Literacy (placement beyond 2020 or 14 credits through the 2020 level). Methodology group subjects are approximations; verify with advisor."
+  },
+  {
+    "id": "global-development-studies-ba",
+    "name": "Global Studies: Global Development Studies",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Global Studies",
+    "totalCredits": 30,
+    "sources": [
+      "https://globalstudies.as.virginia.edu/node/1706"
+    ],
+    "declaration": {
+      "requirements": [],
+      "minGPA": null,
+      "notes": "Admission by application to the Global Studies program; the GDS requirements page gives no admission rules. Prerequisites (an approved Methods/Quantitative course and an approved Social Theory course) must be completed but the approved lists were not on the page."
+    },
+    "requirements": [
+      {
+        "label": "Prerequisites: approved Methods/Quantitative course and approved Social Theory course",
+        "need": {
+          "courses": 2
+        },
+        "from": [],
+        "note": "Approved course lists not published on the requirements page; cannot be checked automatically. Not counted in the 30 credits."
+      },
+      {
+        "label": "Global Development: Theories and Case Studies",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GDS 3010"
+        ],
+        "note": "First semester of third year."
+      },
+      {
+        "label": "Development on the Ground",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GDS 3100"
+        ]
+      },
+      {
+        "label": "Applied Research in Global Studies",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GSGS 4200"
+        ]
+      },
+      {
+        "label": "Electives (18 credits at 3000+)",
+        "need": {
+          "credits": 18
+        },
+        "from": [
+          "GDS 3000+",
+          "GSGS 3000+",
+          "ANTH 3000+",
+          "SOC 3000+",
+          "ECON 3000+",
+          "PLCP 3000+",
+          "PLIR 3000+",
+          "HIST 3000+",
+          "HIAF 3000+",
+          "HILA 3000+",
+          "HISA 3000+",
+          "HIME 3000+",
+          "HIEA 3000+",
+          "GSVS 3000+",
+          "GCCS 3000+",
+          "GSSJ 3000+",
+          "MESA 3000+",
+          "GHSS 3000+",
+          "PHS 3000+",
+          "WGS 3000+",
+          "LPPS 3000+",
+          "LPPP 3000+",
+          "ENVS 3000+",
+          "RELG 3000+",
+          "AAS 3000+"
+        ],
+        "exclude": [
+          "GDS 3010",
+          "GDS 3100",
+          "GDS 4991",
+          "GSGS 4200"
+        ],
+        "note": "Chosen with a faculty advisor, building toward the GDS 4991 research paper; must be 3000+. No official list; subject list here is illustrative and any advisor-approved 3000+ course counts."
+      },
+      {
+        "label": "Capstone: Fourth-year Seminar",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GDS 4991"
+        ]
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "Class of 2025 and later: 30 credits + two prerequisites + language competency (one course beyond 2020, or 1020 in a second language after reaching 2020 in a first; Class of 2027+ likely follows College World Language Literacy as in other GS tracks \u2014 not verified for GDS). Class of 2024 had ECON 2010/2020 prerequisite, GDS 3010-3020 sequence. Electives group subject list is an approximation."
+  },
+  {
+    "id": "global-environments-and-sustainability-ba",
+    "name": "Global Studies: Global Environments and Sustainability",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Global Studies",
+    "totalCredits": 30,
+    "sources": [
+      "https://globalstudies.as.virginia.edu/node/1736"
+    ],
+    "declaration": {
+      "requirements": [],
+      "minGPA": null,
+      "notes": "Admission by application to Global Studies. Students may apply before completing the two prerequisites, which must be completed before graduation."
+    },
+    "requirements": [
+      {
+        "label": "Prerequisite: Introduction to Global Studies",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "GSGS 2000"
+        ],
+        "note": "Class of 2027+. Class of 2025/2026 could instead use one Global Humanities/History/Culture course: GSGS 2000, 2400, 2610, 3030, 3100, 3118, GDS 3114, GSGS 3559, ANTH 2120, 2160, 2250, 2285. Prerequisites do not count toward core/elective credit."
+      },
+      {
+        "label": "Prerequisite: Methods or Quantitative course",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "GSVS 2050",
+          "GSGS 3111",
+          "GSGS 3330",
+          "ECON 3430",
+          "GSGS 4200",
+          "STAT 2120",
+          "STAT 2020",
+          "ECON 2010",
+          "PLAN 2111",
+          "EVSC 3020"
+        ],
+        "note": "Cannot double count with core/electives."
+      },
+      {
+        "label": "Global Sustainability",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GSVS 2150|ARCH 2150|COMM 3880"
+        ]
+      },
+      {
+        "label": "Religion, Ethics & Global Environments",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GSVS 2210|RELG 2210"
+        ]
+      },
+      {
+        "label": "Sustainability economics",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "GSGS 3330",
+          "GSVS 3500|ECON 3430"
+        ]
+      },
+      {
+        "label": "Sustainability Policy at Home & Abroad",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GSVS 3310"
+        ]
+      },
+      {
+        "label": "Electives (5 courses from approved list)",
+        "need": {
+          "courses": 5
+        },
+        "from": [
+          "GSVS *"
+        ],
+        "exclude": [
+          "GSVS 2150",
+          "GSVS 2210",
+          "GSVS 3310",
+          "GSVS 3500",
+          "GSVS 4991",
+          "GSVS 2050"
+        ],
+        "note": "3 Environment + 1 Equity + 1 Economy & Policy course from the program's approved elective list (list not published on the requirements page; varies by term). Only GSVS-subject courses are matched here; cross-listed approved courses from other departments must be checked manually."
+      },
+      {
+        "label": "Capstone Research Seminar",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GSVS 4991"
+        ]
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "30 credits (5 core incl. capstone + 5 electives) plus two prerequisites (6 credits). Language: Class of 2027+ College World Language Literacy (placement beyond 2020 or the sequence through 2020); Class of 2025/2026 one course beyond 2020 or 1010+1020 in a second language. Up to 3 courses may double count with another major; no double counting with a minor. Up to 4 courses (12 credits) from other UVA schools may count."
+  },
+  {
+    "id": "global-security-and-justice-ba",
+    "name": "Global Studies: Global Security and Justice",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Global Studies",
+    "totalCredits": 30,
+    "sources": [
+      "https://globalstudies.as.virginia.edu/node/1786"
+    ],
+    "declaration": {
+      "requirements": [],
+      "minGPA": null,
+      "notes": "Admission by application to the Global Studies program (competitive; typically applied for in the second year). The GSSJ requirements page states there are no course prerequisites for applying; taking GSSJ electives or Global Studies core courses beforehand is encouraged. Application GPA/timing not verified."
+    },
+    "requirements": [
+      {
+        "label": "Track foundation",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GSSJ 3010"
+        ],
+        "note": "Open only to GSSJ majors; usually fall of third year."
+      },
+      {
+        "label": "Global Studies core: Global Diagnostics",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "PLIR 1010",
+          "HIST 3501",
+          "SOC 3120",
+          "STAT 1601",
+          "STAT 1602"
+        ],
+        "note": "List as shown on GSSJ requirements page; the Global Studies core list may change by term."
+      },
+      {
+        "label": "Global Studies core: Global History",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "GSGS 3117",
+          "HIME 2002",
+          "HIST 2011",
+          "HIST 5002"
+        ]
+      },
+      {
+        "label": "Global Studies core: Global Societies & Cultures",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "GSGS 2000",
+          "GSGS 3100"
+        ]
+      },
+      {
+        "label": "Electives (15 credits)",
+        "need": {
+          "credits": 15
+        },
+        "from": [
+          "AAS 3500",
+          "AAS 3559",
+          "AMST 2559",
+          "AMST 4559",
+          "AMST 5559",
+          "ANTH 3559",
+          "CS 4501",
+          "GSGS 3350",
+          "GSGS 3559",
+          "GSGS 4559",
+          "HIEA 3351",
+          "HIEU 3559",
+          "HIUS 2559",
+          "HIUS 3501",
+          "MEST 2559",
+          "MEST 3240",
+          "PETR 3125",
+          "PLCP 3330",
+          "PLCP 3500",
+          "PLPT 3500",
+          "PHIL 3720",
+          "PLIR 4330",
+          "PLIR 5500",
+          "RELG 2300",
+          "SLTR 3500",
+          "SOC 4730",
+          "WGS 4500",
+          "LPPS 5335",
+          "LPPS 5555",
+          "AMST 3630",
+          "ENGL 3924",
+          "AMST 3790",
+          "CS 3710",
+          "CS 4630",
+          "EDLF 2070",
+          "GSGS 2400",
+          "GSGS 4100",
+          "GSSJ 3420",
+          "HIEU 3390",
+          "HIEU 3462",
+          "HIEA 3321",
+          "HILA 3051",
+          "HIST 2214",
+          "HIST 3281",
+          "LPPS 3240",
+          "LPPS 3310",
+          "MDST 3452",
+          "PHIL 3010",
+          "PLCP 3630",
+          "PLIR 2020",
+          "PLIR 3060",
+          "PLIR 4320",
+          "PSYC 2600",
+          "SOC 3410",
+          "WGS 3125",
+          "AAS 4500",
+          "AAS 4570",
+          "RELG 4559",
+          "ANTH 2250",
+          "ANTH 2375",
+          "ANTH 2575",
+          "ANTH 2621",
+          "ANTH 2625",
+          "ANTH 3590",
+          "ANTH 3700",
+          "CS 3501",
+          "CHTR 3122",
+          "KRTR 3800",
+          "EDHS 3055",
+          "EDLF 3610",
+          "EDLF 4260",
+          "ENGL 2599",
+          "GETR 3390",
+          "GETR 3462",
+          "GERM 3510",
+          "GETR 3590",
+          "GETR 3692",
+          "GSSJ 3559",
+          "GSSJ 4993",
+          "GSSJ 4559",
+          "HIST 5559",
+          "HIAF 2002",
+          "HIEA 2031",
+          "HIEA 3162",
+          "HIEA 3172",
+          "HIEU 3442",
+          "HIEU 3695",
+          "HIEU 3702",
+          "HIEU 3752",
+          "HIEU 4502",
+          "HIEU 5312",
+          "HILA 3021",
+          "HILA 3111",
+          "HILA 4501",
+          "HILA 4511",
+          "HIME 2002",
+          "HIME 2012",
+          "HIME 3571",
+          "HIME 5002",
+          "HIME 5052",
+          "HISA 2003",
+          "HISA 3003",
+          "HIST 2011",
+          "HIST 3162",
+          "HIST 3452",
+          "HIST 5130",
+          "HIUS 2052",
+          "HIUS 3172",
+          "HIUS 3456",
+          "MDST 3120",
+          "MDST 3402",
+          "MDST 3559",
+          "MESA 2700",
+          "MUSI 3559",
+          "PAVS 4500",
+          "PHIL 2060",
+          "PHIL 2770",
+          "PHIL 5510",
+          "PLAD 2222",
+          "PLAD 2500",
+          "PLCP 1010",
+          "PLCP 3012",
+          "PLCP 3170",
+          "PLCP 3350",
+          "PLCP 3410",
+          "PLCP 4060",
+          "PLCP 4140",
+          "PLCP 4180",
+          "PLCP 4260",
+          "PLCP 4400",
+          "PLCP 4410",
+          "PLCP 4500",
+          "PLCP 4810",
+          "PLIR 1010",
+          "PLIR 2030",
+          "PLIR 3240",
+          "PLIR 3310",
+          "PLIR 3400",
+          "PLIR 3500",
+          "PLIR 3650",
+          "PLIR 3760",
+          "PLIR 4150",
+          "PLIR 4310",
+          "PLIR 4350",
+          "PLIR 4430",
+          "PLIR 4440",
+          "PLIR 4450",
+          "PLIR 4500",
+          "PLIR 4630",
+          "PLPT 4050",
+          "PLPT 4500",
+          "PSYC 4559",
+          "LPPS 3295",
+          "LPPS 3340",
+          "LPPS 3415",
+          "LPPP 3310",
+          "LPPP 3559",
+          "RELG 3410",
+          "RELG 3605",
+          "RELG 3950",
+          "RELG 4500",
+          "RELG 5320",
+          "RELJ 2024",
+          "RUTR 3340",
+          "SLTR 3300",
+          "SOC 2230",
+          "SOC 2595",
+          "SOC 3056",
+          "SOC 3480",
+          "SOC 3820",
+          "SOC 3860",
+          "SOC 4055",
+          "SOC 4059",
+          "SOC 4559",
+          "SOC 4750",
+          "SOC 4870",
+          "SOC 5080",
+          "SOC 5140",
+          "SOC 5400",
+          "WGS 3130",
+          "WGS 3340",
+          "WGS 3897",
+          "WGS 4050",
+          "WGS 4800"
+        ],
+        "note": "From the department's GSSJ elective list (list varies by term; approved special topics, internships and independent studies may also count). List captured from the department page as of Fall 2024."
+      },
+      {
+        "label": "Capstone",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GSSJ 4991"
+        ],
+        "note": "Usually spring of fourth year."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "Requirements for Class of 2025 and later: 30 credits plus language competency. Language competency: one course beyond the 2020 level in any language taught at UVA (or approved study abroad), OR, having reached 2020 in one language, reach 1020 in a second language. Not modelled as a course group because it can be met many ways. Class of 2024 and earlier: core from 3 of 4 areas (incl. Global Humanities) plus 5-6 electives."
+  },
+  {
+    "id": "middle-east-and-south-asia-ba",
+    "name": "Global Studies: Middle East and South Asia",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Global Studies / Middle Eastern & South Asian Languages and Cultures",
+    "totalCredits": 30,
+    "sources": [
+      "https://globalstudies.as.virginia.edu/node/1811"
+    ],
+    "declaration": {
+      "requirements": [],
+      "minGPA": null,
+      "notes": "Global Studies track; admission by application to Global Studies. No course prerequisites listed on the track page; application details not verified."
+    },
+    "requirements": [
+      {
+        "label": "Core: The Global in Situ",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GSMS 3010"
+        ]
+      },
+      {
+        "label": "Global Studies electives (3)",
+        "need": {
+          "courses": 3
+        },
+        "from": [
+          "ENGL 3030",
+          "GDS 3010",
+          "GDS 3020",
+          "GDS 3100",
+          "GDS 3110",
+          "GDS 3113",
+          "GDS 3114",
+          "GDS 4559",
+          "GSGS 2210",
+          "GSGS 3111",
+          "GSGS 3115",
+          "GSGS 3116",
+          "GSGS 3559",
+          "GSVS 2150",
+          "GSVS 2210",
+          "GPH 3825",
+          "GSGS *",
+          "GDS *",
+          "GSVS *",
+          "GSSJ *",
+          "GCCS *",
+          "GPH *"
+        ],
+        "exclude": [
+          "GSMS 3010",
+          "GSMS 4991"
+        ],
+        "note": "From the Global Studies list (GSGS, GDS, GSVS, GSSJ, GPH/PHS and other globally focused courses); listed courses are samples, Track Director may approve others."
+      },
+      {
+        "label": "Language: 3020-level course",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "ARAB 3020-4999",
+          "HEBR 3020-4999",
+          "PERS 3020-4999",
+          "HIND 3020-4999",
+          "URDU 3020-4999"
+        ],
+        "note": "One 3020-level (or equivalent) course in Arabic, Hebrew, Persian, Hindi or Urdu; other languages and heritage-speaker pathways by Track Director approval."
+      },
+      {
+        "label": "MESALC non-language electives (4)",
+        "need": {
+          "courses": 4
+        },
+        "from": [
+          "ARTR 3245",
+          "ARTR 3290",
+          "ARTR 3350",
+          "ARTR 3559",
+          "HIME 1501",
+          "HIME 2002",
+          "HIME 2013",
+          "HIME 4511",
+          "RELI 2010",
+          "RELI 2024",
+          "RELI 3900",
+          "RELI 5540",
+          "RELB 2100",
+          "RELB 3300",
+          "RELG 2740",
+          "RELG 3605",
+          "RELG 5320",
+          "MDST 3420",
+          "MESA 2300",
+          "MESA 2700",
+          "MESA 3110",
+          "MESA 3111",
+          "MESA 3120",
+          "MESA 3559",
+          "MEST 3470",
+          "MEST 3559",
+          "PLCP 3410",
+          "SAST 1600",
+          "SAST 3559",
+          "SATR 3000",
+          "SATR 3300",
+          "WGS 4559",
+          "MESA *",
+          "MEST *",
+          "SAST *",
+          "SATR *",
+          "ARTR *",
+          "HIME *",
+          "HISA *",
+          "RELI *"
+        ],
+        "children": [
+          {
+            "label": "Two at 3000+",
+            "need": {
+              "courses": 2
+            },
+            "from": [
+              "MESA 3000+",
+              "MEST 3000+",
+              "SAST 3000+",
+              "SATR 3000+",
+              "ARTR 3000+",
+              "HIME 3000+",
+              "HISA 3000+",
+              "RELI 3000+",
+              "MDST 3420",
+              "PLCP 3410",
+              "RELG 3605",
+              "RELG 5320",
+              "RELB 3300",
+              "WGS 4559"
+            ]
+          }
+        ],
+        "note": "Courses focused on the Middle East and/or South Asia from MESALC, Religious Studies, Politics, Sociology, Anthropology, Media Studies, etc.; at least two 3000+. Listed courses are samples."
+      },
+      {
+        "label": "Capstone Seminar",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "GSMS 4991"
+        ],
+        "note": "Second semester of fourth year."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "30 credits: 15 Global Studies + 15 MESALC. Up to 12 transfer/study-abroad credits with advisor permission. USEM credits do not count. Elective matching uses sample lists plus regional subjects; advisor-approved courses outside these lists must be checked manually."
+  },
+  {
+    "id": "global-culture-and-commerce-minor",
+    "name": "Global Culture and Commerce",
+    "degree": "Minor",
+    "type": "minor",
+    "department": "Anthropology",
+    "totalCredits": 18,
+    "sources": [
+      "https://anthropology.as.virginia.edu/global-culture-and-commerce-minor"
+    ],
+    "declaration": {
+      "requirements": [],
+      "minGPA": null,
+      "notes": "Rolling application to the Program Director: transcript plus a one-page statement of purpose naming a world area and a GCC-related issue and proposed courses."
+    },
+    "requirements": [
+      {
+        "label": "Anthropology courses (2)",
+        "need": {
+          "courses": 2
+        },
+        "from": [
+          "ANTH *"
+        ]
+      },
+      {
+        "label": "Other approved courses (4)",
+        "need": {
+          "courses": 4
+        },
+        "from": [
+          "ANTH *",
+          "SOC *",
+          "ECON *",
+          "COMM *",
+          "GCCS *",
+          "GSGS *",
+          "HIST *",
+          "HIAF *",
+          "HIEA *",
+          "HIEU *",
+          "HILA *",
+          "HIME *",
+          "HISA *",
+          "HIUS *"
+        ],
+        "note": "Individually planned with the Directors around two themes: cultural translation/cross-cultural knowledge, and history and diversity of global commercial forms. No official list; subjects here are illustrative only."
+      },
+      {
+        "label": "Co-requisite language course",
+        "need": {
+          "courses": 1
+        },
+        "from": [],
+        "note": "One language course chosen with the Directors; exceptions for bilingual students. Not counted among the six courses; cannot be checked automatically."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "Six courses (two in Anthropology) plus one co-requisite language course. totalCredits 18 assumes six 3-credit courses (not stated on the page). Course choices are individually approved, so a transcript check is only approximate. Undergraduate Record not readable."
+  },
+  {
+    "id": "media-studies-ba",
+    "name": "Media Studies",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Media Studies",
+    "totalCredits": 30,
+    "sources": [
+      "https://mediastudies.as.virginia.edu/media-studies-major",
+      "https://mediastudies.as.virginia.edu/declaring-major-media-studies"
+    ],
+    "declaration": {
+      "requirements": [
+        {
+          "label": "Introduction to Media Studies (C+ or better)",
+          "need": {
+            "all": true
+          },
+          "from": [
+            "MDST 2000"
+          ]
+        },
+        {
+          "label": "One more MDST 2000/3000-level course (C+ or better)",
+          "need": {
+            "courses": 1
+          },
+          "from": [
+            "MDST 2000-3999"
+          ],
+          "exclude": [
+            "MDST 2000",
+            "MDST 3050",
+            "MDST 3510",
+            "MDST 4510"
+          ],
+          "note": "Not every 2000-level MDST course counts toward the major. Class of 2028 may use any course that counts toward the major."
+        }
+      ],
+      "minGPA": 2.0,
+      "notes": "C+ or better in all MDST courses and other courses counting toward the major; overall UVA GPA 2.0. Deadline August 15 before the 5th semester; fourth-year students cannot declare; special rules for 3rd-year transfers."
+    },
+    "requirements": [
+      {
+        "label": "Introduction to Media Studies",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "MDST 2000"
+        ]
+      },
+      {
+        "label": "History of Media",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "MDST 3050"
+        ],
+        "note": "Third year."
+      },
+      {
+        "label": "Topics in Global Media",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "MDST 3504"
+        ],
+        "note": "Must be taught by MDST faculty."
+      },
+      {
+        "label": "Topics in Media Research",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "MDST 3510|MDST 4000"
+        ],
+        "note": "Third year. DMP students take MDST 4000 instead."
+      },
+      {
+        "label": "Capstone Topics",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "MDST 4510|MDST 4970"
+        ],
+        "note": "Fourth year. DMP students take MDST 4970 instead (plus MDST 4980)."
+      },
+      {
+        "label": "Practice of Media elective",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "MDST *"
+        ],
+        "note": "One course from the department's approved Practice of Media list (list not captured; may come from another department or university)."
+      },
+      {
+        "label": "Diversity and Inclusion elective",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "MDST *"
+        ],
+        "note": "One course from the approved Diversity & Inclusion list (not captured). MDST 3510/4510 may satisfy this, but four electives beyond Practice of Media are still required."
+      },
+      {
+        "label": "Open electives at 3000+",
+        "need": {
+          "courses": 3
+        },
+        "from": [
+          "MDST 3000+"
+        ],
+        "exclude": [
+          "MDST 3050",
+          "MDST 3504",
+          "MDST 3510",
+          "MDST 4510",
+          "MDST 4000",
+          "MDST 4970",
+          "MDST 4980"
+        ],
+        "note": "Three open electives at 3000+. Up to two of the four non-Practice electives may be outside courses (other UVA departments from the approved list, transfer or study abroad), 3000+ with media focus, with DUP approval."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "Ten courses (twelve for Distinguished Majors: MDST 4000 replaces 3510, MDST 4970 replaces 4510, plus MDST 4980). C+ or better in every course counted. At least three of the five electives must be taught by MDST or affiliated faculty. Required courses must be taken at UVA. Practice of Media and Diversity & Inclusion approved lists were not available, so those groups only match MDST courses generically."
+  },
+  {
+    "id": "women-gender-and-sexuality-ba",
+    "name": "Women, Gender, and Sexuality",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Women, Gender & Sexuality",
+    "totalCredits": 30,
+    "sources": [
+      "https://wgs.as.virginia.edu/wgs-major"
+    ],
+    "declaration": {
+      "requirements": [
+        {
+          "label": "One WGS course with C or better",
+          "need": {
+            "courses": 1
+          },
+          "from": [
+            "WGS *"
+          ]
+        }
+      ],
+      "minGPA": null,
+      "notes": "Rule in effect for declarations from August 27, 2024. Meet with the DUP and submit declaration forms and advising worksheet."
+    },
+    "requirements": [
+      {
+        "label": "Introduction to Gender and Sexuality Studies",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "WGS 2100"
+        ]
+      },
+      {
+        "label": "Race & Power in Gender & Sexuality Studies",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "WGS 3150"
+        ]
+      },
+      {
+        "label": "Research and Methods in WGS",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "WGS 3500"
+        ]
+      },
+      {
+        "label": "Two WGS 4000-level seminars",
+        "need": {
+          "courses": 2
+        },
+        "from": [
+          "WGS 4000-4999"
+        ],
+        "note": "WGS 4998/4999 (DMP thesis) count toward the 30 credits."
+      },
+      {
+        "label": "Theory requirement",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "WGS *"
+        ],
+        "note": "One WGS course coded as meeting the theory requirement; coded course list not captured."
+      },
+      {
+        "label": "Global requirement",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "WGS 3125",
+          "WGS 3220",
+          "WGS 3230",
+          "WGS 3900",
+          "WGS 4730",
+          "WGS 4840",
+          "WGS 4500"
+        ],
+        "note": "One course coded global. List taken from the WGS minor page's global-emphasis list; other coded courses may qualify."
+      },
+      {
+        "label": "Electives (3)",
+        "need": {
+          "courses": 3
+        },
+        "from": [
+          "WGS 2000+"
+        ],
+        "children": [
+          {
+            "label": "Two electives at 3000+",
+            "need": {
+              "courses": 2
+            },
+            "from": [
+              "WGS 3000+"
+            ]
+          }
+        ],
+        "note": "WGS courses or approved outside WGS electives (affiliated course lists not captured); one may be 2000-level, two must be 3000+. One independent study may count."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "10 courses (30 credits), at least 7 at 3000+. Minimum grade C in every counted course. Up to three courses may double count with another major. Transfer students must take at least 7 courses at UVA, including the theory course and the 4000+ courses. DMP: 3.40 GPA, WGS 4998 + 4999 thesis."
+  },
+  {
+    "id": "women-gender-and-sexuality-minor",
+    "name": "Women, Gender, and Sexuality",
+    "degree": "Minor",
+    "type": "minor",
+    "department": "Women, Gender & Sexuality",
+    "totalCredits": 18,
+    "sources": [
+      "https://wgs.as.virginia.edu/wgs-minor"
+    ],
+    "declaration": {
+      "requirements": [
+        {
+          "label": "One WGS course with C or better",
+          "need": {
+            "courses": 1
+          },
+          "from": [
+            "WGS *"
+          ]
+        }
+      ],
+      "minGPA": null,
+      "notes": "In effect from August 27, 2024."
+    },
+    "requirements": [
+      {
+        "label": "Introduction to Gender and Sexuality Studies",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "WGS 2100"
+        ]
+      },
+      {
+        "label": "Race and Power in Gender & Sexuality",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "WGS 3150"
+        ]
+      },
+      {
+        "label": "One WGS course at 3000+",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "WGS 3000+"
+        ],
+        "exclude": [
+          "WGS 3150"
+        ]
+      },
+      {
+        "label": "One WGS course at 4000-level",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "WGS 4000-4999"
+        ],
+        "note": "Students qualify by completing the second writing requirement or the research and methods class."
+      },
+      {
+        "label": "Two WGS electives (any level)",
+        "need": {
+          "courses": 2
+        },
+        "from": [
+          "WGS *"
+        ],
+        "exclude": [
+          "WGS 2100",
+          "WGS 3150"
+        ]
+      },
+      {
+        "label": "Global emphasis (one of the six courses)",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "WGS 3125",
+          "WGS 3220",
+          "WGS 3230",
+          "WGS 3900",
+          "WGS 4730",
+          "WGS 4840",
+          "WGS 4500"
+        ],
+        "note": "Overlaps with the other groups; not an additional course."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "6 courses (18 credits); minimum grade C in each. Approved affiliated courses from other departments may count as electives (lists not captured)."
+  },
+  {
+    "id": "linguistics-ba",
+    "name": "Linguistics",
+    "degree": "B.A.",
+    "type": "major",
+    "department": "Linguistics (interdisciplinary)",
+    "totalCredits": 30,
+    "sources": [
+      "https://linguistics.virginia.edu/ba-program"
+    ],
+    "declaration": {
+      "requirements": [],
+      "minGPA": null,
+      "notes": "No formal prerequisite; students should have completed or be enrolled in at least one course counting toward the program. Declare via the College form."
+    },
+    "requirements": [
+      {
+        "label": "Introduction to Linguistics",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "LNGS 3250"
+        ]
+      },
+      {
+        "label": "Historical linguistics",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "ANTH 3480|CLAS 3300|ENLS 3030"
+        ]
+      },
+      {
+        "label": "Structure of a language",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "ANTH 3450|LING 3400|SPAN 4203"
+        ]
+      },
+      {
+        "label": "Theoretical linguistics",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "ANTH 3490|ANTH 4420"
+        ]
+      },
+      {
+        "label": "Linguistics electives (18 credits)",
+        "need": {
+          "credits": 18
+        },
+        "from": [
+          "LNGS *",
+          "LING *",
+          "ANTH 3450",
+          "ANTH 3480",
+          "ANTH 3490",
+          "ANTH 4420",
+          "CLAS 3300",
+          "ENLS 3030",
+          "SPAN 4203"
+        ],
+        "exclude": [
+          "LNGS 3250"
+        ],
+        "note": "Program-approved linguistics courses in many departments (ANTH, ENLS, SPAN, FREN, GERM, PSYC, CS, etc.); no published list captured, so only LNGS/LING and the core-option courses are matched. Up to 3 credits of an ancient or non-Indo-European language may count."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "30 credits: 12 core + 18 elective credits, planned with the program director. At most two courses double-counted with another program. No minimum grade stated. DMP requires 3.400 overall and major GPA."
+  },
+  {
+    "id": "linguistics-minor",
+    "name": "Linguistics",
+    "degree": "Minor",
+    "type": "minor",
+    "department": "Linguistics (interdisciplinary)",
+    "totalCredits": 18,
+    "sources": [
+      "https://linguistics.virginia.edu/ba-program"
+    ],
+    "declaration": {
+      "requirements": [],
+      "minGPA": null,
+      "notes": ""
+    },
+    "requirements": [
+      {
+        "label": "Introduction to Linguistics",
+        "need": {
+          "all": true
+        },
+        "from": [
+          "LNGS 3250"
+        ]
+      },
+      {
+        "label": "Historical linguistics",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "ANTH 3480|CLAS 3300|ENLS 3030"
+        ]
+      },
+      {
+        "label": "Structure of a language",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "ANTH 3450|LING 3400|SPAN 4203"
+        ]
+      },
+      {
+        "label": "Theoretical linguistics",
+        "need": {
+          "courses": 1
+        },
+        "from": [
+          "ANTH 3490|ANTH 4420"
+        ]
+      },
+      {
+        "label": "Linguistics electives (2)",
+        "need": {
+          "courses": 2
+        },
+        "from": [
+          "LNGS *",
+          "LING *",
+          "ANTH 3450",
+          "ANTH 3480",
+          "ANTH 3490",
+          "ANTH 4420",
+          "CLAS 3300",
+          "ENLS 3030",
+          "SPAN 4203"
+        ],
+        "exclude": [
+          "LNGS 3250"
+        ],
+        "note": "Linguistics courses only (no language courses); approved courses in other departments not captured."
+      }
+    ],
+    "coursePrereqs": {},
+    "notes": "18 credits. Minor courses may not double count with any other major or minor."
+  }
+]

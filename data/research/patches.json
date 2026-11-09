@@ -1,0 +1,12 @@
+{
+ "cognitive-science-ba": {
+  "Area: Cognitive Psychology": {"addFrom": ["PSYC 2500","PSYC 3240","PSYC 4280","PSYC 4410","PSYC 4420","PSYC 4435","PSYC 4500","PSYC 4640","PSYC 4660","PSYC 5270","PSYC 5326","PSYC 5720","PSYC 4250","PSYC 5710","EDHS 4300","EDLF 5260","NESC 5330"]},
+  "Area: Neuroscience": {"addFrom": ["BIOL 3250","BIOL 4045","BIOL 4190","BIOL 4310","BIOL 4330","BIOL 4559","BIOL 4011","NESC 3450","NESC 3559","NESC 4245","NESC 4265","NESC 5330","BME 3636","PSYC 3210","PSYC 3235","PSYC 3240","PSYC 3260","PSYC 3280","PSYC 4250","PSYC 4280","PSYC 4420","PSYC 4500","PSYC 5270","PSYC 5280","PSYC 5326"]},
+  "Area: Linguistics": {"addFrom": ["ANTH 2400","ANTH 2410","ANTH 2415","ANTH 2430","ANTH 2541","ANTH 3450","ANTH 3541","ANTH 4420","ANTH 4591","ANTH 5470","ASL 3450","EDHS 4300","EDHS 4310","LNGS *","SPAN 4200","SPAN 4202","SPAN 4203","SPAN 4210","CLAS 3350"]},
+  "Area: Philosophy": {"addFrom": ["PHIL 1510","PHIL 2350","PHIL 2420","PHIL 2820","PHIL 3010","PHIL 3320","PHIL 3620","PHIL 3830"]},
+  "Area: Computer Science": {"addFrom": ["DS 1002","PSYC 5270"]},
+  "Upper-level concentration (2 courses in chosen area)": {"addFrom": ["NESC 3000-5999","BME 3636","EDLF 5040","EDLF 5260","EDHS 4300","EDHS 4310","ASL 3450","LNGS 3000-5999","CLAS 3350"]},
+  "Electives to reach 10 courses / 30 credits": {"addFromGroups": ["Area: Cognitive Psychology","Area: Neuroscience","Area: Linguistics","Area: Philosophy","Area: Computer Science"]},
+  "_notes": " Area lists now include every course on the program's Previously Approved Courses archive as well as the current list (topic courses like PSYC 4500 or PHIL 1510 only count for the approved topic/section)."
+ }
+}

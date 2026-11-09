@@ -1,0 +1,1340 @@
+[
+ {
+  "id": "latin-american-studies-ba",
+  "name": "Latin American Studies",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Latin American Studies Program",
+  "totalCredits": 30,
+  "sources": [
+   "https://latinamerican.virginia.edu/undergraduate-program/bachelor-arts-ba-latin-american-studies"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "Declare by meeting with the program Director (New Cabell Hall 469)."
+  },
+  "requirements": [
+   {
+    "label": "Language requirement (Spanish or Portuguese through the intermediate level)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "SPAN 2020",
+     "PORT 2120"
+    ],
+    "note": "SPAN 2020 and/or PORT 2120 or the equivalent (placement/higher coursework satisfies it). Spanish 1000-2000 level courses do NOT count toward the 30 credits. PORT 1000-2000 courses may count toward either the 30 credits or the language requirement (PORT 2120 only), not both."
+   },
+   {
+    "label": "Core seminar",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "LAST 2050|LAST 4050"
+    ],
+    "note": "Interdisciplinary Seminar in Latin American Studies (LAST 2050, formerly LAST 4050). Counts toward the 30 credits."
+   },
+   {
+    "label": "Latin American field courses (30 credits total including the core seminar)",
+    "need": {
+     "credits": 27
+    },
+    "from": [
+     "LAST *",
+     "HILA *",
+     "SPAN 3000+",
+     "PORT *"
+    ],
+    "note": "Courses with Latin American content from AAS, AMST, ANTH, ECON, ENGL, FREN, GLST, HIST, POLITICS, Spanish/Italian/Portuguese and others, as listed in the Undergraduate Record; others need Director permission. Only courses with Latin American content count, so the subject list here is approximate (Latin American content courses in ANTH, PLCP, ECON, etc. also count but cannot be identified by subject code). Max 15 credits from any one department; courses must span at least 4 departments. DMP courses LAST 4993 and LAST 4999 (3 credits each) count."
+   }
+  ],
+  "notes": "Total 30 credits of Latin American field courses (incl. LAST 2050) across >=4 departments, <=15 credits per department. Spanish 1000/2000-level courses do not count. Optional fourth-year research project and Distinguished Majors Program (LAST 4993, LAST 4999). Source is the program website; the Undergraduate Record (catoid=72) page could not be fetched (rate limited), so check there for the approved course list."
+ },
+ {
+  "id": "latin-american-studies-minor",
+  "name": "Latin American Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Latin American Studies Program",
+  "totalCredits": 18,
+  "sources": [
+   "https://latinamerican.virginia.edu/undergraduate-program/minor-latin-american-studies"
+  ],
+  "requirements": [
+   {
+    "label": "Language requirement",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "SPAN 2020",
+     "PORT 2120"
+    ],
+    "note": "Either SPAN 2020 or PORT 2120, or the equivalent (placement/higher coursework satisfies it)."
+   },
+   {
+    "label": "Latin American field courses",
+    "need": {
+     "credits": 18
+    },
+    "from": [
+     "LAST *",
+     "HILA *",
+     "SPAN 3000+",
+     "PORT *"
+    ],
+    "note": "18 credits of Latin American field courses from AAS, AMST, ANTH, ECON, ENGL, FREN, GLST, HIST, Politics, Spanish/Italian/Portuguese and others. Subject list is approximate; only Latin American content courses count. Max 9 credits from any one department; at least 3 departments."
+   }
+  ],
+  "notes": "18 credits, >=3 departments, <=9 credits per department, plus language through SPAN 2020 or PORT 2120. Program website used; Undergraduate Record page not fetched."
+ },
+ {
+  "id": "latinx-studies-minor",
+  "name": "Latinx Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "American Studies",
+  "totalCredits": 18,
+  "sources": [
+   "https://americanstudies.as.virginia.edu/minors/latinx"
+  ],
+  "requirements": [
+   {
+    "label": "Latinx core courses",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "AMST 3300",
+     "AMST 2321",
+     "AMST 3321",
+     "AMST 3322",
+     "AMST 3323",
+     "AMST 3355",
+     "AMST 4321",
+     "AMST 4500",
+     "MDST 3105"
+    ],
+    "note": "At least two core courses (or another course with primarily Latinx content approved by the director). AMST 4500 counts only when the topic is Latinx-focused."
+   },
+   {
+    "label": "Comparative race/ethnicity course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "AAS 1010",
+     "AAS 1020",
+     "AAS 3200",
+     "AMST 2233",
+     "AMST 3050",
+     "AMST 3180",
+     "AMST 3407",
+     "AMST 3641",
+     "ANTH 2153",
+     "MDST 4301",
+     "SOC 3410"
+    ],
+    "note": "One course in Asian American, African American, or Native American/Indigenous studies, or another field approved by the director."
+   },
+   {
+    "label": "Additional courses (core or elective lists)",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "AMST 2321",
+     "AMST 3300",
+     "AMST 3321",
+     "AMST 3322",
+     "AMST 3323",
+     "AMST 3354",
+     "AMST 3355",
+     "AMST 3407",
+     "AMST 4321",
+     "AMST 4401",
+     "AMST 4403",
+     "AMST 4500",
+     "ENAM 3570",
+     "MDST 3105",
+     "MDST 4108"
+    ],
+    "note": "Three more courses from the core list or the pre-approved elective list (list not exhaustive; e.g. upper-level SPAN 4500 topics on Latinx/Afro-Latinx material may be approved). Courses must be distinct from those used above."
+   }
+  ],
+  "notes": "Six courses (18 credits). No more than one course taken outside UVA (study abroad/transfer). College double-counting rules apply. Elective list is maintained by the department and is not exhaustive; director may approve other courses."
+ },
+ {
+  "id": "middle-eastern-languages-and-literatures-ba",
+  "name": "Middle Eastern Languages and Literatures",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Middle Eastern and South Asian Languages and Cultures",
+  "totalCredits": 30,
+  "sources": [
+   "https://mesalc.as.virginia.edu/language-literature-major",
+   "https://mesalc.as.virginia.edu/undergraduate-courses-middle-east"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate language prerequisite (C or better each semester)",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "ARAB 2020|ARAB 2026",
+      "HEBR 2020|HEBR 2420",
+      "PERS 2020"
+     ],
+     "note": "Option 1: intermediate (2010/2020) Arabic, Hebrew (Classical HEBR 2410/2420 may substitute) or Persian with C or better each semester; Option 2: accelerated 1060/2060-level course; Option 3: intermediate proficiency via placement test."
+    }
+   ],
+   "minGPA": 2.0,
+   "notes": "Meet with the MESALC Director of Undergraduate Programs with the Declaration of Major Advising Form and College declaration form. Cannot also declare the MESALC Studies major."
+  },
+  "requirements": [
+   {
+    "label": "Language courses above the 2020 level (one language)",
+    "need": {
+     "courses": 4
+    },
+    "from": [
+     "ARAB 2250|ARAB 2260",
+     "ARAB 3000+",
+     "HEBR 3000+",
+     "PERS 3000+"
+    ],
+    "note": "Four courses (12 credits) in ONE language above the 2020 level; Arabic students must include ARAB 2250 (Conversational Arabic). Option 2 (advisor discretion): only two courses here, plus two courses in a second MESALC language at any level."
+   },
+   {
+    "label": "Language courses at the 3000 level or above (same language)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "ARAB 3000+",
+     "HEBR 3000+",
+     "PERS 3000+"
+    ],
+    "note": "Two more courses (6 credits) in the same language at 3000+; Arabic students must include ARAB 3672 (Advanced Arabic Grammar). Must be distinct from the four above (6 language courses total under Option 1)."
+   },
+   {
+    "label": "MESALC or related regional courses",
+    "need": {
+     "courses": 4
+    },
+    "from": [
+     "ARAB 2250+",
+     "ARTR *",
+     "HEBR 3000+",
+     "HETR *",
+     "PERS 3000+",
+     "PETR *",
+     "MEST *",
+     "HIME *",
+     "RELI *",
+     "RELJ *",
+     "ANTH 2470",
+     "ANTH 3470",
+     "ANTH 3665",
+     "ANTH 3840",
+     "ANTH 5620",
+     "ARH 3205",
+     "ARH 3207",
+     "ARTH 2051",
+     "ARTH 2052",
+     "ARTH 2151",
+     "ARTH 2961",
+     "ECON 3630",
+     "HIAF 3011",
+     "HIEU 2101",
+     "HIEU 2102",
+     "HIUS 3191",
+     "PLCP 3410",
+     "PLCP 4180",
+     "PLCP 4410",
+     "PLCP 5410",
+     "PLIR 3650",
+     "RELA 3900",
+     "RELC 2050",
+     "RELC 3090",
+     "RELC 3360",
+     "RELG 2475",
+     "RELG 3080",
+     "WGS 3020",
+     "WGS 3120",
+     "WGS 3140"
+    ],
+    "note": "At least two must be regional concentration courses from at least two of: MESALC (non-grammar, usually 3000+), ANTH, ARTH, HIST, Politics, Religious Studies. The remaining two must be ARAB, ARTR, PETR or MEST courses. Course list from https://mesalc.as.virginia.edu/undergraduate-courses-middle-east."
+   }
+  ],
+  "coursePrereqs": {
+   "ARAB 1020": [
+    "ARAB 1010"
+   ],
+   "ARAB 2010": [
+    "ARAB 1020|ARAB 1026"
+   ],
+   "ARAB 2020": [
+    "ARAB 2010|ARAB 2016"
+   ],
+   "ARAB 3010": [
+    "ARAB 2020|ARAB 2026"
+   ],
+   "ARAB 3020": [
+    "ARAB 3010"
+   ],
+   "HEBR 1020": [
+    "HEBR 1010"
+   ],
+   "HEBR 2010": [
+    "HEBR 1020"
+   ],
+   "HEBR 2020": [
+    "HEBR 2010"
+   ],
+   "HEBR 3010": [
+    "HEBR 2020"
+   ],
+   "HEBR 3020": [
+    "HEBR 3010"
+   ],
+   "PERS 1020": [
+    "PERS 1010"
+   ],
+   "PERS 2010": [
+    "PERS 1020"
+   ],
+   "PERS 2020": [
+    "PERS 2010"
+   ]
+  },
+  "notes": "10 courses / 30 credits. Languages: Arabic, Hebrew or Persian. Option 2 (advisor discretion): 2 courses above 2020 + 2 at 3000+ in one language + 2 courses in a second MESALC language at any level (Biblical/Classical Hebrew counts) + 4 related courses. Up to 15 transfer/study-abroad credits with advisor permission. USEMs do not count. C (2.0) average in major courses each semester required or may be discontinued. Cannot double with the MESALC Studies major. coursePrereqs encode the standard numbered language sequence (1010>1020>2010>2020>3010>3020) as implied by course numbering/titles on the department site; individual course-description prerequisite text was not verified. Placement testing (MESALC placement test) can waive lower-level courses. Source is the department site; Undergraduate Record catoid=72 page could not be fetched."
+ },
+ {
+  "id": "middle-eastern-studies-ba",
+  "name": "Middle Eastern Studies",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Middle Eastern and South Asian Languages and Cultures",
+  "totalCredits": 30,
+  "sources": [
+   "https://mesalc.as.virginia.edu/studies-major",
+   "https://mesalc.as.virginia.edu/undergraduate-courses-middle-east"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate language prerequisite (C or better each semester)",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "ARAB 2020|ARAB 2026",
+      "HEBR 2020|HEBR 2420",
+      "PERS 2020"
+     ],
+     "note": "Option 1: intermediate (2010/2020) Arabic, Hebrew (Classical HEBR 2410/2420 may substitute) or Persian with C or better each semester; Option 2: accelerated 1060/2060-level course; Option 3: intermediate proficiency via placement test."
+    }
+   ],
+   "minGPA": 2.0,
+   "notes": "Same prerequisite options as the Language & Literature major (intermediate language with C or better, accelerated course, or placement)."
+  },
+  "requirements": [
+   {
+    "label": "Language courses at the 3000 level or above (one MESALC language)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "ARAB 3000+",
+     "HEBR 3000+",
+     "PERS 3000+",
+     "HIND 3000+",
+     "URDU 3000+",
+     "SANS 3000+"
+    ],
+    "note": "Two courses (6 credits) in one MESALC language at or above the 3000 level."
+   },
+   {
+    "label": "Fourth-year capstone",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "MEST 4991"
+    ]
+   },
+   {
+    "label": "Regional concentration courses",
+    "need": {
+     "courses": 7
+    },
+    "from": [
+     "ARAB 2250+",
+     "ARTR *",
+     "HEBR 3000+",
+     "HETR *",
+     "PERS 3000+",
+     "PETR *",
+     "MEST *",
+     "HIME *",
+     "RELI *",
+     "RELJ *",
+     "ANTH 2470",
+     "ANTH 3470",
+     "ANTH 3665",
+     "ANTH 3840",
+     "ANTH 5620",
+     "ARH 3205",
+     "ARH 3207",
+     "ARTH 2051",
+     "ARTH 2052",
+     "ARTH 2151",
+     "ARTH 2961",
+     "ECON 3630",
+     "HIAF 3011",
+     "HIEU 2101",
+     "HIEU 2102",
+     "HIUS 3191",
+     "PLCP 3410",
+     "PLCP 4180",
+     "PLCP 4410",
+     "PLCP 5410",
+     "PLIR 3650",
+     "RELA 3900",
+     "RELC 2050",
+     "RELC 3090",
+     "RELC 3360",
+     "RELG 2475",
+     "RELG 3080",
+     "WGS 3020",
+     "WGS 3120",
+     "WGS 3140"
+    ],
+    "note": "Seven courses (21 credits) from the approved Middle East list (non-MESALC courses with regional content count). At least 3 from the same department and at least 3 from different departments.",
+    "children": [
+     {
+      "label": "At least one literature course (translation OK)",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "ARAB 3810",
+       "ARAB 4120",
+       "ARAB 4230",
+       "ARTR *",
+       "HETR 2300",
+       "PERS 3010",
+       "PERS 3020",
+       "PERS 3230",
+       "PERS 3240",
+       "PETR *",
+       "RELG 3080",
+       "RELJ 2300",
+       "WGS 3140"
+      ],
+      "note": "Literature course list inferred from course titles; department may approve others."
+     },
+     {
+      "label": "At least one history course",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "HIME *"
+      ]
+     }
+    ]
+   }
+  ],
+  "coursePrereqs": {
+   "ARAB 1020": [
+    "ARAB 1010"
+   ],
+   "ARAB 2010": [
+    "ARAB 1020|ARAB 1026"
+   ],
+   "ARAB 2020": [
+    "ARAB 2010|ARAB 2016"
+   ],
+   "ARAB 3010": [
+    "ARAB 2020|ARAB 2026"
+   ],
+   "ARAB 3020": [
+    "ARAB 3010"
+   ],
+   "HEBR 1020": [
+    "HEBR 1010"
+   ],
+   "HEBR 2010": [
+    "HEBR 1020"
+   ],
+   "HEBR 2020": [
+    "HEBR 2010"
+   ],
+   "HEBR 3010": [
+    "HEBR 2020"
+   ],
+   "HEBR 3020": [
+    "HEBR 3010"
+   ],
+   "PERS 1020": [
+    "PERS 1010"
+   ],
+   "PERS 2010": [
+    "PERS 1020"
+   ],
+   "PERS 2020": [
+    "PERS 2010"
+   ]
+  },
+  "notes": "10 courses / 30 credits (MESALC 'Studies Major', Middle East concentration). Up to 12 transfer/study-abroad credits with advisor permission. USEMs do not count. Double majors: 24 unique credits per major, max 2 shared courses. C (2.0) average required each semester. Cannot also declare the Language & Literature major. The capstone number MEST 4991 is stated on the department page but MEST courses do not appear on the department's Middle East course list; verify in SIS. coursePrereqs encode the standard numbered language sequence (1010>1020>2010>2020>3010>3020) as implied by course numbering/titles on the department site; individual course-description prerequisite text was not verified. Placement testing (MESALC placement test) can waive lower-level courses."
+ },
+ {
+  "id": "middle-eastern-studies-minor",
+  "name": "Middle Eastern Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Middle Eastern and South Asian Languages and Cultures",
+  "totalCredits": 18,
+  "sources": [
+   "https://mesalc.as.virginia.edu/minors",
+   "https://mesalc.as.virginia.edu/undergraduate-courses-middle-east"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Elementary language prerequisite (C or better each semester)",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "ARAB 1020|ARAB 1026",
+      "HEBR 1020|HEBR 1420",
+      "PERS 1020"
+     ],
+     "note": "Elementary (1010/1020) Arabic, Hebrew or Persian with C or better each semester, or elementary proficiency via placement test."
+    }
+   ],
+   "minGPA": null,
+   "notes": "MESALC 'Studies Minor' with one regional concentration."
+  },
+  "requirements": [
+   {
+    "label": "Regional concentration courses",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "ARAB 2250+",
+     "ARTR *",
+     "HEBR 3000+",
+     "HETR *",
+     "PERS 3000+",
+     "PETR *",
+     "MEST *",
+     "HIME *",
+     "RELI *",
+     "RELJ *",
+     "ANTH 2470",
+     "ANTH 3470",
+     "ANTH 3665",
+     "ANTH 3840",
+     "ANTH 5620",
+     "ARH 3205",
+     "ARH 3207",
+     "ARTH 2051",
+     "ARTH 2052",
+     "ARTH 2151",
+     "ARTH 2961",
+     "ECON 3630",
+     "HIAF 3011",
+     "HIEU 2101",
+     "HIEU 2102",
+     "HIUS 3191",
+     "PLCP 3410",
+     "PLCP 4180",
+     "PLCP 4410",
+     "PLCP 5410",
+     "PLIR 3650",
+     "RELA 3900",
+     "RELC 2050",
+     "RELC 3090",
+     "RELC 3360",
+     "RELG 2475",
+     "RELG 3080",
+     "WGS 3020",
+     "WGS 3120",
+     "WGS 3140"
+    ],
+    "note": "Three courses (9 credits) in MESALC or any other department with regional content."
+   },
+   {
+    "label": "Non-language MESALC course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ARTR *",
+     "HETR *",
+     "PETR *",
+     "MEST *"
+    ],
+    "note": "One non-language course offered by MESALC."
+   },
+   {
+    "label": "Additional regional courses",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "ARAB 2250+",
+     "ARTR *",
+     "HEBR 3000+",
+     "HETR *",
+     "PERS 3000+",
+     "PETR *",
+     "MEST *",
+     "HIME *",
+     "RELI *",
+     "RELJ *",
+     "ANTH 2470",
+     "ANTH 3470",
+     "ANTH 3665",
+     "ANTH 3840",
+     "ANTH 5620",
+     "ARH 3205",
+     "ARH 3207",
+     "ARTH 2051",
+     "ARTH 2052",
+     "ARTH 2151",
+     "ARTH 2961",
+     "ECON 3630",
+     "HIAF 3011",
+     "HIEU 2101",
+     "HIEU 2102",
+     "HIUS 3191",
+     "PLCP 3410",
+     "PLCP 4180",
+     "PLCP 4410",
+     "PLCP 5410",
+     "PLIR 3650",
+     "RELA 3900",
+     "RELC 2050",
+     "RELC 3090",
+     "RELC 3360",
+     "RELG 2475",
+     "RELG 3080",
+     "WGS 3020",
+     "WGS 3120",
+     "WGS 3140"
+    ],
+    "note": "Two courses of choice from regionally appropriate courses; language courses count only above the 2020 level."
+   }
+  ],
+  "coursePrereqs": {
+   "ARAB 1020": [
+    "ARAB 1010"
+   ],
+   "ARAB 2010": [
+    "ARAB 1020|ARAB 1026"
+   ],
+   "ARAB 2020": [
+    "ARAB 2010|ARAB 2016"
+   ],
+   "ARAB 3010": [
+    "ARAB 2020|ARAB 2026"
+   ],
+   "ARAB 3020": [
+    "ARAB 3010"
+   ],
+   "HEBR 1020": [
+    "HEBR 1010"
+   ],
+   "HEBR 2010": [
+    "HEBR 1020"
+   ],
+   "HEBR 2020": [
+    "HEBR 2010"
+   ],
+   "HEBR 3010": [
+    "HEBR 2020"
+   ],
+   "HEBR 3020": [
+    "HEBR 3010"
+   ],
+   "PERS 1020": [
+    "PERS 1010"
+   ],
+   "PERS 2010": [
+    "PERS 1020"
+   ],
+   "PERS 2020": [
+    "PERS 2010"
+   ]
+  },
+  "notes": "Six courses / 18 credits. Max 9 credits from any one department outside MESALC. Max 6 transfer credits. coursePrereqs encode the standard numbered language sequence (1010>1020>2010>2020>3010>3020) as implied by course numbering/titles on the department site; individual course-description prerequisite text was not verified. Placement testing (MESALC placement test) can waive lower-level courses."
+ },
+ {
+  "id": "south-asian-languages-and-literatures-ba",
+  "name": "South Asian Languages and Literatures",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Middle Eastern and South Asian Languages and Cultures",
+  "totalCredits": 30,
+  "sources": [
+   "https://mesalc.as.virginia.edu/language-literature-major",
+   "https://mesalc.as.virginia.edu/undergraduate-courses-south-asia"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate language prerequisite (C or better each semester)",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "HIND 2020|HIND 2060",
+      "URDU 2020",
+      "SANS 2000-2999"
+     ],
+     "note": "Option 1: intermediate (2010/2020) Hindi or Urdu, or any TWO 2000-level SANS courses, with C or better each semester; Option 2: accelerated HIND 1060/2060 with C or better; Option 3: intermediate proficiency via placement test."
+    }
+   ],
+   "minGPA": 2.0,
+   "notes": "Meet with the MESALC Director of Undergraduate Programs with the Declaration of Major Advising Form and College declaration form. Cannot also declare the MESALC Studies major."
+  },
+  "requirements": [
+   {
+    "label": "Language courses above the 2020 level (one language)",
+    "need": {
+     "courses": 4
+    },
+    "from": [
+     "HIND 3000+",
+     "URDU 3000+",
+     "SANS 3000+"
+    ],
+    "note": "Four courses (12 credits) in ONE language (Hindi, Urdu or Sanskrit) above the 2020 level. Option 2 (advisor discretion): only two courses here, plus two courses in a second MESALC language at any level."
+   },
+   {
+    "label": "Language courses at the 3000 level or above (same language)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "HIND 3000+",
+     "URDU 3000+",
+     "SANS 3000+"
+    ],
+    "note": "Two more courses (6 credits) in the same language at 3000+. Must be distinct from the four above (6 language courses total under Option 1)."
+   },
+   {
+    "label": "MESALC or related regional courses",
+    "need": {
+     "courses": 4
+    },
+    "from": [
+     "HIND 3000+",
+     "URDU 3000+",
+     "SANS 3000+",
+     "SAST *",
+     "SATR *",
+     "HISA *",
+     "RELH *",
+     "RELB *",
+     "PETR *",
+     "ANTH 3700",
+     "ANTH 5750",
+     "ARH 3601",
+     "ARH 3602",
+     "ARTH 2862",
+     "ARTH 2871",
+     "HIST 5559",
+     "PLCP 2700",
+     "PLCP 3630",
+     "PLCP 3640",
+     "PLIR 3750",
+     "PLIR 4260",
+     "RELI 2070",
+     "RELI 2080",
+     "RELI 3110",
+     "RELI 3120",
+     "RELI 3670",
+     "SOC 3450"
+    ],
+    "note": "At least two must be regional concentration courses from at least two of: MESALC (non-grammar, usually 3000+), ANTH, ARTH, HIST, Politics, Religious Studies. The remaining two are chosen with the advisor (further South Asia regional courses). Course list from https://mesalc.as.virginia.edu/undergraduate-courses-south-asia."
+   }
+  ],
+  "coursePrereqs": {
+   "HIND 1020": [
+    "HIND 1010"
+   ],
+   "HIND 2010": [
+    "HIND 1020"
+   ],
+   "HIND 2020": [
+    "HIND 2010"
+   ],
+   "HIND 2060": [
+    "HIND 1060"
+   ],
+   "HIND 3010": [
+    "HIND 2020|HIND 2060"
+   ],
+   "HIND 3020": [
+    "HIND 3010"
+   ],
+   "URDU 2010": [
+    "HIND 1020"
+   ],
+   "URDU 2020": [
+    "URDU 2010"
+   ],
+   "URDU 3010": [
+    "URDU 2020"
+   ],
+   "URDU 3020": [
+    "URDU 3010"
+   ],
+   "SANS 1020": [
+    "SANS 1010"
+   ]
+  },
+  "notes": "10 courses / 30 credits. Languages: Hindi, Urdu or Sanskrit. Option 2 (advisor discretion): 2 courses above 2020 + 2 at 3000+ in one language + 2 courses in a second MESALC language at any level (Tibetan counts) + 4 related courses. Up to 15 transfer/study-abroad credits with advisor permission. USEMs do not count. C (2.0) average in major courses each semester required or may be discontinued. Cannot double with the MESALC Studies major. coursePrereqs encode the standard numbered language sequence (1010>1020>2010>2020>3010>3020) as implied by course numbering/titles on the department site; individual course-description prerequisite text was not verified. Placement testing (MESALC placement test) can waive lower-level courses. Source is the department site; Undergraduate Record catoid=72 page could not be fetched."
+ },
+ {
+  "id": "south-asian-studies-ba",
+  "name": "South Asian Studies",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Middle Eastern and South Asian Languages and Cultures",
+  "totalCredits": 30,
+  "sources": [
+   "https://mesalc.as.virginia.edu/studies-major",
+   "https://mesalc.as.virginia.edu/undergraduate-courses-south-asia"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Intermediate language prerequisite (C or better each semester)",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "HIND 2020|HIND 2060",
+      "URDU 2020",
+      "SANS 2000-2999"
+     ],
+     "note": "Option 1: intermediate (2010/2020) Hindi or Urdu, or any TWO 2000-level SANS courses, with C or better each semester; Option 2: accelerated HIND 1060/2060 with C or better; Option 3: intermediate proficiency via placement test."
+    }
+   ],
+   "minGPA": 2.0,
+   "notes": "Same prerequisite options as the Language & Literature major (intermediate language with C or better, accelerated course, or placement)."
+  },
+  "requirements": [
+   {
+    "label": "Language courses at the 3000 level or above (one MESALC language)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "ARAB 3000+",
+     "HEBR 3000+",
+     "PERS 3000+",
+     "HIND 3000+",
+     "URDU 3000+",
+     "SANS 3000+"
+    ],
+    "note": "Two courses (6 credits) in one MESALC language at or above the 3000 level."
+   },
+   {
+    "label": "Fourth-year capstone",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "SAST 4991"
+    ]
+   },
+   {
+    "label": "Regional concentration courses",
+    "need": {
+     "courses": 7
+    },
+    "from": [
+     "HIND 3000+",
+     "URDU 3000+",
+     "SANS 3000+",
+     "SAST *",
+     "SATR *",
+     "HISA *",
+     "RELH *",
+     "RELB *",
+     "PETR *",
+     "ANTH 3700",
+     "ANTH 5750",
+     "ARH 3601",
+     "ARH 3602",
+     "ARTH 2862",
+     "ARTH 2871",
+     "HIST 5559",
+     "PLCP 2700",
+     "PLCP 3630",
+     "PLCP 3640",
+     "PLIR 3750",
+     "PLIR 4260",
+     "RELI 2070",
+     "RELI 2080",
+     "RELI 3110",
+     "RELI 3120",
+     "RELI 3670",
+     "SOC 3450"
+    ],
+    "note": "Seven courses (21 credits) from the approved South Asia list (non-MESALC courses with regional content count). At least 3 from the same department and at least 3 from different departments.",
+    "children": [
+     {
+      "label": "At least one literature course (translation OK)",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "SATR *",
+       "SAST 2050",
+       "SAST 2280",
+       "HIND 3230",
+       "HIND 3240",
+       "URDU 3300",
+       "PERS 3010",
+       "PERS 3020",
+       "PERS 3230",
+       "PERS 3240",
+       "PETR *",
+       "RELB 2120",
+       "RELH 3740"
+      ],
+      "note": "Literature course list inferred from course titles; department may approve others."
+     },
+     {
+      "label": "At least one history course",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "HISA *"
+      ]
+     }
+    ]
+   }
+  ],
+  "coursePrereqs": {
+   "HIND 1020": [
+    "HIND 1010"
+   ],
+   "HIND 2010": [
+    "HIND 1020"
+   ],
+   "HIND 2020": [
+    "HIND 2010"
+   ],
+   "HIND 2060": [
+    "HIND 1060"
+   ],
+   "HIND 3010": [
+    "HIND 2020|HIND 2060"
+   ],
+   "HIND 3020": [
+    "HIND 3010"
+   ],
+   "URDU 2010": [
+    "HIND 1020"
+   ],
+   "URDU 2020": [
+    "URDU 2010"
+   ],
+   "URDU 3010": [
+    "URDU 2020"
+   ],
+   "URDU 3020": [
+    "URDU 3010"
+   ],
+   "SANS 1020": [
+    "SANS 1010"
+   ]
+  },
+  "notes": "10 courses / 30 credits (MESALC 'Studies Major', South Asia concentration). Up to 12 transfer/study-abroad credits with advisor permission. USEMs do not count. Double majors: 24 unique credits per major, max 2 shared courses. C (2.0) average required each semester. Cannot also declare the Language & Literature major. The capstone number SAST 4991 is listed in the South Asia course list. coursePrereqs encode the standard numbered language sequence (1010>1020>2010>2020>3010>3020) as implied by course numbering/titles on the department site; individual course-description prerequisite text was not verified. Placement testing (MESALC placement test) can waive lower-level courses."
+ },
+ {
+  "id": "south-asian-studies-minor",
+  "name": "South Asian Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Middle Eastern and South Asian Languages and Cultures",
+  "totalCredits": 18,
+  "sources": [
+   "https://mesalc.as.virginia.edu/minors",
+   "https://mesalc.as.virginia.edu/undergraduate-courses-south-asia"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Elementary language prerequisite (C or better each semester)",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "HIND 1020|HIND 1060",
+      "URDU 2010",
+      "SANS 1020"
+     ],
+     "note": "Elementary (1010/1020) Hindi, Urdu or Sanskrit with C or better each semester, or elementary proficiency via placement test."
+    }
+   ],
+   "minGPA": null,
+   "notes": "MESALC 'Studies Minor' with one regional concentration."
+  },
+  "requirements": [
+   {
+    "label": "Regional concentration courses",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "HIND 3000+",
+     "URDU 3000+",
+     "SANS 3000+",
+     "SAST *",
+     "SATR *",
+     "HISA *",
+     "RELH *",
+     "RELB *",
+     "PETR *",
+     "ANTH 3700",
+     "ANTH 5750",
+     "ARH 3601",
+     "ARH 3602",
+     "ARTH 2862",
+     "ARTH 2871",
+     "HIST 5559",
+     "PLCP 2700",
+     "PLCP 3630",
+     "PLCP 3640",
+     "PLIR 3750",
+     "PLIR 4260",
+     "RELI 2070",
+     "RELI 2080",
+     "RELI 3110",
+     "RELI 3120",
+     "RELI 3670",
+     "SOC 3450"
+    ],
+    "note": "Three courses (9 credits) in MESALC or any other department with regional content."
+   },
+   {
+    "label": "Non-language MESALC course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "SAST *",
+     "SATR *",
+     "PETR *"
+    ],
+    "note": "One non-language course offered by MESALC."
+   },
+   {
+    "label": "Additional regional courses",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "HIND 3000+",
+     "URDU 3000+",
+     "SANS 3000+",
+     "SAST *",
+     "SATR *",
+     "HISA *",
+     "RELH *",
+     "RELB *",
+     "PETR *",
+     "ANTH 3700",
+     "ANTH 5750",
+     "ARH 3601",
+     "ARH 3602",
+     "ARTH 2862",
+     "ARTH 2871",
+     "HIST 5559",
+     "PLCP 2700",
+     "PLCP 3630",
+     "PLCP 3640",
+     "PLIR 3750",
+     "PLIR 4260",
+     "RELI 2070",
+     "RELI 2080",
+     "RELI 3110",
+     "RELI 3120",
+     "RELI 3670",
+     "SOC 3450"
+    ],
+    "note": "Two courses of choice from regionally appropriate courses; language courses count only above the 2020 level."
+   }
+  ],
+  "coursePrereqs": {
+   "HIND 1020": [
+    "HIND 1010"
+   ],
+   "HIND 2010": [
+    "HIND 1020"
+   ],
+   "HIND 2020": [
+    "HIND 2010"
+   ],
+   "HIND 2060": [
+    "HIND 1060"
+   ],
+   "HIND 3010": [
+    "HIND 2020|HIND 2060"
+   ],
+   "HIND 3020": [
+    "HIND 3010"
+   ],
+   "URDU 2010": [
+    "HIND 1020"
+   ],
+   "URDU 2020": [
+    "URDU 2010"
+   ],
+   "URDU 3010": [
+    "URDU 2020"
+   ],
+   "URDU 3020": [
+    "URDU 3010"
+   ],
+   "SANS 1020": [
+    "SANS 1010"
+   ]
+  },
+  "notes": "Six courses / 18 credits. Max 9 credits from any one department outside MESALC. Max 6 transfer credits. The prerequisite list for South Asia uses URDU 2010 as evidence of elementary Hindi-Urdu (HIND 1010/1020 is 'Elementary Hindi-Urdu'). coursePrereqs encode the standard numbered language sequence (1010>1020>2010>2020>3010>3020) as implied by course numbering/titles on the department site; individual course-description prerequisite text was not verified. Placement testing (MESALC placement test) can waive lower-level courses."
+ },
+ {
+  "id": "slavic-languages-and-literatures-ba",
+  "name": "Slavic Languages and Literatures",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Slavic Languages and Literatures",
+  "totalCredits": 24,
+  "sources": [
+   "https://slavic.as.virginia.edu/undergraduate-majors"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Russian through the second year",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "RUSS 2020"
+     ],
+     "note": "Third-Year Russian (RUSS 3010) presupposes RUSS 2020 or placement; not stated explicitly as a declaration prerequisite."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Meet with the Director of Undergraduate Programs, then submit the College Declare a Major or Minor form."
+  },
+  "requirements": [
+   {
+    "label": "Third-Year Russian",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "RUSS 3010",
+     "RUSS 3020"
+    ]
+   },
+   {
+    "label": "Russian literature surveys",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "RUTR 3350",
+     "RUTR 3360"
+    ],
+    "note": "RUTR 3350 Nineteenth-Century Russian Literature; RUTR 3360 Twentieth-Century Russian Literature."
+   },
+   {
+    "label": "Additional courses at the 2000 level or above",
+    "need": {
+     "credits": 12
+    },
+    "from": [
+     "RUSS 2000+",
+     "RUTR 2000+",
+     "SLAV 2000+",
+     "SLTR 2000+",
+     "POL 2000+",
+     "POTR 2000+"
+    ],
+    "note": "12 hours at the 2000 level or above, planned with the Director of Undergraduate Programs. Whether RUSS 2010/2020 count here is not stated; subject list (RUSS/RUTR/SLAV/SLTR/POL/POTR) is approximate."
+   }
+  ],
+  "coursePrereqs": {
+   "RUSS 1020": [
+    "RUSS 1010"
+   ],
+   "RUSS 2010": [
+    "RUSS 1020"
+   ],
+   "RUSS 2020": [
+    "RUSS 2010"
+   ],
+   "RUSS 3010": [
+    "RUSS 2020"
+   ],
+   "RUSS 3020": [
+    "RUSS 3010"
+   ],
+   "POL 1220": [
+    "POL 1210"
+   ]
+  },
+  "notes": "Encoded track: Russian Language and Literature (24 hours). Major GPA of C with no grade below C-; C or better in all language courses. The department also offers an interdisciplinary Russian and East European Studies major (30 hours): RUSS 3010+3020 (or POL 1210+1220 in addition to Russian through RUSS 2020); RUTR 2460; 3 hours Russian politics; HIEU 2152 or HIEU 2162; RUTR 3350 or RUTR 3360; 3 hours Russian/East European folklore; 9 hours of electives (apparently max 3 hours in Slavic; consult DUP). Department website used; the Undergraduate Record (catoid=72) page could not be fetched, so it is unverified whether the Record names this program 'Slavic Languages and Literatures' with these as concentrations. coursePrereqs encode the standard numbered Russian sequence (1010>1020>2010>2020>3010>3020) implied by course numbering; individual course-description prerequisite text was not verified. Placement can waive lower-level Russian."
+ },
+ {
+  "id": "russian-language-literature-and-culture-minor",
+  "name": "Russian Language, Literature and Culture",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Slavic Languages and Literatures",
+  "totalCredits": 21,
+  "sources": [
+   "https://slavic.as.virginia.edu/undergraduate-minors"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Russian through RUSS 1020",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "RUSS 1020"
+     ],
+     "note": "Prerequisite (or placement)."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Meet with the Director of Undergraduate Programs, then submit the College declaration form."
+  },
+  "requirements": [
+   {
+    "label": "Seven department courses in Russian language, literature or folklore",
+    "need": {
+     "courses": 7
+    },
+    "from": [
+     "RUSS 2000+",
+     "RUTR *",
+     "SLAV *",
+     "SLTR *"
+    ],
+    "note": "Seven courses of at least 3 credits each, beyond RUSS 1020, taught in the Slavic Department in Russian language, literature or folklore, approved by the DUP. Subject list approximate."
+   }
+  ],
+  "coursePrereqs": {
+   "RUSS 1020": [
+    "RUSS 1010"
+   ],
+   "RUSS 2010": [
+    "RUSS 1020"
+   ],
+   "RUSS 2020": [
+    "RUSS 2010"
+   ],
+   "RUSS 3010": [
+    "RUSS 2020"
+   ],
+   "RUSS 3020": [
+    "RUSS 3010"
+   ],
+   "POL 1220": [
+    "POL 1210"
+   ]
+  },
+  "notes": "Department site calls this the 'Minor in Russian Language and Literature'; the requested name 'Russian Language, Literature and Culture' could not be confirmed against the Undergraduate Record. Prerequisite RUSS 1020 does not count; 7 further courses (>=21 credits). No grade minimum stated. coursePrereqs encode the standard numbered Russian sequence (1010>1020>2010>2020>3010>3020) implied by course numbering; individual course-description prerequisite text was not verified. Placement can waive lower-level Russian."
+ },
+ {
+  "id": "russian-and-east-european-studies-minor",
+  "name": "Russian and East European Studies",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Slavic Languages and Literatures",
+  "totalCredits": 21,
+  "sources": [
+   "https://slavic.as.virginia.edu/undergraduate-minors"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Russian through RUSS 1020 or Polish through POL 1220",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "RUSS 1020",
+      "POL 1220"
+     ],
+     "note": "Prerequisite (or placement)."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Meet with the Director of Undergraduate Programs, then submit the College declaration form."
+  },
+  "requirements": [
+   {
+    "label": "Seven Russian/East European courses",
+    "need": {
+     "courses": 7
+    },
+    "from": [
+     "RUSS 2000+",
+     "RUTR *",
+     "SLAV *",
+     "SLTR *",
+     "POL 2000+",
+     "POTR *",
+     "HIEU 2152",
+     "HIEU 2162"
+    ],
+    "note": "Seven courses of at least 3 credits each, approved by the DUP; interdisciplinary (courses outside Slavic with Russian/East European content count, e.g. history, politics). No more than 3 from any one department; RUSS 2010 and RUSS 2020, if taken, do not count toward that 3-course limit. Subject list approximate."
+   }
+  ],
+  "coursePrereqs": {
+   "RUSS 1020": [
+    "RUSS 1010"
+   ],
+   "RUSS 2010": [
+    "RUSS 1020"
+   ],
+   "RUSS 2020": [
+    "RUSS 2010"
+   ],
+   "RUSS 3010": [
+    "RUSS 2020"
+   ],
+   "RUSS 3020": [
+    "RUSS 3010"
+   ],
+   "POL 1220": [
+    "POL 1210"
+   ]
+  },
+  "notes": "7 courses (>=21 credits) beyond the language prerequisite; max 3 per department (RUSS 2010/2020 exempt from the cap). No grade minimum stated. Department website used; Undergraduate Record not fetched. coursePrereqs encode the standard numbered Russian sequence (1010>1020>2010>2020>3010>3020) implied by course numbering; individual course-description prerequisite text was not verified. Placement can waive lower-level Russian."
+ }
+]

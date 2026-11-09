@@ -1,0 +1,2557 @@
+[
+ {
+  "id": "biology-ba",
+  "name": "Biology",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Biology",
+  "totalCredits": 24,
+  "sources": [
+   "https://bio.as.virginia.edu/undergraduate-program/bachelor-arts-biology-ba",
+   "https://bio.as.virginia.edu/sites/uva-as-biology/files/2026-07/BIOLOGY-BA-CHECKLIST-CY2026-27.pdf",
+   "https://bio.as.virginia.edu/sites/biology.as.virginia.edu/files/inline-files/BIOLOGY-BA-CHECKLIST-CY2025-26%20rev%20July%202025_1.pdf",
+   "https://thecourseforum.com/course/BIOL/3000/",
+   "https://thecourseforum.com/course/BIOL/3010/",
+   "https://thecourseforum.com/course/BIOL/3020/"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "One biology course with C or higher",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "BIOL 2100",
+      "BIOL 2200",
+      "BIOL 2000-4999"
+     ],
+     "note": "Grade of C or higher required. Incoming 3rd-year transfers may declare while enrolled in one 3000-level BIOL course (preferably a core course)."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Declare after earning C or better in BIOL 2100, BIOL 2200 or any 2000+ BIOL course. Third-year transfers may declare only the B.A. initially."
+  },
+  "requirements": [
+   {
+    "label": "Introductory biology (science foundation)",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "BIOL 2100",
+     "BIOL 2200"
+    ],
+    "note": "AP Biology 5 or IB HL 6 gives credit for both."
+   },
+   {
+    "label": "Introductory chemistry with labs (science foundation)",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "CHEM 1410",
+      "CHEM 1411",
+      "CHEM 1420",
+      "CHEM 1421"
+     ],
+     [
+      "CHEM 1810",
+      "CHEM 1811",
+      "CHEM 1420",
+      "CHEM 1421"
+     ],
+     [
+      "CHEM 1810",
+      "CHEM 1811",
+      "CHEM 1820",
+      "CHEM 1821"
+     ]
+    ],
+    "note": "Checklist: CHEM 1810/1811 may substitute; CHEM 1811 can cover both labs. Exact substitution combos beyond these are by department approval."
+   },
+   {
+    "label": "Statistics (science foundation)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "STAT 2020|STAT 2120"
+    ]
+   },
+   {
+    "label": "Additional math/statistics (science foundation)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 1190",
+     "MATH 1210",
+     "MATH 1310",
+     "STAT 1601",
+     "STAT 1602",
+     "STAT 3020",
+     "STAT 3220"
+    ],
+    "note": "MATH 1191 + MATH 1192 together also satisfy this slot."
+   },
+   {
+    "label": "Physics with workshops (science foundation)",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 2010|PHYS 1420|PHYS 1425",
+     "PHYS 2030|PHYS 1429",
+     "PHYS 2020|PHYS 2410|PHYS 2415",
+     "PHYS 2040|PHYS 2419"
+    ],
+    "note": "Workshops must be taken in person; some AP Physics credit may satisfy lecture portions."
+   },
+   {
+    "label": "Biology core",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "BIOL 3000",
+     "BIOL 3010",
+     "BIOL 3020"
+    ],
+    "note": "Must be taken at UVA (post-matriculation transfer not allowed)."
+   },
+   {
+    "label": "Electives (15 credits total, including lab)",
+    "need": {
+     "credits": 15
+    },
+    "from": [
+     "BIOL 3000-4999",
+     "CHEM 4440",
+     "EVSC 3000-4999"
+    ],
+    "exclude": [
+     "BIOL 3000",
+     "BIOL 3010",
+     "BIOL 3020",
+     "BIOL 3910",
+     "BIOL 3920"
+    ],
+    "note": "Each elective must be 3+ credits; core courses and independent research/study do not count as the three elective courses (research may only satisfy the lab requirement via two semesters of BIOL 4910/4920). Only the EVSC/CHEM courses listed on the Biology 'courses offered' page count; max 6 credits from outside Biology.",
+    "children": [
+     {
+      "label": "Upper-level lab",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "BIOL 3270",
+       "BIOL 3410",
+       "BIOL 4018",
+       "BIOL 4020",
+       "BIOL 4070",
+       "BIOL 4200",
+       "BIOL 4270",
+       "BIOL 4752",
+       "BIOL 4754",
+       "BIOL 4755",
+       "BIOL 4762"
+      ],
+      "note": "Alternatives: any 3000+ course taught at Mountain Lake Biological Station, or two semesters of BIOL 4910/4920 research with the same mentor. Lab list from 2026-27 checklist (2025-26 list also had BIOL 4040, 4430)."
+     },
+     {
+      "label": "Specific elective (at least one)",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "BIOL 3030|CHEM 4440",
+       "BIOL 3040",
+       "BIOL 3050",
+       "BIOL 3090",
+       "BIOL 3180",
+       "BIOL 3240",
+       "BIOL 3270",
+       "BIOL 3450"
+      ]
+     }
+    ]
+   }
+  ],
+  "coursePrereqs": {
+   "BIOL 3000": [
+    "BIOL 2100|BME 2104",
+    "CHEM 1410|CHEM 1810",
+    "CHEM 1420|CHEM 1820"
+   ],
+   "BIOL 3010": [
+    "BIOL 2100|BME 2104",
+    "CHEM 1410|CHEM 1810"
+   ],
+   "BIOL 3020": [
+    "BIOL 2200"
+   ]
+  },
+  "notes": "Upper-level major (core + lab + electives) is minimum 24 credits with major GPA >= 2.000. Max 6 credits from outside Biology department; max 6 credits independent research/study (BIOL 3900, 4900, 4910, 4920, 4930); BIOL 3910/3920 never count. CHEM 4440 may substitute for BIOL 3030 (not both). CHEM 4410 no longer counts from 2026-27. BIOL 3410/3420 count. Biology majors may not double major with Interdisciplinary Neuroscience BA or Cognitive Science BA (Neuroscience concentration). Double majors may share max 2 courses (3 with interdisciplinary majors). Official Record page (catoid=72&poid=11688) could not be read (rate limited/empty); encoded from department page and 2026-27 checklist. Course prerequisites taken from theCourseForum (SIS-derived); BIOL 3000 requires CHEM 1410+1420 or CHEM 1810+1820 (encoded slotwise)."
+ },
+ {
+  "id": "biology-bs",
+  "name": "Biology",
+  "degree": "B.S.",
+  "type": "major",
+  "department": "Biology",
+  "totalCredits": 35,
+  "sources": [
+   "https://bio.as.virginia.edu/undergraduate-program/bachelor-science-biology-bs",
+   "https://bio.as.virginia.edu/sites/uva-as-biology/files/2026-07/BSChecklist-CY26-27-rev-July-2026.pdf",
+   "https://thecourseforum.com/course/BIOL/3000/",
+   "https://thecourseforum.com/course/BIOL/3010/",
+   "https://thecourseforum.com/course/BIOL/3020/"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Biology core completed",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "BIOL 3000",
+      "BIOL 3010",
+      "BIOL 3020"
+     ],
+     "note": "Minimum 2.700 GPA across these three courses (not rounded)."
+    }
+   ],
+   "minGPA": 2.7,
+   "notes": "minGPA is the GPA across BIOL 3000, 3010, 3020 only. Must declare by end of third year; no fourth-year B.S. declarations."
+  },
+  "requirements": [
+   {
+    "label": "Introductory biology",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "BIOL 2100",
+     "BIOL 2200"
+    ]
+   },
+   {
+    "label": "Introductory and organic chemistry with labs",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "CHEM 1410|CHEM 1810",
+      "CHEM 1411|CHEM 1811",
+      "CHEM 1420",
+      "CHEM 1421|CHEM 1811",
+      "CHEM 2410",
+      "CHEM 2311|CHEM 2411",
+      "CHEM 2420",
+      "CHEM 2321|CHEM 2421"
+     ],
+     [
+      "CHEM 1810",
+      "CHEM 1811",
+      "CHEM 1820",
+      "CHEM 1821",
+      "CHEM 2810",
+      "CHEM 2820"
+     ]
+    ],
+    "note": "Accelerated series CHEM 1810/1811/1820/1821/2810/2820 satisfies all intro and organic chemistry. AP chemistry credit does not waive labs. Other combinations by approval."
+   },
+   {
+    "label": "Statistics",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "STAT 2020|STAT 2120"
+    ]
+   },
+   {
+    "label": "Calculus",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 1190",
+     "MATH 1210",
+     "MATH 1310"
+    ],
+    "note": "MATH 1191 + MATH 1192 together also satisfy this slot."
+   },
+   {
+    "label": "Second math/statistics course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 1220",
+     "MATH 1320",
+     "STAT 1601",
+     "STAT 1602",
+     "STAT 3020",
+     "STAT 3220"
+    ]
+   },
+   {
+    "label": "Physics with workshops",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 2010|PHYS 1420|PHYS 1425",
+     "PHYS 2030|PHYS 1429",
+     "PHYS 2020|PHYS 2410|PHYS 2415",
+     "PHYS 2040|PHYS 2419"
+    ]
+   },
+   {
+    "label": "Biology core",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "BIOL 3000",
+     "BIOL 3010",
+     "BIOL 3020",
+     "BIOL 3030|CHEM 4440"
+    ]
+   },
+   {
+    "label": "Fifth core course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "BIOL 3040",
+     "BIOL 3050",
+     "EVSC 3200"
+    ]
+   },
+   {
+    "label": "Electives (4 courses, 12 credits)",
+    "need": {
+     "courses": 4
+    },
+    "from": [
+     "BIOL 3000-4999",
+     "EVSC 3200"
+    ],
+    "exclude": [
+     "BIOL 3000",
+     "BIOL 3010",
+     "BIOL 3020",
+     "BIOL 3030",
+     "BIOL 3900",
+     "BIOL 3910",
+     "BIOL 3920",
+     "BIOL 4840",
+     "BIOL 4900",
+     "BIOL 4910",
+     "BIOL 4920",
+     "BIOL 4930",
+     "BIOL 4940"
+    ],
+    "children": [
+     {
+      "label": "At least three electives at 4000+",
+      "need": {
+       "courses": 3
+      },
+      "from": [
+       "BIOL 4000-4999"
+      ],
+      "exclude": [
+       "BIOL 4840",
+       "BIOL 4900",
+       "BIOL 4910",
+       "BIOL 4920",
+       "BIOL 4930",
+       "BIOL 4940"
+      ]
+     }
+    ],
+    "note": "Each 3+ credits. An extra BIOL 3040/3050/EVSC 3200 (not used as fifth core) may count as one elective. Max 6 credits from outside Biology."
+   },
+   {
+    "label": "Upper-level laboratory",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "BIOL 3270",
+     "BIOL 3410",
+     "BIOL 4018",
+     "BIOL 4020",
+     "BIOL 4070",
+     "BIOL 4200",
+     "BIOL 4270",
+     "BIOL 4752",
+     "BIOL 4754",
+     "BIOL 4755",
+     "BIOL 4762"
+    ],
+    "note": "3-4 credit lab from approved list (list taken from B.A. 2026-27 checklist; B.S. checklist refers to Course Planning page) or any 3000+ Mountain Lake Biological Station course. BIOL 4910/4920 cannot satisfy this for the B.S."
+   },
+   {
+    "label": "Capstone experience",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "BIOL 4910|BIOL 4920",
+     "BIOL 4940",
+     "BIOL 4840"
+    ],
+    "note": "Two semesters of research in the same lab (BIOL 4910/4920 then BIOL 4940 in spring) plus BIOL 4840 (fall, 1 cr). Department web page phrases it as two semesters of independent research plus BIOL 4840."
+   }
+  ],
+  "coursePrereqs": {
+   "BIOL 3000": [
+    "BIOL 2100|BME 2104",
+    "CHEM 1410|CHEM 1810",
+    "CHEM 1420|CHEM 1820"
+   ],
+   "BIOL 3010": [
+    "BIOL 2100|BME 2104",
+    "CHEM 1410|CHEM 1810"
+   ],
+   "BIOL 3020": [
+    "BIOL 2200"
+   ]
+  },
+  "notes": "At least 35 credits of upper-level coursework with unrounded GPA >= 2.000. Max 6 credits independent study/research (BIOL 3900, 4900, 4910, 4920, 4930, 4940); BIOL 3910/3920 never count. Max 6 credits from outside Biology. Same double-major restrictions as B.A. Official Record page (catoid=72&poid=11843) could not be read; encoded from department page and 2026-27 checklist. Course prerequisites taken from theCourseForum (SIS-derived); BIOL 3000 requires CHEM 1410+1420 or CHEM 1810+1820 (encoded slotwise)."
+ },
+ {
+  "id": "biology-minor",
+  "name": "Biology",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Biology",
+  "totalCredits": 15,
+  "sources": [
+   "https://bio.as.virginia.edu/undergraduate-program/biology-minor",
+   "https://thecourseforum.com/course/BIOL/3000/",
+   "https://thecourseforum.com/course/BIOL/3010/",
+   "https://thecourseforum.com/course/BIOL/3020/"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "No declaration prerequisite stated. BIOL 2100/2200/CHEM 1410 are not required for the minor but are prerequisites for 3000+ BIOL courses."
+  },
+  "requirements": [
+   {
+    "label": "Core (two of three)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "BIOL 3000",
+     "BIOL 3010",
+     "BIOL 3020"
+    ],
+    "note": "A third core course may count as an elective."
+   },
+   {
+    "label": "Upper-level electives (9 credits)",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "BIOL 3000-4999"
+    ],
+    "exclude": [
+     "BIOL 3420",
+     "BIOL 3910",
+     "BIOL 3920"
+    ],
+    "note": "Lecture or lab courses at UVA or Mountain Lake Biological Station. Up to two semesters of BIOL 4910/4920 with the same advisor may count. Only EVSC courses cross-listed with BIOL count. CHEM 4410/4420/4440 cannot be used."
+   }
+  ],
+  "coursePrereqs": {
+   "BIOL 3000": [
+    "BIOL 2100|BME 2104",
+    "CHEM 1410|CHEM 1810",
+    "CHEM 1420|CHEM 1820"
+   ],
+   "BIOL 3010": [
+    "BIOL 2100|BME 2104",
+    "CHEM 1410|CHEM 1810"
+   ],
+   "BIOL 3020": [
+    "BIOL 2200"
+   ]
+  },
+  "notes": "15 credits of 3000+ coursework, minor GPA >= 2.000. Max 4 credits of 3000+ BIOL transfer credit; labs must be taken at UVA; no Credit/No Credit courses; courses may not also count toward a major or another minor. Official Record page (catoid=72&poid=11839) not read. Course prerequisites taken from theCourseForum (SIS-derived); BIOL 3000 requires CHEM 1410+1420 or CHEM 1810+1820 (encoded slotwise)."
+ },
+ {
+  "id": "psychology-ba",
+  "name": "Psychology",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Psychology",
+  "totalCredits": 34,
+  "sources": [
+   "https://psychology.as.virginia.edu/ba-psychology",
+   "https://thecourseforum.com/course/PSYC/3006/"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Research methods I",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "PSYC 2005"
+     ],
+     "note": "Grade above C-."
+    },
+    {
+     "label": "Data science / R",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "STAT 1601|PSYC 3310"
+     ],
+     "note": "Grade above C-."
+    },
+    {
+     "label": "One pillar course",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "PSYC 2150",
+      "PSYC 2200",
+      "PSYC 2410",
+      "PSYC 2600",
+      "PSYC 2700"
+     ],
+     "note": "Grade above C-."
+    }
+   ],
+   "minGPA": 2.0,
+   "notes": "minGPA is GPA across all psychology courses taken at UVA. Transfer credit may satisfy a prerequisite. Declaration form sent to psych-declare@virginia.edu."
+  },
+  "requirements": [
+   {
+    "label": "Fundamentals: Pillar I (Cognitive)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PSYC 2150|PSYC 3160"
+    ]
+   },
+   {
+    "label": "Fundamentals: Pillar II (Systems/Behavioral Neuroscience)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PSYC 2200|PSYC 3200|BIOL 3050"
+    ],
+    "note": "BIOL 3050 fulfills the pillar but does not count toward the 34 PSYC credits; an extra PSYC course is then needed."
+   },
+   {
+    "label": "Fundamentals: Pillar III (Developmental)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PSYC 2700"
+    ]
+   },
+   {
+    "label": "Fundamentals: Pillar IV (Clinical/Social)",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PSYC 2410|PSYC 2600"
+    ]
+   },
+   {
+    "label": "Research methods & data analysis (required)",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PSYC 2005",
+     "PSYC 3006"
+    ],
+    "note": "Recommended to finish both by fall of third year."
+   },
+   {
+    "label": "Research methods topics course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PSYC 3000-5999"
+    ],
+    "exclude": [
+     "PSYC 3006",
+     "PSYC 3590",
+     "PSYC 3910",
+     "PSYC 4580",
+     "PSYC 4970",
+     "PSYC 4980"
+    ],
+    "note": "Must be an approved RM-Topics course (list on psychology.as.virginia.edu/course-planning; not captured here, so this range is over-inclusive). Up to 3 credits of Hoos Connected (PSYC 3990 + PSYC 3991) can count."
+   },
+   {
+    "label": "Electives (4 courses, 12 credits)",
+    "need": {
+     "courses": 4
+    },
+    "from": [
+     "PSYC 2000-5999"
+    ],
+    "exclude": [
+     "PSYC 3006",
+     "PSYC 4580",
+     "PSYC 3910",
+     "PSYC 4970",
+     "PSYC 4980"
+    ],
+    "children": [
+     {
+      "label": "Two electives at 3000+",
+      "need": {
+       "courses": 3
+      },
+      "from": [
+       "PSYC 3000-5999"
+      ],
+      "exclude": [
+       "PSYC 3006",
+       "PSYC 4580",
+       "PSYC 3910",
+       "PSYC 4970",
+       "PSYC 4980"
+      ],
+      "note": "Distribution is one 2000+, two 3000+, one 4000+; the 4000+ course also counts as 3000+, so 3 courses at 3000+ are needed in total."
+     },
+     {
+      "label": "One elective at 4000+",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "PSYC 4000-5999"
+      ],
+      "exclude": [
+       "PSYC 4580",
+       "PSYC 4970",
+       "PSYC 4980"
+      ]
+     }
+    ],
+    "note": "Pillar courses used above cannot double-count. PSYC 3590 (S grade) may count as one 3-credit elective. Extra RM-Topics courses may count as electives."
+   }
+  ],
+  "coursePrereqs": {
+   "PSYC 3006": [
+    "PSYC 2005",
+    "STAT 1601|STAT 1602|STAT 3080|PSYC 3310"
+   ]
+  },
+  "notes": "34 credits, all PSYC; every course must be above C- and letter-graded (except PSYC 3590, S grade). Major GPA >= 2.000 (repeats count both grades); semester major GPA < 2.0 = probation, two consecutive = dismissal from major. Only 3 credits of PSYC 3590 count. The department page links an older Record entry (catoid=54&poid=7184); the catoid=72 Record page was not read. PSYC 1010 is not part of the current requirements per the department page. PSYC 3006 prereq (theCourseForum): PSYC 2005 plus one of STAT 1601, STAT 1602 with STAT 2020, STAT 3080, or PSYC 3310, all C or better (1602+2020 combo simplified)."
+ },
+ {
+  "id": "behavioral-neuroscience-bs",
+  "name": "Behavioral Neuroscience",
+  "degree": "B.S.",
+  "type": "major",
+  "department": "Psychology",
+  "totalCredits": 55,
+  "sources": [
+   "https://psychology.as.virginia.edu/bs-behavioral-neuroscience",
+   "https://thecourseforum.com/course/PSYC/3006/"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Research methods I",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "PSYC 2005"
+     ]
+    },
+    {
+     "label": "Data science / R",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "STAT 1601|PSYC 3310"
+     ]
+    },
+    {
+     "label": "Neuroscience foundation",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "PSYC 2200|PSYC 3200|BIOL 3050"
+     ]
+    },
+    {
+     "label": "Introductory biology",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "BIOL 2100"
+     ]
+    },
+    {
+     "label": "Calculus",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "APMA 1090|MATH 1210|MATH 1310"
+     ]
+    }
+   ],
+   "minGPA": null,
+   "notes": "Each of the five prerequisite courses (16 credits) must be passed above C-. These prerequisites count toward the 55-credit total. Students may defer declaration while enrolled in remaining prerequisites in their fifth semester. Declaration form + checklist + unofficial transcript to psych-declare@virginia.edu."
+  },
+  "requirements": [
+   {
+    "label": "Prerequisite courses (count toward major)",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PSYC 2005",
+     "STAT 1601|PSYC 3310",
+     "PSYC 2200|PSYC 3200|BIOL 3050",
+     "BIOL 2100",
+     "APMA 1090|MATH 1210|MATH 1310"
+    ]
+   },
+   {
+    "label": "Required core",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PSYC 3006",
+     "PSYC 3160",
+     "PSYC 3200",
+     "PSYC 3235",
+     "PSYC 3250|PSYC 3260"
+    ],
+    "note": "If PSYC 3200 was used for the prerequisite slot, it presumably satisfies both; not explicitly addressed on page."
+   },
+   {
+    "label": "Advanced research",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PSYC 3210",
+     "PSYC 4260",
+     "PSYC 4420",
+     "PSYC 4215",
+     "PSYC 5270"
+    ]
+   },
+   {
+    "label": "Advanced topics",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "PSYC 3100",
+     "PSYC 3240",
+     "PSYC 4200",
+     "NESC 4265",
+     "PSYC 4265",
+     "PSYC 5280",
+     "NESC 4245",
+     "PSYC 4250"
+    ]
+   },
+   {
+    "label": "Psychological science foundations",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PSYC 1010",
+     "PSYC 2150",
+     "PSYC 2410",
+     "PSYC 2600",
+     "PSYC 2700"
+    ]
+   },
+   {
+    "label": "Science foundation",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "ASTR 2110+",
+     "BIOL 2200+",
+     "CHEM 1410+",
+     "CS 1110+",
+     "EVSC 1010+",
+     "MATH 2310+",
+     "PHYS 1425+",
+     "STAT 1100+"
+    ],
+    "note": "Page lists 6 credits / 2 courses in the table but mentions '3 science foundation courses' elsewhere; 2 encoded."
+   },
+   {
+    "label": "Electives (at least 6 credits)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "PSYC 3559",
+     "PSYC 4155",
+     "PSYC 4255",
+     "PSYC 4290",
+     "PSYC 4607",
+     "PSYC 5710",
+     "PSYC 5326",
+     "PSYC 3210",
+     "PSYC 4260",
+     "PSYC 4420",
+     "PSYC 4215",
+     "PSYC 5270",
+     "PSYC 3100",
+     "PSYC 3240",
+     "PSYC 4200",
+     "NESC 4265",
+     "PSYC 4265",
+     "PSYC 5280",
+     "NESC 4245",
+     "PSYC 4250"
+    ],
+    "note": "Unused advanced research/topics courses count as electives. Students without a 4000-level advanced topics or research course must take a 4000-level elective. The department says the elective list may be incomplete and is updated yearly (PSYC 3559 counts only for approved topic 'How to Build a Healthy Human Brain')."
+   }
+  ],
+  "coursePrereqs": {
+   "PSYC 3006": [
+    "PSYC 2005",
+    "STAT 1601|STAT 1602|STAT 3080|PSYC 3310"
+   ]
+  },
+  "notes": "At least 55 credits of major coursework; grade of C or better in every course counted. Up to 12 transfer credits may count. Department page links older Record entry (catoid=54&poid=7512); catoid=72 Record page not read. Checklist PDF (BEH-NEURO-BS-CHECKLIST-06_24) not read. PSYC 3006 prereq (theCourseForum): PSYC 2005 plus one of STAT 1601, STAT 1602 with STAT 2020, STAT 3080, or PSYC 3310, all C or better (1602+2020 combo simplified)."
+ },
+ {
+  "id": "psychology-minor",
+  "name": "Psychology",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Psychology",
+  "totalCredits": 18,
+  "sources": [
+   "https://psychology.as.virginia.edu/minor-psychology"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Two introductory psychology courses",
+     "need": {
+      "courses": 2
+     },
+     "from": [
+      "PSYC 1010",
+      "PSYC 2005",
+      "PSYC 2150",
+      "PSYC 2200",
+      "PSYC 2410",
+      "PSYC 2600",
+      "PSYC 2700"
+     ],
+     "note": "Grade above C-."
+    }
+   ],
+   "minGPA": 2.0,
+   "notes": "Must already have declared a major in another field. minGPA is GPA across all psychology courses taken."
+  },
+  "requirements": [
+   {
+    "label": "Research methods I",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PSYC 2005"
+    ]
+   },
+   {
+    "label": "Two pillar courses",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "PSYC 1010",
+     "PSYC 2150",
+     "PSYC 2200",
+     "PSYC 2410",
+     "PSYC 2600",
+     "PSYC 2700"
+    ]
+   },
+   {
+    "label": "One course at 2000+",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PSYC 2000-5999"
+    ],
+    "exclude": [
+     "PSYC 2005",
+     "PSYC 3590"
+    ]
+   },
+   {
+    "label": "Two courses at 3000+",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "PSYC 3000-5999"
+    ],
+    "exclude": [
+     "PSYC 3590"
+    ]
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "18 credits. Grade above C- in every course counted; psychology GPA >= 2.0 (probation / dismissal rules as for the major). PSYC 3590, Advanced Research, Directed Readings and PSYC internship courses do not count (course numbers for the latter three not given; likely PSYC 4970/4980/3910 etc.). Record page not read."
+ },
+ {
+  "id": "neuroscience-ba",
+  "name": "Neuroscience",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Interdisciplinary Neuroscience Program",
+  "totalCredits": 27,
+  "sources": [
+   "https://neuroscience.as.virginia.edu/requirements",
+   "https://thecourseforum.com/course/BIOL/3000/",
+   "https://thecourseforum.com/course/BIOL/3010/"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "One neuroscience core course with C+ or higher",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "BIOL 3000",
+      "BIOL 3010",
+      "PSYC 3160",
+      "BIOL 3050|PSYC 3200"
+     ],
+     "note": "Grade of C+ or higher."
+    }
+   ],
+   "minGPA": 2.5,
+   "notes": "Cumulative UVA GPA >= 2.500 and good academic standing. The requirements page lists no application or cap; see neuroscience.as.virginia.edu/declare for the declaration process (not read). Cannot be combined with Psychology BA/minor, Behavioral Neuroscience BS, or Biology BA/BS/minor."
+  },
+  "requirements": [
+   {
+    "label": "Science foundation: introductory biology",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "BIOL 2100"
+    ]
+   },
+   {
+    "label": "Science foundation: chemistry lectures",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 1410|CHEM 1810",
+     "CHEM 1420|CHEM 2820"
+    ]
+   },
+   {
+    "label": "Science foundation: chemistry labs",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "CHEM 1411",
+      "CHEM 1421"
+     ],
+     [
+      "CHEM 1811"
+     ]
+    ]
+   },
+   {
+    "label": "Science foundation: calculus I",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "MATH 1310"
+     ],
+     [
+      "MATH 1210"
+     ],
+     [
+      "MATH 1191",
+      "MATH 1192"
+     ]
+    ]
+   },
+   {
+    "label": "Science foundation: statistics",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "STAT 1601",
+     "STAT 1602",
+     "STAT 2020",
+     "STAT 2120",
+     "PSYC 2005"
+    ]
+   },
+   {
+    "label": "Science foundation: physics",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 1420|PHYS 1425|PHYS 2010",
+     "PHYS 1429|PHYS 2030",
+     "PHYS 2020|PHYS 2410|PHYS 2415",
+     "PHYS 2040|PHYS 2419"
+    ]
+   },
+   {
+    "label": "Core courses",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "BIOL 3000",
+     "BIOL 3010",
+     "PSYC 3160",
+     "BIOL 3050|PSYC 3200"
+    ]
+   },
+   {
+    "label": "Core NESC lab",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "NESC 4030"
+     ],
+     [
+      "NESC 4047"
+     ]
+    ],
+    "note": "Alternatively two semesters of NESC 3960 research (3 cr each); a repeated-course pattern cannot be encoded in sets."
+   },
+   {
+    "label": "Electives (4 courses, at least one per group)",
+    "need": {
+     "courses": 4
+    },
+    "from": [
+     "BIOL 3260",
+     "BIOL 4011",
+     "BIOL 4045",
+     "BIOL 4190",
+     "BIOL 4280",
+     "BIOL 4310",
+     "BIOL 4330",
+     "BIOL 4660",
+     "BIOL 4585",
+     "CHEM 3110",
+     "NESC 4046",
+     "NESC 4245",
+     "NESC 4265",
+     "PSYC 3235",
+     "PSYC 4260",
+     "PSYC 5280",
+     "PSYC 3100",
+     "PSYC 3240",
+     "PSYC 3420",
+     "PSYC 3440",
+     "PSYC 3445",
+     "PSYC 3490",
+     "PSYC 4100",
+     "PSYC 4155",
+     "PSYC 4200",
+     "PSYC 4215",
+     "PSYC 4250",
+     "PSYC 4280",
+     "PSYC 4290",
+     "PSYC 4310",
+     "PSYC 4420",
+     "PSYC 4755",
+     "PSYC 5270",
+     "PSYC 5326",
+     "PSYC 5332",
+     "BIOL 3030",
+     "BIOL 3040",
+     "BIOL 3090",
+     "BIOL 3240",
+     "BIOL 3270",
+     "BIOL 4014",
+     "BIOL 4017",
+     "BIOL 4040",
+     "BIOL 4070",
+     "BIOL 4250",
+     "BIOL 4260",
+     "BIOL 4320",
+     "BIOL 4770",
+     "BIOL 5070",
+     "CHEM 4410",
+     "CHEM 4411",
+     "CHEM 4420",
+     "CHEM 4421",
+     "CHEM 4440",
+     "PSYC 5323",
+     "NESC 4030",
+     "NESC 4047"
+    ],
+    "children": [
+     {
+      "label": "Group 1: Cellular and Molecular Neuroscience",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "BIOL 3260",
+       "BIOL 4011",
+       "BIOL 4045",
+       "BIOL 4190",
+       "BIOL 4280",
+       "BIOL 4310",
+       "BIOL 4330",
+       "BIOL 4660",
+       "BIOL 4585",
+       "CHEM 3110",
+       "NESC 4046",
+       "NESC 4245",
+       "NESC 4265",
+       "PSYC 3235",
+       "PSYC 4260",
+       "PSYC 5280"
+      ]
+     },
+     {
+      "label": "Group 2: Behavioral and Cognitive Neuroscience",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "PSYC 3100",
+       "PSYC 3240",
+       "PSYC 3420",
+       "PSYC 3440",
+       "PSYC 3445",
+       "PSYC 3490",
+       "PSYC 4100",
+       "PSYC 4155",
+       "PSYC 4200",
+       "PSYC 4215",
+       "PSYC 4250",
+       "PSYC 4280",
+       "PSYC 4290",
+       "PSYC 4310",
+       "PSYC 4420",
+       "PSYC 4755",
+       "PSYC 5270",
+       "PSYC 5326",
+       "PSYC 5332"
+      ]
+     },
+     {
+      "label": "Group 3: Related Science and Quantitative",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "BIOL 3030",
+       "BIOL 3040",
+       "BIOL 3090",
+       "BIOL 3240",
+       "BIOL 3270",
+       "BIOL 4014",
+       "BIOL 4017",
+       "BIOL 4040",
+       "BIOL 4070",
+       "BIOL 4250",
+       "BIOL 4260",
+       "BIOL 4320",
+       "BIOL 4770",
+       "BIOL 5070",
+       "CHEM 4410",
+       "CHEM 4411",
+       "CHEM 4420",
+       "CHEM 4421",
+       "CHEM 4440",
+       "PSYC 5323"
+      ],
+      "note": "NESC 4030/4047 may count here in certain cases (if not used for core lab)."
+     }
+    ],
+    "note": "Other courses may be approved by the Program Director. At most one study-abroad course may count as an elective."
+   }
+  ],
+  "coursePrereqs": {
+   "BIOL 3000": [
+    "BIOL 2100|BME 2104",
+    "CHEM 1410|CHEM 1810",
+    "CHEM 1420|CHEM 1820"
+   ],
+   "BIOL 3010": [
+    "BIOL 2100|BME 2104",
+    "CHEM 1410|CHEM 1810"
+   ]
+  },
+  "notes": "Science foundation (11 courses) is in addition to 27 upper-level major credits; test/transfer credit may satisfy foundation. Major GPA >= 2.5 (probation below). Core and core lab cannot be satisfied by study abroad. One course may be shared with another program with director approval. DMP (NESC 3980/3985/4970/4980, 3.4 GPA) optional and not counted in major GPA. Catoid=72 Record program page not read. Course prerequisites taken from theCourseForum (SIS-derived); BIOL 3000 requires CHEM 1410+1420 or CHEM 1810+1820 (encoded slotwise)."
+ },
+ {
+  "id": "cognitive-science-ba",
+  "name": "Cognitive Science",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Cognitive Science Program",
+  "totalCredits": 30,
+  "sources": [
+   "https://cogsci.as.virginia.edu/admission-and-requirements",
+   "https://cogsci.as.virginia.edu/approved-courses"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Two approved COGS courses from different areas (C+ or better)",
+     "need": {
+      "courses": 2
+     },
+     "from": [
+      "ANTH 2450",
+      "ANTH 3490",
+      "ANTH 5475",
+      "ANTH 5541",
+      "BIOL 3050",
+      "BIOL 4080",
+      "BIOL 4270",
+      "CS *",
+      "EDHS 4030",
+      "EDLF 3701",
+      "EDLF 5040",
+      "FREN 3030",
+      "LING *",
+      "PHIL 1330",
+      "PHIL 2640",
+      "PHIL 2652",
+      "PHIL 3330",
+      "PHIL 3400",
+      "PHIL 3500",
+      "PSYC 2005",
+      "PSYC 2150",
+      "PSYC 2200",
+      "PSYC 3006",
+      "PSYC 3100",
+      "PSYC 3160",
+      "PSYC 3200",
+      "PSYC 3310",
+      "PSYC 3490",
+      "PSYC 4100",
+      "PSYC 4110",
+      "PSYC 4200",
+      "PSYC 4260",
+      "PSYC 4310",
+      "PSYC 4350",
+      "PSYC 4607",
+      "PSYC 5323",
+      "PSYC 5500",
+      "SPAN 3000",
+      "SPAN 3200"
+     ],
+     "exclude": [
+      "CS 1010",
+      "CS 1020",
+      "CS 1501"
+     ],
+     "note": "Must be from two DIFFERENT areas, each C+ or better; calculus and elective-only courses do not count. Not fully checkable by this group."
+    }
+   ],
+   "minGPA": null,
+   "notes": "Submit course planning form + unofficial transcript (single PDF to cogsci-declare@virginia.edu within 48 hours of the College declaration form) and DocuSign. CS concentration requires an approved CS concentration form. PSYC 2150 and PSYC 2200 recommended by end of 2nd year. Biology majors may not double major with the Cognitive Science BA Neuroscience concentration."
+  },
+  "requirements": [
+   {
+    "label": "Area: Cognitive Psychology",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PSYC 2005",
+     "PSYC 2150",
+     "PSYC 3006",
+     "PSYC 3160",
+     "PSYC 3310",
+     "PSYC 3490",
+     "PSYC 4100",
+     "PSYC 4110",
+     "PSYC 4607",
+     "PSYC 5323",
+     "PSYC 5500",
+     "EDLF 3701",
+     "EDLF 5040",
+     "PSYC 3100",
+     "PSYC 4260",
+     "PSYC 4310",
+     "PSYC 4350"
+    ],
+    "note": "Approved courses vary by semester; list is from Spring 2027 approved-courses page plus commonly approved courses. A course listed in two areas counts for only one."
+   },
+   {
+    "label": "Area: Neuroscience",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PSYC 3160",
+     "PSYC 4100",
+     "PSYC 4200",
+     "PSYC 5500",
+     "BIOL 3050",
+     "BIOL 4080",
+     "BIOL 4270",
+     "EDLF 5040",
+     "PSYC 3100",
+     "PSYC 4260",
+     "PSYC 4350",
+     "PSYC 2200",
+     "PSYC 3200"
+    ],
+    "note": "PSYC 2200/PSYC 3200 added as likely approved (recommended by program) but not on the Spring 2027 list; verify."
+   },
+   {
+    "label": "Area: Linguistics",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "LING *",
+     "ANTH 2450",
+     "ANTH 3490",
+     "ANTH 5475",
+     "ANTH 5541",
+     "EDHS 4030",
+     "FREN 3030",
+     "PSYC 4110",
+     "SPAN 3000",
+     "SPAN 3200"
+    ],
+    "note": "LING * included as approximation; check approved list each term."
+   },
+   {
+    "label": "Area: Philosophy",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHIL 1330",
+     "PHIL 2640",
+     "PHIL 2652",
+     "PHIL 3330",
+     "PHIL 3400",
+     "PHIL 3500"
+    ],
+    "note": "Semester-specific list; other PHIL courses may be approved."
+   },
+   {
+    "label": "Area: Computer Science",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "CS *"
+    ],
+    "exclude": [
+     "CS 1010",
+     "CS 1020",
+     "CS 1501"
+    ],
+    "note": "Almost all CS courses accepted except CS 1010, CS 1020 and CS 1501 (CR/NC special topics; some CS 2501 also CR/NC)."
+   },
+   {
+    "label": "Calculus",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 1210",
+     "MATH 1220",
+     "MATH 1310",
+     "MATH 1320",
+     "MATH 2310",
+     "MATH 2315",
+     "MATH 3250",
+     "MATH 3351",
+     "APMA 1090",
+     "APMA 1110",
+     "APMA 2130"
+    ],
+    "note": "MATH 1191 + MATH 1192 together also count (from Fall 2026). Transfer/test credit accepted for calculus only, but it does not count toward the 30 hours."
+   },
+   {
+    "label": "Upper-level concentration (2 courses in chosen area)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "PSYC 4000-5999",
+     "BIOL 4000-5999",
+     "LING 3000-5999",
+     "ANTH 3000-5999",
+     "PHIL 3000-5999",
+     "CS 3000-5999",
+     "SPAN 3000-5999",
+     "FREN 3000-5999",
+     "EDHS 4030"
+    ],
+    "note": "Two approved courses in the declared concentration: Cognitive Psychology or Neuroscience at 4000+; Linguistics, Philosophy or Computer Science at 3000+. Approximated across all areas."
+   },
+   {
+    "label": "Electives to reach 10 courses / 30 credits",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "ANTH 2120",
+     "ANTH 2450",
+     "ANTH 3490",
+     "ANTH 5475",
+     "ANTH 5541",
+     "BIOL 3050",
+     "BIOL 4080",
+     "BIOL 4270",
+     "EDHS 4030",
+     "EDLF 3701",
+     "EDLF 5040",
+     "FREN 3030",
+     "KINE 3660",
+     "LING *",
+     "PHIL 1330",
+     "PHIL 2640",
+     "PHIL 2652",
+     "PHIL 3330",
+     "PHIL 3400",
+     "PHIL 3500",
+     "PSYC 2005",
+     "PSYC 2150",
+     "PSYC 2200",
+     "PSYC 3006",
+     "PSYC 3100",
+     "PSYC 3160",
+     "PSYC 3200",
+     "PSYC 3310",
+     "PSYC 3490",
+     "PSYC 4100",
+     "PSYC 4110",
+     "PSYC 4200",
+     "PSYC 4260",
+     "PSYC 4310",
+     "PSYC 4350",
+     "PSYC 4607",
+     "PSYC 5323",
+     "PSYC 5500",
+     "SPAN 3000",
+     "SPAN 3200",
+     "CS *"
+    ],
+    "exclude": [
+     "CS 1010",
+     "CS 1020",
+     "CS 1501",
+     "COGS 3960",
+     "COGS 4970",
+     "COGS 4980"
+    ],
+    "note": "At least two electives from any area list or elective-only list (KINE 3660, ANTH 2120 in Spring 2027). Up to two pre-approved study abroad courses may count."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "10 approved courses, at least 30 credits. Grade of C or better in every course counted; in-major GPA >= 2.0; no ungraded courses (COVID-era exceptions). Courses must be taken at UVA except calculus. COGS 3960 and DMP (COGS 4970/4980) do not count toward the 30 hours. Approved course lists change every semester (cogsci.as.virginia.edu/approved-courses and previously-approved-courses); this encoding uses the Spring 2027 list and is not exhaustive. Record page not read."
+ },
+ {
+  "id": "human-biology-ba",
+  "name": "Human Biology",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Human Biology Program (Distinguished Major)",
+  "totalCredits": null,
+  "sources": [
+   "https://uva.theopenscholar.com/human-biology/major-requirements",
+   "https://thecourseforum.com/course/BIOL/3000/",
+   "https://thecourseforum.com/course/BIOL/3010/"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Introductory biology",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "BIOL 2100",
+      "BIOL 2200"
+     ],
+     "note": "AP Biology 5 or IB HL 6+ accepted."
+    },
+    {
+     "label": "General chemistry with labs",
+     "need": {
+      "all": true
+     },
+     "from": [],
+     "sets": [
+      [
+       "CHEM 1410",
+       "CHEM 1420",
+       "CHEM 1411",
+       "CHEM 1421"
+      ],
+      [
+       "CHEM 1810",
+       "CHEM 1820",
+       "CHEM 1811",
+       "CHEM 1821"
+      ],
+      [
+       "CHEM 1610",
+       "CHEM 1620",
+       "CHEM 1611",
+       "CHEM 1621"
+      ]
+     ],
+     "note": "AP credit for CHEM 1410/1420 still requires the labs."
+    },
+    {
+     "label": "Calculus or statistics",
+     "need": {
+      "courses": 1
+     },
+     "from": [
+      "MATH 1210",
+      "MATH 1220",
+      "MATH 1310",
+      "MATH 1320",
+      "STAT 1110",
+      "STAT 2559",
+      "STAT 2120",
+      "SOC 3110",
+      "PSYC 3005",
+      "PSYC 3006",
+      "ECON 3710",
+      "ANTH 5589",
+      "EVSC 5030"
+     ]
+    }
+   ],
+   "minGPA": null,
+   "notes": "Human Biology is a selective Distinguished Major Program entered by application (typically during the second year); the application page (uva.theopenscholar.com/human-biology/how-apply) could not be read, so deadline/GPA/cap are unverified. Listed prerequisites are 'before entering the program' per the requirements page. Organic chemistry and physics (PHYS 2010/2020/2030/2040) are advised, not required."
+  },
+  "requirements": [
+   {
+    "label": "Prerequisite: introductory biology",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "BIOL 2100",
+     "BIOL 2200"
+    ]
+   },
+   {
+    "label": "Prerequisite: general chemistry with labs",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "CHEM 1410",
+      "CHEM 1420",
+      "CHEM 1411",
+      "CHEM 1421"
+     ],
+     [
+      "CHEM 1810",
+      "CHEM 1820",
+      "CHEM 1811",
+      "CHEM 1821"
+     ],
+     [
+      "CHEM 1610",
+      "CHEM 1620",
+      "CHEM 1611",
+      "CHEM 1621"
+     ]
+    ]
+   },
+   {
+    "label": "Prerequisite: calculus or statistics",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 1210",
+     "MATH 1220",
+     "MATH 1310",
+     "MATH 1320",
+     "STAT 1110",
+     "STAT 2559",
+     "STAT 2120",
+     "SOC 3110",
+     "PSYC 3005",
+     "PSYC 3006",
+     "ECON 3710",
+     "ANTH 5589",
+     "EVSC 5030"
+    ]
+   },
+   {
+    "label": "Core courses",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "RELG 2650",
+     "PHS 3050",
+     "BIOL 3000",
+     "BIOL 3010"
+    ],
+    "note": "RELG 2650 and PHS 3050 encouraged by end of year two."
+   },
+   {
+    "label": "Science electives (2 upper-level)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "BIOL 3000-5999",
+     "PHS 5000-5999",
+     "CHEM 3000-5999",
+     "EVSC 3000-5999"
+    ],
+    "exclude": [
+     "BIOL 3000",
+     "BIOL 3010",
+     "BIOL 4900",
+     "BIOL 4910",
+     "BIOL 4920",
+     "HBIO 4950",
+     "HBIO 4960"
+    ],
+    "children": [
+     {
+      "label": "At least one BIOL 3000+",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "BIOL 3000-5999"
+      ],
+      "exclude": [
+       "BIOL 3000",
+       "BIOL 3010",
+       "BIOL 4900",
+       "BIOL 4910",
+       "BIOL 4920"
+      ]
+     }
+    ],
+    "note": "Non-BIOL courses (CHEM, EVSC, non-policy PHS 5000+, Curry etc.) need Program Director approval. BIOL 3030 suggested for pre-professional students; a 3000+ lab course encouraged."
+   },
+   {
+    "label": "Third-year public health sciences",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHS 3130",
+     "PHS 4050"
+    ],
+    "note": "Or approved equivalents."
+   },
+   {
+    "label": "Humanities/social science electives (3 at 3000+)",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "PHIL 3590",
+     "RELG 3860",
+     "PHIL 4530",
+     "ECON 4160",
+     "PHIL 3650",
+     "SOC 4260",
+     "PHS 3000-5999",
+     "PHIL 3000-4999",
+     "RELG 3000-4999",
+     "ECON 3000-4999",
+     "SOC 3000-4999",
+     "ANTH 3000-4999"
+    ],
+    "note": "Courses related to bioethics, health economics, global health policy; examples PHIL 3590, RELG 3860, PHIL 4530, ECON 4160, PHIL 3650, SOC 4260 are listed; subject ranges are approximations requiring Program Director approval."
+   },
+   {
+    "label": "Fourth-year capstone and thesis",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "HBIO 4810",
+     "HBIO 4998",
+     "HBIO 4820",
+     "HBIO 4999"
+    ]
+   }
+  ],
+  "coursePrereqs": {
+   "BIOL 3000": [
+    "BIOL 2100|BME 2104",
+    "CHEM 1410|CHEM 1810",
+    "CHEM 1420|CHEM 1820"
+   ],
+   "BIOL 3010": [
+    "BIOL 2100|BME 2104",
+    "CHEM 1410|CHEM 1810"
+   ]
+  },
+  "notes": "Total major credits not stated. HBIO 4950/4960 (optional 3rd-year thesis research) do not replace HBIO 4998/4999 or science electives. Page has conflicting semester info for PHS 3130 vs PHS 4050. Requirements page footer links the Record but no catoid=72 program page was read. Course prerequisites taken from theCourseForum (SIS-derived); BIOL 3000 requires CHEM 1410+1420 or CHEM 1810+1820 (encoded slotwise)."
+ },
+ {
+  "id": "environmental-sciences-ba",
+  "name": "Environmental Sciences",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Environmental Sciences",
+  "totalCredits": 30,
+  "sources": [
+   "https://evsc.as.virginia.edu/degree-requirements",
+   "https://evsc.as.virginia.edu/sites/uva-as-d10-evsc/files/2026-07/BA.checklist.June2026.pdf"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "No formal declaration prerequisites. After submitting the College declaration form, students meet with an EVSC faculty member."
+  },
+  "requirements": [
+   {
+    "label": "Related work: two semesters of science (with labs)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "BIOL 2100",
+     "BIOL 2200",
+     "CHEM 1410",
+     "CHEM 1420",
+     "PHYS 2010|PHYS 1425",
+     "PHYS 2020|PHYS 2415"
+    ],
+    "note": "Chemistry with labs CHEM 1411/1421; physics with PHYS 2030|1429 / PHYS 2040|2419. Same or different departments allowed. Department web page lists PHYS 2410 as an alternative to 2020 while the checklist lists PHYS 2415."
+   },
+   {
+    "label": "Related work: calculus",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 1210",
+     "MATH 1190",
+     "MATH 1310"
+    ],
+    "note": "MATH 1191 + MATH 1192 sequence (both) also counts."
+   },
+   {
+    "label": "Core EVSC courses with labs",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "EVSC 2800",
+     "EVSC 2801",
+     "EVSC 3200",
+     "EVSC 3201",
+     "EVSC 3300",
+     "EVSC 3301",
+     "EVSC 3600",
+     "EVSC 3601"
+    ],
+    "note": "Lectures and labs should be taken together. Suggested completion by start of fourth year."
+   },
+   {
+    "label": "Undergraduate seminar",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "EVSC 4002"
+    ]
+   },
+   {
+    "label": "Additional EVSC credits",
+    "need": {
+     "credits": 13
+    },
+    "from": [
+     "EVSC 3000-5999",
+     "EVAT 5000-5999",
+     "EVEC 5000-5999",
+     "EVGE 5000-5999",
+     "EVHY 5000-5999",
+     "EVSC 1000-2999"
+    ],
+    "exclude": [
+     "EVSC 2800",
+     "EVSC 2801",
+     "EVSC 3200",
+     "EVSC 3201",
+     "EVSC 3300",
+     "EVSC 3301",
+     "EVSC 3600",
+     "EVSC 3601",
+     "EVSC 4002"
+    ],
+    "note": "EVSC courses or 5000-level EVAT/EVEC/EVGE/EVHY. At most 3 credits of non-core 1000-2000 level EVSC, and only if taken before declaring."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "30 graded EVSC credits (16 core + 1 seminar + 13 additional); major GPA >= 2.000; S/U and CR/NC do not count. Statistics (STAT 2020/2120) recommended. Double majors may share up to two courses (three for listed interdisciplinary majors); no double counting with a minor. Record page not read."
+ },
+ {
+  "id": "environmental-sciences-bs",
+  "name": "Environmental Sciences",
+  "degree": "B.S.",
+  "type": "major",
+  "department": "Environmental Sciences",
+  "totalCredits": 40,
+  "sources": [
+   "https://evsc.as.virginia.edu/degree-requirements",
+   "https://evsc.as.virginia.edu/sites/uva-as-d10-evsc/files/2026-08/BS.checklist_June2026.pdf"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "No formal declaration prerequisites."
+  },
+  "requirements": [
+   {
+    "label": "Related work: biology",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "BIOL 2100|BIOL 2200"
+    ]
+   },
+   {
+    "label": "Related work: chemistry with lab",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "CHEM 1410",
+     "CHEM 1411"
+    ]
+   },
+   {
+    "label": "Related work: physics with workshop",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHYS 1425",
+     "PHYS 1429"
+    ],
+    "note": "PHYS 2010/2020 not accepted for the B.S."
+   },
+   {
+    "label": "Related work: calculus I",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "MATH 1310"
+    ],
+    "note": "MATH 1210 not accepted."
+   },
+   {
+    "label": "Related work: calculus II",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "MATH 1220|MATH 1320"
+    ]
+   },
+   {
+    "label": "Related work: two additional math/stats/science courses",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "BIOL 2200",
+     "CHEM 1420",
+     "PHYS 2410",
+     "MATH 2310",
+     "STAT 2020|STAT 2120"
+    ],
+    "note": "At least one must be a science course with its lab (CHEM 1421 with CHEM 1420; PHYS 2419 with PHYS 2410). Department page list; checklist leaves these as blanks."
+   },
+   {
+    "label": "Core EVSC courses with labs",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "EVSC 2800",
+     "EVSC 2801",
+     "EVSC 3200",
+     "EVSC 3201",
+     "EVSC 3300",
+     "EVSC 3301",
+     "EVSC 3600",
+     "EVSC 3601"
+    ]
+   },
+   {
+    "label": "Undergraduate seminar",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "EVSC 4002"
+    ]
+   },
+   {
+    "label": "Additional EVSC credits",
+    "need": {
+     "credits": 23
+    },
+    "from": [
+     "EVSC 3000-5999",
+     "EVAT 5000-5999",
+     "EVEC 5000-5999",
+     "EVGE 5000-5999",
+     "EVHY 5000-5999",
+     "EVSC 1000-2999"
+    ],
+    "exclude": [
+     "EVSC 2800",
+     "EVSC 2801",
+     "EVSC 3200",
+     "EVSC 3201",
+     "EVSC 3300",
+     "EVSC 3301",
+     "EVSC 3600",
+     "EVSC 3601",
+     "EVSC 4002"
+    ],
+    "note": "EVSC or 5000-level EVAT/EVEC/EVGE/EVHY; at most 3 credits of non-core 1000-2000 EVSC taken before declaring; rest 3000+. One course must include an analytical lab from the approved list at evsc.as.virginia.edu/course-list (not captured)."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "40 graded EVSC credits (16 core + 1 seminar + 23 additional); major GPA >= 2.000; only graded UVA courses count. Transfer credit needs prior DUS approval. Analytical-lab requirement not modelled (list not read). Department page says 24 upper-level credits while checklist says 23 additional credits; checklist encoded. Record page not read."
+ },
+ {
+  "id": "environmental-sciences-minor",
+  "name": "Environmental Sciences",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Environmental Sciences",
+  "totalCredits": 16,
+  "sources": [
+   "https://evsc.as.virginia.edu/minors"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "No prerequisites; meet with EVSC faculty after declaring."
+  },
+  "requirements": [
+   {
+    "label": "Two core courses with labs",
+    "need": {
+     "all": true
+    },
+    "from": [],
+    "sets": [
+     [
+      "EVSC 2800",
+      "EVSC 2801",
+      "EVSC 3200",
+      "EVSC 3201"
+     ],
+     [
+      "EVSC 2800",
+      "EVSC 2801",
+      "EVSC 3300",
+      "EVSC 3301"
+     ],
+     [
+      "EVSC 2800",
+      "EVSC 2801",
+      "EVSC 3600",
+      "EVSC 3601"
+     ],
+     [
+      "EVSC 3200",
+      "EVSC 3201",
+      "EVSC 3300",
+      "EVSC 3301"
+     ],
+     [
+      "EVSC 3200",
+      "EVSC 3201",
+      "EVSC 3600",
+      "EVSC 3601"
+     ],
+     [
+      "EVSC 3300",
+      "EVSC 3301",
+      "EVSC 3600",
+      "EVSC 3601"
+     ]
+    ]
+   },
+   {
+    "label": "Advanced non-core course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "EVSC 3000-5999"
+    ],
+    "exclude": [
+     "EVSC 2800",
+     "EVSC 2801",
+     "EVSC 3200",
+     "EVSC 3201",
+     "EVSC 3300",
+     "EVSC 3301",
+     "EVSC 3600",
+     "EVSC 3601",
+     "EVSC 4002"
+    ]
+   },
+   {
+    "label": "Total graded EVSC coursework",
+    "need": {
+     "credits": 16
+    },
+    "from": [
+     "EVSC *",
+     "EVAT 5000-5999",
+     "EVEC 5000-5999",
+     "EVGE 5000-5999",
+     "EVHY 5000-5999"
+    ],
+    "note": "Includes the courses above. Max 6 non-core credits below 3000 level."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "At least 16 graded EVSC credits approved by the department; max 6 non-core credits below 3000; max 3 transfer credits; no double counting with a major. No GPA stated. Whether 5000-level EVAT/EVEC/EVGE/EVHY count for the minor is not stated (assumed)."
+ },
+ {
+  "id": "environmental-thought-and-practice-ba",
+  "name": "Environmental Thought and Practice",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Environmental Thought and Practice Program",
+  "totalCredits": null,
+  "sources": [
+   "https://etp.virginia.edu/requirements"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "No declaration prerequisites listed; contact ETP Director."
+  },
+  "requirements": [
+   {
+    "label": "Introductory core: Politics, Science, and Values",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ETP 2030|EVSC 2030|PLAP 2030"
+    ]
+   },
+   {
+    "label": "Core I: Values, Culture, and History",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ANTH 2160",
+     "HIST 2150",
+     "HIST 2152",
+     "RELG 2210"
+    ]
+   },
+   {
+    "label": "Core II: Policy, Planning, and Society",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "AAS 2500",
+     "ECON 2010",
+     "GSVS 2150|ARCH 2150"
+    ]
+   },
+   {
+    "label": "Core III: Natural Science",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "EVSC 1010",
+     "EVSC 1080",
+     "EVSC 1450",
+     "EVSC 2200",
+     "EVSC 2220"
+    ]
+   },
+   {
+    "label": "Final core: Environmental Decisions",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ETP 4010"
+    ],
+    "note": "Spring of fourth year, majors only."
+   },
+   {
+    "label": "Electives (6 courses)",
+    "need": {
+     "courses": 6
+    },
+    "from": [
+     "AAS 3250",
+     "AAS 3500",
+     "AMST 2711",
+     "ANTH 2850",
+     "ANTH 2890",
+     "ANTH 3100",
+     "ANTH 3130",
+     "ANTH 3240",
+     "ANTH 3340",
+     "ANTH 3580",
+     "ANTH 3685",
+     "ANTH 3870",
+     "ANTH 3880",
+     "ANTH 3885",
+     "ANTH 3890",
+     "ANTH 4060",
+     "ANTH 5590",
+     "BIOL 3020",
+     "BIOL 3450",
+     "BIOL 3660",
+     "BIOL 4100",
+     "BIOL 4130",
+     "BIOL 4752",
+     "BIOL 4850",
+     "CHEM 3559",
+     "ECON 3430",
+     "ECON 4430",
+     "ENGL 3438",
+     "ENGL 3560",
+     "ENSP 3500",
+     "ENSP 3559",
+     "EVSC 2800",
+     "EVSC 3020",
+     "EVSC 4070",
+     "HIAF 3112",
+     "HILA 4511",
+     "HIST 2210",
+     "HIST 3112",
+     "HIST 4501",
+     "HIUS 2711",
+     "ITTR 4010",
+     "MDST 3584",
+     "MDST 4210",
+     "MESA 3110",
+     "MUSI 3400",
+     "PHIL 2500",
+     "PHIL 3652",
+     "PHYS 1090",
+     "PLAD 2500",
+     "PLAP 3160",
+     "PLAP 4500",
+     "PLCP 3500",
+     "PLCP 4500",
+     "PLIR 3500",
+     "PPOL 3280",
+     "RELG 3720",
+     "RELG 5870",
+     "SOC 2630",
+     "SOC 3559",
+     "SPAN 4500",
+     "STAT 1000-3999",
+     "EVSC 3000-5999",
+     "HIST 3000-5999",
+     "ANTH 3000-5999",
+     "PHIL 3000-5999",
+     "ENGL 3000-5999",
+     "RELG 3000-5999",
+     "LAR 3000-5999",
+     "STS 3000-5999",
+     "ECON 3000-5999",
+     "PLAP 3000-5999",
+     "PLCP 3000-5999",
+     "PLIR 3000-5999",
+     "PLAD 3000-5999",
+     "SOC 3000-5999",
+     "PPOL 3000-5999",
+     "PLAN 3000-5999",
+     "BIOL 3000-5999",
+     "CHEM 3000-5999",
+     "CE 3000-5999"
+    ],
+    "children": [
+     {
+      "label": "Values, Culture, and History elective (min 1)",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "AAS 3250",
+       "AAS 3500",
+       "AMST 2711",
+       "ANTH 2850",
+       "ANTH 2890",
+       "ANTH 3100",
+       "ANTH 3130",
+       "ANTH 3240",
+       "ANTH 3340",
+       "ANTH 3580",
+       "ANTH 3685",
+       "ANTH 3870",
+       "ANTH 3880",
+       "ANTH 3885",
+       "ANTH 3890",
+       "ANTH 4060",
+       "ANTH 5590",
+       "ENGL 3438",
+       "ENGL 3560",
+       "ENSP 3500",
+       "ENSP 3559",
+       "HIAF 3112",
+       "HILA 4511",
+       "HIST 2210",
+       "HIST 3112",
+       "HIST 4501",
+       "HIUS 2711",
+       "ITTR 4010",
+       "MDST 3584",
+       "MDST 4210",
+       "MESA 3110",
+       "MUSI 3400",
+       "PHIL 2500",
+       "PHIL 3652",
+       "PHYS 1090",
+       "RELG 3720",
+       "RELG 5870",
+       "SPAN 4500"
+      ]
+     },
+     {
+      "label": "Policy, Planning, and Society elective (min 1)",
+      "need": {
+       "courses": 1
+      },
+      "from": [
+       "AAS 3500",
+       "ECON 3430",
+       "ECON 4430",
+       "EVSC 3020",
+       "EVSC 4070",
+       "PLAD 2500",
+       "PLAP 3160",
+       "PLAP 4500",
+       "PLCP 3500",
+       "PLCP 4500",
+       "PLIR 3500",
+       "PPOL 3280",
+       "SOC 2630",
+       "SOC 3559",
+       "STAT 1000-3999"
+      ]
+     },
+     {
+      "label": "Natural Science electives (min 2, at least one 3000+ EVSC)",
+      "need": {
+       "courses": 2
+      },
+      "from": [
+       "EVSC 3000-5999",
+       "BIOL 3020",
+       "BIOL 3450",
+       "BIOL 3660",
+       "BIOL 4100",
+       "BIOL 4130",
+       "BIOL 4752",
+       "BIOL 4850",
+       "CHEM 3559",
+       "EVSC 2800"
+      ],
+      "children": [
+       {
+        "label": "At least one EVSC 3000+",
+        "need": {
+         "courses": 1
+        },
+        "from": [
+         "EVSC 3000-5999"
+        ]
+       }
+      ]
+     }
+    ],
+    "note": "Electives must be 3-4 credit upper-level/graduate courses with environment as central focus. Outside-subject ranges listed are director-approved options that count only toward the six electives (not area minimums). Unlisted courses need director approval with syllabus."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "11 courses (5 core + 6 electives); at least 4 courses (12 credits) at 3000+. No CR/NC courses count. Credit total not stated (~33+). DMP needs 3.6 major / 3.4 overall GPA. Department page lists some courses twice; verify against Record (not read)."
+ },
+ {
+  "id": "global-studies-global-public-health-ba",
+  "name": "Global Studies: Global Public Health",
+  "degree": "B.A.",
+  "type": "major",
+  "department": "Global Studies",
+  "totalCredits": 33,
+  "sources": [
+   "https://globalstudies.virginia.edu/global-public-health"
+  ],
+  "declaration": {
+   "requirements": [
+    {
+     "label": "Introduction to Global Studies",
+     "need": {
+      "all": true
+     },
+     "from": [
+      "GSGS 2000"
+     ]
+    }
+   ],
+   "minGPA": null,
+   "notes": "Global Studies is an application-based major (see globalstudies.virginia.edu/admissions, not read); GSGS 2000 is the listed prerequisite. Timing, GPA and cap unverified."
+  },
+  "requirements": [
+   {
+    "label": "Prerequisite: Introduction to Global Studies",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "GSGS 2000"
+    ]
+   },
+   {
+    "label": "Global Studies core (3 courses)",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "GSGS *",
+     "ECON 2010",
+     "ECON 2020",
+     "PSYC 2005",
+     "STAT 2020"
+    ],
+    "exclude": [
+     "GSGS 2000"
+    ],
+    "note": "Three courses from Global History, Global Humanities, Global Social Sciences or Quantitative Skills, chosen with a GS-GPH advisor; numbers vary by semester. Quantitative/diagnostics options listed: ECON 2010, ECON 2020, GSGS 4200, PSYC 2005, STAT 2020."
+   },
+   {
+    "label": "Required GPH courses",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHS 3825",
+     "PHS 4050"
+    ]
+   },
+   {
+    "label": "PHS methods/quantitative course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "PHS 3095",
+     "PHS 3102",
+     "PHS 3104",
+     "PHS 3130",
+     "PHS 3620"
+    ],
+    "note": "Or another advisor-approved course."
+   },
+   {
+    "label": "Capstone",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "PHS 4991"
+    ]
+   },
+   {
+    "label": "Electives (3 courses, 9 credits)",
+    "need": {
+     "courses": 3
+    },
+    "from": [
+     "PHS *",
+     "GSGS *"
+    ],
+    "exclude": [
+     "GSGS 2000",
+     "PHS 3825",
+     "PHS 4050",
+     "PHS 4991"
+    ],
+    "note": "Each elective preapproved with a GS-GPH advisor; no list published. Ranges here are approximate."
+   },
+   {
+    "label": "World language through fourth semester",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ARAB 2020",
+     "CHIN 2020",
+     "FREN 2020",
+     "GERM 2020",
+     "ITAL 2020",
+     "JAPN 2020",
+     "KOR 2020",
+     "PORT 2020",
+     "RUSS 2020",
+     "SPAN 2020",
+     "SWAH 2020",
+     "HIND 2020",
+     "PERS 2020",
+     "HEBR 2020"
+    ],
+    "note": "College world language requirement through the 2020 level (or placement beyond 2020). Language list approximate; any language's fourth-semester course counts."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "33 credits computed from the track page (3+9+9+3+9), plus language. Page links an older Record entry (catoid=67&poid=10202); current Record not read. Admissions/application details, grade rules and study-abroad rules not captured."
+ },
+ {
+  "id": "health-ethics-and-society-minor",
+  "name": "Health, Ethics, and Society",
+  "degree": "Minor",
+  "type": "minor",
+  "department": "Bioethics (Philosophy / Religious Studies / Anthropology)",
+  "totalCredits": 21,
+  "sources": [
+   "https://bioethics.as.virginia.edu/health-ethics-and-society-program"
+  ],
+  "declaration": {
+   "requirements": [],
+   "minGPA": null,
+   "notes": "No prerequisites stated; declare via DocuSign Declaration of Minor form."
+  },
+  "requirements": [
+   {
+    "label": "Introductory course",
+    "need": {
+     "courses": 1
+    },
+    "from": [
+     "ANTH 2280",
+     "PHIL 1740",
+     "RELG 2650"
+    ]
+   },
+   {
+    "label": "Required course",
+    "need": {
+     "all": true
+    },
+    "from": [
+     "ANTH 3290"
+    ]
+   },
+   {
+    "label": "Ethical and political theory (6 credits)",
+    "need": {
+     "courses": 2
+    },
+    "from": [
+     "PHIL *",
+     "RELG *",
+     "PLPT *"
+    ],
+    "note": "Two courses: one in ethics and one at 3000 level or higher. Approved courses posted each semester (bioethics.as.virginia.edu/current-courses); subject list is an approximation."
+   },
+   {
+    "label": "Bioethics electives (9 credits)",
+    "need": {
+     "credits": 9
+    },
+    "from": [
+     "PHIL 3000+",
+     "RELG 3000+",
+     "ANTH 3000+",
+     "PHS 3000+",
+     "STS 3000+",
+     "SOC 3000+"
+    ],
+    "note": "3000+ approved bioethics electives (exceptions by Program Director). No fixed list published; posted each semester. Subject ranges are approximations."
+   }
+  ],
+  "coursePrereqs": {},
+  "notes": "totalCredits 21 assumes 3-credit intro and ANTH 3290 (credit hours not stated on page): 3 + 3 + 6 + 9. Courses used for a major cannot double count. Approved course lists vary by semester; Record page not read."
+ }
+]
