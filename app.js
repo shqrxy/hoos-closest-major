@@ -330,32 +330,6 @@
     </div>`;
   }
 
-  // ---------- Masthead contour lines (topographic "distance" motif) ----------
-  function contours() {
-    const cv = $('#contours');
-    if (!cv || !cv.getContext) return;
-    const ctx = cv.getContext('2d');
-    const draw = () => {
-      const w = cv.clientWidth, h = cv.clientHeight, dpr = Math.min(2, window.devicePixelRatio || 1);
-      cv.width = w * dpr; cv.height = h * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      ctx.clearRect(0, 0, w, h);
-      const cx = w * 0.82, cy = h * 0.35;
-      for (let k = 1; k < 26; k++) {
-        ctx.beginPath();
-        for (let a = 0; a <= Math.PI * 2 + 0.01; a += 0.04) {
-          const rr = k * 22 * (1 + 0.16 * Math.sin(3 * a + k * 0.35) + 0.08 * Math.cos(5 * a - k * 0.2));
-          const x = cx + Math.cos(a) * rr * 1.35, y = cy + Math.sin(a) * rr;
-          a === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
-        }
-        ctx.strokeStyle = k % 5 === 0 ? 'rgba(243,165,107,.45)' : 'rgba(201,205,224,.13)';
-        ctx.lineWidth = k % 5 === 0 ? 1.2 : 1;
-        ctx.stroke();
-      }
-    };
-    draw();
-    let t; window.addEventListener('resize', () => { clearTimeout(t); t = setTimeout(draw, 120); });
-  }
-
   // ---------- Problem reports ----------
   const REPORT_FORM_URL = ''; // Google Form link
   function diagnostics() {
@@ -390,7 +364,6 @@
 
   // ---------- Boot ----------
   async function boot() {
-    contours();
     wireInput();
     wireControls();
     wireReport();
